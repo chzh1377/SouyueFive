@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#fff8f8f8</color>
+    <color name="msg_tab_backcolor">#f2f2f2</color>
+    <color name="tiezi_huifu_color">#f0f0f0</color>
+    <color name="actions_bg">#5a5a5a</color>
+    <!-- CustomListView -->
+    <color name="transparent">#00000000</color>
+    <!--75% transparent-->
+    <color name="transparent_75">#bb000000</color>
+    <color name="transparent_60">#99000000</color>
+    <color name="transparent_50">#88000000</color>
+    <color name="im_chat_pop_bgp">#525252</color>
+    <!-- 70% transparent-->
+    <color name="transparent_half">#B2FF0000</color>
+    <color name="white">#ffffffff</color>
+    <color name="white40">#ffffff</color>
+    <color name="blue_operate">#418ec9</color>
+    <color name="gray_division">#b1b0b0</color>
+    <color name="black">#000000</color>
+    <color name="im_download_black">#282828</color>
+    <color name="blue_light">#63b3e1</color>
+    <color name="blue_progress">#0099ff</color>
+    <color name="actions_category_list_bg">#474747</color>
+    <color name="recommendfriend_font_bg">#555555</color>
+    <color name="font_about_context">#ff333333</color>
+    <color name="font_about_title">#ff000000</color>
+    <color name="gray">#77787b</color>
+    <color name="msgtab_header_line_color">#cccccc</color>
+    <color name="gray_cd">#cdcdcd</color>
+    <color name="user_reply_aaaaaa">#aaaaaa</color>
+    <color name="user_reply_78bbdd">#78bbdd</color>
+    <color name="user_reply_313131">#313131</color>
+    <color name="item_description_color">#909090</color>
+    
+	<color name="all_titlebar_bg_color">#ffffff</color>
+	<color name="my_nologin_bg_color">#f0f0f0</color>
+	<color name="my_nologin_desc_font_color">#ff282828</color>
+	
+    <drawable name="search_history_clear">#ffffffff</drawable>
+
+    <color name="offline_statement_color">#e56754</color>
+    
+    <color name="font_search_black">#ff000000</color>
+    <color name="title_fragment_bar_en_text_color">#535353</color>
+    <color name="text_color">#ff333333</color>
+    <color name="font_white">#ffffffff</color>
+
+    <drawable name="search_history_pressed">#ff145FBD</drawable>
+    
+    <!-- list item bg -->
+    <color name="list_item_bg_color_normal">#fff2f2f2</color>
+    <color name="list_item_bg_color_selector">#fff0f0f0</color>
+    <color name="all_bg_color">#ffe4e4e4</color>
+    <color name="pop_item_color_selector">#ff203035</color>
+    <color name="pop_manager_item_color_selector">#fff3f3f3</color>
+    <!-- subscribe -->
+    <color name="subscribe_text_color">#727272</color>
+    <color name="subscribe_gategory">#85c3da</color>
+    <color name="color_srp_title">#282828</color>
+    <color name="color_srp_content">#909090</color>
+    <color name="color_srp_dialog">#ffffff</color>
+
+    <!-- title bar -->
+    <!-- share menu -->
+    <color name="color_share_bg">#ebebeb</color>
+    <color name="color_share_item_selector">#ababab</color>
+    <color name="color_share_item_normal">#ebebeb</color>
+    <color name="color_text_share_to">#2e2e2e</color>
+    <color name="push_btn_on_color">#4a4a4a</color>
+    <color name="push_btn_off_color">#8e8e8e</color>
+    <color name="txt_loading_color">#3a3a3a</color>
+    <!-- 关于发微博按钮 -->
+    <color name="selectttext_color">#929292</color>
+    <color name="selectedttext_color">#4a4a4a</color>
+    <color name="half_transparent">#77000000</color>
+    <!-- 关于超级分享大赛 -->
+    <color name="rank_title_color">#777777</color>
+    <color name="gotoself_color">#1d41b6</color>
+    <color name="title_text_color">#da4644</color>
+    <color name="ue_selector">#75B6E0</color>
+    <color name="ue_normal">#65B6E0</color>
+    <!-- 扫描二维码 -->
+    <color name="viewfinder_frame">#00ffffff</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="transparent_background">#00000000</color>
+    <color name="color_txt_gray">#666666</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_66">#444444</color>
+    <color name="color_black_33">#333333</color>
+    <color name="white_soft">#E3E3E3</color>
+    <!-- 推荐订阅 -->
+    <color name="color_blue">#65B6E0</color>
+    <color name="color_black2424">#242424</color>
+    <!-- 焦点头图 -->
+    <color name="lan">#3cb2e2</color>
+    <color name="huang">#e2b93d</color>
+    <color name="cheng">#e2733c</color>
+    <color name="lvse">#3ce280</color>
+    <color name="plaza_sub_cata_h">#2c9bd0</color>
+    <color name="plaza_sub_cata">#282828</color>
+    <color name="gray_7e">#7e7e7e</color>
+    <color name="middark_black">#282828</color>
+    <color name="f2">#f4f2f2</color>
+
+    <!--  -->
+    <color name="plaza_item_title_color">#282828</color>
+
+    <!-- 关于聊天 -->
+
+    <color name="im_operation_text_color">#6eb8f8</color>
+    <color name="im_phoneno_text_color">#7e7e7e</color>
+    <color name="rightletter_text_color">#4b4b4b</color>
+    <color name="letter_bg_text_color">#d8d8d8</color>
+    <color name="im_listdriver_color">#d0d0d0</color>
+    <color name="im_search_listdriver_color">#282828</color>
+	<color name="im_friends_operation_text_color">#96d77f</color>
+	<color name="im_friends_already_friends_status_color">#cccccc</color>
+	<color name="im_friends_nickname">#282828</color>
+	<color name="im_friends_content">#7e7e7e</color>
+	<color name="im_chat_pop_bg">#414141</color>
+	<color name="im_friends_status">#969696</color>
+	<color name="im_share_pop_title">#696969</color>
+	<color name="im_share_pop_hint">#b1b1b1</color>
+    <color name="im_share_pop_button_cancel">#5a5a5a</color>
+	<color name="im_share_pop_button_ok">#3676a4</color>
+	<color name="im_share_pop_button_press">#d6d6d6</color>
+	<color name="im_chat_interest_text">#8c8c8c</color>
+    <color name="im_service_title">#282828</color>
+    <color name="im_service_content">#7e7e7e</color>
+    <color name="im_sendtime">#b4b4b4</color>
+    <color name="im_servicemsg_selector">#f5f5f5</color>
+    <color name="im_msg_search">#f5f5f5</color>
+    <color name="im_msg_search_bg">#FFFFFF</color>
+
+    <!--添加好友-->
+    <color name="im_already_isfriend">#c1c1c1</color>
+
+    <!-- 我的个人信息 -->
+    <color name="info_text_color">#282828</color>
+    <color name="info_item_normal">#fff8f8f8</color>
+    <color name="info_item_select">#fff8f8f8</color>
+    <color name="color_pay_bg">#F26A63</color>
+     <color name="tab_normal">#E7E7E7</color>
+      <color name="tab_selected">#61B4EF</color>
+      <color name="my_info_zs_number">#5594ca</color>
+
+      <color name="background_tab_pressed">#6633B5E5</color>
+	<!--     老虎机 -->
+	<color name="tg_textcolor_worldcup">#DC8A31</color>
+    <color name="admintool_back">#484848</color>
+    <!-- 4.0首页 by wzy -->
+    <color name="common_bg">#F2F5F8</color>
+    <color name="tab_text_unselected">#b4b4b4</color>
+
+    <color name="title_color">#333333</color>
+    
+    <color name="discover_bg">#f2f2f2</color>
+    <color name="ball_text_color">#7e7e7e</color>
+    <color name="ball_circle_text_color">#3774a3</color>
+    
+    <color name="srp_poptitle_bg">#ffffff</color>
+    <color name="srp_poptitle_current_textColor">#da4644</color>
+    <color name="srp_poptitle_normal_textColor">#616161</color>
+    <color name="srp_poptitle_driverColor">#00ffffff</color>
+    <color name="srp_poptitle_allbg">#000000</color>
+
+    <!--home-->
+    <color name="home_head_bottom_line">#abbcc7</color>
+    
+    <!-- 心情签名 -->
+	<color name="face_back">#EDFAFE</color>
+    <color name="relogin_highlight_text">#2788b3</color>
+
+    <!-- 群名片分享按钮背景色 -->
+    <color name="groupqrcode_fouce">#7D8083</color>
+    <color name="groupqrcode_normal">#616161</color>
+    <color name="msg_tab_colors">#f2f2f2</color>
+    <color name="mag_tab_divider">#e4e4e4</color>
+    <!-- 关于 -->
+    <color name="about_text_color">#808080</color>
+    <color name="about_permission_color">#4fa1e5</color>
+    <!--update by zhangyanwei change to white-->
+   <!-- <color name="setting_logout">#d74143</color>-->
+     <color name="setting_logout">#fff</color>
+    <!-- 我的页面色值 -->
+    <color name="mine_heand_background_red">#f16666</color>
+    <color name="mine_headbg">#4FA1E5</color>
+    <color name="mine_text_light_blue">#6CABE0</color>
+    <color name="mine_color_purse_head_titleZsb">#f6cccb</color>
+    <color name="mine_color_purse_head_drivderLine">#f9c1bf</color>
+
+    <color name="home_list_bottom_source">#4a9fca</color>
+    <color name="home_list_bottom_white">#ffffff</color>
+    <color name="detail_list_bottom_down">#175f80</color>
+
+    <color name="detail_up_or_down_normal">#f1f1f1</color>
+    <color name="detail_up_or_down_pressed">#e0dfdf</color>
+
+    <color name="detail_red">#e35d53</color>
+    <color name="detail_blue">#5f5f5f</color>
+
+    <color name="detail_grey">#a8a8a8</color>
+
+    <color name="detail_comment_line">#ededed</color>
+
+    
+    <color name="splash_bg_color">#f6f6f6</color>
+
+    <!--个人中心色值-->
+    <color name="pcenter_chat_bg">#e6ffffff</color>
+
+    <color name="subscribe_item_selected_stroke">#cc3131</color>
+    <color name="subscribe_item_text_color_pressed">#b9b9b9</color>
+    <item name="subscribe_item_text_color_normal" type="color">#454545</item>
+    <color name="subscribe_activity_bg">#efefef</color>
+
+    <color name="detail_remen_color">#da4644</color>
+    <color name="detail_latest_color">#3266d0</color>
+    <color name="detail_come_from">#0099ff</color>
+
+     <color name="primary">#EF5350</color>
+    <color name="secondary">#B71C1C</color>
+    <color name="overlay_light">#F8F8F8</color>
+    
+    <color name="card_shadow">#D4D4D4</color>
+    <color name="black_overlay">#60000000</color>
+    <color name="white_overlay">#40FFFFFF</color>
+    <color name="homepage_line_color">#d20f20</color>
+    <color name="homepage_bottomline_color">#bababa</color>
+    <color name="homepage_recommend_bg_color">#76b6e4</color>
+    <color name="homepage_bottom_tabhost">#bbF2F5F8</color>
+    <color name="home_hot_rect_red">#da4644</color>
+    <color name="home_hot_word_blue">#1a7de1</color>
+    <color name="home_hot_rect_gray">#dadada</color>
+    <color name="home_hot_font_gray">#1b7de1</color>
+
+    <color name="srp_pop_menu_enable_bg">#282828</color>
+    <color name="srp_pop_menu_disable_bg">#d7d7d7</color>
+
+    <color name="im_line_color">#cccccc</color>
+    <color name="im_red_packet_color">#da4644</color>
+    <color name="im_red_packet_content_color">#f4c542</color>
+    <color name="im_pop_press_color">#e8e8e8</color>
+    <color name="im_detail_color">#f2f0eb</color>
+    <color name="im_count_number_back">#fe5140</color>
+    <color name="im_srvmsg_line">#ebebeb</color>
+    <color name="im_srvmsg_second_press">#e6e6e6</color>
+
+	<color name="guide_text_color_normal">#282828</color>
+    <color name="guide_text_color_pressed">#db4544</color>
+    <color name="guide_text_loading_faield">#7e7e7e</color>
+    <color name="guide_text_loading_retry">#0099ff</color>
+    <color name="im_share_dialog_background">#00FFFFFF</color>
+    <color name="im_share_dialog_innerline">#808080</color>
+    <color name="im_serice_item_bottom_text_color">#3266d0</color>
+    <color name="im_edit_text_hint_color">#7e7e7e</color>
+
+
+    <color name="bar_center_title_color">#da4644</color>
+    <color name="bar_left_title_color">#da4644</color>
+    <color name="bar_line_color">#e5e5e5</color>
+    <color name="detail_conten_text_color">#282828</color>
+    <color name="comment_pop_text_press">#e8e8e8</color>
+    <color name="comment_pop_text_normal">#FFFFFF</color>
+
+    <color name="detail_bottom_bg">#FFFFFF</color>
+    <color name="circle_popwindow_item_pressed">#e8e8e8</color>
+    <color name="circle_popwindow_item_normal">#FFFFFF</color>
+
+    <color name="im_confirm_textColor">#ffda4644</color>
+    <color name="im_connect_item_normal">#f2f2f2</color>
+    <color name="im_connect_item_select">#e4e4e4</color>
+    <color name="back_bg_color_selector">#20000000</color>
+    <color name="yaowen_title_bg_color_selector">#10000000</color>
+    <color name="detail_menu_seekbar_color">#1a7de1</color>
+
+    <color name="reply_title_color">#282828</color>
+    <color name="reply_name_time_color">#b1b1b1</color>
+    <color name="reply_back_main_select_color">#ff4b4d</color>
+    <!-- 侧边栏中间内容区分类背景颜色 -->
+	<color name="trade_sidebar_content_cate_background">#474747</color>
+    <!--webIm-->
+    <color name="webim_tips_color">#282828</color>
+
+    <color name="nick_tips_text_color">#8a8a8a</color>
+    <!--图集新闻页面-->
+    <color name="gallerynews_back_pressed">#19ffffff</color>
+    <!--我的页面外面的圆圈-->
+    <color name="mine_headimage_circle">#33ffffff</color>
+
+    <color name="update_content">#5a5a5a</color>
+
+    <color name="homepage_delete_red">#d43d3d</color>
+
+    <color name="homepage_dialog_line">#e0e0e0</color>
+    <color name="homepage_uninterest_line">#dfdfdf</color>
+
+    <!--gallery news-->
+    <color name="gallerynews_desctext_color">#ffcecece</color>
+    <!--special dialog-->
+    <color name="specialdialog_holder">#bababa</color>
+
+    <!--nickname dialog-->
+    <color name="nicknamedialog_nicknamecolor">#383838</color>
+    <!--res/layout/circle_activity_secret_card.xml-->
+    <color name="circle_activity_secret_card_divider">#e1e1e1</color>
+
+    <color name="home_uninterest_item_rect">#e0e0e0</color>
+    <color name="white_mask">#93ffffff</color>
+    <color name="checkboxwithmask_uncheckedtext">#b5b5b5</color>
+
+    <color name="splash_jump_button_text_color">#eeeeee</color>
+
+    <color name="list_has_no_read">#303030</color>
+    <color name="list_has_read">#909090</color>
+    <color name="text_red">#f3585c</color>
+    <color name="bg_subrecommend_item">#f4f4f4</color>
+    <color name="im_features">#cecdcd</color>
+    <color name="home_firstin_background">#00b7ee</color>
+    <color name="home_firstin_bottomtitle">#323232</color>
+    <color name="home_firstin_page_two_btn_red">#f35c6f</color>
+    <color name="red_d64844">#d64844</color>
+    <color name="gray_d9d9d9">#d9d9d9</color>
+    <color name="gray_bfbfbf">#bfbfbf</color>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background_color">
+    <LinearLayout
+            android:id="@+id/read_bar_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <include
+                layout="@layout/titlebar_read_toac"/>
+    </LinearLayout>
+
+
+    <View
+            android:id="@+id/view_translucent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:visibility="gone"/>
+
+    <include
+            android:id="@+id/ll_webview_bottom_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/webview_bottom_bar"/>
+
+    <com.zhongsou.souyue.ui.CustomViewPager
+            android:id="@+id/viewpages"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/ll_webview_bottom_bar"
+            android:layout_below="@id/read_bar_layout"
+            android:background="@color/background_color"/>
+
+</RelativeLayout>

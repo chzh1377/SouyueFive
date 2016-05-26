@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selectgrid_text"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="15dip"
+    android:layout_marginRight="15dip"
+    android:layout_marginTop="8dip"
+    android:background="@drawable/selfcreate_keyword_nomal"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:minHeight="49dip"
+    android:paddingLeft="6dip"
+    android:paddingRight="6dip"
+    android:singleLine="true"
+    android:textColor="@color/selectedttext_color"
+    android:textSize="15sp" />

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+            android:id="@+id/tv_uninterest_item1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/homepage_no_interest"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textColor="@color/ball_text_color"
+            android:background="@drawable/homepage_delete_item_normal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"/>
+    <TextView
+            android:id="@+id/tv_uninterest_item2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/homepage_no_interest"
+            android:textSize="16dp"
+            android:clickable="true"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textIsSelectable="true"
+            android:textColor="@color/ball_text_color"
+            android:background="@drawable/homepage_delete_item_normal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"/>
+</LinearLayout>

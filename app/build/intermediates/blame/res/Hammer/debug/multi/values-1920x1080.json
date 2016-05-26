@@ -1,0 +1,672 @@
+[
+    {
+        "outputFile": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\values-1920x1080\\values-1920x1080.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1339,
+                        "endColumn": 52,
+                        "endOffset": 1387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 66,
+                    "endOffset": 170
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 5,
+                        "startOffset": 805,
+                        "endColumn": 67,
+                        "endOffset": 867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 175,
+                    "endColumn": 54,
+                    "endOffset": 225
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 688,
+                        "endColumn": 54,
+                        "endOffset": 738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 230,
+                    "endColumn": 60,
+                    "endOffset": 286
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 743,
+                        "endColumn": 60,
+                        "endOffset": 799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 291,
+                    "endColumn": 49,
+                    "endOffset": 336
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 638,
+                        "endColumn": 49,
+                        "endOffset": 683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 341,
+                    "endColumn": 44,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 6,
+                        "startOffset": 931,
+                        "endColumn": 46,
+                        "endOffset": 971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 52,
+                    "endOffset": 434
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1030,
+                        "endColumn": 52,
+                        "endOffset": 1078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 439,
+                    "endColumn": 53,
+                    "endOffset": 488
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 976,
+                        "endColumn": 53,
+                        "endOffset": 1025
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 493,
+                    "endColumn": 57,
+                    "endOffset": 546
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1084,
+                        "endColumn": 57,
+                        "endOffset": 1137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 551,
+                    "endColumn": 52,
+                    "endOffset": 599
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 216,
+                        "endColumn": 52,
+                        "endOffset": 264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 604,
+                    "endColumn": 53,
+                    "endOffset": 653
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 53,
+                        "endOffset": 318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 658,
+                    "endColumn": 57,
+                    "endOffset": 711
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 323,
+                        "endColumn": 57,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 716,
+                    "endColumn": 59,
+                    "endOffset": 771
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 381,
+                        "endColumn": 59,
+                        "endOffset": 436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 776,
+                    "endColumn": 62,
+                    "endOffset": 834
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\cricle_dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 5,
+                        "startOffset": 297,
+                        "endColumn": 63,
+                        "endOffset": 355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 839,
+                    "endColumn": 58,
+                    "endOffset": 893
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\cricle_dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 5,
+                        "startOffset": 236,
+                        "endColumn": 59,
+                        "endOffset": 290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 898,
+                    "endColumn": 54,
+                    "endOffset": 948
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\cricle_dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 5,
+                        "startOffset": 179,
+                        "endColumn": 55,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 953,
+                    "endColumn": 55,
+                    "endOffset": 1004
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\cricle_dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 5,
+                        "startOffset": 58,
+                        "endColumn": 56,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1009,
+                    "endColumn": 60,
+                    "endOffset": 1065
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\cricle_dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 5,
+                        "startOffset": 116,
+                        "endColumn": 61,
+                        "endOffset": 172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1070,
+                    "endColumn": 54,
+                    "endOffset": 1120
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 6,
+                        "startOffset": 874,
+                        "endColumn": 56,
+                        "endOffset": 924
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1125,
+                    "endColumn": 66,
+                    "endOffset": 1187
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1575,
+                        "endColumn": 66,
+                        "endOffset": 1637
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1192,
+                    "endColumn": 62,
+                    "endOffset": 1250
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1512,
+                        "endColumn": 62,
+                        "endOffset": 1570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1255,
+                    "endColumn": 69,
+                    "endOffset": 1320
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1442,
+                        "endColumn": 69,
+                        "endOffset": 1507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1325,
+                    "endColumn": 51,
+                    "endOffset": 1372
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 51,
+                        "endOffset": 211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1377,
+                    "endColumn": 58,
+                    "endOffset": 1431
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 58,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1436,
+                    "endColumn": 49,
+                    "endOffset": 1481
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1392,
+                        "endColumn": 49,
+                        "endOffset": 1437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1486,
+                    "endColumn": 53,
+                    "endOffset": 1535
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1285,
+                        "endColumn": 53,
+                        "endOffset": 1334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1540,
+                    "endColumn": 51,
+                    "endOffset": 1587
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 544,
+                        "endColumn": 51,
+                        "endOffset": 591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1592,
+                    "endColumn": 43,
+                    "endOffset": 1631
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1143,
+                        "endColumn": 43,
+                        "endOffset": 1182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1636,
+                    "endColumn": 41,
+                    "endOffset": 1673
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 596,
+                        "endColumn": 41,
+                        "endOffset": 633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1678,
+                    "endColumn": 49,
+                    "endOffset": 1723
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 49,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1728,
+                    "endColumn": 49,
+                    "endOffset": 1773
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1230,
+                        "endColumn": 49,
+                        "endOffset": 1275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1778,
+                    "endColumn": 52,
+                    "endOffset": 1826
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 441,
+                        "endColumn": 52,
+                        "endOffset": 489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1831,
+                    "endColumn": 49,
+                    "endOffset": 1876
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 494,
+                        "endColumn": 49,
+                        "endOffset": 539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1881,
+                    "endColumn": 40,
+                    "endOffset": 1917
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1188,
+                        "endColumn": 40,
+                        "endOffset": 1224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1922,
+                    "endColumn": 49,
+                    "endOffset": 1967
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1920x1080\\title_bar_integer.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 49,
+                        "endOffset": 102
+                    }
+                }
+            }
+        ]
+    }
+]

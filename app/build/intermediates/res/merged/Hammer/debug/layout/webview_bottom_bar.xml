@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_webview_bottom_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="44dp"
+    android:layout_gravity="bottom"
+    android:background="@color/detail_bottom_bg"
+    android:orientation="horizontal" >
+
+    <!--
+         <ImageButton
+        android:id="@+id/ib_goBack"
+        style="@style/HoloButton.Borderless.Back"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/goback_button_selector" />
+    -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+
+
+            <RelativeLayout
+                android:id="@+id/comment_layout"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" >
+
+                <ImageButton
+                    android:minHeight="48dp"
+                    android:background="@null"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/comment_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/circle_follow_post_selector" />
+
+                <TextView
+                    android:id="@+id/tv_read_commentcount"
+                    android:layout_toRightOf="@id/comment_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_tv_good"
+                    android:layout_marginLeft="-5dip"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/zero"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/up_layout"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:layout_height="fill_parent" >
+
+            <ImageButton
+                	android:clickable="false"
+                    android:id="@+id/web_sre_up"
+                    android:background="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/circle_up_normal" />
+
+            <TextView
+                    android:layout_toRightOf="@id/web_sre_up"
+                    android:id="@+id/up_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_tv_good"
+                    android:layout_marginLeft="-5dip"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/zero"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/ib_read_collect"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/circle_collect_normal" />
+
+        <ImageButton
+            android:id="@+id/ib_read_share"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/circle_share_bottom_selector" />
+
+        <!--
+             <ImageButton
+            android:id="@+id/ib_menu"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/title_bar_menu_selector" />
+        -->
+    </LinearLayout>
+
+</LinearLayout>

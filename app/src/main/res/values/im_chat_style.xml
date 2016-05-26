@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- IM头像style-->
+    <style name="im_head">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/default_head</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <!--IM包含（Include）左边头像的style-->
+    <style name="im_left_head">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <!--IM包含（Include）右边头像的style-->
+    <style name="im_right_head">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+
+    <!--IM左侧消息泡style-->
+    <dimen name="im_bubble_leftmargin">5dp</dimen>
+
+    <!--IM右侧消息泡style-->
+    <dimen name="im_bubble_rightmargin">5dp</dimen>
+
+    <!--IM重发按钮右侧 距消息样式-->
+    <dimen name="im_resend_rightmargin">5dp</dimen>
+
+    <!--IM群聊 左边昵称的style(右半部分和私聊都没有)-->
+    <style name="im_friend_name">
+        <item name="android:id">@id/msg_adapter_item_user_name</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_toRightOf">@id/in_head</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#BEBEBE</item>
+        <item name="android:maxWidth">220dip</item>
+
+    </style>
+
+    <!-- IM表情预览相关 -->
+    <dimen name="im_gif_width">65dp</dimen>
+    <dimen name="im_gif_height">65dp</dimen>
+    <style name="im_emoji_preview_iv">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <style name="im_emoji_preview_tv">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#5a5a5a</item>
+    </style>
+</resources>

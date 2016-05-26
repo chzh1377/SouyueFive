@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230dip"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chat_bg_card_right_selector"
+    android:orientation="vertical"
+    android:paddingBottom="10dip"
+    android:paddingLeft="10dp"
+    android:paddingRight="22dip"
+    android:paddingTop="10dip">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:drawableLeft="@drawable/card_icon_right"-->
+        <!--android:drawablePadding="6dip"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="名片"-->
+        <!--android:textColor="#7e7e7e"-->
+        <!--android:visibility="gone"-->
+        <!--android:textSize="16sp" />-->
+
+    <!--<View-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dip"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@drawable/tiger_right_popup_line" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/im_card_head"
+            android:layout_width="50dip"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop" />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+        <TextView
+            android:id="@+id/im_card_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#282828"
+            android:textSize="17sp" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#7E7E7E"
+                    android:textSize="14sp"
+                    android:singleLine="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dip"
+                    android:id="@+id/groupmember_number"
+                    android:visibility="gone"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

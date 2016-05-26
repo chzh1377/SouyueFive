@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+>
+    <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/color_srp_title"
+                android:textSize="@dimen/souyue_all_middle"
+        />
+
+        <com.zhongsou.souyue.view.HotConfigView
+                android:id="@+id/hotconfigView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dip"
+                android:layout_marginTop="3dip"/>
+        <RelativeLayout
+            android:id="@+id/videolayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_200"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/title">
+            <com.zhongsou.souyue.view.videos.ZSVideoPlayer
+                android:id="@+id/videoView"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/space_200" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+    />
+</RelativeLayout>

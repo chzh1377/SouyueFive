@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 关于我们 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_note_name_toac" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/im_input_dialog_bg">
+
+        <EditText
+            android:id="@id/im_edit_notename"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="48dip"
+            android:background="@null"
+            android:maxLength="20"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/im_edit_cancel"
+            android:layout_width="14dip"
+            android:layout_height="14dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/clear_icon" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/edit_nick_des"
+        android:textColor="#8a8a8a"
+        android:textSize="14dp" />
+
+</LinearLayout>

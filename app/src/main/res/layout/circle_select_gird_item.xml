@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhongsou.souyue.circle.view.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <com.zhongsou.souyue.circle.view.CheckableFrameLayout
+        android:id="@+id/lf_select_circle_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/checkable_framelayout_fg">
+
+        <ImageView
+            android:id="@+id/iv_select_circle_icon"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/circle_select_default_icon" />
+    </com.zhongsou.souyue.circle.view.CheckableFrameLayout>
+
+    <TextView
+        android:id="@+id/tv_select_circle_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#4a4a4a"
+        android:textSize="14sp" />
+
+</com.zhongsou.souyue.circle.view.CheckableLinearLayout>

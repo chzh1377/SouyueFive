@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/relogin_back">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_25"
+                    android:layout_marginRight="@dimen/space_25"
+                    android:layout_centerInParent="true">
+
+        <LinearLayout android:id="@+id/relogin_layoutmsg"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:gravity="center_horizontal"
+                      android:background="@drawable/relogin_bg"
+                      android:padding="@dimen/space_20">
+
+            <TextView android:id="@+id/txtRelogin_title"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="@dimen/text_size_18"
+                      android:textColor="@color/relogin_highlight_text"
+                      android:text="@string/relogin_title"/>
+
+            <TextView android:id="@+id/txtRelogin_msg"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/space_20"
+                      android:layout_below="@id/txtRelogin_title"
+                      android:textSize="@dimen/text_size_14"
+                      android:textColor="@color/my_nologin_desc_font_color"
+                    />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/relogin_bottomLayout"
+                      android:layout_width="match_parent"
+                      android:layout_height="46dp"
+                      android:layout_below="@id/relogin_layoutmsg"
+                      android:weightSum="2">
+            <Button android:id="@+id/relogin_btnEnsure"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:background="@drawable/btn_relogin_leftselector"
+                    android:layout_weight="1"
+                    android:text="确定"
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/relogin_highlight_text"/>
+
+            <Button android:id="@+id/relogin_btnRelogin"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:background="@drawable/btn_relogin_rightelector"
+                    android:layout_weight="1"
+                    android:text="重新登录"
+                    android:textSize="@dimen/text_size_16"
+                    android:textColor="@color/relogin_highlight_text"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

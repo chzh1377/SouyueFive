@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/discover_listview_item_bg_selector">
+
+    <ImageView
+            android:id="@+id/mine_listview_item_img"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            />
+
+    <TextView
+            android:id="@+id/mine_listview_item_txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/mine_listview_item_img"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/plaza_sub_cata"
+            android:textSize="@dimen/text_size_18"
+            />
+
+    <ImageView
+            android:id="@+id/mine_listview_item_imgRightArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:layout_marginRight="15dp"
+            />
+
+    <TextView
+            android:id="@+id/mine_listview_item_txtContent"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@id/mine_listview_item_imgRightArrow"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/gray_7e"
+            android:textSize="@dimen/text_size_12"
+            />
+    <ImageView
+            android:id="@+id/mine_listview_item_imgContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/mine_listview_item_imgRightArrow"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            />
+
+</RelativeLayout>

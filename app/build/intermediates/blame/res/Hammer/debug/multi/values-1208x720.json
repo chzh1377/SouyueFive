@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\values-1208x720\\values-1208x720.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1208x720\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 66,
+                        "endOffset": 168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 69,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1208x720\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 173,
+                        "endColumn": 69,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endColumn": 50,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\values-1208x720\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tab_souyue">搜悦</string>
+    <string name="tab_msg">聊天</string>
+    <string name="tab_disvover">发现</string>
+    <string name="tab_my">我的</string>
+    <string name="disclaimer_context">搜悦提醒您：\n
+        \t\t在使用搜悦前，请您务必仔细阅读并透彻理解本声明。您可以选择不使用搜悦，但如果您使用搜悦，您的使用行为将被视为对本声明全部内容的认可。\n
+        \t\t搜悦的所提供的搜索结果是根据您键入的关键字自动生成到第三方网页的链接，其他一切因使用搜悦而可能遭致的意外、疏忽、侵权及其造成的损失（包括因下载被搜索链接到的第三方网站内容而感染电脑病毒），搜悦对其概不负责，亦不承担任何法律责任。\n
+        \t\t任何通过使用搜悦而搜索链接到的第三方网页均系他人制作或提供，您可能从该第三方网页上获得资讯及享用服务，搜悦对其合法性概不负责，亦不承担任何法律责任。\n
+        \t\t搜悦搜索结果根据您键入的关键字自动搜索获得并生成，不代表搜悦赞成被搜索链接到的第三方网页上的内容或立场。\n
+        \t\t您应该对使用搜索引擎的结果自行承担风险。搜悦不做任何形式的保证：不保证搜索结果满足您的要求，不保证搜索服务不中断，不保证搜索结果的安全性、正确性、及时性、合法性。因网络状况、通讯线路、第三方网站等任何原因而导致您不能正常使用搜悦，搜悦不承担任何法律责任。\n
+        \t\t搜悦尊重并保护所有使用搜悦用户的个人隐私权。但搜悦提醒您：您在使用搜索引擎时输入的关键字将不被认为是您的个人隐私资料。\n
+        \t\t任何单位或个人认为通过搜悦搜索链接到的第三方网页内容可能涉嫌侵犯其信息网络传播权，应该及时向搜悦提出书面权利通知，并提供身份证明、权属证明及详细侵权情况证明。搜悦在收到上述法律文件后，将会依法尽快断开相关链接内容。</string>
+
+    <!-- 推荐给好友  提示语，title, url -->
+    <string-array name="appShare">
+        <item>我推荐给你一款出色的手机阅读应用：%s——超越传统搜索体验的搜索阅读工具。</item>
+        <item>我推荐给你一款出色的手机阅读应用：%s</item>
+    </string-array>
+
+    <!-- from 新浪微博 begin -->
+    <string name="attention">注意</string>
+    <string name="delete_all">是否要删除所有文字？</string>
+    <string name="ok">是</string>
+    <string name="cancel">否</string>
+    <string name="word_limit">还可以输入%d字</string>
+    <string name="select_limit">最多能选%1$s个关键词</string>
+    <string name="select_repeat">与已选项重复，请重新选择</string>
+    <!--
+    <string name="send">发送</string>
+    -->
+    <string name="close">关闭</string>
+    <string name="send_sucess">分享成功！</string>
+    <string name="del_pic">是否删除图片？</string>
+    <!-- from 新浪微博 end -->
+    <string name="app_name">中搜搜悦</string>
+
+    <!-- 分享微博失败 code2value -->
+    <string name="result_400">分享失败，请稍候再试！</string>
+    <string name="result_403">分享失败，请重新绑定微博帐号</string>
+    <string name="result_40038">不合法的微博</string>
+    <string name="result_40012">内容为空</string>
+    <string name="result_40023">用户不存在</string>
+    <string name="result_40045">分享失败，不支持该图片格式，仅支持JPG、GIF、PNG</string>
+    <string name="result_40008">分享失败，图片太大</string>
+    <string name="result_40013">输入文字太长，请确认不超过140个字符</string>
+    <string name="result_40025">分享失败，已经发过相同的微博</string>
+    <string name="result_40072">分享失败，请重新绑定微博帐号</string>
+    <string name="result_40111">分享失败，请重新绑定微博帐号</string>
+    <string name="result_10013">分享失败，不合法的微博用户</string>
+    <string name="result_10024">分享失败，用户请求频次超过上限</string>
+    <string name="result_10001">分享失败，微博系统错误</string>
+    <string name="result_10009">分享失败，任务过多，微博系统繁忙</string>
+    <string name="result_10014">分享失败，访问权限受限</string>
+    <string name="result_20003">分享失败，用户不存在，请重新登录</string>
+    <string name="result_20012">分享失败，输入文字太长,请重新输入</string>
+    <string name="result_20015">分享失败，账号、IP或应用非法，暂时无法完成此操作</string>
+    <string name="result_20016">分享内容过于频繁，稍候再发吧</string>
+    <string name="result_20019">分享失败，提交相似或者相同的信息</string>
+    <string name="result_20021">分享失败，包含广告信息或非法内容</string>
+    <string name="result_20111">分享失败，不能发布相同的微博</string>
+    <string name="result_default">分享失败，请检查微博内容和帐号后重试</string>
+
+    <!-- 分享微博 toast及提示 -->
+    <string name="titlebar_weibo_title">分享到新浪微博</string>
+    <string name="titlebar_renren_title">分享到人人网</string>
+    <string name="titlebar_tencent_weibo_title">分享到腾讯微博</string>
+    <string name="weibo_shareing">正在发送分享…</string>
+    <string name="bound_fail">微博绑定失败</string>
+    <string name="weibo_from">分享自@</string>
+    <string name="tweibo_from">分享自@</string>
+    <string name="share_sms">更多精彩来自中搜搜悦</string>
+
+    <!-- web view -->
+    <string name="loading_progress_hint">加载中，请稍候</string>
+    <string name="clear_cache_prompt">提示</string>
+    <string name="clear_cache_warning">您确认要清理缓存吗？</string>
+    <string name="clearing">缓存清理中…</string>
+    <string name="clear_ok">清理</string>
+    <string name="pref_clear_show">0 KB</string>
+    <string name="pref_clear_succ">清理完毕</string>
+    <string name="working">请稍等，正在处理…</string>
+    <string name="exit_app">再按一次退出应用</string>
+
+    <!-- 设置页面 -->
+    <string name="setting">设置</string>
+    <string name="settingActivity_user_login">帐号登录</string>
+    <string name="account_bound">帐号绑定</string>
+    <string name="settingActivity_msgpush_list">消息推送列表</string>
+    <string name="settingActivity_msgpush_setting">消息推送设置</string>
+    <string name="settingActivity_sub_list">设置订阅列表</string>
+    <string name="settingActivity_clean_cache">清除缓存</string>
+    <string name="settingActivity_laod_image">2G/3G网络加载图片</string>
+    <string name="settingActivity_set_font">正文字体大小</string>
+    <string name="settingActivity_usinghelp">新手引导</string>
+    <string name="settingActivity_grade">喜欢就给我们评分吧!</string>
+    <string name="settingActivity_recommend_friend">推荐给好友</string>
+    <string name="settingActivity_feedback">意见建议</string>
+    <string name="settingActivity_checkversion">新版本检测</string>
+    <string name="settingActivity_about">关于我们</string>
+    <string name="settingActivity_contact_us">联系我们</string>
+
+    <string name="setting_font_big">大</string>
+    <string name="setting_font_middle">中</string>
+    <string name="setting_font_small">小</string>
+
+    <!-- 登录页面 -->
+    <string name="loginActivity_username_name">用户名：</string>
+    <string name="loginActivity_pwd_pwd">密\t\t码：</string>
+    <string name="loginActivity_username_des">搜悦号/手机号</string>
+    <string name="loginActivity_pwd_des">请输入密码</string>
+    <string name="loginActivity_login">登录</string>
+    <string name="loginActivity_input_name_pwd">请输入用户名和密码</string>
+    <string name="loginActivity_input_name">请输入用户名</string>
+    <string name="loginActivity_input_pwd">请输入密码</string>
+    <string name="loginActivity_pd_message">正在登录服务器，请稍候…</string>
+    <string name="loginActivity_other">你也可以用以下社交网络帐号登录。</string>
+    <string name="loginActivity_sinaweibo">新浪微博</string>
+    <string name="loginActivity_qq">QQ</string>
+    <string name="loginActivity_renren">人人网</string>
+    <string name="renren_login_error">登录失败</string>
+    <string name="login_sns_getinfoing">正在获取您的信息</string>
+    <string name="bound">绑定</string>
+    <string name="unbound">解绑</string>
+    <string name="unbound_success">成功解绑</string>
+    <string name="bound_suc">绑定成功</string>
+    <string name="unbound_tweibo">腾讯微博</string>
+    <string name="unbound_des">这是您用来登录的帐号，无法解绑，如要停止使用，请退出。</string>
+    <string name="login_dialog_content">现在手机号注册即得%s中搜币,用它去玩【欢乐老虎机】，快来吧!</string>
+    <string name="login_youbao_dialog_content">中搜搜悦牵手友宝便利机注册即送珍珍荔枝饮品一瓶！（仅限北京地区，其它地区注册即送%s个中搜币）</string>
+    <string name="login_dialog_notip">不再提醒</string>
+    <string name="login_dialog_goreg">立即注册</string>
+    <string name="my_login_btn_text">登录</string>
+    <string name="my_reg_btn_text">注册</string>
+    <string name="my_login_desc_text">登录%s,体验更多功能</string>
+    <!-- 注册页面 -->
+    <string name="registerActivity_varCode">验证码：</string>
+    <string name="registerActivity_username">用户名：</string>
+    <string name="registerActivity_nickname">昵\t\t称：</string>
+    <string name="registerActivity_username_des">2–20个字符，一个汉字为2个字符</string>
+    <string name="registerActivity_pwd1">密\t\t码：</string>
+    <string name="registerActivity_pwd1_des">6–14个字符，区分大小写</string>
+    <string name="registerActivity_pwd2">确认密码：</string>
+    <string name="registerActivity_pwd2_des">请再次输入密码确认</string>
+    <string name="registerActivity_email">邮\t\t箱：</string>
+    <string name="registerActivity_email_des">输入您常用的电子邮箱地址</string>
+    <string name="registerActivity_my_read">我已阅读并接受</string>
+    <string name="registerActivity_user_agreement">《用户协议》</string>
+    <string name="registerActivity_sure">确定</string>
+    <string name="registerActivity_register">注册</string>
+    <string name="username_no_empty">用户名不能为空</string>
+    <string name="username_length_error">用户名长度不符</string>
+    <string name="nickname_no_empty">昵称不能为空</string>
+    <string name="notename_no_empty">备注名不能为空</string>
+    <string name="nickname_format_error">昵称格式不正确</string>
+    <string name="notename_format_error">备注名格式不正确</string>
+    <string name="nickname_length_error">昵称长度不符</string>
+    <string name="notename_length_error">备注名长度不符</string>
+    <string name="email_no_empty">邮箱不能为空</string>
+    <string name="email_format_error">邮箱格式不正确</string>
+    <string name="pwd_no_empty">密码不能为空</string>
+    <string name="vcode_tip">请输入正确的验证码</string>
+    <string name="pwd_length_error">密码长度不符</string>
+    <string name="twice_pwd_error">两次输入密码不一致</string>
+    <string name="data_no_full">资料未填写完整</string>
+    <string name="user_agreement_empty">未同意服务条款</string>
+    <string name="user_registering">正在创建帐号，请稍候…</string>
+    <string name="email_no_exist">邮箱不存在</string>
+    <string name="validate_email">正在验证邮箱</string>
+
+    <!-- 注册成功 -->
+    <string name="register_success">注册成功</string>
+    <string name="email_sended">系统已向您的邮箱发送确认邮件，点击邮件中的确认链接即可激活帐号。</string>
+    <string name="email_adds">您的邮箱地址：</string>
+    <string name="back_mycenter">返回个人中心</string>
+
+    <!-- 消息推送历史 -->
+    <string name="msgpushActivity_history">消息推送历史</string>
+    <string name="msgPushHistoryActivity_msgpush_empty">系统推送列表为空</string>
+    <string name="msgpush_user_empty">用户推送列表为空</string>
+    <string name="systemwarning">系统提醒</string>
+    <string name="quitsouyue">是否清空消息推送列表？</string>
+    <string name="msgPushHistoryActivity_msgpush_is_empty">列表数据已清空</string>
+    <string name="msgPushHistoryActivity_msgpush_clean_loading">正在清空列表数据，请稍候…</string>
+    <string name="push_user_recommend">用户推送</string>
+    <string name="push_ent_recommend">商家推送</string>
+    <string name="push_system_recommend">系统推送</string>
+    <string name="push_system">系统消息推送</string>
+    <string name="push_sound_switch">消息推送声音提示</string>
+    <string name="message">消息</string>
+    <string name="cannotSend">红包，动画表情，语音，密信，赠/求中搜币的内容不能被转发</string>
+    <string name="ikonwn">知道了</string>
+    <!-- <string name="push_user">个性化推送</string> -->
+
+
+    <!-- 公用 -->
+    <string name="dont_have_camera_app">该设备没有拍照应用</string>
+    <string name="cant_insert_album">发生意外，无法写入相册</string>
+    <string name="data_loading">正在上传头像，请稍候…</string>
+    <string name="more_loading">加载中…</string>
+    <string name="nomore_loading">已经加载到最多</string>
+    <string name="token_error">Token无效</string>
+    <string name="high_pull_loadMore">更多</string>
+    <string name="neterror">无网络可用</string>
+    <string name="edit_succ">修改成功</string>
+    <string name="edit_fail">修改失败，请重试</string>
+    <string name="registerActivity_update_error">下载失败</string>
+    <string name="registerActivity_has_no_update">您使用的已经是最新版本</string>
+    <string name="registerActivity_none_wifi">没有wifi连接， 只在wifi下更新</string>
+    <string name="registerActivity_time_out">连接超时，请稍候重试</string>
+
+    <!-- 用户账户 -->
+    <string name="usercomment_commit_empty">您还没有发出任何评论</string>
+    <string name="usercomment_reply_empty">暂时没有任何回复</string>
+    <string name="userAccountActivity_my_reply">与我相关</string>
+    <string name="userAccountActivity_islogout">是否确认退出？</string>
+    <string name="user_account">我</string>
+    <string name="user_center">我的搜悦</string>
+    <string name="my">我的</string>
+    <string name="mycomments">我的评论</string>
+    <string name="my_send_comments">我的评论</string>
+    <string name="my_send_movement">我的活动</string>
+    <string name="reply_me_comment">回复我的</string>
+    <string name="upload_photo_fail">上传头像失败</string>
+    <string name="upload_photo_success">上传头像成功</string>
+    <string name="upload_background_success">上传背景图成功</string>
+    <string name="update_nick_success">修改昵称成功</string>
+
+    <!-- 意见建议 -->
+    <string name="feedbackActivity_phone_hint">您的联系方式，以便我们给您回复</string>
+
+    <!-- 关于 -->
+    <string name="official_website">访问官网</string>
+    <!--
+             <string name="official_website">官方网站：http://www.zhongsou.com</string>
+        <string name="sina_microblog">新浪微博：@中搜搜悦</string>
+        <string name="email">电子邮箱：service@zhongsou.com</string>
+    -->
+    <string name="desc">Copyright\t2015\tZhongsou\tAll\tRights\tReserved</string>
+    <string name="disclaimer">免责声明</string>
+    <string name="about_copyright">中搜公司\t版权所有</string>
+    <string name="about_permission">中搜软件许可及服务协议</string>
+
+    <!-- 推荐给好友 -->
+    <string name="recommentFirendActivity_des">如果您喜欢我们的应用，请您把我们推荐给您的朋友，让更多人知道搜悦，让搜悦做的更好！</string>
+    <string name="dialog_save">保存</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_create_group">创建分组</string>
+    <string name="dialog_create_group_hint">分组名称最多6个汉字</string>
+    <string name="drop_down">下拉刷新</string>
+    <string name="release_update">释放立即刷新</string>
+    <string name="loading">正在获取刷新内容</string>
+    <string name="choose_email_description">选择一个邮件程序</string>
+    <string name="choose_sms_description">选择一个短信程序</string>
+    <string name="share_dialog_title">分享</string>
+    <string name="pick_dialog_title">选择上传方式</string>
+    <string name="no_market">请安装相应的android市场，进行评分!</string>
+
+    <string-array name="picks_item">
+        <item>拍照</item>
+        <item>从相机相册选择</item>
+    </string-array>
+    <string-array name="fenxiang_item">
+        <item>分享到微信好友</item>
+        <item>分享到朋友圈</item>
+    </string-array>
+
+    <string name="weixin_tips">未检测到微信客户端</string>
+    <string name="srploaded_nocontent">加载失败，点击屏幕刷新</string>
+    <string name="nocontent">暂无数据</string>
+    <string name="sub_reload_fail">加载失败，点击刷新</string>
+    <string name="alert_assent">确定</string>
+    <string name="alert_ubsubed">取消订阅</string>
+    <string name="alert_dislike">不感兴趣</string>
+    <string name="alert_cancel">取消</string>
+
+    <!-- 语音评论 -->
+    <string name="send">发送</string>
+    <string name="next">下一步</string>
+    <string name="selectnexttext">通过下方订阅组选择发布范围</string>
+    <string name="selectnextscope">选择发布范围</string>
+    <string name="audio_del">重录</string>
+    <string name="audio_click_say">按住说话</string>
+    <string name="commentary_success">评论成功</string>
+    <string name="commentart_fail">评论失败</string>
+    <string name="commentart_repeat_send">您已经发送过相同评论，请勿重复发送</string>
+    <string name="check_sdcare">请检查内存卡</string>
+    <!-- pop window -->
+    <string name="content_classify">内容分类</string>
+    <!-- 订阅 -->
+    <string name="subscibe_cancel_success">取消订阅成功</string>
+    <string name="subscibe_titlebar_string">订阅</string>
+    <string name="nonsubscibe_titlebar_string">退订</string>
+    <string name="subscibe_delete_fail">退订失败</string>
+    <string name="keywords_subscribe_all">全部订阅</string>
+    <string name="setting_subscribe_new_group">新建分组</string>
+    <string name="setting_sublist_move_btn_text">移动</string>
+    <string name="move_btn_text">移动(d%)</string>
+    <string name="setting_sublist_delete_btn_text">删除</string>
+    <string name="delete_btn_text_d">删除(d%)</string>
+    <string name="setting_sublist">设置阅读列表</string>
+    <string name="my_favorite">我的收藏</string>
+    <string name="favorite_add">收藏成功</string>
+    <string name="favorite_add_fail">收藏失败，请重试</string>
+    <string name="favorite_del">取消收藏</string>
+    <string name="favorite_del_fail">取消收藏失败，请重试</string>
+    <string name="favorite_del_success">删除成功</string>
+    <string name="subscribe__success">订阅成功</string>
+    <string name="subscribe_fail">订阅失败，请重试</string>
+    <string name="fail">操作失败</string>
+    <string name="subscribe_fail_cancel">取消订阅失败，请重试</string>
+    <string name="create_group__success">创建分组成功</string>
+    <string name="create_group_fail">创建分组失败，请重试</string>
+    <string name="group_name_not_empty">分组名称不能为空</string>
+    <string name="group_name_length">分组名称最多6个汉字</string>
+    <string name="move_group_success">移动分组成功</string>
+    <string name="move_group_fail">移动分组失败，请重试</string>
+    <string name="you_not_select_content">您还没有选取内容</string>
+    <string name="dialog_continue">继续</string>
+    <string name="favorite_tips">登录%s可以将您的收藏保存在云端，方便随时读取，是否要登录？</string>
+    <string name="login_tips">登录搜悦可以将您的订阅保存在云端，方便随时阅读，是否要登录？</string>
+    <string name="ad_download_tips">当前为2G网络，建议wifi下进行下载，您确定要下载吗？</string>
+    <string name="subscribe_dialog">已订阅</string>
+    <string name="unsubscribe_dialog">已退订</string>
+    <string name="subscribe_dialog_fail">操作失败</string>
+    <string name="subscribe_dialog_progress">订阅中</string>
+
+    <!-- 搜索 -->
+    <string name="hot_search">热点搜索</string>
+    <string name="history_search">历史搜索</string>
+    <string name="search_clear_history">清除历史记录</string>
+    <string name="search_issure_clear_history">确认清除历史记录？</string>
+    <string name="search_hint">搜天下，悦无限</string>
+    <string name="search_cancel">取消</string>
+    <string name="search_loading">搜索中…</string>
+    <string name="search_sou">搜:</string>
+    <string name="hot_search_rank">热搜榜</string>
+    <string name="search_history">最近搜索</string>
+
+    <!-- title_bar按钮文字 -->
+    <string name="title_bar_reg">注册</string>
+    <string name="title_bar_logout">退出登录</string>
+    <string name="my_account_logout">退出</string>
+    <string name="title_bar_cancel">取消</string>
+    <string name="title_bar_hold">保存</string>
+    <string name="title_bar_send">发送</string>
+    <string name="title_bar_edit">编辑</string>
+    <string name="title_bar_clean">清空</string>
+    <string name="title_bar_set">设置</string>
+    <string name="title_bar_down">下载</string>
+    <string name="title_bar_continu_use">继续使用</string>
+
+    <!-- 网络相关 -->
+    <string name="netError_tips">数据加载失败，请稍候重试！</string>
+
+    <!-- 有问必答 -->
+    <string name="hasUpOrDown">已经赞过或踩过了</string>
+    <string name="hasAsked">已经同问过了</string>
+    <string name="askSuccess">提问成功</string>
+    <string name="answerSuccess">回答成功</string>
+    <string name="hasUp">已顶</string>
+    <string name="hasDown">已踩</string>
+    <string name="askFail">提问失败</string>
+    <string name="answerFail">回答失败</string>
+    <string name="contentisnull">内容不能为空</string>
+    <!-- 评论 -->
+    <string name="commentary_title">评论</string>
+    <string name="content_no_null">内容不能为空</string>
+    <string name="content_more_than_1000">您输入的内容大于4000个字，请重新输入！</string>
+    <string name="reply_to">回复</string>
+    <string name="report">举报</string>
+    <string name="report_success">成功举报</string>
+    <string name="reply_">回复</string>
+    <string name="comment_sending">正在发送评论</string>
+    <string name="wait">请稍候</string>
+
+    <!-- 问答 -->
+    <string name="ask_a_question">我要提问</string>
+
+    <!-- 用户协议 -->
+    <string name="userAgreementActivity_user_agreement">用户协议</string>
+
+    <!-- 忘记密码 -->
+    <string name="forgetPwd">忘记密码？</string>
+    <string name="forgetPwd_email">请输入邮箱</string>
+    <string name="forgetPwd_email_des">输入您注册时填的邮箱</string>
+    <string name="forgetPwd_submit">提交</string>
+    <string name="forgetPwd_submit_success">已成功发送密码重置确认邮件</string>
+    <string name="forgetPwd_submited">我们已向您的邮箱</string>
+    <string name="forgetPwd_success_des">发送了一封确认邮件，48小时内有效，点击邮件里的链接就可以进行密码重置。</string>
+    <string name="forgetPwd_loginEmail">立刻登录邮箱</string>
+    <string name="forgetPwd_sendEmailing">正在向邮箱发送邮件…</string>
+
+    <!-- 3.9版本新增 -->
+    <string name="user_msg_login">短信登录</string>
+    <string name="user_other_login">其它登录方式：</string>
+    <string name="user_get_phonecode_login">获取验证码</string>
+    <string name="user_phone_number_in_login">请输入手机号码</string>
+    <string name="user_common_register_login">普通注册</string>
+    <string name="user_phonecode_in_login">请输入收到的验证码</string>
+    <string name="user_nicheng_in_login">请设置您的昵称</string>
+    <string name="complete">完成</string>
+    <string name="user_register_resend_phonecode_login">重新发送(60)</string>
+    <string name="user_service_my_read_login">我阅读并同意遵守搜悦\"服务条款\"和隐私政策。</string>
+    <string name="user_msg_validte_next_login">下一步</string>
+    <string name="user_msg_validte_next_text_login">请输入注册时填写的手机号或与搜悦帐号绑定的手机号</string>
+    <string name="user_in_new_password_login">请输入新密码</string>
+    <string name="user_send_msg_notify_login">验证短信已发送至</string>
+    <string name="user_register_nicheng_warn">4-20个字符,支持中英文、数字</string>
+    <string name="user_common_username_login">请输入用户名（字母、数字、下划线）</string>
+    <string name="user_common_psw_login">请输入密码（6-14个字符）</string>
+    <string name="user_register_title_login">注册搜悦帐号</string>
+    <string name="user_find_psw_title_login">密码找回</string>
+    <string name="user_login_title_login">登录</string>
+    <string name="user_username_no_empty_login">请输入用户名</string>
+    <string name="user_password_no_empty_login">请输入密码</string>
+    <string name="user_password_len_error_login">请设置6-14个字符的密码</string>
+    <string name="user_login_pd_login">正在登录，请稍候…</string>
+    <string name="user_login_timeout_login">登录失败，请重试</string>
+    <string name="user_login_input_name">请输入手机号或搜悦帐号</string>
+    <string name="user_login_input_pwd">请输入密码</string>
+    <string name="user_login_username_start_letter">用户名以字母开头</string>
+    <string name="user_login_networkerror">当前网络不可用</string>
+    <string name="user_login_username_format_error">请输入正确格式的用户名</string>
+    <string name="user_login_username_len_error">请设置6到30个字符的用户名</string>
+    <!-- 编辑昵称 -->
+    <string name="edit_nick">编辑昵称</string>
+    <string name="default_nick">请输入昵称</string>
+    <string name="edit_nick_des">支持中英文、数字</string>
+    <string name="edit_nick_submit">提交</string>
+    <string name="update_nicknameing">正在修改昵称，请稍候…</string>
+    <string name="again_logining">正在重新登录，请稍候…</string>
+    <string name="edit_nick_limit">%s/20</string>
+    <string name="edit_nick_empty">0/20</string>
+    <!-- 我的资料 -->
+    <string name="my_info">我的资料</string>
+    <string name="update_head_photo">头像</string>
+    <string name="update_nick_name">修改昵称</string>
+    <string name="my_info_sex">性别</string>
+    <string name="my_info_username">搜悦号</string>
+    <string name="my_info_sex_male">男</string>
+    <string name="my_info_sex_female">女</string>
+    <string name="my_info_sex_no">未设置</string>
+    <string name="my_info_sex_edit">修改性别</string>
+    <string name="my_info_sex_editing">正在修改性别，请稍候…</string>
+    <string name="my_info_sex_edit_suc">修改性别成功</string>
+    <string name="my_info_sex_edit_faield">修改性别失败</string>
+    <string name="update_signatrue">个性签名</string>
+    <string name="my_info_points">积分：</string>
+    <string name="my_info_zsb">中搜币：</string>
+    <string name="my_info_dhjl">兑换记录</string>
+    <string name="my_info_cz">充值</string>
+    <string name="my_info_dhsb">兑中搜币</string>
+    <string name="my_info_zscoins">我的中搜币</string>
+    <string name="pay">充值</string>
+    <string name="level">等级</string>
+    <string name="my_info_zsbalance">中搜币余额</string>
+    <string name="my_info_jfbalance">积分余额</string>
+    <string name="my_info_jfexchagen">积分兑换中搜币</string>
+    <string name="my_info_mobilestreet">我的移动商街</string>
+    <string name="my_info_paypassset">支付密码设置</string>
+    <string name="my_info_no_signate">尚未填写签名</string>
+    <string name="my_info_home">我的首页</string>
+    <string name="others_info_home">%s的首页</string>
+    <!-- 用户中心 -->
+    <string name="user_center_comment">评论</string>
+    <string name="home_user_state">游客</string>
+    <string name="no_search_history">无搜索历史</string>
+    <string name="noquestion">还没人提问，快抢沙发！</string>
+    <string name="noanswer">还没人回答，快抢沙发！</string>
+    <string name="nocommentary">评论列表为空</string>
+    <string name="nosearchresult">"没有找到您要搜索的内容 "</string>
+    <string name="my_two_dimen_code_title">二维码名片</string>
+    <string name="my_two_dimen_code_desc">扫一扫上面的二维码图案，加我搜悦好友</string>
+
+    <!-- other -->
+    <string name="zero">0</string>
+    <string name="commentary_ss">1秒</string>
+    <string name="mores">更多</string>
+    <string name="group_title">分组</string>
+    <string name="xiaodangan">小档案</string>
+    <string name="i_have_to_answer">我来回答</string>
+    <string name="same_question">同问</string>
+    <string name="loading_ing">正在加载…</string>
+    <string name="user_id">用户ID</string>
+    <string name="you_do_not_subscribe">您还没有订阅内容</string>
+    <string name="nonetworkerror">网络不可用</string>
+    <string name="networkerror">网络异常，请重试</string>
+    <string name="souyue_networkerror">网络异常，请稍候再试</string>
+    <string name="souyue_neterror">操作失败，暂无网络</string>
+    <!-- share -->
+    <string name="wx_version">微信版本过低</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_fail">分享失败</string>
+    <string name="share_to_souyue_friends">推送给搜悦网友</string>
+    <string name="share_btn_send">发送</string>
+    <string name="share_btn_cancel">取消</string>
+    <string name="share_jhq_warning">登录%s可以显示本文章是由您推荐的，是否要登录？</string>
+    <string name="share_mianshen">您是免审用户，您的推送将直接送达订阅用户，您是否确认推送？</string>
+    <string name="share_syfriend_warning">您必须登录%s才可以将这篇文章推荐给搜悦网友，是否要登录？</string>
+    <string name="go_login">登录</string>
+    <string name="go_cancel">取消</string>
+    <string name="toast_push_max50">推送理由最多50个字</string>
+    <string name="toast_please_login">请重新登录</string>
+    <string name="srp_share_content">推荐你在%1$s中订阅\"%2$s\"，内容很精彩，值得关注。</string>
+    <string name="srp_cj_share_title">推荐您参与\"%s\"超级分享大赛，百万大奖等你赢：）</string>
+    <string name="srp_cm_share_title">推荐您参与\"%s\"掌上超模大赛</string>
+    <string name="keyword_subscribe">关键词</string>
+    <string name="rss_subscribe">新闻源</string>
+    <string name="interes_subscribe">兴趣圈</string>
+
+    <!-- 用户原创 -->
+    <string name="my_self_create">我的原创</string>
+    <string name="user_self_create">用户原创</string>
+    <string name="self_create">个人原创</string>
+    <string name="self_create_del">正在删除</string>
+    <string name="self_weibo_login_no">您必须登录%s才可以发布原创信息，是否要登录？</string>
+    <string name="self_msg_empty">内容不能为空</string>
+    <string name="self_msg_neterror">发送失败，请检查网络</string>
+    <string name="self_content_input">请输入内容</string>
+    <string name="self_title_input">请输入标题</string>
+    <string name="self_title_input_1">请输入标题(可为空)</string>
+    <string name="self_weibo_msg_count_long">您输入的内容大于140个字，请重新输入</string>
+    <string name="create_org_blog">原创博客</string>
+    <string name="create_org_long">长文章</string>
+    <string name="self_bolg_title_empty">标题不能为空</string>
+    <string name="self_bolg_title_count_long">您输入的标题大于30个字，请重新输入</string>
+    <string name="circle_self_bolg_title_count_long">您输入的标题大于32个字，请重新输入</string>
+    <string name="self_bolg_content_count_long">您输入的内容大于10000个字，请重新输入</string>
+    <string name="self_weibo_content_count_long">您输入的内容大于140个字，请重新输入</string>
+    <string name="self_msg_sending">发送中，请在个人中心查看详情</string>
+    <string name="self_content_no_update">内容没有修改，不能发送</string>
+    <string name="self_send_success">发送成功</string>
+    <string name="self_send_error">发送失败</string>
+    <string name="self_get_image_error">图片获取异常</string>
+    <string name="self_list_nocontent">您还没有任何原创内容</string>
+    <string name="self_friend_nocontent">暂无原创</string>
+    <string name="dialog_del_sure">确定删除？</string>
+    <string name="dialog_del_sure_des">确定删除这张图片吗？</string>
+    <string name="dialog_del">删除</string>
+    <string name="self_deling">删除中…</string>
+    <string name="self_same_time_send_weibo">同时发送到新浪微博</string>
+    <string name="self_sending_weibo">正在发送到微博…</string>
+    <string name="self_send_weibo_success">已发送到微博!</string>
+    <string name="self_sending_weibo_error">微博发送失败!</string>
+    <string name="no_keywords">没有订阅内容</string>
+    <string name="self_create_yuan">原</string>
+    <string name="refresh_time">最后刷新时间：刚刚</string>
+    <string name="hot">#热门话题#</string>
+    <string name="souyue_self_create">搜悦原创</string>
+    <string name="weibo_guanzhu">关注：</string>
+    <string name="weibo_fans">粉丝：</string>
+    <string name="weibo_weibo">微博：</string>
+    <string name="write_recomment">写点推荐理由吧</string>
+    <string name="published_in">发布在 :</string>
+    <string name="create_org">写原创</string>
+    <string name="create_org_weibo">原创微博</string>
+    <string name="create_org_forun">原创论坛</string>
+    <string name="create_org_short">短文章</string>
+
+    <!-- sendingAlertActivity -->
+    <string name="sendingAlert_des">原创内容需要审核，请在“我的原创”中查看进度</string>
+    <string name="gotoselfcenter">前往个人中心</string>
+    <string name="sendingAlert_go">查看</string>
+    <string name="sendingAlert_later_on">我知道了</string>
+    <string name="sendingAlert_myself_create">我的原创</string>
+    <string name="sdcard_exist">SD卡被卸载或不存在</string>
+    <string name="recommend_no_searchresult">暂时还没有文章被分享到精华区</string>
+
+    <!-- touch_gallery -->
+    <string name="touch_save_image">保存图片</string>
+    <string name="down_image_fail">下载失败</string>
+    <string name="down_image_success">图片已经存至相册</string>
+    <string name="down_image_ing">正在保存图片，请稍候</string>
+    <string name="keywordstring">您还没有选择发布范围哦</string>
+    <string name="keywordselected">您已经订阅了这个词，请在列表中选择</string>
+
+    <!-- menu -->
+    <string name="menu_exit">退出</string>
+    <string name="menu_setting">设置</string>
+    <!-- 超级分享大赛 -->
+    <string name="week_rank">周排名:</string>
+    <string name="month_rank">月排名:</string>
+    <string name="score">积分:</string>
+    <string name="ranking">排行榜</string>
+    <string name="share_no_searchresult">您暂时没有发表作品</string>
+    <string name="share_no_login">您还未登录,点击登录</string>
+    <string name="str_scanning_desc">将二维码放入框内,可自动扫描</string>
+    <string name="scan_qr">扫一扫</string>
+    <string name="scan_qr_nonet">当前网络不可用\n请检查网络设置</string>
+
+    <string name="rank">排序</string>
+    <string name="msg_default_status">请将条码置于取景框内扫描。</string>
+    <!-- <string name="supersharename">超级分享大赛</string> -->
+
+
+    <!-- 广场 -->
+    <string name="plaza">搜悦广场</string>
+
+    <!-- search type -->
+    <string name="s_type_complex_str">综合</string>
+    <string name="s_type_news_str">新闻</string>
+    <string name="s_type_video_str">视频</string>
+    <string name="s_type_weibo_str">微博</string>
+    <string name="s_type_bbs_str">论坛</string>
+    <string name="s_type_photo_str">图片</string>
+    <string name="s_type_app_str">应用</string>
+
+    <!-- 垂直分享内容 -->
+    <string name="v_share">刚刚在搜悦里搜索了与“%1$s”相关的%2$s</string>
+    <string name="vshare_comlex">内容</string>
+    <string name="vshare_news">新闻</string>
+    <string name="vshare_video">视频</string>
+    <string name="vshare_weibo">微博</string>
+    <string name="vshare_bbs">论坛帖子</string>
+    <string name="vshare_img">图片</string>
+    <string name="vshare_app">应用</string>
+    <string name="chat_sending">发送中...</string>
+    <string name="chat_fail">发送失败</string>
+    <!-- 手机验证码 -->
+    <string name="phonecode_sending">正在获取验证码，请稍候...</string>
+    <string name="phonecode_resend">重新发送</string>
+    <string name="phonecode_resend_time">重新发送(%s秒)</string>
+    <string name="phonecode_receive">已发送，请注意查收...</string>
+    <string name="phonecode_senderror">发送失败，请稍候重试！</string>
+
+    <!-- 老虎机 -->
+    <string name="tg_invite">"邀请"</string>
+    <string name="tg_ok">确定</string>
+    <string name="tg_back">返回</string>
+    <string name="tg_cancel">取消</string>
+    <string name="tg_ask">索要</string>
+    <string name="tg_pay">"兑换"</string>
+    <string name="tg_login">"登录"</string>
+    <string name="tg_yue_info">"余额:%s中搜币"</string>
+    <string name="tg_lottery">"中奖金额:%s中搜币"</string>
+    <string name="tg_alert_login">"您必须登录%s才可以开始游戏,是否要登录"</string>
+    <string name="tg_alert_yue_unenough">"您的余额不足，赶紧去兑换积分或向好友索要赞助吧!"</string>
+    <string name="tg_alert_invite">"邀请朋友下载%s,即可获得25中搜币"</string>
+    <string name="tg_alert_money_unenough">"您的中搜币用光了,邀请好友参与即可获得25中搜币"</string>
+    <string name="tg_alert_timeout">"服务器有点忙,重新试一下吧"</string>
+    <string name="tg_alert_connect">"正在连接服务器，稍等片刻"</string>
+    <string name="tg_alert_getyue">"初始化中，请稍候..."</string>
+    <string name="tg_alert_connect_fail">"连接服务器超时或出错了"</string>
+    <string name="tg_share_dialog_title">分享</string>
+    <string name="tg_shared">我正在%1$s玩欢乐老虎机，刚刚赢了%2$s个中搜币。</string>
+    <string name="tg_inviation_code">  邀请码:</string>
+    <string name="tg_stay_tuned">"此功能尚未开放"</string>
+    <string name="tg_dialog_timeout">"请求服务器超时,请重试"</string>
+    <string name="tg_dialog_error">"服务器出错了,请重试"</string>
+    <string name="tg_dialog_noconn">"您当前的网络不稳定，请重试"</string>
+    <string name="tg_sayhello">哇哦，我刚刚在欢乐老虎机中摇出了和你相同的图案。</string>
+    <string name="tg_inviation_hint">请输入好友分享的邀请码</string>
+    <string name="tg_qunyao_palyer_count">在玩人数:%d人</string>
+    <string name="tg_qunyao_palyer_roomname">房间名称:%s</string>
+    <string name="tg_qunyao_home_name">房间名称:%s</string>
+    <string name="login_from_qq">使用QQ帐号登录</string>
+    <string name="login_from_weibo">使用微博帐号登录</string>
+    <string name="login_from_renren">使用人人帐号登录</string>
+    <string name="username_is">用户名：%s</string>
+    <string name="password_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+
+    <!-- 个性签名 -->
+    <string name="signatrue_title">个性签名</string>
+    <string name="signatrue_btn_save">保存</string>
+    <string name="signatrue_limit">%s/20</string>
+    <string name="signatrue_default">请输入签名</string>
+
+    <!-- new 心情签名 -->
+    <string name="history_signatrue">历史签名</string>
+    <string name="signatrue_tit">心情签名</string>
+    <string name="no_data">暂无数据</string>
+    <string name="face_happy">开心</string>
+    <string name="face_laugh">大笑</string>
+    <string name="face_adorable">萌萌哒</string>
+    <string name="face_dull">发呆</string>
+    <string name="face_angry">愤怒</string>
+    <string name="face_sad">难过</string>
+    <string name="face_depressed">沮丧</string>
+    <string name="face_cry">大哭</string>
+    <string name="now_feeling">您现在的心情？</string>
+    <string name="nignatrue_publish">发表</string>
+    <string name="text_count">50</string>
+    <!-- 回复我的 -->
+    <string name="replyme_title">评论我的</string>
+    <string name="clickto_detail">点击查看详情</string>
+
+    <!-- 会员中心账户安全 -->
+    <string name="account_security_center">安全中心</string>
+    <string name="account_security_title">账户安全</string>
+    <string name="account_security_bind_phone">绑定手机号</string>
+    <string name="account_security_reset_login_password">修改登录密码</string>
+    <string name="account_security_reset_pay_password">设置支付密码</string>
+    <string name="account_security_verify_code">验证码</string>
+
+    <!-- 订阅管理 -->
+    <string name="manager_grid_ins">我的兴趣圈</string>
+    <string name="manager_grid_insterest">兴趣</string>
+    <string name="manager_grid_subject">主题</string>
+    <string name="manager_grid_sub">关键词</string>
+    <string name="manager_grid_rss">报刊</string>
+    <string name="manager_grid_ent">商家</string>
+
+    <!-- listview config by wzy -->
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">松开刷新数据</string>
+    <string name="header_hint_refresh_loading">正在刷新…</string>
+    <string name="header_hint_refresh_time">更新于：</string>
+    <string name="footer_hint_load_normal">加载更多</string>
+    <string name="footer_hint_no_mroe">已加载全部</string>
+    <string name="footer_hint_load_ready">松开刷加载更多</string>
+    <string name="title_activity_yao_wen">YaoWenActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="taskcenter_title">来自任务中心</string>
+    <string name="taskcenter_kongge">&#160;</string>
+    <string name="relogin_title">安全提示</string>
+
+    <string name="join_circle_scan">%s扫一扫加入圈</string>
+
+    <string name="suberlist_hotrecommend">热门推荐</string>
+    <string name="suberlist_all">订阅大全</string>
+    <string name="sub_search_tip">搜索你感兴趣的</string>
+
+    <!--Im 聊天页面dialog的item选项-->
+    <string name="dialog_operate">操作</string>
+    <string name="dialog_copy">复制</string>
+    <string name="dialog_delete">删除</string>
+    <string name="dialog_out_play">外放模式播放</string>
+    <string name="dialog_inner_play">听筒模式播放</string>
+    <string name="tips_out">外放模式</string>
+    <string name="tips_inner">听筒模式</string>
+    <string name="dialog_forward">转发</string>
+
+    <!--IM表情下载界面-->
+    <string name="expression_list_title">表情下载</string>
+    <string name="down_load">马上下载</string>
+
+    <string name="action_menu_add">加入本圈</string>
+    <string name="action_menu_exit">退出本圈</string>
+    <string name="action_menu_sub">订阅</string>
+    <string name="action_menu_dissub">退订</string>
+    <string name="action_menu_tool">圈主工具</string>
+    <string name="action_menu_top">置顶</string>
+    <string name="action_menu_prime">加精</string>
+    <string name="action_menu_notop">取消置顶</string>
+    <string name="action_menu_noprime">取消加精</string>
+    <string name="action_menu_del">删除</string>
+    <string name="action_menu_edit">编辑</string>
+    <string name="action_menu_push">推送</string>
+
+    <string name="detail_menu_only_wifi">仅wifi下加载图片</string>
+    <string name="detail_menu_light_set">亮度调节</string>
+    <string name="detail_menu_font_set">字体大小</string>
+    <string name="detail_menu_dont_interest">不感兴趣</string>
+    <string name="detail_menu_jubao">举报</string>
+
+    <!--要闻频道管理-->
+    <string name="yaowen_title">频道管理</string>
+    <!--Im String-->
+    <string name="im_tittle_select">选择</string>
+
+    <!-- IM Net 整理-->
+    <string name="im_load_tips">请稍候...</string>
+    <string name="im_send_success">发送成功</string>
+    <string name="im_server_busy">服务器忙，请稍后再试</string>
+    <string name="im_net_unvisiable">当前网络不可用，请检查网络</string>
+
+
+    <string name="homepage_recommend">为您推荐了%d条内容更新</string>
+    <string name="homepage_update">为您更新了%d条内容</string>
+    <string name="homepage_no_interest">不感兴趣</string>
+    <string name="homepage_skcan_here">刚刚看到这里</string>
+    <string name="homepage_click_refresh">点击刷新</string>
+    <string name="special_text">推荐</string>
+    <string name="special_no_text">不再推荐</string>
+
+    <string name="guide_http_faild">网络连接异常，请稍候再试</string>
+    <string name="guide_retry">点击重试</string>
+    <string name="guide_skipe">跳过</string>
+    <string name="guide_net_faield">网络不给力，</string>
+    <string name="wait_data">请等待数据</string>
+    <string name="home_hot_sign">热</string>
+    <string name="home_spacial">专题</string>
+    <string name="home_prime_sign">精</string>
+    <string name="home_top_sign">顶</string>
+
+    <string name="im_operat_fail">操作失败</string>
+
+    <string name="detail_have_ding">已赞！</string>
+    <string name="detail_have_cai">已踩！</string>
+    <string name="trade_zae_domain">zae.zhongsou.com</string>
+    <string name="comment_detail_success">评论成功</string>
+    <string name="trade_login_tips">登录%s可以将您的订阅保存在云端，方便随时阅读，是否要登录？</string>
+    <!-- 超A相关 -->
+    <string name="my_inquiry">我的询报价</string>
+
+    <!--webIM登录-->
+    <string name="webim_login_success">登录成功</string>
+    <string name="webim_qrcode_invalid">二维码已失效</string>
+    <string name="webim_qrcode_rescan">请在电脑端刷新页面并重新扫描</string>
+    <string name="webim_qrcode_scan">扫一扫</string>
+    <string name="webim_request_timeout">请求超时</string>
+    <string name="webim_request_error">连接失败，请检查网络</string>
+    <string name="webim_request_server_error">请求错误,请重试</string>
+    <string name="webim_refresh_rescan">请在电脑刷新界面并重新扫描</string>
+    <string name="webim_server_timeout">服务器请求超时</string>
+    <string name="webim_login_overtime">登录已过期</string>
+    <string name="webim_login_failer">登录失败</string>
+    <string name="webim_login_unknown">未知帐号</string>
+    <string name="webim_qrcode_infoerror">二维码信息错误！</string>
+    <string name="webim_view_title">网页版聊天</string>
+    <string name="webim_view_tips">请点击下面按钮完成登录</string>
+    <string name="webim_view_login">登 &#160;&#160; 录</string>
+    <string name="webim_view_cancel">取 &#160;&#160; 消</string>
+
+    <!--详情页-->
+    <string name="user_guest">游客</string>
+
+    <string name="home_title_dialog_menu">菜单</string>
+    <string name="home_title_dialog_setmain">设为首页</string>
+    <string name="home_title_dialog_dissubcrib">取消订阅</string>
+    <string name="home_title_dialog_comfirm_message">设为首页后，&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;%s将成为您启动搜悦后默认展示的栏目，是否将该栏目设为首页？</string>
+
+    <!--微信红包-->
+    <string name="wxshare_envelop_explain">拆开红包所获得的奖励，可以进行话费及流量的充值，还可以到我们的商城中购买商品和参与抽奖。还等什么，快来参与吧</string>
+    <string name="wxshare_envelop_tips">点击微信好友或朋友圈的分享按钮，成功分享文章即可获得红包奖励，每天最多两个哟</string>
+    <string name="wxshare_envelop_no">对不起，您今天还没有获得红包</string>
+    <string name="wxshare_envelop_half">对不起，您今天还有%d次获取红包的机会</string>
+    <string name="wxshare_envelop_empty">对不起，您今天的红包已领取完毕</string>
+    <string name="wxshare_envelop_congratulation">恭喜您</string>
+    <string name="wxshare_envelop_getHB">成功获得xx积分</string>
+
+    <!--匿名相关-->
+    <string name="guest_cant_hide">游客不支持匿名功能</string>
+    <string name="homepage_sethome_sucess">搜悦默认首页设置成功</string>
+
+    <!--首页不感兴趣内容个-->
+    <string name="homepage_uninterest_select_title">您不感兴趣的原因是？</string>
+    <string name="homepage_uninterest_repet">重复内容</string>
+    <string name="homepage_uninterest_bad">内容质量差</string>
+    <string name="homepage_uninterest_ad">广告</string>
+
+    <string name="notsupported">暂不支持此业务</string>
+
+    <!-- JPush Notification info show -->
+    <string name="notification_activity_title">Notification Information Show</string>
+    <string name="notification_title">Notification Title</string>
+    <string name="notification_content">Notification Content</string>
+
+    <!-- 启动页 -->
+    <string name="splash_jump">跳过</string>
+    <string name="space">&#160;&#160;&#160;</string>
+    <string name="up_text">赞</string>
+    <string name="down_text">踩</string>
+    <string name="comment_text">评论</string>
+    <string name="favorite_text">收藏</string>
+
+    <!-- 启动页 -->
+    <string name="update_failure">请求失败</string>
+
+    <!-- 启动页 -->
+    <string name="is_not_image">图片格式错误</string>
+    <string name="video_erro">视频播放错误，请重试!</string>
+
+    <string name="home_first_title">Plain, <b>bold</b>, <i>italic</i>, <b><i>bold-italic</i></b></string>
+    <string name="create_sub_group">创建订阅分组</string>
+    <string name="new_sub_top">新订阅位置在前</string>
+    <string name="my_sub_tab">我的订阅</string>
+    <string name="add_sub_tab">添加订阅</string>
+    <string name="sub_group_hint">输入分组名称</string>
+    <string name="select_on_sub">从已订阅内容中选择</string>
+
+    <string name="sub_group_title">订阅分组</string>
+    <string name="sub_group_add_success">创建成功</string>
+    <string name="sub_group_edit_success">编辑成功</string>
+    <string name="sub_group_fail">操作失败,请稍候重试</string>
+    <string name="sub_group_name_not_null">组名称不能为空</string>
+    <string name="sub_group_item_not_null">组成员不能为空</string>
+    <string name="group">组</string>
+    <string name="video_not_wifi">非wifi下加载视频，会消耗大量流量，是否继续？</string>
+    <string name="video_play_continue">继续观看</string>
+    <string name="video_play_cancle">取消观看</string>
+    <string name="search">搜索</string>
+    <string name="group_image_loading">正在上传图片，请稍候…</string>
+    <string name="group_image_upload_photo_fail">上传图片失败</string>
+    <string name="group_image_upload_photo_success">上传图片成功</string>
+    <string name="cooperative">合作推广</string>
+    <string name="net_to_phone">切换到手机网络状态</string>
+    <string name="group_name_error">分组名称仅支持字母、数字和汉字</string>
+    <string name="change">换一换</string>
+    <string name="clear_search_history">清除搜索历史</string>
+    <string name="always_search">大家都在搜:</string>
+</resources>

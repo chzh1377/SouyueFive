@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:fresco="http://schemas.android.com/apk/res-auto"
+             android:layout_width="140dp"
+             android:layout_height="125dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="140dp"
+        android:layout_height="125dp">
+
+        <com.facebook.drawee.view.ZSImageView
+            android:layout_marginTop="2dp"
+            android:id="@+id/genger_head_icon"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:layout_centerHorizontal="true"
+            fresco:roundAsCircle="true"/>
+        <View
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:background="@drawable/circle_shadow"/>
+        <ProgressBar
+            android:layout_centerHorizontal="true"
+            android:padding="2dp"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:indeterminate="false"
+            android:indeterminateDuration="10000"
+            android:indeterminateDrawable="@drawable/progress_bar_rotate_light_blue"
+            />
+        <TextView
+            android:id="@+id/gender_head_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/home_firstin_bottomtitle"
+            android:textSize="@dimen/space_15"/>
+    </RelativeLayout>
+</FrameLayout>

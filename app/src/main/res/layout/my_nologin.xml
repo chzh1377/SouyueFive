@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_my_nologin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_nologin_bg_color"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="5"
+        android:background="@drawable/my_nologin_top_pic"
+        />
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_marginTop="20dp"
+        >
+        <LinearLayout 
+            android:id="@+id/ll_login_reg"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:orientation="horizontal"
+            >
+            <Button 
+            android:id="@+id/btn_my_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@drawable/my_login_btn_selector"
+            android:textColor="#3774a3"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/my_reg_btn_text"
+            />
+        <Button 
+            android:id="@+id/btn_my_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/btn_my_reg"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@drawable/my_login_btn_selector"
+            android:textColor="#3774a3"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/my_login_btn_text"
+            />
+         
+         </LinearLayout>
+         
+        <TextView
+            android:id="@+id/tv_login_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	android:layout_below="@id/ll_login_reg"
+           	android:layout_marginTop="15dp"
+           	android:text="@string/my_login_desc_text"
+           	android:gravity="center_horizontal"
+           	android:textColor="@color/my_nologin_desc_font_color"
+           	android:textSize="14sp"
+            />
+        
+         <!-- 底部云 -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/user_login_bottom_yun" 
+            android:layout_alignParentBottom="true"
+            android:id="@+id/botttm_clound"
+            />
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_above="@id/botttm_clound"
+                android:visibility="gone"
+                android:id="@+id/re_cancle"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="取消"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:id="@+id/tv_cancle"
+                    />
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cancle"
+                    android:src="@drawable/imnologin_cancle"
+                    android:layout_toLeftOf="@id/tv_cancle"
+                    android:layout_marginRight="10dp"
+                    />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/background_color"
+        >
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <!--  下拉刷新ListView -->
+    <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+            android:id="@+id/customlv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/listview_divider"
+            android:listSelector="@drawable/circle_list_item_selector"
+            android:fastScrollEnabled="false"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true"/>
+    <include layout="@layout/loading" />
+</FrameLayout>
+
+<ImageButton
+        android:id="@+id/btn_new"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/new_weibo_selector" />
+</RelativeLayout>

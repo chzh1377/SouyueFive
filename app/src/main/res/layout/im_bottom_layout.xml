@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dip"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+    <Button
+            android:id="@+id/im_longClickToSay"
+            android:layout_width="fill_parent"
+            android:layout_height="32dip"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/chat_send_btn"
+            android:gravity="center"
+            android:text="按住 说话"
+            android:textColor="#646464"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+    <RelativeLayout
+            android:id="@+id/im_key_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:paddingBottom="8dp"
+            android:paddingRight="6dp"
+            android:paddingTop="8dp">
+
+        <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/re_send"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                >
+            <Button
+                    android:id="@+id/im_add"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    style="@style/Im.ImageButton.Borderless"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_im_chat_add"
+                    android:onClick="onSendButtonClick"
+                    android:textColor="@color/black"/>
+            <Button
+                    android:id="@+id/im_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:background="@drawable/btn_im_send_msg_normal_selector"
+                    android:onClick="onSendButtonClick"
+                    android:text="发送"
+                    android:layout_centerInParent="true"
+                    android:textSize="15dp"
+                    android:textColor="#646464"
+                    android:visibility="gone"/>
+        </RelativeLayout>
+
+        <ImageButton
+                android:id="@+id/im_add_emoji"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                style="@style/Im.ImageButton.Borderless"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/re_send"
+                android:scaleType="fitXY"
+                android:layout_centerInParent="true"
+                android:background="@drawable/btn_msg_face_selector"/>
+        <EditText
+                android:id="@+id/im_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/im_add_emoji"
+                android:background="@drawable/login_edit_normal"
+                android:imeOptions="actionGo"
+                android:paddingLeft="5dp"
+                android:maxHeight="100dp"
+                android:minHeight="32dp"
+                android:textColorHint="#ffd8d8d8"
+                android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

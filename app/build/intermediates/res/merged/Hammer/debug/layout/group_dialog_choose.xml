@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/choose_group_layout"
+    android:layout_width="264dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_round"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/group_title"
+            android:textColor="#505050"
+            android:textSize="17sp" />
+
+        <ImageButton
+            android:id="@+id/btn_add_gruop"
+            style="@style/DialogButton.Borderless"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/btn_pop_subscribe_normal" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_large_size"
+        android:background="@drawable/listview_divider" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp">
+
+        <ListView
+            android:id="@+id/group_lv"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:background="@android:color/white"
+            android:cacheColorHint="@android:color/white"
+            android:choiceMode="singleChoice"
+            android:divider="@drawable/listview_divider"
+            android:fadingEdge="none"
+            android:scrollingCache="false" />
+
+        <RelativeLayout
+            android:id="@+id/group_load_progress"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:background="#1f4a4a4a"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/sub_refresh_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/add_sub_progress" />
+
+            <TextView
+                android:id="@+id/sub_refresh_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sub_refresh_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/sub_reload_fail"
+                android:textColor="@color/color_srp_content" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/btn_choose_save"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_save_button_selector"
+            android:padding="1dp"
+            android:text="@string/dialog_save"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/btn_choose_canel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_cancel_button_selector"
+            android:padding="1dp"
+            android:text="@string/dialog_cancel"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+</LinearLayout>

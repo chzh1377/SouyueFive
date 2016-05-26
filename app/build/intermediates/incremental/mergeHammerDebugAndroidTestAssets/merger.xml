@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="1.0.1"><source path="F:\workspace\SouyueFive\app\build\intermediates\exploded-aar\com.android.support\multidex-instrumentation\1.0.1\assets"/></dataSet><dataSet config="main"><source path="F:\workspace\SouyueFive\app\src\androidTest\assets"/><source path="F:\workspace\SouyueFive\app\build\generated\assets\shaders\androidTest\Hammer\debug"/></dataSet><dataSet config="Hammer"><source path="F:\workspace\SouyueFive\app\src\androidTestHammer\assets"/></dataSet></merger>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/item_left"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/im_item_selector"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:tag="front">
+
+        <FrameLayout
+            android:id="@+id/row_iv_image_layout"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/row_iv_image"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/default_head"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/im_friends_head_roundbg" />
+        </FrameLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:layout_toLeftOf="@+id/right_arrow"
+                android:layout_toRightOf="@+id/row_iv_image_layout"
+                android:orientation="vertical"
+                >
+            <TextView
+                    android:id="@+id/row_tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:gravity="center_vertical"
+                    android:text="新的朋友"
+                    android:textColor="#282828"
+                    android:textSize="16sp" />
+
+            <TextView
+                    android:id="@+id/row_tv_beizhu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    android:text="昵称：你猜"
+                    android:textSize="12sp"
+                    android:textColor="#7e7e7e"
+                    />
+
+            <TextView
+                    android:id="@+id/row_tv_souyuename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    android:text="昵称：你猜"
+                    android:textSize="12sp"
+                    android:textColor="#7e7e7e"
+                    />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/radiobutton"
+            android:button="@null"
+            android:clickable="false"
+            android:focusable="false" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="circle_default_circle_indicator_page_color">#666666</color>
+    <color name="circle_default_circle_indicator_fill_color">#4f83bb</color>
+
+    <integer name="circle_default_circle_indicator_orientation">0</integer>
+
+    <color name="circle_default_circle_indicator_stroke_color">#666666</color>
+
+    <dimen name="circle_default_circle_indicator_stroke_width">0dp</dimen>
+    <dimen name="circle_default_circle_indicator_radius">4dp</dimen>
+
+    <bool name="circle_default_circle_indicator_centered">true</bool>
+    <bool name="circle_default_circle_indicator_snap">false</bool>
+
+</resources>

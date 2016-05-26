@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/space_8"
+                android:background="@drawable/common_pop_bg"
+        >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/ntool_post_layout"
+                      android:layout_height="41dp"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/common_pop_menu_itemselector"
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:duplicateParentState="true"
+                        android:src="@drawable/ntool_post_normal"/>
+
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:duplicateParentState="true"
+                        android:text="发新帖"/>
+            </LinearLayout>
+            <include layout="@layout/common_divider_line"/>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/ntool_mypost_layout"
+                      android:layout_height="41dp"
+                      android:orientation="vertical">
+            <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/common_pop_menu_itemselector"
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/ntool_mypost_normal"/>
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:text="我的圈内发帖"/>
+
+            </LinearLayout>
+            <include layout="@layout/common_divider_line"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/ntool_my_layout"
+                      android:layout_height="41dp"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/common_pop_menu_itemselector"
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/ntool_my_normal"/>
+
+
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:text="我的圈身份"/>
+            </LinearLayout>
+            <include layout="@layout/common_divider_line"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/ntool_rpme_layout"
+                      android:layout_height="41dp"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:background="@drawable/common_pop_menu_itemselector"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/ntool_replyme_normal"/>
+
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:text="评论我的"/>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                    <TextView
+                            android:id="@+id/ntool_rpme_count_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffff"
+                            android:gravity="center"
+                            android:background="@drawable/tool_atme_number"
+                            android:layout_marginRight="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <include layout="@layout/common_divider_line"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/ntool_atme_layout"
+                      android:layout_height="41dp"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:background="@drawable/common_pop_menu_itemselector"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/ntool_atme_normal"/>
+
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:text="\@我的"/>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                    <TextView
+                            android:id="@+id/ntool_atme_count_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffff"
+                            android:gravity="center"
+                            android:background="@drawable/tool_atme_number"
+                            android:layout_marginRight="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <include layout="@layout/common_divider_line"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="41dp"
+                      android:id="@+id/ntool_member_layout"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:background="@drawable/common_pop_menu_itemselector"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/ntool_member_normal"/>
+
+
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:text="圈成员"/>
+
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                    <TextView
+                            android:id="@+id/ntool_member_count_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#7E7E7E"
+                            android:textSize="9sp"
+                            android:text="0"
+                            android:gravity="center"
+                            android:background="@drawable/tool_number"
+                            android:layout_marginRight="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/common_divider_line"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/ntool_circle_layout"
+                      android:layout_height="41dp"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:background="@drawable/common_pop_menu_itemselector"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/ntool_circle_normal"/>
+
+
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:textColor="@color/ntool_text_color_selector"
+                        android:text="圈名片/分享"/>
+
+            </LinearLayout>
+            <include layout="@layout/common_divider_line"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/ntool_shortcut_layout"
+                      android:layout_height="41dp"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:background="@drawable/common_pop_menu_itemselector"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/ntool_shortcut_normal"/>
+
+
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:textColor="@color/ntool_text_color_selector"
+                        android:text="创建桌面快捷方式"/>
+
+            </LinearLayout>
+            <include layout="@layout/common_divider_line"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/ntool_tool_layout"
+                      android:layout_height="41dp"
+                      android:visibility="gone"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:background="@drawable/common_pop_menu_itemselector"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/ntool_tool_normal"/>
+
+
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:textColor="@color/ntool_text_color_selector"
+                        android:text="圈主工具"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+                android:id="@+id/circle_popwindow_lastunderline"
+                android:layout_width="match_parent"
+                android:background="@color/home_hot_rect_gray"
+                android:layout_height="1dp"
+                >
+        </View>
+        <LinearLayout android:layout_width="match_parent"
+                      android:visibility="gone"
+                      android:id="@+id/ntool_subscribe_layout"
+                      android:layout_height="41dp"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:background="@drawable/common_pop_menu_itemselector"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+
+                    android:layout_height="40dp">
+
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/pop_dingyue"/>
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:textColor="@color/ntool_text_color_selector"
+                        android:text="加入本圈"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/ntool_exit_layout"
+                      android:layout_height="41dp"
+                      android:visibility="visible"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:background="@drawable/common_pop_menu_itemselector"
+
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+
+                    android:layout_height="40dp">
+                <ImageView
+                        style="@style/Circle_index_popmenu_innerstyle_image"
+                        android:src="@drawable/ntool_exit_normal"/>
+                <TextView
+                        style="@style/Circle_index_popmenu_innerstyle_textview"
+                        android:textColor="@color/ntool_text_color_selector"
+                        android:text="退出本圈"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

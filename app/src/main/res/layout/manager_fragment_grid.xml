@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f2f2f2"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_container"
+            android:layout_height="30dip"
+            android:background="#fffedf">
+
+        <TextView
+                android:id="@+id/tv_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:text="长按图标可以移动或删除"
+                android:textColor="#7e7e7e"
+                android:textSize="12sp"/>
+
+        <ImageButton
+                android:id="@+id/iv_tips_delete"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@null"
+                android:src="@drawable/suberlist_delete"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/re_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#333333"
+            android:visibility="gone"
+            >
+
+        <TextView
+                android:id="@+id/tv_sub_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:textColor="#FFFFFD"/>
+    </RelativeLayout>
+
+    <com.zhongsou.souyue.ui.dynamicgrid.DynamicGridEdit
+            android:id="@+id/dynamic_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f2f2f2">
+
+        <com.zhongsou.souyue.view.GridViewWithHeaderAndFooter
+                android:id="@+id/dynamic_grid"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:fadingEdgeLength="0.0sp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:scrollbars="none"/>
+
+        <include layout="@layout/loading"/>
+    </com.zhongsou.souyue.ui.dynamicgrid.DynamicGridEdit>
+
+    <!--<TextView android:layout_width="wrap_content"-->
+              <!--android:layout_height="wrap_content"-->
+              <!--android:gravity="center"-->
+              <!--android:layout_marginTop="30dip"-->
+              <!--android:textColor="#7e7e7e"-->
+              <!--android:textSize="12sp"-->
+              <!--android:layout_gravity="center"-->
+              <!--android:text="共订阅9个"/>-->
+</LinearLayout>

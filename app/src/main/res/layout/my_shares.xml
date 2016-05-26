@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <include
+        layout="@layout/loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+        android:id="@+id/customlv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/listview_divider"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:scrollingCache="true"
+        android:smoothScrollbar="true" />
+
+    <ImageButton
+        android:id="@+id/btn_join"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_join_selector" />
+
+    <include
+        android:id="@+id/recommend_no_searchresult"
+        layout="@layout/my_share_no_searchresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/my_share_no_login_layout"
+        layout="@layout/my_share_no_login"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/space_8"
+        android:background="@drawable/common_pop_bg"
+    >
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <LinearLayout
+            android:id="@+id/pop_zuti"
+            style="@style/srp_popwindow_item_layout">
+        <ImageView
+                android:id="@+id/pop_zuti_icon"
+                style="@style/srp_popwindow_item_image"
+                android:src="@drawable/pop_zuti"/>
+        <TextView
+                android:id="@+id/pop_zuti_title"
+                style="@style/srp_popwindow_item_text"
+                android:text="编辑"
+                />
+    </LinearLayout>
+    <include layout="@layout/common_divider_line"></include>
+    <LinearLayout
+            android:id="@+id/pop_senderror"
+            style="@style/srp_popwindow_item_layout">
+
+        <ImageView
+                style="@style/srp_popwindow_item_image"
+                android:src="@drawable/srpfinderror"/>
+
+        <TextView
+                style="@style/srp_popwindow_item_text"
+                android:text="报错"
+                />
+    </LinearLayout>
+    <include layout="@layout/common_divider_line"></include>
+    <LinearLayout
+            android:id="@+id/pop_erweima"
+            style="@style/srp_popwindow_item_layout">
+
+        <ImageView
+                style="@style/srp_popwindow_item_image"
+                android:src="@drawable/pop_erweima"/>
+
+        <TextView
+                style="@style/srp_popwindow_item_text"
+                android:text="二维码"
+                />
+    </LinearLayout>
+    <include layout="@layout/common_divider_line"></include>
+    <LinearLayout
+            android:id="@+id/pop_fenxiang"
+            style="@style/srp_popwindow_item_layout">
+
+        <ImageView
+                style="@style/srp_popwindow_item_image"
+                android:src="@drawable/pop_fenxiang"/>
+
+        <TextView
+                style="@style/srp_popwindow_item_text"
+                android:text="分享"
+                />
+    </LinearLayout>
+    <include layout="@layout/common_divider_line"></include>
+    <LinearLayout
+            android:id="@+id/pop_cooper_manage"
+            style="@style/srp_popwindow_item_layout">
+
+        <ImageView
+                style="@style/srp_popwindow_item_image"
+                android:src="@drawable/srp_pop_cooper_icon"/>
+
+        <TextView
+                style="@style/srp_popwindow_item_text"
+                android:text="合作经营"
+                />
+    </LinearLayout>
+    <include layout="@layout/common_divider_line"></include>
+    <LinearLayout
+            android:id="@+id/pop_create_shortcut"
+            style="@style/srp_popwindow_item_layout">
+
+        <ImageView
+                style="@style/srp_popwindow_item_image"
+                android:src="@drawable/srp_create_shortcut"/>
+
+        <TextView
+                style="@style/srp_popwindow_item_text"
+                android:text="创建桌面快捷方式"
+                />
+    </LinearLayout>
+    <include layout="@layout/common_divider_line"></include>
+    <LinearLayout
+            android:id="@+id/pop_tuiding"
+            style="@style/srp_popwindow_item_layout"
+            >
+
+        <ImageView
+                android:id="@+id/iv_subscribe_state_icon"
+                style="@style/srp_popwindow_item_image"
+                android:src="@drawable/pop_tuiding"/>
+
+        <TextView
+                android:id="@+id/tv_subscribe_state_text"
+                style="@style/srp_popwindow_item_text"
+                android:text="订阅"
+                />
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

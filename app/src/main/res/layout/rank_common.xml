@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="25dip"
+    android:layout_marginLeft="5dip"
+    android:layout_marginTop="5dip"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/week_rank"
+        android:textColor="@color/rank_title_color"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/week_rank_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="3dip"
+        android:textColor="@color/rank_title_color"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="28dip"
+        android:text="@string/month_rank"
+        android:textColor="@color/rank_title_color"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/month_rank_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="3dip"
+        android:textColor="@color/rank_title_color"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="28dip"
+        android:text="@string/score"
+        android:textColor="@color/rank_title_color"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="3dip"
+        android:textColor="@color/rank_title_color"
+        android:textSize="13sp" />
+
+
+    <TextView
+        android:id="@+id/publish_time_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:textColor="@color/rank_title_color"
+        android:textSize="13sp" />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/bottomBar"
+              android:layout_width="fill_parent"
+              android:layout_height="48dp"
+              android:background="@color/all_titlebar_bg_color"
+              android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal">
+
+
+        <ImageButton
+                android:id="@+id/ib_left"
+                style="@style/HoloButton.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:onClick="onActionsButtonClick"
+                android:scaleType="center"
+                android:src="@drawable/title_bar_menu_selector"/>
+
+        <TextView
+                android:id="@+id/current_channel"
+                style="@style/fragmentTitleBarZhTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:textColor="@color/bar_center_title_color"
+                android:maxWidth="150dp"
+                android:paddingLeft="5dip"
+                android:singleLine="true"/>
+
+        <!-- 首页推荐及订阅 -->
+        <LinearLayout
+                android:id="@+id/common_right_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+            <TextView
+                    android:id="@+id/bt_add_subscribe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:drawableLeft="@drawable/fragment_add_subscribe_button_selector"
+                    android:gravity="center"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="订阅"
+                    android:textColor="@color/bar_center_title_color"/>
+
+            <ImageButton
+                    android:id="@+id/bar_btn_share"
+                    style="@style/HoloButton.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:onClick="onClick"
+                    android:scaleType="center"
+                    android:src="@drawable/share_title_selector"
+                    android:visibility="visible"/>
+
+            <ImageButton
+                    android:id="@+id/img_btn_title_fragment_bar_search"
+                    style="@style/HoloButton.Borderless.Back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:onClick="onSearchClick"
+                    android:src="@drawable/search_btn_selector"
+                    android:visibility="visible"/>
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/btn_title_fragment_bar_edit"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/bar_center_title_color"
+                android:visibility="visible"/>
+    </LinearLayout>
+
+    <View style="@style/Bar_Horizonal_line_style"/>
+</LinearLayout>

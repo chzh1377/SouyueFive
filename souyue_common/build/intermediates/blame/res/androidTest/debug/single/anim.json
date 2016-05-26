@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\left_in.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\bundles\\debug\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\list_layut_alpha.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\bundles\\debug\\res\\anim\\list_layut_alpha.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\list_layout_controller.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\bundles\\debug\\res\\anim\\list_layout_controller.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\progress_spin.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\bundles\\debug\\res\\anim\\progress_spin.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\left_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\bundles\\debug\\res\\anim\\left_out.xml"
+    }
+]

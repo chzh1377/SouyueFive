@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_circle_inboxsetting_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/all_titlebar_bg_color"
+        >
+
+        <include layout="@layout/title_bar_ac_goback" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="投稿箱设置"
+            android:textColor="@color/white40"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_circle_inboxsetting_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/circle_inboxsetting_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="系统推荐免审"
+                android:textColor="#969193"
+                android:textSize="18sp" />
+
+            <com.zhongsou.souyue.circle.view.CheckableImageView
+                android:id="@+id/civ_circle_inbox_setting_sys_commend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/circle_inboxsetting_check_bg"
+                android:clickable="true" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#77999999" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="网友推荐免审"
+                android:textColor="#969193"
+                android:textSize="18sp" />
+
+            <com.zhongsou.souyue.circle.view.CheckableImageView
+                android:id="@+id/civ_circle_inbox_setting_user_commend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/circle_inboxsetting_check_bg"
+                android:clickable="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_im_search_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+            android:id="@+id/rl_search_head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/im_msg_search_bg"
+            >
+
+        <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textSize="17dp"
+                android:textColor="@color/im_confirm_textColor"
+                android:text="取消"/>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tv_cancel"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                >
+
+            <EditText
+                    android:id="@+id/search_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/search_edit_text_bg"
+                    android:drawableLeft="@drawable/im_search_icon"
+                    android:drawableRight="@drawable/search_edit_text_bg"
+                    android:drawablePadding="3dp"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/im_msg_search"
+                    android:imeActionLabel="搜索"
+                    android:imeOptions="actionSearch|actionUnspecified"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="@dimen/space_6"
+                    android:singleLine="true"
+                    android:textColorHint="#c1c1c1"
+                    android:textSize="@dimen/search_edit_size"/>
+
+            <ImageButton
+                    android:id="@+id/btn_search_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:padding="@dimen/space_10"
+                    android:src="@drawable/clear_icon"
+                    android:background="@null"
+                    />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+        <View style="@style/Bar_Horizonal_line_style"
+                />
+    <LinearLayout
+            android:id="@+id/im_search_ll_background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@drawable/im_msg_search_background"
+            >
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:layout_gravity="center"
+                android:background="@drawable/im_msg_search_content"
+                />
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/tv_no_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:text="没有"
+            android:textSize="16dp"
+            />
+
+    <ListView
+            android:id="@+id/search_result_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:smoothScrollbar="true"
+            android:divider="@drawable/listview_divider"
+            android:listSelector="@android:color/transparent"
+            >
+
+    </ListView>
+
+</LinearLayout>

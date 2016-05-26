@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/activityRoot"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:background="@color/white"
+    >
+
+    <include
+        android:id="@+id/xiaoqi_page"
+        layout="@layout/xiaoqi_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:visibility="gone"
+        />
+
+    <include
+        layout="@layout/loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <include
+        layout="@layout/nosearchresult"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        />
+    <!--begin titlebar -->
+    <LinearLayout
+        android:id="@+id/srp_bar_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        >
+
+        <ViewStub
+            android:id="@+id/srp_bar_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout="@layout/titlebar_srp_toac"
+            />
+
+        <ViewStub
+            android:id="@+id/srp_bar_supershare_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/titlebar_srp_supershare"
+            />
+
+        <ViewStub
+            android:id="@+id/srp_bar_cm_supershare_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/titlebar_srp_cm_supershare"
+            />
+
+        <ViewStub
+            android:id="@+id/srp_bar_cm_super_search_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/titlebar_srp_memagame_super_search"
+            />
+    </LinearLayout>
+    <!--end titlebar -->
+
+    <View
+        android:id="@+id/view_translucent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_3g"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/srp_bar_root"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <com.zhongsou.souyue.circle.view.PagerSlidingTabStrip
+                android:id="@+id/circle_index_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#f2f2f2"
+                app:pstsDividerColor="#F2F2F2"
+                app:pstsIndicatorColor="#3774A3"
+                app:pstsIndicatorHeight="2.5dp"
+                app:pstsScrollOffset="150dp"
+                app:pstsTabPaddingLeftRight="10dp"
+                />
+
+            <com.zhongsou.souyue.ui.ViewPagerWithTips
+                android:id="@+id/vp_srp_pages"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ffffff"
+                />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/rl_longteng_ad"
+            layout="@layout/longteng_led_item"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:visibility="gone"
+            />
+
+        <include
+            android:id="@+id/web_webview_bottom_bar"
+            layout="@layout/webview_bottom_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="im_i_text_color_right">#868686</color>
+    <color name="im_i_text_color">#4a4a4a</color>
+    <color name="im_alert_text_color">#7e7e7e</color>
+    <color name="im_chat_text_color">#ff575757</color>
+    <color name="im_coin_bg_color">#ffcacdcd</color>
+    <color name="im_noresult_text_color">#ff7e7e7e</color>
+    <color name="im_validator">#ff91b9fa</color>
+    <color name="gray_chat_group">#bfbfbf</color>
+    <color name="im_textColorLink">#007AFF</color>
+    <color name="im_file_state">#0099FF</color>
+    <color name="im_file_size">#7e7e7e</color>
+    <color name="im_file_name">#282828</color>
+</resources>

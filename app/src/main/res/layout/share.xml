@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/share_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/titlebar_share_toac" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/share_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <FrameLayout
+            android:id="@+id/flPic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#00ffffff"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/image_background" />
+
+            <ImageView
+                android:id="@+id/ivDelPic"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:src="@drawable/del_pic" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/share_bottom"
+        android:layout_below="@id/share_top"
+        android:layout_margin="3dp"
+        android:background="@null"
+        android:gravity="top|left"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:isScrollContainer="true" />
+
+    <TextView
+        android:id="@+id/tv_text_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:drawableRight="@drawable/weibo_clear"
+        android:gravity="center"
+        android:text="@string/word_limit"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+</RelativeLayout>

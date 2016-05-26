@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/ll_com_dialog_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:id="@+id/ll_com_dialog_layoutmsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@drawable/bg_common_dialog_top_bg"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20">
+
+            <TextView
+                    android:id="@+id/tv_com_dialog_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/relogin_highlight_text"
+                    android:layout_marginBottom="8dp"
+                    android:text="重新登录"/>
+            <LinearLayout
+                    android:id="@+id/ll_com_dialog_contentview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:id="@+id/tv_com_dialog_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/my_nologin_desc_font_color"
+                        />
+
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+                android:id="@+id/iv_comm_dialog_middle_line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:src="@color/white"/>
+        <LinearLayout
+                android:id="@+id/ll_tv_com_dialog_bottomLayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_common_dialog_bottom">
+            <!--<Button android:id="@+id/bt_com_dialog_ensure"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="46dp"-->
+                    <!--android:background="@drawable/btn_common_dialog_left"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="确定"-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:textColor="@color/relogin_highlight_text"/>-->
+
+            <!--<Button android:id="@+id/bt_com_dialog_cancel"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="46dp"-->
+                    <!--android:background="@drawable/btn_common_dialog_right"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="重新登录"-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:textColor="@color/relogin_highlight_text"/>-->
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

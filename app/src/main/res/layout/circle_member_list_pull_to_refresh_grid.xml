@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/discover_bg"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <include layout="@layout/circle_member_titlebar" android:id="@+id/layout_title"/>
+    <View style="@style/Bar_Horizonal_line_style"
+            />
+    <RelativeLayout
+            android:id="@+id/relayout_all"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_47"
+            android:background="@color/im_msg_search"
+            >
+        <View android:layout_alignParentBottom="true" style="@style/Bar_Horizonal_line_style"
+                />
+
+        <EditText
+                android:id="@+id/circle_member_list_et"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/space_30"
+                android:layout_margin="@dimen/space_10"
+                android:background="@drawable/search_edit_text_bg"
+                android:drawableLeft="@drawable/im_search_icon"
+                android:drawablePadding="@dimen/space_3"
+                android:hint="圈成员昵称"
+                android:layout_centerVertical="true"
+                android:imeActionLabel="完成"
+                android:imeOptions="actionDone"
+                android:paddingRight="@dimen/space_10"
+                android:paddingLeft="@dimen/space_6"
+                android:singleLine="true"
+                android:textColorHint="#cccccc"
+                android:textSize="@dimen/search_edit_size"/>
+
+        <ImageView
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/space_10"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/space_10"
+                android:src="@drawable/clear_icon"
+                />
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/circle_admin_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/space_40"
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_marginRight="@dimen/space_10"
+            android:gravity="center_vertical"
+            android:text="长按圈成员头像可对圈成员进行操作"
+            android:textColorHint="#afafaf"
+            android:textSize="@dimen/text_size_10"/>
+
+    <TextView
+            android:id="@+id/circle_noresult_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/space_40"
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_marginRight="@dimen/space_10"
+            android:gravity="center"
+            android:textColorHint="@color/im_line_color"
+            android:textSize="@dimen/text_size_22"/>
+
+    <LinearLayout
+            android:id="@+id/layout_all"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/space_20"
+            android:layout_marginBottom="@dimen/space_20"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/space_11"
+            android:paddingRight="@dimen/space_11">
+
+        <com.zhongsou.souyue.circle.view.CircleMemberListPullToRefreshGridView
+                xmlns:ptr="http://schemas.android.com/apk/res/com.zhongsou.souyue"
+                android:id="@+id/pull_refresh_grid"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:columnWidth="@dimen/space_80"
+                android:gravity="fill"
+                android:horizontalSpacing="@dimen/space_12"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/space_12"
+                ptr:mode1="pullUpFromBottom"/>
+    </LinearLayout>
+</LinearLayout>

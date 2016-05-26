@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_cricle_pics"
+
+
+>
+    <TextView
+            android:id="@+id/tv_cricle_create_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="2014-8-21"
+            android:textColor="@color/cricle_source_date_color"
+            android:textSize="12sp"
+            android:layout_alignTop="@+id/rl_cricle_good_btn"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"/>
+    <TextView
+            android:id="@+id/tv_cricle_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="作者"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/cricle_source_date_color"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/tv_cricle_create_time"/>
+    <TextView
+            android:id="@+id/tv_cricle_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="腾讯"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/cricle_source_date_color"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/tv_cricle_nickname"/>
+
+
+    <TextView
+            android:id="@+id/tv_cricle_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/cricle_list_item_good_icon"
+            android:text="顶"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/cricle_source_date_color"
+            android:textSize="12sp"
+            android:layout_gravity="bottom"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_cricle_follow"
+            android:background="@drawable/bg_home_selector_list_button"/>
+
+    <TextView
+            android:id="@+id/tv_cricle_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:layout_alignBaseline="@+id/tv_cricle_good"
+            android:layout_alignBottom="@+id/tv_cricle_good"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/cricle_list_item_follow_icon"
+            android:drawablePadding="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="跟帖"
+            android:textColor="@color/cricle_source_date_color"
+            android:textSize="12sp"
+            android:background="@drawable/bg_home_selector_list_button"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"/>
+
+    <TextView
+            android:id="@+id/tv_add_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@id/tv_cricle_follow"
+            android:text="+1"
+            android:textColor="#A24040"
+            android:textSize="12sp"
+            android:visibility="invisible"
+    />
+
+</RelativeLayout>

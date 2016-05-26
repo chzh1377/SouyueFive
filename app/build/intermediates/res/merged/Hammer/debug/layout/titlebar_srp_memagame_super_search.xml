@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spr_title_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/zh_ac_all_title_bg_red">
+
+    <LinearLayout
+        android:id="@+id/srp_goback_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true">
+
+        <include layout="@layout/title_bar_ac_goback" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/srp_title_right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <include layout="@layout/title_bar_ac_share" />
+
+        <include layout="@layout/title_bar_ac_txtbtn" />
+    </LinearLayout>
+    <!--<include layout="@layout/title_bar_ac_title"/>-->
+    <TextView
+        android:id="@+id/activity_bar_title"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toLeftOf="@+id/srp_title_right_layout"
+        android:layout_toRightOf="@+id/srp_goback_layout"
+        android:background="@drawable/zh_ac_title_super_image"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:minHeight="48dip"
+        android:singleLine="true"
+        android:textColor="@color/title_text_color"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_left"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:tag="front">
+
+    <FrameLayout
+        android:id="@+id/row_iv_image_layout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/row_iv_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/default_head"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/row_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@+id/row_btn_add"
+        android:layout_toRightOf="@+id/row_iv_image_layout"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="新的朋友"
+        android:textColor="#282828"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/row_btn_add"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/im_add_friend"
+        android:focusable="false"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+    <RelativeLayout
+            android:id="@+id/self_create_titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:background="@color/all_titlebar_bg_color">
+    <ImageButton
+            android:id="@+id/goBack"
+            style="@style/HoloButton.Borderless.Back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:onClick="onGoBackClick"
+            android:scaleType="center"
+            android:src="@drawable/goback_button_selector"/>
+    <RelativeLayout
+            android:id="@+id/layout_selfCreateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/goBack"
+            android:onClick="onPopClick">
+
+        <TextView
+                android:id="@+id/group_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxWidth="150dp"
+                android:singleLine="true"
+                android:text="浏览历史"
+                android:textColor="@color/bar_center_title_color"
+                android:textSize="18sp"/>
+
+        <ImageView
+                android:id="@+id/selfCreate_titlelogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/group_text"
+                android:src="@drawable/self_create_title_arrow"/>
+    </RelativeLayout>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tv_clear"
+                  android:text="清空"
+                  android:layout_marginRight="10dip"
+                  android:textColor="@color/bar_center_title_color"
+                  android:textSize="18sp"
+                  android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        <View style="@style/Bar_Horizonal_line_style"
+              android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <include
+            layout="@layout/loading"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@color/discover_bg">
+
+        <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+                android:id="@+id/history_list"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:divider="#f2f2f2"
+                android:dividerHeight="1dp"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:listSelector="#00000000"
+                android:scrollingCache="true"
+                android:smoothScrollbar="true"/>
+
+        <TextView
+                android:id="@+id/selfcreate_nodata"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#9c9c9c"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+        <TextView
+                android:id="@+id/self_create_layout_disable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/half_transparent"
+                android:visibility="gone"/>
+    </FrameLayout>
+
+</LinearLayout>

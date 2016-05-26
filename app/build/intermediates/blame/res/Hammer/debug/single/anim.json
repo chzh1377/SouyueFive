@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_out_left.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_out_left.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\trade_slide_out_to_top.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\trade_slide_out_to_top.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\im_alert_anim_enter.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\im_alert_anim_enter.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shrink_from_topleft_to_bottomright.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shrink_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\manager_grid_out_anim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\manager_grid_out_anim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shareswindow_in_up_anim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shareswindow_in_up_anim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\push_up_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\push_up_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\ent_slide_up.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\ent_slide_up.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_in_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_out_scale_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_out_scale_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\trade_slide_in_from_top.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\trade_slide_in_from_top.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\push_down_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\push_down_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\scale_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\scale_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\grow_from_bottomleft_to_topright.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\grow_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\slide_out_top.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_dispear.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_dispear.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\ad_bottom_in.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\ad_bottom_in.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_enter_from_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_enter_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\list_layut_alpha.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\list_layut_alpha.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shrink_from_bottomleft_to_topright.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shrink_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shareswindow_out_up_anim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shareswindow_out_up_anim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\slide_out_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_in_left.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_in_left.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\chatwindow_in_anim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\chatwindow_in_anim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\scale_dialog_enter.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\scale_dialog_enter.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\sub_refresh_rotateanim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\sub_refresh_rotateanim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\progress_spin.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\progress_spin.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\left_in.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_in_scale_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_in_scale_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\right_in.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\right_in.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\taskcenter_popwindow_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\taskcenter_popwindow_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\grow_from_top.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\grow_from_top.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\im_list_item_remove_anim_right.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\im_list_item_remove_anim_right.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\ent_slide_down.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\ent_slide_down.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\slide_in_top.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\scale_dialog_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\scale_dialog_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\im_list_item_remove_anim_left.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\im_list_item_remove_anim_left.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\list_layout_controller.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\list_layout_controller.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\spinner.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\spinner.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\grow_from_topleft_to_bottomright.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\grow_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_out_scale.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_out_scale.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_out_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\push_up_in.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\push_up_in.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\menu_up.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\menu_up.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\left_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\left_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\suberlist_inputodown.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\suberlist_inputodown.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\trade_slide_out_to_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\trade_slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_exit_from_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_exit_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shrink_from_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shrink_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\addone.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\addone.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\ad_up_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\ad_up_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\anim_in_scale.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\anim_in_scale.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\chatwindow_out_anim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\chatwindow_out_anim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\im_alert_anim_exit.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\im_alert_anim_exit.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\manager_grid_in_anim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\manager_grid_in_anim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shrink_from_top.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shrink_from_top.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\slide_in_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shareswindow_out_anim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shareswindow_out_anim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\viewflipper_in.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\viewflipper_in.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\trade_slide_in_from_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\trade_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\fade_in_center.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\fade_in_center.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\fade_out_center.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\fade_out_center.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shareswindow_in_anim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shareswindow_in_anim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\right_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\suberlist_outdowntoup.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\suberlist_outdowntoup.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\grow_from_bottomright_to_topleft.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\grow_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shrink_from_topright_to_bottomleft.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shrink_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\grow_from_topright_to_bottomleft.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\grow_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\shrink_from_bottomright_to_topleft.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\shrink_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\viewflipper_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\viewflipper_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\grow_from_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\grow_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\anim\\taskcenter_popwindow_in.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\anim\\taskcenter_popwindow_in.xml"
+    }
+]

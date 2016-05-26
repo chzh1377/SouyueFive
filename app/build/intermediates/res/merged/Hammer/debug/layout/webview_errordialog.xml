@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/webview_dialog_bg"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/webview_dialog_bg" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/webview_dialog_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="148dp" -->
+        <!-- android:orientation="horizontal" > -->
+
+        <Button
+            android:id="@+id/webview_errordialog_btnRefresh"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@drawable/btn_webview_errordialog_refresh"
+            android:onClick="webview_errordialog_btnRefresh" />
+
+        <Button
+            android:id="@+id/webview_errordialog_btnClose"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_webview_errordialog_close"
+            android:onClick="webview_errordialog_btnClose" />
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/webview_errordialog_btnRefresh" -->
+        <!-- android:layout_width="100dp" -->
+        <!-- android:layout_height="35dp" -->
+        <!-- android:background="@drawable/btn_webview_errordialog" -->
+        <!-- android:gravity="center_horizontal" -->
+        <!-- android:orientation="horizontal" > -->
+
+
+        <!-- <ImageView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center_vertical" -->
+        <!-- android:src="@drawable/webview_dialog_icon_refresh" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="5dp" -->
+        <!-- android:text="刷新" -->
+        <!-- android:textColor="#38a2e5" -->
+        <!-- android:textSize="14sp" /> -->
+        <!-- </LinearLayout> -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/webview_errordialog_btnClose" -->
+        <!-- android:layout_width="100dp" -->
+        <!-- android:layout_height="35dp" -->
+        <!-- android:layout_marginLeft="20dp" -->
+        <!-- android:background="@drawable/btn_webview_errordialog" -->
+        <!-- android:gravity="center_horizontal" -->
+        <!-- android:orientation="horizontal" > -->
+
+
+        <!-- <ImageView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center_vertical" -->
+        <!-- android:src="@drawable/webview_dialog_icon_close" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="5dp" -->
+        <!-- android:text="关闭" -->
+        <!-- android:textColor="#38a2e5" -->
+        <!-- android:textSize="14sp" /> -->
+        <!-- </LinearLayout> -->
+        <!-- </LinearLayout> -->
+
+    </LinearLayout>
+
+</RelativeLayout>

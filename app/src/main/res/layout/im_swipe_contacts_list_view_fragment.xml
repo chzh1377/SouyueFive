@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_contacts_swipe_list" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/list_item_bg_color_normal">
+        <!-- <com.zhongsou.souyue.view.contacts.NetSwipeListView
+            android:id="@+id/example_lv_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="#00000000"
+            swipe:swipeBackView="@+id/back"
+            swipe:swipeCloseAllItemsWhenMoveList="true"
+            swipe:swipeFrontView="@+id/front"
+            swipe:swipeMode="both"
+            android:cacheColorHint="@color/transparent" /> -->
+
+        <com.zhongsou.souyue.im.view.SwipeListView
+            android:id="@+id/example_lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/im_listdriver_color"
+            android:dividerHeight="0.5dp"
+            android:focusableInTouchMode="true"
+            swipe:right_width="80dp" />
+
+        <com.zhongsou.souyue.im.view.AlphaSideBar
+            android:id="@+id/alphaView"
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_marginTop="40dp"
+            android:background="@color/transparent" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_window"
+                android:background="@drawable/im_show_head_toast_bg"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:maxWidth="70dip"
+                android:minWidth="70dip"
+                android:padding="10dip"
+                android:textColor="@android:color/white"
+                android:textSize="50sp" />
+
+    </FrameLayout>
+</LinearLayout>

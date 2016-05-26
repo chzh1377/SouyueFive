@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar_onlytitle_toac" />
+
+    <RelativeLayout
+        android:id="@+id/rl_my_sex_layout_male"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/im_line_height"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/im_item_selector"
+        >
+        <TextView
+            style="@style/my_info_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/my_info_sex_male_icon"
+            android:text="@string/my_info_sex_male" />
+        <ImageView
+            android:id="@+id/iv_my_sex_male"
+            style="@style/my_info_right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/my_info_sex_normal_icon"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_my_sex_layout_female"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/im_line_height"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/im_item_selector" >
+
+        <TextView
+            style="@style/my_info_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/my_info_sex_female_icon"
+            android:text="@string/my_info_sex_female" />
+
+        <ImageView
+            android:id="@+id/iv_my_sex_female"
+            style="@style/my_info_right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_info_sex_normal_icon" />
+    </RelativeLayout>
+</LinearLayout>

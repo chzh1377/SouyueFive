@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="230dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="请输入中搜币数量"
+            android:textColor="#282828"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/login_edit_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="26dp"
+                android:layout_height="24dp"
+                android:background="@drawable/coin" />
+
+            <EditText
+                android:id="@+id/ask_for_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:inputType="number"
+                android:maxLength="9"
+                android:textColor="#7e7e7e"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="中搜币"
+                android:textColor="#7e7e7e"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ask_for_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_blue_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/create_org_menu" />
+
+        <TextView
+            android:id="@+id/ask_for_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/btn_gray_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/dialog_cancel"
+            android:textColor="#686868"
+            android:textSize="@dimen/create_org_menu" />
+    </LinearLayout>
+
+</RelativeLayout>

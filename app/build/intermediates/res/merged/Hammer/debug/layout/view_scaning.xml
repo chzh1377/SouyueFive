@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+ Copyright (C) 2008 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/relayout_scanning"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="visible">
+
+
+    <RelativeLayout
+            android:id="@+id/relayout_view_scanning_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/all_titlebar_bg_color">
+
+        <ImageButton
+                android:id="@+id/goback"
+                style="@style/HoloButton.Borderless.Back"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentLeft="true"
+                android:onClick="onGoBackClick"
+                android:scaleType="center"
+                android:src="@drawable/goback_button_selector"/>
+
+        <TextView
+                android:id="@+id/group_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/goback"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxWidth="150dp"
+                android:singleLine="true"
+                android:text="@string/scan_qr"
+                android:textColor="@color/bar_center_title_color"
+                android:textSize="20sp"/>
+    </RelativeLayout>
+
+
+    <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/relayout_view_scanning_title"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:visibility="visible"/>
+
+    <com.zhongsou.souyue.qrdecoding.ViewfinderView
+            android:id="@+id/viewfinder_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relayout_view_scanning_title"
+            android:background="@android:color/transparent"/>
+
+  <!--   <TextView
+            android:id="@+id/scan_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/green_line"
+            android:visibility="gone"/> -->
+   <TextView
+            android:id="@+id/scan_qr_nonet"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/scan_qr_nonet"
+            android:textColor="@color/white"
+            android:layout_below="@id/relayout_view_scanning_title"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:visibility="gone"
+            />
+
+    <TextView
+            android:id="@+id/status_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent"
+            android:layout_below="@id/relayout_view_scanning_title"
+            android:layout_marginTop="50dp"
+            android:text="@string/msg_default_status"
+            android:layout_marginBottom="@dimen/space_10"
+            android:textColor="@color/white"/>
+
+    <!-- <LinearLayout android:layout_width="191dp"
+                   android:layout_height="44dp"
+                   android:layout_centerHorizontal="true"
+                   android:gravity="center"
+                   android:layout_marginTop="@dimen/space_20"
+                   android:layout_alignParentBottom="true"
+                   android:onClick="btnScaning_SelectImg"
+                   android:layout_marginBottom="50dp"
+                   android:orientation="horizontal"
+                   android:background="@drawable/btn_erweima_selector">
+
+         <ImageView android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/icon_ewm"/>
+
+         <TextView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="识别图片中的二维码"
+                   android:textColor="@color/txt_Scaning_selectImg"
+                   android:textSize="@dimen/text_size_14"
+                   android:layout_marginLeft="@dimen/space_8"/>
+
+     </LinearLayout>-->
+
+    <Button android:id="@+id/btnScaning_SelectImg"
+            android:layout_width="191dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="@dimen/space_20"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:onClick="btnScaning_SelectImg"
+            android:background="@drawable/btn_erweima_selector"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>

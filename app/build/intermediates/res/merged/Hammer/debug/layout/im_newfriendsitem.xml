@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/item_left"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:tag="front">
+
+        <FrameLayout
+            android:id="@+id/row_iv_image_layout"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/row_iv_image"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/default_head"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:scaleType="fitXY"
+                 />
+            <!--android:src="@drawable/im_friends_head_roundbg"-->
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/contacts_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@+id/row_btn_add"
+            android:layout_toRightOf="@+id/row_iv_image_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/row_tv_name"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:ellipsize="end"
+                android:gravity="bottom|left"
+                android:singleLine="true"
+                android:textColor="@color/plaza_item_title_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/row_tv_message"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:ellipsize="end"
+                android:gravity="top|left"
+                android:singleLine="true"
+                android:textColor="@color/im_phoneno_text_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/row_btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical|right"
+            android:minWidth="75dip"
+            android:padding="5dp"
+            android:textColor="@color/im_friends_operation_text_color"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:tag="back">
+
+        <Button
+            android:id="@+id/row_btn_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="#ee0000"
+            android:focusable="false"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

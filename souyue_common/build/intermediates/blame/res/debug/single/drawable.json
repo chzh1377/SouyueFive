@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_dialog_bottom_press.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\bg_common_dialog_bottom_press.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_common_dialog_left.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\btn_common_dialog_left.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_dialog_top_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\bg_common_dialog_top_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_common_dialog_all.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\btn_common_dialog_all.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_dialog_left_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\bg_common_dialog_left_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_dialog_right_press.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\bg_common_dialog_right_press.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_dialog_window.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\bg_common_dialog_window.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_dialog_bottom_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\bg_common_dialog_bottom_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_dialog_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\bg_common_dialog_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_dialog_left_press.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\bg_common_dialog_left_press.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_dialog_right_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\bg_common_dialog_right_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_common_dialog_right.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\drawable\\btn_common_dialog_right.xml"
+    }
+]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="first_leader_centerimage_margintop">130dp</dimen>
+    <dimen name="first_leader_pageone_ball_size">230dp</dimen>
+    <dimen name="first_leader_pagetwo_character_height">180dp</dimen>
+</resources>

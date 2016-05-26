@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:fillViewport="true"
+            android:gravity="center"
+            android:scrollbars="none">
+    <LinearLayout
+            android:id="@+id/im_chat_text_pop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="26dp"
+            android:gravity="center">
+        <TextView
+                android:id="@+id/chat_pop_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="999999"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
+

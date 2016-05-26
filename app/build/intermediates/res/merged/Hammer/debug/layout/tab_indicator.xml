@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/indicator_container"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@color/common_bg"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingBottom="3dp"
+                >
+    <ImageView android:layout_width="match_parent" android:layout_height="0.5dp"
+          android:background="@color/homepage_bottomline_color"
+               >
+
+    </ImageView>
+    <ImageView
+            android:id="@+id/icon"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:id="@+id/title"
+            style="?android:attr/tabWidgetStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:textSize="12sp"
+            android:gravity="top"
+            android:textColor="@drawable/tabitem_txt_sel"/>
+
+    <ImageView
+            android:id="@+id/small_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/im_chat_red_point_icon"
+            android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:id="@+id/ll_cricle_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="6dp">
+
+        <!-- 标题区 -->
+        <!-- <include layout="@layout/cricle_list_item_title" /> -->
+
+        <!-- 标题 -->
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="@dimen/space_10"
+                android:layout_toLeftOf="@+id/image"
+                android:clickable="false"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="阿斯顿发送到发的说法是打发的说法是打飞机男男女女男男女女男男女女男男女女男男女女"
+                android:singleLine="false"
+                android:lineSpacingMultiplier="1.0"
+                android:textColor="@color/color_srp_title"
+                android:textSize="@dimen/souyue_all_middle"
+                />
+        <TextView
+                android:id="@+id/tv_home_hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:clickable="false"
+                android:text="@string/home_hot_sign"
+                android:layout_marginLeft="@dimen/space_1"
+                style="@style/home_rect_red_style"
+                android:textSize="@dimen/souyue_all_middle"
+                />
+
+        <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/default_small"
+                android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+    <!-- 概要 -->
+    <!-- 列表底部布局 -->
+    <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/home_listitem_bottom"
+            android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>

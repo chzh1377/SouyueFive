@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+            android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/suber_search"
+        android:orientation="horizontal" >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/mysuberlist_search_edittext_icon" />
+
+        <EditText
+            android:id="@+id/et_seach"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="搜索订阅任意主题"
+            android:singleLine="true"
+            android:layout_marginLeft="8dip"
+            android:textColor="@color/info_text_color"
+            android:focusable="false"
+            android:textColorHint="@color/im_already_isfriend"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dip"
+            android:src="@drawable/suberlist_delete" >
+        </ImageView>
+    </LinearLayout>
+
+    <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+            android:id="@+id/pull_refresh_grid"
+            android:listSelector="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="152dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dip"
+            android:columnWidth="148dp"
+            android:scrollbars="none"
+            android:horizontalSpacing="10dp"
+            android:numColumns="1"
+            android:divider="@android:color/white"
+            android:dividerHeight="10dp"
+            >
+    </com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView>
+
+</LinearLayout>

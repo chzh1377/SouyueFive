@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/taskcenter_all_bg">
+
+    <TextView
+            android:id="@+id/taskcenter_all_txtMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_marginRight="@dimen/space_10"
+            android:layout_marginTop="@dimen/space_20"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/white40"
+            android:textSize="@dimen/text_size_16"/>
+
+    <RelativeLayout
+            android:id="@+id/taskcenter_all_bottomLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taskcenter_all_txtMsg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/space_15">
+
+        <ImageView
+                android:id="@+id/taskcenter_all_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/taskcenter_coin"
+                android:layout_centerVertical="true"/>
+
+        <TextView
+                android:id="@+id/taskcenter_all_txtCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/taskcenter_all_coin"
+                android:singleLine="true"
+                android:textColor="#fff7c1"
+                android:textSize="@dimen/text_size_18"/>
+
+        <ImageView
+                android:id="@+id/taskcenter_all_points"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_15"
+                android:layout_toRightOf="@id/taskcenter_all_txtCoin"
+                android:src="@drawable/taskcenter_points"/>
+
+        <TextView
+                android:id="@+id/taskcenter_all_txtPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/taskcenter_all_points"
+                android:singleLine="true"
+                android:textColor="#fff7c1"
+                android:textSize="@dimen/text_size_18"/>
+    </RelativeLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="@dimen/space_20"
+              android:layout_below="@+id/taskcenter_all_bottomLayout"/>
+
+</RelativeLayout>

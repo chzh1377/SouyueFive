@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/titlebar_onlytitle_toac" />
+
+    <EditText
+        android:id="@+id/search_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/top"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_edit_text_bg"
+        android:drawableLeft="@drawable/im_search_icon"
+        android:drawablePadding="2dp"
+        android:hint="@string/please_input_interest_name"
+        android:imeActionLabel="搜索"
+        android:imeOptions="actionSearch|actionUnspecified"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColorHint="#cccccc"
+        android:textSize="@dimen/search_edit_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_edit"
+        android:background="@color/background_color">
+
+        <ListView
+            android:id="@+id/listView"
+            style="@style/CommonListviewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom"
+            android:layout_gravity="center_horizontal"
+
+            android:divider="@drawable/listview_divider" />
+
+        <RelativeLayout
+            android:id="@+id/bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/circle_selected_listview_bold">
+
+            <com.zhongsou.souyue.view.HorizontalListView
+                android:id="@+id/horizon_listview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/invite_confirm_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/horizon_listview"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_member_im_invite_bg"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="发送(1)"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

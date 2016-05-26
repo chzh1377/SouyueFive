@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    >
+    <!-- android:background="@color/cricle_list_bg_color" -->
+
+    <include
+        layout="@layout/circle_single_list_header"
+        android:visibility="gone" />
+
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+    <!--  下拉刷新ListView -->
+    <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+        android:id="@+id/lv_cricle_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/listview_divider"
+        android:listSelector="@color/cricle_list_normal_bg_color"
+        android:fastScrollEnabled="false"
+        android:scrollingCache="true"
+        android:smoothScrollbar="true"
+    />
+        <!-- android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/listview_divider"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:listSelector="#ffe4e4e4"
+        android:scrollbars="vertical"
+        android:scrollingCache="true"
+        android:smoothScrollbar="true" /> -->
+        <include layout="@layout/loading" />
+    </FrameLayout>
+
+    <ImageButton
+            android:id="@+id/btn_new"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginRight="11dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/new_weibo_selector" />
+</RelativeLayout>

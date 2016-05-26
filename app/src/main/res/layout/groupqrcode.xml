@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:background="#EDEDED"
+              android:layout_height="match_parent">
+    <include layout="@layout/imtitlebar"
+            android:id="@+id/title"></include>
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_below="@id/title"
+                        android:id="@+id/forshoot"
+                        android:background="#EDEDED"
+                        android:layout_above="@+id/share_bottom"
+                        android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="39dp"
+            android:src="@drawable/default_head"
+            android:id="@+id/image"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/image"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:textColor="#282828"
+            android:textSize="16sp"
+            android:lines="2"
+            android:id="@+id/groupname"
+            android:layout_marginLeft="15dp"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/image"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupname"
+            android:layout_marginTop="1dp"
+            android:textColor="#7E7E7E"
+            android:id="@+id/groupnumber"
+            android:textSize="14sp"
+            android:layout_marginLeft="15dp"
+            />
+
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginBottom="15dip"
+            android:orientation="vertical"
+            android:layout_below="@id/image">
+        <ImageView
+                android:id="@+id/iv_two_dimen_code_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="使用搜悦“扫一扫”加入群聊"
+                android:textColor="#8A8A8A"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+    </LinearLayout>
+        </RelativeLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/share_bottom"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            >
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/groupqrcode_selector"
+                android:id="@+id/sharetofriend"
+
+                >
+            <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分享给好友"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/tv_sharetofriend"
+                    />
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="-20dp"
+                    android:src="@drawable/sharetofriend"
+                    android:layout_alignLeft="@id/tv_sharetofriend"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/re_savetocard"
+                android:background="@drawable/groupqrcode_selector"
+                android:layout_weight="1">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="保存到相册"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/tv_savetosdcard"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/savetosdcard"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_alignLeft="@id/tv_savetosdcard"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/background_color"
+              android:orientation="vertical">
+
+    <include layout="@layout/circle_titlebar_publish"/>
+    <View style="@style/Bar_Horizonal_line_style"/>
+    <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@color/background_color"
+            android:gravity="center_vertical"
+            android:hint="@string/self_title_input_1"
+            android:maxHeight="30dp"
+            android:maxLength="32"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textColor="#4a4a4a"
+            android:textColorHint="#bfbfbf"
+            android:textSize="16sp"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/listview_divider"/>
+
+    <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/background_color"
+            android:gravity="top"
+            android:hint="@string/self_content_input"
+            android:maxHeight="150dp"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textColor="#4a4a4a"
+            android:textColorHint="#bfbfbf"
+            android:textSize="16sp">
+
+        <requestFocus/>
+    </EditText>
+
+    <View
+            android:id="@+id/view_friend_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/listview_divider"
+            android:visibility="gone"/>
+
+    <LinearLayout
+            android:id="@+id/layout_friend"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F2F3F2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:text="提醒查看@："
+                android:textColor="#7e7e7e"
+                android:textSize="14sp"/>
+
+        <com.zhongsou.souyue.ui.HorizontalListView
+                android:id="@+id/friend_list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/listview_divider"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#f9f9f9"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:id="@+id/sel_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/circle_posts_publish_friend"
+                android:padding="5dp"/>
+
+        <ImageButton
+                android:id="@+id/sel_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/circle_posts_publish_photo"
+                android:padding="5dp"/>
+
+        <LinearLayout
+                android:id="@+id/ll_pics"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1">
+
+            <com.zhongsou.souyue.ui.HorizontalListView
+                    android:id="@+id/bolg_gallery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/tv_childcount"
+                android:layout_width="56dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/piccount_bg"
+                android:gravity="center"
+                android:text="0/9"
+                android:textColor="#6B6B6B"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+
+        <Button
+                android:id="@+id/tv_send"
+                android:layout_width="55dp"
+                android:layout_height="32dp"
+                android:text="发送"
+                android:background="@drawable/btn_blue_bg"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_15"/>
+    </LinearLayout>
+
+
+</LinearLayout>

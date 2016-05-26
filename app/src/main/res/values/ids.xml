@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- dynamic -->
+    <item name="dynamic_grid_wobble_tag" type="id"/>
+    <item name="title_activity_bar_included" type="id"/>
+    <item name="title_fragment_bar_included" type="id"/>
+    <item name="selected_view" type="id"/>
+    <item name="tag_second" type="id"></item>
+    <item name="tag_first" type="id"></item>
+    <item name="s_type_xiaoqi" type="id"></item>
+
+    <!-- Messages IDs -->
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decodeImg_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="selectimg_to_decoding" type="id"/>
+    <item name="get_decoding_result" type="id"/>
+
+    <!-- im dialog ids -->
+    <item name="im_dialog_edit" type="id"/>
+    <item name="im_dialog_ok" type="id"/>
+    <item name="im_dialog_cancel" type="id"/>
+    <item name="im_dialog_title" type="id"/>
+    <item name="im_dialog_msg" type="id"/>
+    <item name="im_contact_dialog_ok" type="id"/>
+
+    <!-- im note name -->
+    <item name="im_edit_notename" type="id"/>
+
+    <!-- im i -->
+    <item name="im_user_info" type="id"/>
+    <item name="im_user_info_head" type="id"/>
+    <item name="im_user_info_name" type="id"/>
+    <item name="im_user_name" type="id"/>
+    <item name="im_user_info_favorite" type="id"/>
+    <item name="im_user_info_selfcreate" type="id"/>
+    <item name="im_user_info_comment" type="id"/>
+    <item name="im_user_info_movement" type="id"/>
+    <item name="im_user_info_selfcard" type="id"/>
+    <item name="im_user_info_selfcoupon" type="id"/>
+    <item name="im_user_info_settingsecurity" type="id"/>
+    <item name="ent_user_self_consume" type="id"/>
+    <item name="im_user_info_selfentcomment" type="id"/>
+    <item name="im_user_info_zsbmall" type="id"/>
+    <item name="im_btn_logout" type="id"/>
+    <!-- im friend info -->
+    <item name="im_friend_yuan_img" type="id"/>
+    <item name="im_friend_item_title" type="id"/>
+    <item name="im_friend_item_btn" type="id"/>
+    <item name="im_friend_item_head" type="id"/>
+    <item name="im_friend_item_name" type="id"/>
+    <item name="im_friend_item_nickname" type="id"/>
+    <item name="im_friend_progress" type="id"/>
+    <item name="im_friend_null" type="id"/>
+    <item name="im_friend_yuan_item" type="id"/>
+
+    <!-- im alert -->
+    <item name="im_alert_ids_send" type="id"/>
+    <item name="im_alert_ids_del" type="id"/>
+    <item name="im_alert_ids_bz" type="id"/>
+
+    <!-- im friend info -->
+    <item name="im_friend_ids_line" type="id"/>
+    <item name="im_progress_dialog_icon" type="id"/>
+    <item name="im_progress_dialog_msg" type="id"/>
+    <!-- im list adapter -->
+    <item name="msg_adapter_item_position" type="id"/>
+    <item name="msg_adapter_item_render" type="id"/>
+    <item name="msg_adapter_item_view_holder" type="id"/>
+    <item name="msg_adapter_item_time" type="id"/>
+    <item name="msg_adapter_item_unread" type="id"/>
+    <item name="msg_adapter_item_head" type="id"/>
+    <item name="msg_adapter_item_failed" type="id"/>
+    <item name="msg_adapter_item_sending" type="id"/>
+    <item name="msg_adapter_item_user_name" type="id"/>
+    <item name="msg_adapter_item_checkbox" type="id"/>
+
+    <!-- SlotMachine -->
+    <item name="slot_btn_exit" type="id"/>
+    <item name="slot_btn_start" type="id"/>
+    <item name="slot_btn_chongzhi" type="id"/>
+    <item name="slot_btn_suoyao" type="id"/>
+    <item name="slot_btn_rule" type="id"/>
+    <item name="slot_btn_minus" type="id"/>
+    <item name="slot_btn_plus" type="id"/>
+    <item name="slot_btn_exchange" type="id"/>
+    <item name="slot_btn_mute" type="id"/>
+    <item name="slot_wheel_lottey_left" type="id"/>
+    <item name="slot_wheel_lottey_middle" type="id"/>
+    <item name="slot_wheel_lottey_right" type="id"/>
+    <item name="slot_wheel_count_left" type="id"/>
+    <item name="slot_wheel_count_right" type="id"/>
+    <item name="slot_btn_award" type="id"/>
+    <item name="slot_btn_ranklist" type="id"/>
+    <item name="slot_btn_qunyao" type="id"/>
+    <item name="slot_btn_qunyao_home" type="id"/>
+    <item name="slot_btn_qunyao_newhome" type="id"/>
+    <item name="slot_fragment_home" type="id"/>
+    <item name="tg_qunyao_homelist" type="id"/>
+    <item name="slot_btn_shark_exit" type="id"/>
+    <item name="slot_btn_shark_share" type="id"/>
+    <item name="slot_btn_shark_continue" type="id"/>
+    <item name="slot_lv_shark_content" type="id"/>
+    <item name="slot_tv_shark_msg" type="id"/>
+    <item name="slot_bottom_switcher" type="id"/>
+
+
+    <!--首页列表数据-->
+    <item name="base_list_adapter_item_position" type="id"/>
+    <item name="base_list_adapter_item_render" type="id"/>
+</resources>

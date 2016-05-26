@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_rss_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_view_item_selector"
+    android:minHeight="75dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ViewStub
+        android:id="@+id/rank_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout="@layout/rank_common" />
+
+    <include
+        android:id="@+id/item_recommend_id"
+        layout="@layout/fragment_rss_item_span"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        layout="@layout/list_item_recommend_include"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_commno_id"
+        android:layout_marginTop="6dp" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/taskcenter_bg" >
+
+    <RelativeLayout
+        android:id="@+id/taskcenter_from_titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_5"
+        android:layout_marginTop="@dimen/space_5" >
+
+        <ImageView
+            android:id="@+id/taskcenter_from_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/taskcenter_titleicon" />
+
+        <TextView
+            android:id="@+id/taskcenter_from_txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginRight="@dimen/space_5"
+            android:layout_toRightOf="@id/taskcenter_from_img"
+            android:singleLine="true"
+            android:text="@string/taskcenter_title"
+            android:textColor="@color/white40"
+            android:textSize="@dimen/text_size_14" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/taskcenter_from_txtMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taskcenter_from_titleLayout"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_10"
+        android:paddingBottom="@dimen/space_10"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/white40" />
+
+</RelativeLayout>

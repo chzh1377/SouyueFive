@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_my_logined"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <!--   <include layout="@layout/titlebar_chatrecord_toac" /> -->
+
+    <include
+            layout="@layout/titlebar_onlytitle_toac"
+            />
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/discover_bg"
+            android:fadingEdge="none"
+            android:scrollbars="none">
+
+        <!-- 头 -->
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <RelativeLayout
+                        android:id="@+id/rv_my_info_update_photo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/mine_item_selector">
+
+                    <TextView
+                            style="@style/im_i_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/update_head_photo"/>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        <ImageView
+                                android:id="@+id/im_user_info_head"
+                                android:scaleType="fitXY"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"/>
+
+                        <ImageView
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:background="@drawable/im_right_arrow"/>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@+id/rv_my_info_update_username"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/im_line_height"
+                        android:layout_marginTop="0.5dp"
+                        android:background="@drawable/mine_item_selector">
+
+                    <TextView
+                            android:id="@+id/update_nick_name_edit"
+                            style="@style/im_i_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/update_nick_name"/>
+
+
+                    <LinearLayout
+                            android:id="@+id/nicknamelayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:layout_toRightOf="@id/update_nick_name_edit"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:id="@+id/tv_my_info_username"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="12dp"
+                                android:ellipsize="end"
+                                android:gravity="right"
+                                android:singleLine="true"
+                                style="@style/im_i_text_style_right"/>
+                        <!-- android:drawableRight="@drawable/im_right_arrow" -->
+
+                    </LinearLayout>
+                </RelativeLayout>
+                <!-- 用户名-->
+                <RelativeLayout
+                        android:id="@+id/rv_my_info_my_myname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/im_line_height"
+                        android:layout_marginTop="0.5dp"
+                        android:background="@drawable/mine_item_selector">
+
+                    <TextView
+                            android:id="@+id/tv_my_info_myname"
+                            style="@style/im_i_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/my_info_username"/>
+
+
+                    <LinearLayout
+                            android:id="@+id/ll_my_info_layout_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:layout_toRightOf="@id/tv_my_info_myname"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:id="@+id/tv_my_info_mynamevalue"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="12dp"
+                                android:ellipsize="end"
+                                android:gravity="right"
+                                android:singleLine="true"
+                                style="@style/im_i_text_style_right"/>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!-- 性别 -->
+                <RelativeLayout
+                        android:id="@+id/rv_my_info_my_sex"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/im_line_height"
+                        android:layout_marginTop="0.5dp"
+                        android:background="@drawable/mine_item_selector">
+
+                    <TextView
+                            android:id="@+id/tv_my_info_title"
+                            style="@style/im_i_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/my_info_sex"/>
+
+
+                    <LinearLayout
+                            android:id="@+id/ll_my_info_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:layout_toRightOf="@id/tv_my_info_title"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:id="@+id/tv_my_info_sex"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="12dp"
+                                android:ellipsize="end"
+                                android:gravity="right"
+                                android:singleLine="true"
+                                style="@style/im_i_text_style_right"/>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!-- 二维码 -->
+                <RelativeLayout
+                        android:id="@+id/rv_my_info_two_dimen_code"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/im_line_height"
+                        android:layout_marginTop="0.5dp"
+                        android:background="@drawable/mine_item_selector">
+
+                    <TextView
+                            android:id="@+id/tv_my_info_two_dimen_code_title"
+                            style="@style/im_i_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/my_two_dimen_code_title"/>
+
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        <ImageView
+                                android:id="@+id/iv_my_info_two_dimen_code_icon"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/my_erweima_icon"
+                                />
+
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:visibility="gone"
+                                android:background="@drawable/im_right_arrow"/>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@+id/rv_my_info_update_signatrue"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/im_line_height"
+                        android:layout_marginTop="0.5dp"
+                        android:background="@drawable/mine_item_selector">
+
+                    <TextView
+                            android:id="@+id/update_signatrue_edit"
+                            style="@style/im_i_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/update_signatrue"/>
+
+
+                    <LinearLayout
+                            android:id="@+id/signatruelayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginRight="15dp"
+                            android:layout_toRightOf="@id/update_signatrue_edit"
+
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:id="@+id/tv_my_info_signatrue"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="12dp"
+                                android:ellipsize="end"
+                                android:gravity="right"
+                                android:hint="@string/my_info_no_signate"
+                                android:singleLine="true"
+                                style="@style/im_i_text_style_right"/>
+
+                        <!--android:drawableRight="@drawable/im_right_arrow" -->
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+                <LinearLayout
+                        android:id="@+id/my_info_level"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/im_line_height"
+                        android:layout_marginTop="0.5dp"
+                        android:background="@drawable/mine_item_selector"
+                        android:orientation="horizontal">
+
+                    <TextView
+                            style="@style/im_i_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/level"/>
+
+                    <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ellipsize="end"
+                                android:gravity="left"
+                                android:singleLine="true"
+                                android:textColor="#868686"
+                                android:textSize="18sp"/>
+
+                        <TextView
+                                android:id="@+id/my_info_levelTip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:drawablePadding="12dp"
+                                android:gravity="center"
+                                style="@style/im_i_text_style_right"/>
+
+                        <!-- android:drawableRight="@drawable/im_right_arrow" -->
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

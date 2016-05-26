@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--===================通用测试数据start=======================-->
+    <string name="APP_ID">1</string>
+    <!-- 打包环境：1：正式环境，0测试环境 -->
+    <string name="IS_FORMAL_ENV">1</string>
+    <!-- tuita推送开关设置： ture-开  false-关 -->
+    <string name="PUSH_DEFAULT_OPEN">false</string>
+    <!-- tuita推送设置： ture-正式环境推送  false-测试环境推送 -->
+    <string name="PUSH_ONLINE">true</string>
+    
+    <!-- 第三方平台分享账号信息 -->
+    <!-- 新浪 -->
+    <string name="SINA_CONSUMER_KEY">3986588253</string>
+    <string name="SINA_REDIRECT_URL">http://www.zhongsou.com</string>
+    <string name="SINA_CONSUMER_SECRET">73acf841bc4b9bc828dc5db001fe1be2</string>
+    <string name="WEIBO_FROM">superapp_2</string>
+    <!-- 微信 AndroidManifest.xml修改相应scheme -->
+    <string name="WX_APP_ID">wx3da61141c847bff5</string>
+    <!-- 腾讯QQ -->
+    <string name="QQ_APP_ID">101126243</string>
+    <string name="QQ_APP_KEY">8f06c1d993ee3b7f925c638ce0b22bb0</string>
+    <!-- 腾讯微博 相应修改/assets/tencentconfig.properties -->
+    <string name="TWIBO_APP_KEY">801516604</string>
+    <string name="TWIBO_APP_KEY_SEC">09e90388b8349bd5eb3abdf3a435c2fa</string>
+    <string name="TWIBO_REDIRECT_URI">http://www.zhongsou.com</string>
+    <string name="TWEIBO_FROM">zixuan343890</string>
+    <!-- 高德地图API_KEY android未升级，暂时不使用-->
+    <string name="trade_gaode_apikey">121212</string>
+    
+    <!--移动商街标题可配 打包时配置  -->
+    <string name="trade_ent_shopsearch_title">商家搜索</string>
+    <string name="trade_ent_citylist_title">城市列表</string>
+    <string name="trade_ent_catelist_title">商家分类</string>
+    
+    <!-- 供应商机列表页列数 -->
+    <string name="supply_grid_numColumns">2</string>
+    <string name="navi_contact">企业黄页</string>
+    <string name="navi_enterprise_infor">行业资讯</string>
+    <string name="navi_supply">供应商机</string>
+    <!--===================通用测试数据end=======================-->
+    
+    
+    <!--===============行业测试数据start=======================-->
+	<string name="APP_NAME">赢之道</string>
+	<string name="KW">赢之道</string> 
+	<string name="IGID">zgyzd</string> 
+	<string name="SRP_KW">赢之道</string> 
+	<string name="SRP_ID">a1e29937aa1d3df65367b3163a5b01f0</string>
+	
+	<!-- 0百强   1超A -->
+    <string name="ProjectType">1</string>
+    <!-- 打包时选择的模板号 -->
+    <string name="TemplateType">390</string>
+    <!-- 1超A 2是暖伴儿,3是宫格,4是天天汽车 -->
+    <string name="HOME_ID">1</string>
+    <!-- 0是不显示底部导航，1是显示底部导航 -->
+    <string name="bottomstatus">1</string>
+	<!--===============行业测试数据end=======================-->
+	<string name="HOME_SHOW_NAV">1</string>
+	<!-- 底部导航个数 -->
+	<string name="bottomnum">5</string>
+	<!-- 值为：set：手工设置（从宫格获得数据）；srp：srp类型  srp二级栏目 -->
+	<string name="twonavtype">srp</string>
+	<!-- 顶部导航个数 -->
+	<string name="twonavnum">5</string>
+	<!-- 宽高比 -->
+	<string name="WIDTH_HIGHT_RATIO">0.5</string>
+	<!-- 行列数和权重 -->
+	<string name="COL_ROW_WIGHT">33;34;33_214|100_214|33;34;33_214</string>
+	<!-- 宫格元素间左右间距 -->
+	<string name="SO_MARGIN_LEFT_RIGHT">10</string>
+	<!-- 宫格元素间上间距 -->
+	<string name="SO_MARGIN_TOP">10</string>
+	<!-- 宫格左右边距 -->
+	<string name="MARGIN_LEFT_RIGHT">10</string>
+	<!-- 宫格上边距 -->
+	<string name="MARGIN_TOP">10</string>
+	<!-- 标题字体大小 -->
+	<string name="TITLE_SIZE">14</string>
+	<!-- 子标题字体大小 -->
+	<string name="SUBTITLE_SIZE">10</string>
+	<!-- 宫格背景色 -->
+	<string name="SODUKU_BG_COLOR">#ffffff</string>
+	<!-- ===============百强宫格测试数据end======================-->
+	
+</resources>

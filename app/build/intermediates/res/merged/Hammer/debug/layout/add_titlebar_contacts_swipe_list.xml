@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/im_item_selector"
+    android:orientation="vertical">
+
+    <!--<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/im_msg_search"
+            >-->
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/im_msg_search"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                >
+            <EditText
+                    android:id="@+id/search_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/im_search_edit_text_bg"
+                    android:drawableLeft="@drawable/im_search_icon"
+                    android:drawableRight="@drawable/im_search_edit_text_bg"
+                    android:drawablePadding="3dp"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/search_has_group"
+                    android:imeActionLabel="搜索"
+                    android:imeOptions="actionSearch|actionUnspecified"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="6dp"
+                    android:singleLine="true"
+                    android:textColorHint="#cccccc"
+                    android:textSize="@dimen/search_edit_size"/>
+            <Button
+                    android:id="@+id/btn_search_clear"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/clear_icon"
+                    />
+        </RelativeLayout>
+
+    <View
+            android:id="@+id/im_search_under_line"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#cccccc" />
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/ll_other"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_item_bg_color_normal"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:id="@+id/new_friends"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/new_left_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/im_new_friend" />
+
+            <TextView
+                android:id="@+id/new_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_toRightOf="@+id/new_left_icon"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="新的朋友"
+                android:textColor="#282828"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/news_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/new_txt"
+                android:background="@drawable/tool_atme_number"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+            <ImageView
+                style="@style/im_right_image"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/im_newfriend_under_line"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/phone_friends"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/phone_left_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/im_phone_contact" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_toRightOf="@+id/phone_left_icon"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="手机通讯录"
+                android:textColor="#282828"
+                android:textSize="16sp" />
+
+            <ImageView
+                style="@style/im_right_image"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <View
+                android:id="@+id/im_phonefriend_under_line"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#cccccc" />
+        <RelativeLayout
+                android:id="@+id/group_chat"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingRight="10dp">
+
+            <ImageView
+                    android:id="@+id/chat_left_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/im_group_save" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@+id/chat_left_icon"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="群聊"
+                    android:textColor="#282828"
+                    android:textSize="16sp" />
+
+            <ImageView
+                    style="@style/im_right_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <View
+                android:id="@+id/im_groupchat_under_line"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#cccccc" />
+        <RelativeLayout
+                android:id="@+id/rl_service_message"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingRight="10dp">
+
+            <ImageView
+                    android:id="@+id/service_left_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/im_servicemsg" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@+id/service_left_icon"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="服务号"
+                    android:textColor="#282828"
+                    android:textSize="16sp" />
+
+            <ImageView
+                    style="@style/im_right_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

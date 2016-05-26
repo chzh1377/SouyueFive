@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/im_msg_search_background">
+    <RelativeLayout
+            android:id="@+id/relayout_view_scanning_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/all_titlebar_bg_color">
+
+        <ImageButton
+                android:id="@+id/goback"
+                style="@style/HoloButton.Borderless.Back"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentLeft="true"
+                android:onClick="onGoBackClick"
+                android:scaleType="center"
+                android:src="@drawable/goback_button_selector"/>
+
+        <TextView
+                android:id="@+id/group_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/goback"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxWidth="150dp"
+                android:singleLine="true"
+                android:text="@string/webim_view_title"
+                android:textColor="@color/bar_center_title_color"
+                android:textSize="20sp"/>
+    </RelativeLayout>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/msgtab_header_line_color"
+                />
+    <ImageView
+            android:id="@+id/webim_login_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/webim_login_state"
+            android:layout_marginTop="55dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:textSize="17dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/webim_tips_color"
+            android:text="@string/webim_view_tips"
+            />
+
+    <Button
+            android:id="@+id/btn_webim_login"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="58dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_webim_login"
+            android:textSize="18sp"
+            android:text="@string/webim_view_login"
+            />
+
+        <Button
+                android:id="@+id/btn_webim_cancel"
+                android:layout_width="200dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_webim_cancel"
+                android:textSize="18sp"
+                android:text="@string/webim_view_cancel"
+                />
+
+</LinearLayout>

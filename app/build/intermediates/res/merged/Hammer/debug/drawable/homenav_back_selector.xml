@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Non focused states -->
+    <item android:state_focused="false" android:state_selected="true"  android:state_pressed="false" android:drawable="@drawable/indication_line" />
+
+
+  <item android:state_focused="false" android:state_selected="false" android:state_pressed="true" android:drawable="@color/back_bg_color_selector" />
+
+
+  <!--  <item android:state_focused="false" android:state_selected="false" android:state_pressed="false" android:drawable="@color/transparent" />
+
+    &lt;!&ndash; Focused states &ndash;&gt;
+    <item android:state_focused="true" android:state_selected="false" android:state_pressed="false" android:drawable="@color/transparent" />
+    <item android:state_focused="true" android:state_selected="true"  android:state_pressed="false" android:drawable="@color/transparent" />
+
+    &lt;!&ndash; Pressed &ndash;&gt;
+    &lt;!&ndash;    Non focused states &ndash;&gt;
+    <item android:state_focused="false" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/nav_text" />
+    <item android:state_focused="false" android:state_selected="true"  android:state_pressed="true" android:drawable="@drawable/indication_line" />
+
+    &lt;!&ndash;    Focused states &ndash;&gt;
+    <item android:state_focused="true" android:state_selected="false" android:state_pressed="true" android:drawable="@color/transparent" />
+    <item android:state_focused="true" android:state_selected="true"  android:state_pressed="true" android:drawable="@color/transparent" />-->
+</selector>

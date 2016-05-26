@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_left"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:background="#f2f2f2"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:minHeight="45dp"
+    android:singleLine="true"
+    android:textColor="@color/my_nologin_desc_font_color"
+    android:textSize="14sp" />

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.zhongsou.souyue"
+              android:id="@+id/layout_root"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#f2f2f2"
+              android:layout_height="match_parent">
+
+
+    <include layout="@layout/titlebar_onlytitle_toac"/>
+
+  <!--  <include layout="@layout/loading"/>-->
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+        <LinearLayout
+                android:id="@+id/layout_root1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:background="@color/mine_heand_background_red"
+                        android:padding="10dp">
+
+                    <ImageView
+                            android:id="@+id/charge_avatar"
+                            android:layout_width="42dp"
+                            android:src="@drawable/charge_pic_default"
+                            android:layout_gravity="center"
+                            android:layout_height="42dp">
+
+                    </ImageView>
+
+                    <!-- <ImageView
+                             android:layout_width="42dp"
+                             android:layout_height="42dp"
+                             android:background="@drawable/charge_pic_boder"
+                             android:src="@drawable/im_add_card"/>-->
+
+                    <TextView
+                            android:id="@+id/charge_nickname_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffff"
+                            android:layout_marginLeft="10dp"
+                            android:maxWidth="120dp"
+                            android:textSize="@dimen/text_size_16"
+                            android:singleLine="true"
+                            android:ellipsize="end"/>
+
+                    <View
+                            android:layout_width="1dp"
+                            android:background="#ffffff"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="20dp">
+                    </View>
+
+                    <TextView
+                            android:id="@+id/charge_zsb_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffff"
+                            android:maxWidth="120dp"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="@dimen/text_size_16"/>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical">
+
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/space_10"
+                                android:textColor="#ededed"
+                                android:layout_marginTop="1.7dp"
+                                android:text="中搜币余额"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:background="#dedede"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                    <TextView
+                            android:id="@+id/charge_phone_tips_tv"
+                            android:layout_marginLeft="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="已绑定手机号"
+                            android:drawableLeft="@drawable/charge_tanhao"
+                            android:textColor="#828282"
+                            android:drawablePadding="5dp"
+                            />
+
+                    <TextView
+                            android:id="@+id/charge_phone_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#828282"
+                            android:textSize="12sp"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#f2f2f2"
+                        android:padding="15dp">
+
+                    <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                android:id="@+id/ask_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:textColor="#282828"
+                                android:text="您要充值多少中搜币?"/>
+
+
+                        <TextView
+                                android:layout_marginLeft="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="(10中搜币=1元)"
+                                android:textSize="12sp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_alignBottom="@id/ask_text"
+                                android:layout_toRightOf="@id/ask_text"
+                                android:textColor="#666666"/>
+                    </RelativeLayout>
+
+
+                    <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal"
+                            android:layout_height="42dp">
+
+                        <LinearLayout
+                                android:id="@+id/charge_radio_group"
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_height="match_parent">
+
+                            <RadioButton
+                                    android:id="@+id/radio_count_100"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent"
+                                    android:checked="true"
+                                    android:button="@null"
+                                    android:background="@drawable/btn_charge_count_selector"/>
+
+                            <RadioButton
+                                    android:id="@+id/radio_count_1000"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent"
+                                    android:button="@null"
+                                    android:layout_marginLeft="9dp"
+                                    android:background="@drawable/btn_charge_count_selector"/>
+
+                            <RadioButton
+                                    android:id="@+id/radio_count_10000"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent"
+                                    android:button="@null"
+                                    android:layout_marginLeft="9dp"
+                                    android:background="@drawable/btn_charge_count_selector"/>
+
+                            <RadioButton
+                                    android:id="@+id/radio_count_100000"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent"
+                                    android:button="@null"
+                                    android:layout_marginLeft="9dp"
+                                    android:background="@drawable/btn_charge_count_selector"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_height="match_parent">
+
+                            <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:text="100"
+                                    android:textColor="#666666"
+                                    android:textSize="16sp"
+                                    android:gravity="center"
+                                    android:layout_weight="1"/>
+
+                            <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:text="1000"
+                                    android:textColor="#666666"
+                                    android:textSize="16sp"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="9dp"
+                                    android:layout_weight="1"/>
+
+                            <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:text="1万"
+                                    android:textColor="#666666"
+                                    android:textSize="16sp"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="9dp"
+                                    android:layout_weight="1"/>
+
+                            <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:text="10万"
+                                    android:textSize="16sp"
+                                    android:textColor="#666666"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="9dp"
+                                    android:layout_weight="1"/>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="42dp"
+
+                            android:layout_marginTop="17.5dp">
+
+                        <EditText
+                                android:id="@+id/charge_count_text"
+                                android:background="@drawable/edittext_bg"
+                                android:layout_width="match_parent"
+                                android:gravity="center"
+                                android:text="100"
+                                android:numeric="integer"
+                                android:textColor="#656565"
+                                android:maxLength="9"
+                                android:textSize="19sp"
+                                android:layout_height="match_parent"/>
+
+                        <TextView
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="中搜币"
+                                android:textSize="12sp"
+                                android:textColor="#cacaca"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp">
+
+                        <TextView
+                                android:id="@+id/nxzf_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:textColor="#666666"
+                                android:layout_marginBottom="2dp"
+                                android:layout_alignBottom="@+id/pay_count_yuan"
+                                android:text="您需支付"/>
+
+
+                        <TextView
+                                android:id="@+id/pay_count_yuan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@id/nxzf_tv"
+                                android:textSize="18sp"
+                                android:textColor="@color/mine_heand_background_red"
+                                android:text="10.0元"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:textColor="#666666"
+                                android:layout_marginBottom="2dp"
+                                android:layout_toRightOf="@id/pay_count_yuan"
+                                android:layout_alignBottom="@id/pay_count_yuan"
+                                android:text="人民币"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:textColor="#282828"
+                            android:textSize="16sp"
+                            android:text="支付方式"
+                            android:layout_height="wrap_content"/>
+
+
+                    <com.zhongsou.souyue.circle.view.RadioGroup
+                            android:id="@+id/pay_type_radio_group"
+                            android:layout_width="match_parent"
+                            android:layout_height="115dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+                        <!-- 惠多宝支付项、 支付宝 -->
+						<LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                            <RadioButton
+                                    android:id="@+id/pay_type_hdb"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:button="@null"
+                                    android:checked="true"
+                                    android:background="@drawable/btn_charge_type_yfb_selector"/>
+
+                            <RadioButton
+                                    android:id="@+id/pay_type_alipay"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:button="@null"
+                                    android:checked="false"
+                                    android:layout_marginLeft="16dp"
+                                    android:background="@drawable/btn_charge_type_alipay_selector"/>
+                        </LinearLayout>
+                        <!-- 银联支付项 -->
+                        <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+                            <RadioButton
+                                    android:id="@+id/pay_type_yinlian"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:button="@null"
+                                    android:checked="false"
+                                    android:background="@drawable/btn_charge_type_yinlian_selector"/>
+                             <RadioButton
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:button="@null"
+                                    android:layout_marginLeft="16dp"
+                                   	android:visibility="invisible"/>
+                        </LinearLayout>
+
+                    </com.zhongsou.souyue.circle.view.RadioGroup>
+
+                    <Button
+                            android:id="@+id/pay_btn"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:textColor="@color/white"
+        					android:textSize="25sp"
+                            android:text="立即支付"
+                            android:gravity="center"
+                            android:background="@drawable/my_button_selector"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

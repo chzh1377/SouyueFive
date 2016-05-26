@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_webNavi_root"
+    android:layout_width="fill_parent"
+    android:layout_height="46dp"
+    android:background="@color/all_titlebar_bg_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/WebTitleBar"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_back"
+            style="@style/WebTitleBarAction"
+            android:layout_width="65dp"
+            android:layout_weight="1"
+            android:onClick="onBackwordUrlClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/web_navibar_back" />
+
+        <ImageButton
+            android:id="@+id/button_forword"
+            style="@style/WebTitleBarAction"
+            android:layout_width="65dp"
+            android:layout_weight="1"
+            android:onClick="onForwordUrlClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/web_navibar_forword" />
+
+        <ImageButton
+            android:id="@+id/button_share"
+            style="@style/WebTitleBarAction"
+            android:layout_width="65dp"
+            android:layout_weight="1"
+            android:onClick="onForwordUrlClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/share_bottom_selector"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/button_reload"
+            style="@style/WebTitleBarAction"
+            android:layout_width="65dp"
+            android:layout_weight="1"
+            android:onClick="onReloadUrlClick"
+            android:src="@drawable/web_navibar_refresh" />
+
+        <ImageButton
+            android:id="@+id/button_close"
+            style="@style/WebTitleBarAction"
+            android:layout_width="65dp"
+            android:layout_weight="1"
+            android:onClick="onCloseClick"
+            android:src="@drawable/web_navibar_close" />
+    </LinearLayout>
+
+</LinearLayout>

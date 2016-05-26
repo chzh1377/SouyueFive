@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="cricle_list_pics_height">105dp</dimen>
+     <dimen name="cricle_list_pics_height_more">150dp</dimen>
+     <dimen name="cricle_list_pic_height">155dp</dimen>
+     <dimen name="cricle_list_item_top_height">55dp</dimen>
+     <dimen name="cricle_list_item_divider_height">30dp</dimen>
+</resources>

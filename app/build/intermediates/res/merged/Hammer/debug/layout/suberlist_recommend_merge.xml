@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="50dip"
+              android:background="@color/transparent"
+              android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/discover_bg"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_hotrecommed"
+            android:layout_width="0dip"
+            android:layout_height="34dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_weight="1"
+            android:background="@drawable/suberlist_selector"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/suberlist_hotrecommend"
+            android:textColor="@drawable/suberlist_textcoloer_selector"
+            android:textSize="15sp"
+            >
+        </TextView>
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/rl_right"-->
+        <!--android:layout_width="0dip"-->
+        <!--android:layout_height="30dip"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:layout_marginLeft="5dip"-->
+        <!--android:layout_marginRight="10dip"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@drawable/suberlist_selector"-->
+        <!--android:descendantFocusability="blocksDescendants"-->
+        <!--android:gravity="center_vertical" >-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_all"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="30dip"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:clickable="false"-->
+        <!--android:focusable="false"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/suberlist_all"-->
+        <!--android:textColor="@drawable/suberlist_textcoloer_selector"-->
+        <!--android:textSize="14sp" />-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="15dip"-->
+        <!--android:layout_height="15dip"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="3dip"-->
+        <!--android:layout_toRightOf="@id/tv_all"-->
+        <!--android:clickable="false"-->
+        <!--android:focusable="false"-->
+        <!--android:src="@drawable/sub_goright" />-->
+        <!--</RelativeLayout>-->
+    </LinearLayout>
+
+</LinearLayout>

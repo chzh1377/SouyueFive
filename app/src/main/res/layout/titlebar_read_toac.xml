@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/read_title_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="48dip"
+    android:background="@color/all_titlebar_bg_color">
+
+    <LinearLayout
+        android:id="@+id/srp_goback_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/srp_title_right_layout"
+        android:layout_marginRight="10dp"
+        >
+
+        <include layout="@layout/title_bar_ac_goback" />
+
+        <include
+        layout="@layout/title_bar_ac_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/srp_title_right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <include layout="@layout/title_bar_ac_txtbtn"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ib_read_search"
+            style="@style/HoloButton.Borderless.Back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="onClick"
+            android:src="@drawable/search_btn_selector" />
+        <ImageButton
+            android:id="@+id/bt_add_subscribe"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:onClick="onSubcibeClick"
+            android:src="@drawable/circle_subscribe_selector"
+            android:visibility="gone" />
+         <TextView
+            android:id="@+id/ib_title_bar_sub"
+            style="@style/wTextView.Borderless.Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             >
+        </TextView>
+    </LinearLayout>
+
+
+</RelativeLayout>

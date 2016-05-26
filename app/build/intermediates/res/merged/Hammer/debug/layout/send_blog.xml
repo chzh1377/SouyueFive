@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <!-- <include layout="@layout/titlebar_activity_user" /> -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/all_titlebar_bg_color" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            style="@style/HoloButton.Borderless.Back"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/go_cancel"
+            android:textColor="@color/bar_title_red_select" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:src="@drawable/goback_button_selector"
+            android:textColor="#434343"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_save"
+            style="@style/HoloButton.Borderless.Back"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="@color/bar_title_red_select"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            style="@style/TextView.Borderless.Back"
+            android:textColor="@color/bar_title_red_select"/>
+
+        <View style="@style/Bar_Horizonal_line_style"
+              android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/background_color"
+        android:gravity="center_vertical"
+        android:hint="@string/self_title_input"
+        android:maxHeight="30dp"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textColor="#4a4a4a"
+        android:textColorHint="#bfbfbf"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/listview_divider" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/background_color"
+        android:gravity="top"
+        android:hint="@string/self_content_input"
+        android:maxHeight="150dp"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textColor="#4a4a4a"
+        android:textColorHint="#bfbfbf"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/pics_bg"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_pics"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.zhongsou.souyue.ui.HorizontalListView
+                android:id="@+id/bolg_gallery"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_childcount"
+            android:layout_width="56dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/piccount_bg"
+            android:gravity="center"
+            android:text="0/9"
+            android:textColor="#6B6B6B"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

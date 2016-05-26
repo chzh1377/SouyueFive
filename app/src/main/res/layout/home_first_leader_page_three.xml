@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--新收引导第3页-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#68d8b0"
+                android:orientation="vertical">
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="@dimen/space_20"-->
+    <!--android:layout_marginTop="@dimen/space_13"-->
+    <!--android:src="@drawable/home_first_leader_back"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="请您选择"
+        android:textColor="@color/white"
+        android:textSize="@dimen/space_20"/>
+
+    <GridView
+        android:id="@+id/home_first_leader_pagethree_buttongroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="54dp"
+        android:background="@color/transparent"
+        android:cacheColorHint="@color/transparent"
+        android:columnWidth="80dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="3"
+        android:scrollbars="none"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#eeeeee">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="满足各类人群"
+                android:textColor="@color/home_firstin_bottomtitle"
+                android:textSize="@dimen/space_23"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="的兴趣爱好"
+                android:textColor="@color/home_firstin_bottomtitle"
+                android:textSize="@dimen/space_23"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/enter_home"
+            android:layout_width="260dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="34dp"
+            android:background="@drawable/home_guide_nextbtn_backgroup"
+            android:text="点击开启搜悦之旅"
+            />
+    </FrameLayout>
+
+
+</RelativeLayout>

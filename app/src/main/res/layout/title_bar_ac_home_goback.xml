@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/goBack"
+    style="@style/HoloButton.Borderless"
+    android:layout_width="wrap_content"
+    android:layout_height="48dip"
+    android:onClick="onBackPressClick"
+    android:scaleType="center"
+    android:src="@drawable/goback_button_selector" />
+

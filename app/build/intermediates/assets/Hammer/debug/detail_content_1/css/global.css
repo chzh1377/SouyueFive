@@ -1,0 +1,44 @@
+﻿/*
+Title:	 mobile reset
+Create:	 2013-05-03
+Author:  songli@zhongsou.com
+Tel:     8641
+Update:  2013-11-21
+Author:  songli@zhongsou.com
+Version: v0.2
+*/
+
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, button, textarea, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0 }
+body, button, input, select, textarea { font:12px/1.5 \5FAE\8F6F\96C5\9ED1, tahoma, arial, \5b8b\4f53, sans-serif }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { display:block}
+h1, h2, h3, h4, h5, h6,button, input, select, textarea {font-size:100%}
+address, cite, dfn, em, var { font-style:normal }
+code, kbd, pre, samp { font-family:courier new, courier, monospace }
+small { font-size:12px }
+ul, ol { list-style:none outside none }
+sup { vertical-align:text-top}
+sub { vertical-align:text-bottom }
+legend { color:#000000 }
+fieldset, img { border:0 none }
+table { border-collapse:collapse; border-spacing:0 }
+mark { background:none repeat scroll 0 0 #FFFF00 }
+fieldset, img, a img, iframe { border-width:0; border-style:none }
+.clearfix:after { clear:both; content:""; display:block; font-size:0; height:0; visibility:hidden}
+.clearfix {zoom:1}
+blockquote:before, blockquote:after, q:before, q:after { content:"" }
+blockquote, q { quotes:"" }
+a,a:hover { text-decoration:none }
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+ -webkit-appearance: none;
+ -webkit-border-radius: 0;
+}
+input[type="checkbox"] { -webkit-appearance:checkbox }
+input[type="radio"] { -webkit-appearance:radio }
+input[type="search"]::-webkit-search-cancel-button {
+ display:none
+}
+

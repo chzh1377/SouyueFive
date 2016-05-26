@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/all_titlebar_bg_color"
+        >
+
+    <ImageButton
+            android:id="@+id/ib_back"
+            style="@style/HoloButton.Borderless.Back"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:scaleType="center"
+            android:onClick="onBackPressClick"
+            android:src="@drawable/btn_nback_selector"></ImageButton>
+
+
+    <TextView
+            android:id="@+id/tv_all_file"
+            android:layout_toRightOf="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/im_filelistall_title"
+            android:textColor="@color/bar_center_title_color"
+            android:textSize="18sp"/>
+
+    <Button
+            android:id="@+id/btn_edit"
+            style="@android:style/Widget.TextView"
+            android:layout_width="73dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/im_edit"
+            android:background="@drawable/btn_edit_selector"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"/>
+    <View style="@style/Bar_Horizonal_line_style"
+          android:layout_above="@id/ib_back"/>
+</RelativeLayout>

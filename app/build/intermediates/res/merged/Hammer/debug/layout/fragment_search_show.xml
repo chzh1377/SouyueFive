@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                tools:context="com.zhongsou.souyue.fragment.SearchShowFragment"
+    >
+
+    <TextView
+        android:id="@+id/hot_search_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="@string/hot_search_rank"
+        android:textColor="@color/color_srp_title"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/hot_search_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="15dp"
+        android:text="@string/change"
+        android:textColor="@color/red_d64844"
+        android:textSize="16sp"
+        />
+
+    <GridView
+        android:id="@+id/hot_search_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hot_search_title"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/discover_bg"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        />
+
+    <TextView
+        android:id="@+id/search_history_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hot_search_grid"
+        android:paddingLeft="5dp"
+        android:text="@string/search_history"
+        android:textColor="@color/color_srp_title"
+        android:textSize="16sp"
+        />
+
+    <ListView
+        android:id="@+id/search_history_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_history_title"
+        android:background="@color/gray_d9d9d9"
+        android:divider="@color/gray_d9d9d9"
+        android:scrollbars="none"
+        android:dividerHeight="1dp"
+        />
+
+</RelativeLayout>

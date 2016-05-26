@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+>
+    <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/color_srp_title"
+                android:textSize="@dimen/souyue_all_middle"
+        />
+        <com.zhongsou.souyue.view.HotConfigView
+                android:id="@+id/hotconfigView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dip"
+                android:layout_marginTop="3dip"/>
+
+        <com.facebook.drawee.view.ZSImageView
+                android:id="@+id/image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginTop="10dp"
+                fresco:actualImageScaleType="fitXY" />
+        <com.facebook.drawee.view.ZSImageView
+                android:id="@+id/image_gif"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginTop="10dp"
+                fresco:actualImageScaleType="fitXY"/>
+        <RelativeLayout
+                android:id="@+id/controller_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginTop="10dp"
+                android:layout_centerInParent="true">
+            <ImageView
+                    android:id="@+id/controller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/bigimage_gif"
+                    android:visibility="gone"
+            />
+            <ProgressBar
+                    android:id="@+id/loading_progress_bar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:indeterminate="false"
+                    android:indeterminateDrawable="@drawable/subscribe_rotate"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone" />
+            <TextView
+                    android:id="@+id/gallery_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/gallery_count"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginRight="8dip"
+                    android:paddingLeft="4dip"
+                    android:paddingRight="4dip"
+                    android:paddingBottom="1dip"
+                    android:paddingTop="1dip"
+                    android:text="1张图"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dip"
+
+            />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+    />
+</RelativeLayout>

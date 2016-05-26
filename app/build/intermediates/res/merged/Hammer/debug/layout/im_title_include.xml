@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@color/all_titlebar_bg_color"
+            >
+
+        <ImageView
+                android:id="@+id/back"
+                style="@style/HoloButton.Borderless.Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:scaleType="center"
+                android:src="@drawable/goback_button_selector"/>
+
+        <TextView
+                android:id="@+id/title"
+                style="@style/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/back"
+                android:focusable="false"
+                />
+
+        <ImageView
+                android:id="@+id/setting"
+                android:layout_width="18dip"
+                android:layout_height="18dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dip"
+                android:src="@drawable/im_setting_selector"/>
+    </RelativeLayout>
+    <View style="@style/Bar_Horizonal_line_style"
+          android:layout_alignParentBottom="true"
+            />
+</LinearLayout>

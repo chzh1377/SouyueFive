@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- <item android:state_selected="true" android:color="@color/trade_sidebar_content_item_title_press"/> -->
+    <item android:state_focused="true" android:color="@color/subscribe_gategory"/>
+    <item android:state_pressed="true" android:color="@color/subscribe_gategory"/>
+    <item android:color="@color/white40"/>
+
+</selector>

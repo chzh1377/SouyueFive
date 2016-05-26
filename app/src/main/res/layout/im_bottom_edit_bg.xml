@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!--    <LinearLayout
+            android:id="@+id/im_button_edit_select"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/im_button_edit_selector"
+            android:gravity="center|bottom"
+            android:minWidth="30dip"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/im_allselected" />
+
+            <TextView
+                android:text="全选"
+                style="@style/im_share_dialog_buttom"
+               />
+        </LinearLayout>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/im_button_line"
+            />-->
+    <LinearLayout
+        android:id="@+id/im_button_edit_transpond"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/im_button_edit_selector"
+        android:clickable="true"
+        android:gravity="center|bottom"
+        android:minWidth="30dip"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/im_transpond" />
+
+        <TextView
+            style="@style/im_share_dialog_buttom"
+            android:text="转发" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/im_button_line" />
+
+    <LinearLayout
+        android:id="@+id/im_button_edit_delete"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/im_button_edit_selector"
+        android:clickable="true"
+        android:gravity="center|bottom"
+        android:minWidth="30dip"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/im_delete" />
+
+        <TextView
+            style="@style/im_share_dialog_buttom"
+            android:text="删除" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/im_button_line" />
+
+    <LinearLayout
+        android:id="@+id/im_button_edit_cancel"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/im_button_edit_selector"
+        android:clickable="true"
+        android:gravity="center|bottom"
+        android:minWidth="30dip"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/im_canael" />
+
+        <TextView
+            style="@style/im_share_dialog_buttom"
+            android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

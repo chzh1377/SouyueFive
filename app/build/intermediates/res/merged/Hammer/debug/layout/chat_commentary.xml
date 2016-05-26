@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhongsou.souyue.ui.keystatus.KeyboardListenRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keystatus"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background_color"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/commentary_title_layout"
+            layout="@layout/titlebar_onlytitle_toac" />
+
+        <include layout="@layout/loading"  />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/text_say_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/reply_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:background="@drawable/reply_state_bg"
+                    android:paddingLeft="8dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/replay_to_nick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/commentary_onCanelReplyClick"
+                        style="@style/ImageButton.Reply.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/btn_reply_cancel" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <include
+                        layout="@layout/chat_commentary_bottom_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/text_say_layout"
+                android:background="@color/background_color">
+
+                <TextView
+                    android:id="@+id/commentary_null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="抢沙发坐一坐吧"
+                    android:textColor="#5a5a5a"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+                    android:id="@+id/commentary_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:divider="@drawable/listview_divider"
+                    android:fadingEdge="none"
+                    android:fastScrollEnabled="false"
+                    android:scrollingCache="true"
+                    android:smoothScrollbar="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.zhongsou.souyue.ui.keystatus.KeyboardListenRelativeLayout>

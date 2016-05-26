@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="#d8d8d8"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textView_add"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/cicle_bg_totop"
+        android:gravity="center"
+        android:text="添加照片"
+        android:textStyle="bold"
+       android:textColor="#7e7e7e"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/textView_xiangce"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/cicle_bg_totop"
+        android:gravity="center"
+        android:text="从相册选择"
+        android:textColor="#3774a3"
+         android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/textView_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/cicle_bg_totop"
+        android:gravity="center"
+        android:text="拍照"
+         android:textStyle="bold"
+       android:textColor="#3774a3"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/textView_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+         android:background="@drawable/cicle_bg_totop"
+          android:textStyle="bold"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#282828"
+        android:textSize="16sp" />
+
+</LinearLayout>

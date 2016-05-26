@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\bar_title_red_select.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\bar_title_red_select.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\pop_item_font.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\pop_item_font.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\mm_style_one_btn_text.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\mm_style_one_btn_text.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\reply_back_main_color.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\reply_back_main_color.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\im_chat_tiger_text.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\im_chat_tiger_text.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\sub_title_tab_text.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\sub_title_tab_text.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\niming_color_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\niming_color_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\comment_btn_font.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\comment_btn_font.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\im_multiple_txt_color.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\im_multiple_txt_color.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\vpi__tab_textcolor.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\vpi__tab_textcolor.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\title_fragment_bar_font.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\title_fragment_bar_font.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\comment_pop_text_color.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\comment_pop_text_color.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\home_list_item_text_zh.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\home_list_item_text_zh.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\title_bar_font_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\title_bar_font_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\ntool_text_color_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\ntool_text_color_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\homenav_textcolor.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\homenav_textcolor.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\vpi__dark_theme.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\color\\vpi__tab_textcolor_ressub.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\color\\vpi__tab_textcolor_ressub.xml"
+    }
+]

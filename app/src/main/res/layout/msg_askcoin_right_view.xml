@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/im_chat_totallayout"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:descendantFocusability="beforeDescendants"
+              android:orientation="vertical"
+              android:padding="6dp" >
+
+    <TextView
+            android:id="@id/msg_adapter_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/date_bg"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <CheckBox
+                android:id="@id/msg_adapter_item_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/im_chat_checkbox"
+                android:button="@null"
+                android:visibility="gone" />
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp" >
+
+            <include
+                    style="@style/im_right_head"
+                    layout="@layout/msg_head_view" >
+            </include>
+
+            <TextView
+                    android:id="@+id/tv_text"
+                    style="@style/chat_content_date_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/im_bubble_rightmargin"
+                    android:layout_toLeftOf="@+id/iv_userhead_layout"
+                    android:background="@drawable/chatto_bg"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="15dip"
+                     />
+
+            <TextView
+                    android:id="@id/msg_adapter_item_failed"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/im_resend_rightmargin"
+                    android:layout_toLeftOf="@id/tv_text"
+                    android:background="@drawable/im_resend_selector" />
+
+            <ProgressBar
+                    android:id="@id/msg_adapter_item_sending"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/im_resend_rightmargin"
+                    android:layout_toLeftOf="@id/tv_text"
+                    android:indeterminate="false"
+                    android:indeterminateDrawable="@drawable/procress" >
+            </ProgressBar>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

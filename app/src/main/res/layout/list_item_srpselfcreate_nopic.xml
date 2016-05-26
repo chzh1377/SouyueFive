@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_item_bg_color_normal"
+    android:minHeight="75dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/preference_single_item"
+        android:orientation="vertical">
+
+        <ViewStub
+            android:id="@+id/rank_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout="@layout/rank_common" />
+
+        <include
+            android:id="@+id/item_recommend_id"
+            layout="@layout/srp_selfcreate_item_span"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            layout="@layout/list_item_srpselfcreate_include"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_commno_id"
+            android:layout_marginBottom="6dp" />
+    </LinearLayout>
+
+</LinearLayout>

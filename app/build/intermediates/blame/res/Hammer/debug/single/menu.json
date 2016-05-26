@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\menu\\exit_menu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\menu\\exit_menu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\menu\\menu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\menu\\yao_wen.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\menu\\yao_wen.xml"
+    }
+]

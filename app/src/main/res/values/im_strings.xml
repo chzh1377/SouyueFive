@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- 关于聊天 -->
+    <string name="im_phoncontact_title">手机联系人</string>
+    <string name="im_interest_text">兴趣圈</string>
+     <string name="contacts_list">通讯录</string>
+    <string name="contacts_search">查找好友</string>
+    <string name="im_newfriends">新朋友</string>
+    <string name="im_clearfriends">清空</string>
+    <string name="im_chat_text">聊天</string>
+    <string name="self_text">我</string>
+    <string name="addfriend">添加好友</string>
+    <string name="im_phonemessage_text">要不要跟我一起玩欢乐老虎机，试试手气？赶紧下个搜悦，送你25中搜币，下载地址: </string>
+    <string name="ask_for_coin">小的最近手头有点紧，爷给打赏%1$s个中搜币呗!</string>
+    <string name="share_win_coin">我正在玩欢乐老虎机，刚刚获得%1$s个中搜币。</string>
+    <string name="im_sysnofriend">您与%1$s不是好友关系，请先发送好友验证申请。</string>
+    <string name="im_notinGroup">您已经不在群组了</string>
+    <string name="im_sysversiontip">由于搜悦版本过低，可能无法正常查阅此条信息 马上更新</string>
+	<string name="im_chat_voice">语音</string>
+	<string name="im_chat_image">图片</string>
+	<string name="im_chat_card">名片</string>
+	<string name="im_chat_tiger">请求</string>
+	<string name="im_chat_share">分享</string>
+	<string name="im_chat_tip">提示</string>
+	<string name="im_chat_file">文件</string>
+	<string name="send_coin">赠币</string>
+	<string name="interest_circle_card">兴趣圈名片</string>
+    <string name="im_chat_operate">操作</string>
+	<string name="im_chat_copy">复制</string>
+	<string name="im_chat_forword">转发</string>
+    <string name="im_chat_to_top">置顶消息</string>
+    <string name="im_chat_delete">删除</string>
+    <string name="im_chat_delete_failed">删除失败</string>
+	<string name="im_chat_forward_success">转发成功</string>
+	<string name="im_chat_srp_share">[分享]与%1$s相关的内容</string>
+	<string name="im_chat_gif">[动画表情]</string>
+    <!-- 修改备注名 -->
+    <string name="im_modify_notename">备注名</string>
+    <string name="im_modify_save">保存</string>
+    <string name="im_zsb_mall">中搜币商城</string>
+	<!-- 用户信息 -->
+	<string name="im_friend_info_title">用户信息</string>
+	<string name="im_friend_info_lt">聊天</string>
+	<string name="im_friend_info_add">添加好友</string>
+	<string name="im_friend_info_del">确认解除好友关系？</string>
+	<string name="im_friend_yuan_null">暂无内容</string>
+	<string name="im_friend_info_pass">通过验证</string>
+	<string name="im_friend_yuan_contents">【%1$s】</string>
+	<!-- 用户信息弹出框 -->
+	<string name="im_alert_send">发送名片</string>
+	<string name="im_alert_bz">备注名</string>
+	<string name="im_alert_del">删除好友</string>
+	<!-- 关于状态 -->
+	<string name="add_friends_status">添加</string>
+	<string name="verify_friends_status">通过验证</string>
+	<string name="wait_friends_status">等待验证</string>
+	<string name="already_friends_status">已添加</string>
+	<string name="request_friends_status">邀请</string>
+	<string name="sure_clear_friends">确认清空新朋友消息？</string>
+	<string name="im_clear_msg_sure">确认清空消息记录？</string>
+	<!-- dialog -->
+	<string name="im_dialog_ok">确定</string>
+	<string name="im_dialog_cancel">取消</string>
+	<string name="im_dialog_send">发送</string>
+	<string name="im_dialog_txt_num">15个汉字以内</string>
+	<string name="laohuji_reply_no_value">地主家也米有余粮啊，下次吧!</string>
+	<string name="message_reply_no_value">我的积分换成京东券了，发你短信我能得分，呵呵，你也可以玩下，反正又不要钱。</string>
+	<string name="message_search_contacts">正在查找联系人&#8230;</string>
+	<string name="message_progress_def">加载中&#8230;</string>
+	<string name="im_dialog_title">好友验证申请</string>
+	<string name="im_contact_title">暂无手机联系人</string>
+	<string name="im_contact_subtitle">以下原因可能导致此问题</string>
+	<string name="im_contact_one">权限受限</string>
+	<string name="im_contact_two">手机中无联系人信息</string>
+	<string name="im_contact_one_1">尝试在系统设置或者安全管理类应用中开启权限，允许搜悦访问通讯录</string>
+	<string name="im_contact_back">返回</string>
+	<string name="im_no_result">无结果</string>
+	<string name="im_no_select">请选择消息</string>
+	<string name="im_delete_selected">确认要删除所选聊天内容吗</string>
+	<string name="im_delete_whisper">删除此条悄悄话？</string>
+	<string name="im_copy">文本已复制到粘贴板</string>
+	<string name="im_blank">不能发送空白消息</string>
+	<string name="im_dialog_upload_contact_title">提示</string>
+	<string name="im_dialog_upload_contact_msgs">看看通讯录中还有谁在使用搜悦（不保存通讯录的任何信息）</string>
+	<string name="im_new_friend_msgs">来自手机通讯录好友</string>
+	<string name="im_new_friend_msgs_phone">手机联系人</string>
+	<string name="im_new_friend_msgs_match_phone">手机联系人（自动匹配）</string>
+	<string name="whisper">密信</string>
+	<string name="red_packet">红包</string>
+    <string name="record_too_short">录音时间太短</string>
+    <string name="group_details">群详情</string>
+    <string name="mygroupnickname_length_error">我的群昵称长度不符</string>
+    <string name="mygroupnickname_format_error">我的群昵称格式不正确</string>
+    <string name="mygroupnickname_no_empty">我的群昵称不能为空</string>
+    <string name="groupname_length_error">群名称长度不符</string>
+    <string name="groupname_format_error">群名称格式不正确</string>
+    <string name="groupname_no_empty">群名称不能为空</string>
+    <string name="save_to_contact">已保存至通讯录</string>
+    <string name="pull_from_contact">已从通讯录移出</string>
+    <string name="msg_open">消息提醒开启</string>
+    <string name="msg_close">消息提醒关闭</string>
+    <string name="appear_problem">貌似出问题了</string>
+    <string name="not_friend_for_two">你俩不是好友</string>
+    <string name="Permission_to_verify">权限验证失败</string>
+    <string name="group_member_transfinite">群人数超过上限</string>
+    <string name="group_member_little_ban">人太少了，不能建群</string>
+    <string name="group_not_exist">群不存在</string>
+    <string name="Kicked_out_group">你的搜悦帐号正在其它设备上使用，由此会导致本设备无法正常收发消息</string>
+    <string name="timeout">请求超时</string>
+    <string name="resquestfailed">网络请求超时，请稍后重试</string>
+    <string name="im_nonet_update">无网络连接</string>
+    <string name="clear_history">清空消息记录</string>
+    <string name="im_msg_tab_view_search">搜索好友、群聊、聊天记录</string>
+    <string name="im_msg_search">搜索</string>
+    <string name="search_has_group">搜索好友、群聊</string>
+    <string name="search_no_group">搜索好友</string>
+    <string name="search_net">搜索</string>
+    <string name="search_at">搜索群成员</string>
+    <string name="im_msg_notify">消息免打扰</string>
+    <string name="im_watch_history">查看历史消息</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_failed">保存失败</string>
+
+
+    <string name="im_notify_text">超过99</string>
+
+	<string name="im_filelistall_title">全部文件</string>
+	<string name="im_edit">编辑</string>
+	<string name="im_completion">完成</string>
+
+	<string name="im_filelist_tips">不支持的文件类型</string>
+
+	<string name="im_filedownload_state_overtime">已失效</string>
+	<string name="im_filedownload_state_ing">下载中</string>
+	<string name="im_filedownload_state_pause">暂停中</string>
+	<string name="im_filedownload_state_fails">下载失败</string>
+	<string name="im_filedownload_state_success">已下载</string>
+	<string name="im_file_download_info">搜悦会使用其他应用为您打开本文件</string>
+
+	<!--IM功能字段-->
+	<string name="features_photo">相册</string>
+	<string name="features_take_photo">照相</string>
+	<string name="features_card">名片</string>
+	<string name="features_ask_for_zsb">求中搜币</string>
+	<string name="features_gift_zsb">赠中搜币</string>
+	<string name="features_whisper">密信</string>
+	<string name="features_red_packet">红包</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_inner_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill"
+    android:background="@color/transparent"
+    android:fitsSystemWindows="true">
+
+    <!--<TextureView-->
+    <!--android:id="@+id/video_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerInParent="true" />-->
+
+        <io.vov.vitamio.widget.VideoInstanceView
+            android:id="@+id/video_view"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"/>
+
+
+
+
+    <com.zhongsou.souyue.view.vitamio.ZSVitamioMediaController
+        android:id="@+id/videoController"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"/>
+
+    <RelativeLayout
+        android:id="@+id/progressbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:layout_alignParentBottom="true">
+
+        <ProgressBar
+            android:id="@+id/vitamio_progressbar"
+            style="?android:attr/progressBarStyleInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dip"
+            android:gravity="center"
+            android:text="正在缓冲，请稍后..."
+            android:layout_below="@id/vitamio_progressbar"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

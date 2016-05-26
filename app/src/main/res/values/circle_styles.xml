@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="circle.recommend.TextView.clicked" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#63c2de</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#e0e0e0</item>
+    </style>
+    <style name="circle.recommend.TextView.normal" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#6c6c6c</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#eeeeee</item>
+    </style>
+</resources>

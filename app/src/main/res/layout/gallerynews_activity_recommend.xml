@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--图集推荐的布局-->
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="推荐图集"
+              android:gravity="center"
+              android:layout_marginTop="@dimen/space_20"
+              android:layout_marginBottom="@dimen/space_14"
+              android:textColor="@color/white"
+              android:textSize="@dimen/space_18"
+            />
+    <ListView
+            android:layout_marginTop="@dimen/space_58"
+            android:id="@+id/gallery_recommend_list"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:cacheColorHint="@null"
+            android:divider="@null"
+            android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

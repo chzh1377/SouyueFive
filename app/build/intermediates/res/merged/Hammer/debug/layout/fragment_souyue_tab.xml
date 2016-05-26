@@ -1,0 +1,92 @@
+<com.zhongsou.souyue.view.FaceRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/souyue_tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/product_img_bg_color"
+        android:clipChildren="true"
+        tools:context="com.zhongsou.souyue.fragment.SouyueTabFragment">
+
+    <!--<include layout="@layout/souyuetabfragment_title_bar"/>-->
+    <include
+            layout="@layout/souyuetabfragment_title_bar"
+            android:id="@+id/title_layout"/>
+    <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_marginTop="62dp"
+            android:layout_below="@id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_below="@id/title_layout"
+            android:id="@+id/ball_layout"
+            android:layout_height="74dp"
+            >
+        <com.zhongsou.souyue.view.CirlTitleView
+                android:id="@+id/pageCircleIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+
+                />
+        <RelativeLayout
+                android:id="@+id/split_layout"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_alignParentBottom="true"
+                >
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/circle_top_line"
+                    android:scaleType="fitXY"
+                    android:layout_centerInParent="true"
+                    />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:id="@+id/circle_center_title_text"
+                    android:background="@drawable/middle_homepage_bg"
+                    android:paddingTop="0dp"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingBottom="0dp"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/detail_remen_color"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="0dp"/>
+            <ImageView
+                    android:id="@+id/iv_home_page_indicater_arrow_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_centerVertical="true"
+                    android:padding="4dp"
+                    android:rotation="180"
+                    android:src="@drawable/homepager_indicate_arrow"/>
+            <ImageView
+                    android:id="@+id/iv_home_page_indicater_arrow_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="4dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/homepager_indicate_arrow"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <include layout="@layout/loading" android:layout_below="@id/title_layout"
+             android:layout_height="match_parent" android:layout_width="match_parent"/>
+
+
+</com.zhongsou.souyue.view.FaceRelativeLayout>
+        <!-- android:drawableRight="@drawable/circle_title_slip" -->

@@ -1,0 +1,7 @@
+int drawable phone_info 0x7f020000
+int layout phone_info 0x7f030000
+int string error_collecting_logs 0x7f040001
+int string error_no_email 0x7f040002
+int string error_temp_collect 0x7f040003
+int string log_empty 0x7f040004
+int string phone_info 0x7f040000

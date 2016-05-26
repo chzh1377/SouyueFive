@@ -1,0 +1,229 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/bg_admin_more"
+              android:layout_height="wrap_content">
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="更多操作"
+              android:gravity="center_horizontal"
+              android:layout_marginTop="15dp"
+              android:textSize="16sp"
+              android:textColor="#ff282828"
+            />
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:id="@+id/ll_admin_edit"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:background="@null"
+                         android:clickable="false"
+                         android:src="@drawable/admin_mor_edit_selector"
+                    />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/action_menu_edit"
+                      android:layout_marginTop="5dp"
+                      android:textSize="12sp"
+                      android:textColor="#ff282828"
+                    />
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/ll_admin_delete"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:background="@null"
+                         android:src="@drawable/admin_mor_delete_selector"
+                    />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/action_menu_del"
+                      android:layout_marginTop="5dp"
+                      android:textSize="12sp"
+                      android:textColor="#ff282828"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+            <LinearLayout
+                    android:id="@+id/ll_admin_top"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/admin_mor_top_selector"
+                             android:background="@null"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/action_menu_top"
+                          android:layout_marginTop="5dp"
+                          android:textSize="12sp"
+                          android:textColor="#ff282828"
+                        />
+            </LinearLayout>
+            <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/ll_admin_cancle_top"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/admin_mor_canle_top_selector"
+                             android:background="@null"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/action_menu_notop"
+                          android:layout_marginTop="5dp"
+                          android:textSize="12sp"
+                          android:textColor="#ff282828"
+                        />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+            <LinearLayout
+                    android:id="@+id/ll_admin_prime"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/admin_mor_prime_selector"
+                             android:background="@null"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/action_menu_prime"
+                          android:layout_marginTop="5dp"
+                          android:textSize="12sp"
+                          android:textColor="#ff282828"
+                        />
+            </LinearLayout>
+            <LinearLayout
+                    android:visibility="gone"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:id="@+id/ll_admin_cancle_prime"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/admin_mor_canle_prime_selector"
+                             android:background="@null"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/action_menu_noprime"
+                          android:layout_marginTop="5dp"
+                          android:textSize="12sp"
+                          android:textColor="#ff282828"
+                        />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+        <LinearLayout
+                android:id="@+id/ll_admin_push"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@drawable/admin_mor_push_selector"
+                         android:background="@null"
+                    />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/action_menu_push"
+                      android:layout_marginTop="5dp"
+                      android:textSize="12sp"
+                      android:textColor="#ff282828"
+                    />
+        </LinearLayout>
+            <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/ll_admin_cancle_push"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/admin_mor_cancle_push"
+                           android:background="@null"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/action_menu_push"
+                          android:layout_marginTop="5dp"
+                          android:textSize="12sp"
+                          android:textColor="#ffc1c1c1"
+                        />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <Button android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:text="取消"
+            android:background="@drawable/admin_mor_cancle_selector"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="16sp"
+            android:textColor="#ff282828"
+            android:id="@+id/admin_cancle"
+            />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    
+    <color name="common_white">#FFFFFF</color>
+    <color name="common_black">#000000</color>
+    <color name="relogin_highlight_text">#2788b3</color>
+    <color name="my_nologin_desc_font_color">#ff282828</color>
+    <color name="dialog_btn_normal">#ffffff</color>
+    <color name="dialog_btn_press">#ffe9e9e9</color>
+    <color name="general_bg_translate_white">#00dfdfdf</color>
+    <color name="product_img_bg_color">#f2f2f2</color>
+
+    <!-- 扫描二维码 -->
+    <color name="viewfinder_frame">#00ffffff</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="transparent_background">#00000000</color>
+    <color name="color_txt_gray">#666666</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_66">#444444</color>
+    <color name="color_black_33">#333333</color>
+    <color name="white_soft">#E3E3E3</color>
+    <color name="all_titlebar_bg_color">#ffffff</color>
+    <color name="bar_center_title_color">#da4644</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="back_bg_color_selector">#20000000</color>
+    <color name="qr_ue_selected">#75B6E0</color>
+    <color name="qr_ue_normal">#65B6E0</color>
+</resources>

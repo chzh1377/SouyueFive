@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<dimen name="trade_slide_menu_h">40dp</dimen>
+	<dimen name="trade_navi_top_height">48dp</dimen>
+	<!-- 底部导航标注 -->
+	<dimen name="trade_bottom_bar_height">70dp</dimen>
+	<!-- 顶部导航标注 -->
+	<dimen name="trade_top_bar_height">30dp</dimen>
+	<!-- 首页导航箭头 -->
+	<dimen name="trade_nav_bar_more_home">20dp</dimen>
+	<!-- 资讯供应企业黄页start -->
+	<dimen name="imgs_pager_height">250dp</dimen>
+	<!-- 供应详情页询价回复高度 -->
+	<dimen name="trade_navi_reply_height">36dp</dimen>
+	<!-- 资讯供应企业黄页end -->
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/ll_cricle_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:paddingBottom="8dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="6dp">
+
+        <!-- 标题区 -->
+
+        <RelativeLayout
+            android:id="@+id/rl_cricle_title_icon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ellipsize="end"
+                android:layout_marginBottom="6dp"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:lineSpacingMultiplier="1.0"
+                android:textColor="@color/color_srp_title"
+                android:textSize="@dimen/souyue_all_middle"
+                />
+            <TextView
+                    android:id="@+id/tv_home_hot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="@dimen/space_1"
+                    android:text="@string/home_hot_sign"
+                    style="@style/home_rect_red_style"
+                    android:textSize="@dimen/souyue_all_middle"
+                    android:editable="false"/>
+        </RelativeLayout>
+
+        <!-- 概要 -->
+
+        <LinearLayout
+            android:id="@+id/iv_cricle_pics"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_cricle_title_icon"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_small"
+                android:scaleType="centerCrop"
+
+                />
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_small"
+                android:scaleType="centerCrop"
+                />
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_small"
+                android:scaleType="centerCrop"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dip"
+        layout="@layout/home_listitem_bottom"/>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_webNavi_root"
+              android:layout_width="fill_parent"
+              android:layout_height="46dp"
+              android:background="@color/all_titlebar_bg_color"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            style="@style/WebTitleBar"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:id="@+id/button_back"
+                style="@style/HoloButton.Borderless.Back"
+                android:layout_width="wrap_content"
+    			android:layout_height="48dp"
+                android:layout_alignParentLeft="true"
+                android:onClick="onBackwordUrlClick"
+                android:scaleType="center"
+                android:src="@drawable/goback_button_selector"/>
+
+
+        <LinearLayout
+                android:id="@+id/web_src_navibar_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/websrc_relate_delete"
+                android:layout_toRightOf="@+id/button_back"
+                android:gravity="left"
+                >
+            <include layout="@layout/title_bar_ac_title"        />
+            <ImageView 
+                android:id="@+id/trade_iv_ac_titlebar_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:minHeight="48dip"
+                android:visibility="gone"         />
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/title_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/button_back"
+                android:layout_toLeftOf="@+id/websrc_relate_delete"
+                android:visibility="gone"
+                android:gravity="left">
+
+            <include layout="@layout/title_bar_ac_title"/>
+        </LinearLayout>
+
+        <!-- <ImageButton
+            android:id="@+id/button_forword"
+            style="@style/WebTitleBarAction"
+            android:layout_width="65dp"
+            android:layout_toRightOf="@id/button_back"
+            android:onClick="onForwordUrlClick"
+            android:scaleType="center"
+            android:src="@drawable/web_navibar_forword" /> -->
+
+
+        <LinearLayout
+                android:id="@+id/websrc_relate_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                >
+
+            <ImageButton
+                    android:id="@+id/button_close"
+                    style="@style/WebTitleBarAction"
+                    android:layout_width="55dip"
+                    android:layout_toLeftOf="@id/button_reload"
+                    android:onClick="onCloseClick"
+                    android:scaleType="center"
+                    android:src="@drawable/web_navibar_close"
+                    android:visibility="gone"
+                    />
+
+            <ImageButton
+                    android:id="@+id/button_reload"
+                    style="@style/WebTitleBarAction"
+                    android:layout_width="48dp"
+                    android:onClick="onReloadUrlClick"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/web_navibar_refresh"/>
+
+            <!--  <ImageButton
+                 android:id="@+id/button_close"
+                 style="@style/WebTitleBarAction"
+                 android:layout_width="65dp"
+                 android:onClick="onCloseClick"
+                 android:src="@drawable/web_navibar_close" /> -->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+            android:id="@+id/web_src_loadProgress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:max="100"
+            android:progress="10"
+            android:progressDrawable="@drawable/offline_progress_horizontal"/>
+    <View style="@style/Bar_Horizonal_line_style"/>
+</LinearLayout>

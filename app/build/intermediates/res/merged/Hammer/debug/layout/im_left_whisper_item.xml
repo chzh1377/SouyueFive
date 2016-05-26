@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dip"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/im_whisper_mailer_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chatto_bg_whisper_selector" />
+
+    <LinearLayout
+        android:id="@+id/whisper_deletelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/im_whisper_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:drawableLeft="@drawable/im_whisper_countdown_imageview"
+            android:drawablePadding="5dip"
+            android:minWidth="37dip"
+            android:textColor="#DE4F45"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginRight="5dip"
+            android:textColor="#B4B4B4"
+            android:layout_marginTop="5dip"
+            android:text="秒后删除"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

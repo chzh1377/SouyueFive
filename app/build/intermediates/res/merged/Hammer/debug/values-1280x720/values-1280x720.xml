@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="channel_text_bg_width">73dp</dimen>
+    <dimen name="circle_admin_check_indicator_height">30dp</dimen>
+    <dimen name="circle_invite_img_width">42dp</dimen>
+    <dimen name="circle_invite_nickname_width">210dp</dimen>
+    <dimen name="circle_top_to_bar">320dp</dimen>
+    <dimen name="cirltitleview">74dp</dimen>
+    <dimen name="cirltitleview_height">20dip</dimen>
+    <dimen name="cirltitleview_textsize">13sp</dimen>
+    <dimen name="cirltitleviewframe_height">20dip</dimen>
+    <dimen name="common_images_height">75dp</dimen>
+    <dimen name="common_images_height08">60dp</dimen>
+    <dimen name="common_images_height_more">112dp</dimen>
+    <dimen name="common_images_height_more08">90dp</dimen>
+    <dimen name="cricle_list_item_divider_height">20dp</dimen>
+    <dimen name="cricle_list_item_top_height">45dp</dimen>
+    <dimen name="cricle_list_pic_height">140dp</dimen>
+    <dimen name="cricle_list_pics_height">95dp</dimen>
+    <dimen name="cricle_list_pics_height_more">140dp</dimen>
+    <dimen name="cricle_tutorial_height">440dp</dimen>
+    <dimen name="first_leader_centerimage_margintop">130dp</dimen>
+    <dimen name="first_leader_pageone_ball_size">225dp</dimen>
+    <dimen name="first_leader_pagetwo_character_height">180dp</dimen>
+    <dimen name="foucus_noimg_height">190dp</dimen>
+    <dimen name="fragment_rss_marked_height">190dp</dimen>
+    <dimen name="guide_image_height">90dp</dimen>
+    <dimen name="im_alphasidebar_text">14sp</dimen>
+    <dimen name="imageviewwidth">45dp</dimen>
+    <dimen name="item_height">19dip</dimen>
+    <dimen name="maxwidth">200dip</dimen>
+    <dimen name="publish_img_width">120dp</dimen>
+    <dimen name="recommend_pics_height">75dp</dimen>
+    <dimen name="self_image_height">100dp</dimen>
+    <dimen name="text_size">10sp</dimen>
+    <integer name="title_bar_max_ems">8</integer>
+</resources>

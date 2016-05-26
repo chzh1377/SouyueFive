@@ -1,0 +1,1 @@
+include ':tuitaSDK', ':cbug_lib', ':daemon', ':souyue_common', ':app', ':fresco', ':myapplication', ':app2', ':library'

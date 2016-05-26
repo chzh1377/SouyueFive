@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+                android:background="@color/all_titlebar_bg_color" >
+
+    <ImageButton
+        android:id="@+id/goBack"
+        style="@style/HoloButton.Borderless.Back"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:onClick="onBackPressClick"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/btn_nback_selector" >
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/circle_title_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@+id/goBack"
+        android:gravity="center_vertical"
+        android:text="发帖"
+        android:textColor="@color/bar_left_title_color"
+        android:textSize="18sp" />
+
+    <View
+            android:layout_alignParentBottom="true"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:background="#dadada"
+            android:layout_height="1dp"
+            />
+</RelativeLayout>

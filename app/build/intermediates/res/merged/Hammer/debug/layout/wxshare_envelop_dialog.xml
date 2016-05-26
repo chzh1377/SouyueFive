@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/main_content"
+              android:layout_width="@dimen/space_250"
+              android:layout_height="@dimen/space_260"
+              android:background="@drawable/wxshare_enve_background"
+              android:orientation="vertical"
+>
+    <!--失败界面
+    height = 250dp
+    -->
+    <RelativeLayout
+            android:id="@+id/wxshare_envelop_contentlayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_260"
+            android:orientation="vertical">
+
+        <WebView
+                android:id="@+id/wxshare_envelop_content"
+                android:layout_width="@dimen/space_250"
+                android:layout_margin="@dimen/space_2"
+                android:layout_height="@dimen/space_260">
+        </WebView>
+        <Button
+                android:id="@+id/wxshare_envelop_btnok"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_40"
+                android:textSize="@dimen/space_18"
+                android:text="确定"
+                android:textColor="@color/black"
+                android:background="@drawable/wxshare_enve_dialog_btnok_selecotr"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"/>
+        <View
+                android:id="@+id/wxshare_envelop_divider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="#cfcfcf"
+                android:layout_above="@id/wxshare_envelop_btnok"
+        />
+
+    </RelativeLayout>
+
+    <!--loading界面-->
+    <LinearLayout
+            android:id="@+id/wxshare_envelop_loadinglayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/space_2"
+            android:visibility="invisible"
+            android:padding="@dimen/space_55"
+            android:gravity="center"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+        <ProgressBar
+                style="@style/guideProgressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wxshare_envelop_pbloading"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</RelativeLayout>

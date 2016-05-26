@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <!-- left -->
+
+    <ImageView
+        android:id="@+id/guide_item_time_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/guide_time_icon" />
+
+    <TextView
+        android:id="@+id/tv_guide_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide_item_time_icon"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#3689ca"
+        android:textSize="12sp" />
+
+     <ImageView
+        android:id="@+id/iv_guide_item_time_line"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tv_guide_item_date"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/guide_time_line_icon" />
+
+    <!-- right -->
+
+    <RelativeLayout
+        android:id="@+id/rl_guide_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/guide_item_time_icon"
+         >
+
+        <TextView
+            android:id="@+id/tv_guide_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#d94d4e"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:ellipsize="end"
+             />
+
+        <ImageView
+            android:id="@+id/iv_guide_item_pic"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/guide_image_height"
+            android:layout_alignLeft="@id/tv_guide_item_title"
+            android:layout_below="@id/tv_guide_item_title"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_big" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

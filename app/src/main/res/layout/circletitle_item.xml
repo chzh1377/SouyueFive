@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhongsou.souyue.view.ItemHView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="65dip"
+    android:layout_height="@dimen/cirltitleview"
+    android:layout_marginTop="4dip"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_width="@dimen/imageviewwidth"
+        android:layout_height="@dimen/imageviewwidth"
+        android:layout_marginTop="5dip">
+
+        <ImageView
+            android:id="@+id/circle_image"
+            android:layout_width="@dimen/imageviewwidth"
+            android:layout_height="@dimen/imageviewwidth"
+            android:src="@drawable/circle_title_default_icon"
+            />
+        <ImageView
+            android:id="@+id/home_title_circle_grouptips"
+            android:layout_gravity="bottom|right"
+            android:layout_width="@dimen/space_22"
+            android:layout_height="@dimen/space_22"
+            android:src="@drawable/ball_view_group_tils"/>
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/circle_text"
+        android:layout_width="69dip"
+        android:layout_height="15dp"
+        android:layout_marginTop="3dp"
+        android:ellipsize="none"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:singleLine="true"
+        android:textColor="@color/guide_text_color_normal"
+        android:textSize="12dp"/>
+</com.zhongsou.souyue.view.ItemHView>

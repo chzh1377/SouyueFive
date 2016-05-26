@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\layout\\comm_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\layout\\comm_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\layout\\phone_info.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\exploded-aar\\SouyueFive\\cbug_lib\\unspecified\\res\\layout\\phone_info.xml"
+    }
+]

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_tittle_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="48dip"
+    android:background="@color/all_titlebar_bg_color"
+    >
+    <RelativeLayout
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <include
+                android:id="@+id/im_find_friend"
+                layout="@layout/title_bar_ac_goback"
+                android:layout_alignParentLeft="true" />
+
+        <include
+                android:id="@+id/im_contact_friend"
+                layout="@layout/title_bar_ac_home_goback"
+                android:layout_alignParentLeft="true"
+                android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        >
+
+        <include layout="@layout/title_bar_ac_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/title_bar_ac_chat_txtbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true">
+
+        <include layout="@layout/title_bar_ac_chat_txtbtn" />
+    </LinearLayout>
+    <View style="@style/Bar_Horizonal_line_style"
+          android:layout_alignParentBottom="true"
+            />
+</RelativeLayout>

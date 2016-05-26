@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\phone_info.png",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\exploded-aar\\SouyueFive\\cbug_lib\\unspecified\\res\\drawable-xhdpi-v4\\phone_info.png"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    }
+]

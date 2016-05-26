@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:descendantFocusability="blocksDescendants"
+>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp">
+
+        <ImageView
+                android:id="@+id/subrecommanddlg_listitem_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/space_15"
+                android:layout_marginRight="@dimen/space_10"
+                android:src="@drawable/ic_launcher"/>
+
+        <CheckBox
+                android:id="@+id/subrecommanddlg_listitem_checkbox"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:button="@drawable/sub_recommenddlg_checkbox_selector"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:clickable="true"
+                android:background="@null"
+                android:layout_centerVertical="true"/>
+
+        <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/subrecommanddlg_listitem_checkbox"
+                android:layout_toRightOf="@id/subrecommanddlg_listitem_image"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="@dimen/space_40">
+
+            <TextView
+                    android:id="@+id/subrecommanddlg_listitem_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textSize="@dimen/space_15"
+                    android:textColor="@color/middark_black"
+                    android:text="我是标题，我是标题"
+            />
+
+            <TextView
+                    android:id="@+id/subrecommanddlg_listitem_desc"
+                    android:layout_marginTop="@dimen/space_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/rightletter_text_color"
+                    android:textSize="@dimen/space_12"
+                    android:text="我是标题，我是标题"
+            />
+        </LinearLayout>
+
+        <View   android:id="@+id/subrecommend_listitem_divider"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/homepage_dialog_line"
+        />
+    </RelativeLayout>
+</RelativeLayout>

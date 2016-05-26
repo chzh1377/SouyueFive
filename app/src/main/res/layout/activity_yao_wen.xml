@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/channel_fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhongsou.souyue.activity.YaoWenActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <!--<include-->
+        <!--android:id="@+id/title_fragment_bar_included"-->
+        <!--layout="@layout/yaowenactivity_title_bar" />-->
+   <!-- <com.zhongsou.souyue.fragment.SouYueNewsFragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/channel_fragment"
+        />-->
+    <!--放置 一个 空的布局放在此处，是为了初始化VideoView,
+    这样可以使得加载到视频的位置时，不卡顿
+    -->
+    <!--<io.vov.vitamio.widget.VideoInstanceView-->
+        <!--android:layout_width="1dip"-->
+        <!--android:layout_height="1dip"-->
+        <!--android:visibility="gone"/>-->
+    <com.zhongsou.souyue.view.videos.ZSVideoPlayer
+        android:layout_width="1dip"
+        android:layout_height="1dip"
+        android:visibility="gone"/>
+</LinearLayout>

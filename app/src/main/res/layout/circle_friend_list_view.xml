@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_onlytitle_toac" />
+
+    <EditText
+        android:id="@+id/search_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_edit_text_bg"
+        android:drawableLeft="@drawable/im_search_icon"
+        android:drawablePadding="2dp"
+        android:hint="@string/please_input_interest_name"
+        android:imeActionLabel="搜索"
+        android:imeOptions="actionSearch|actionUnspecified"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColorHint="#cccccc"
+        android:textSize="@dimen/search_edit_size" />
+
+    <TextView
+        android:id="@+id/circle_noresult_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/background_color"
+        android:gravity="center"
+        android:textColorHint="#cccccc"
+        android:textSize="22sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color">
+
+        <ListView
+            android:id="@+id/listView"
+            style="@style/CommonListviewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="60dp"
+            android:divider="@drawable/listview_divider" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/circle_selected_listview_bold">
+
+            <com.zhongsou.souyue.view.HorizontalListView
+                android:id="@+id/horizon_listview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginTop="5dp"></com.zhongsou.souyue.view.HorizontalListView>
+
+            <TextView
+                android:id="@+id/invite_confirm_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/horizon_listview"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_member_im_invite_bg"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="发送(1)"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/all_titlebar_bg_color"
+    >
+
+    <ImageButton
+        android:id="@+id/goBack"
+        style="@style/HoloButton.Borderless.Back"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:scaleType="center"
+        android:onClick="onBackPressClick"
+        android:src="@drawable/btn_nback_selector"></ImageButton>
+
+
+    <TextView
+        android:layout_toRightOf="@+id/goBack"
+        android:id="@+id/post_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="发新帖"
+        android:textColor="@color/bar_center_title_color"
+        android:textSize="18sp" />
+    <TextView
+            android:layout_toRightOf="@+id/post_title_textview"
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bar_center_title_color"
+            android:layout_marginTop="20dp"
+            android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/tv_send_niming"
+        style="@android:style/Widget.TextView"
+        android:layout_width="73dp"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="匿名发帖"
+        android:background="@drawable/bg_nimging_selector"
+        android:layout_centerInParent="true"
+        android:textColor="@color/niming_color_selector" />
+    <View style="@style/Bar_Horizonal_line_style"
+         android:layout_above="@id/goBack"/>
+</RelativeLayout>

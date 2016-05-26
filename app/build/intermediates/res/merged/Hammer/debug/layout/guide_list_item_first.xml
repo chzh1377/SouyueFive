@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <!-- left -->
+
+    <ImageView
+        android:id="@+id/iv_guide_item_time_icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/guide_time_icon1" />
+
+    <!-- right -->
+
+    <RelativeLayout
+        android:id="@+id/rl_guide_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/iv_guide_item_time_icon1" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left|center_vertical"
+            android:maxHeight="65dp"
+            android:maxLines="2"
+            android:maxWidth="180dp"
+            android:minHeight="90dp"
+            android:singleLine="false"
+            android:text="今天...\n开启我的搜悦之旅"
+            android:textColor="#282828"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

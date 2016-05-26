@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_rss_pic_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageButton
+        android:id="@+id/item_button_pic"
+        style="@style/CommonImageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/subscribe_add"
+        android:visibility="gone" />
+
+
+
+    <RelativeLayout
+
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp">
+
+        <include
+            android:id="@+id/layout_pic"
+            layout="@layout/fragment_rss_item_span"
+            android:layout_toLeftOf="@+id/iv_pic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            layout="@layout/fragment_rss_item_include"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_pic"
+            android:layout_toLeftOf="@+id/iv_pic"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            />
+        <ImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="94dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/default_small"
+            android:layout_alignParentRight="true"
+           android:layout_marginLeft="20dp"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+
+
+</LinearLayout>

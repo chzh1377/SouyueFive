@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="main_navigation_home">首页</string>
+    <string name="main_navigation_category">分类</string>
+    <string name="main_navigation_comment">点评</string>
+    <string name="main_navigation_map">地图</string>
+    <string name="main_navigation_more">更多</string>
+    <string name="main_navigation_news">我要点评</string>
+    <string name="main_navigation_member">附近门店</string>
+    <string name="company_desc">企业简介</string>
+    <string name="speed_call">一键呼叫</string>
+    <string name="map_location">地图导航</string>
+    <string name="map_not_ready">SupportMapFragment初始化失败</string>
+    <string name="nearby_shop">附近门店</string>
+    <string name="product_title">详情</string>
+    <string name="qr_code_name_card">二维码名片</string>
+    <string name="comment_on">我要点评</string>
+    <string name="comment_list">点评</string>
+    <string name="card">电子会员卡</string>
+    <string name="ent_news">企业活动</string>
+    <string name="past_event">往期活动</string>
+    <string name="member_card">会员卡</string>
+    <string name="card_list">我的卡包</string>
+    <string name="card_no">NO</string>
+    <string name="card_validity">有效期至:</string>
+    <string name="ent_rating_bar_not_empty">请选择评分</string>
+	<string name="ent_content_count_range">评价内容字数5-150个字</string>
+    <string name="my_self_card">我的卡包</string>
+    <string name="my_self_coupon">我的现金券</string>
+    <string name="ent_self_consume">我的消费记录</string>
+    <string name="my_ent_comment">我的商家点评</string>
+    <string name="my_ent_coupon">我的现金券</string>
+    <string name="news_title">活动</string>
+    <string name="news_desc">查看全文</string>
+    <string name="ent_push_msg">推送消息</string>
+    <string name="ent_subscribed_msg">亲，您已订阅过此企业，请在企业订阅列表查看</string>
+    <string name="ent_no_data">暂无数据</string>
+	<string name="ent_no_data2">无搜索内容</string>
+	<string name="ent_loading_error">加载失败，请重试！</string>
+    <string name="ent_no_comment">暂无评论</string>
+    <string name="ent_past_event">往期活动</string>
+    <string name="ent_past_event_detail">活动详情</string>
+    <string name="ent_go_to_here">到这里去</string>
+    <string name="ent_map_navigation">地图导航</string>
+    <string name="ent_share">分享</string>
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="ent_push_empty">企业推送列表为空</string>
+    <string name="ent_square">移动商街</string>
+    <string name="ent_security">帐号安全</string>
+    <string name="ent_phoneno">手机号：</string>
+    <string name="ent_paypassword">支付密码：</string>
+    <string name="ent_repeatpassword">重复密码：</string>
+    <string name="ent_verificode">验证码：</string>
+    <string name="ent_phoneno_hint">填写手机号码</string>
+    <string name="ent_password_hint">6位数字密码</string>
+    <string name="ent_message_hint">填写短信验证码</string>
+    <string name="ent_getverificode">获取验证码</string>
+    <string name="ent_save">保存</string>
+    <string name="ent_settingsecurity">安全设置</string>
+    <string name="ent_account_security">账户安全</string>
+    <string name="ent_phoneinfo">请输入正确的手机号</string>
+    <string name="ent_verificodetip">验证码已发送，请注意查收</string>
+    <string name="ent_verificodetip_2">短信已发出，请在10分钟内输入验证码</string>
+    <string name="ent_password">请输入6位密码</string>
+    <string name="ent_nowords">请输入密码</string>
+    <string name="ent_renowords">请再次输入密码</string>
+    <string name="ent_diffpassword">两次输入密码不一致</string>
+    <string name="ent_vcode_tip">请输入正确的验证码</string>
+    <string name="ent_phonecode_resend">重新发送</string>
+    <string name="ent_phonecode_resend_time">重新发送(%s)</string>
+    <string name="ent_data_no_full">资料未填写完整</string>
+     <string name="ent_last">余额:</string>
+     <string name="ent_no_coupon">暂无现金券，您可以去商城购买</string>
+     <string name="ent_no_used_coupon">暂无记录</string>
+    <string name="ent_exchange">兑换</string>
+    <string name="ent_goods_detail">商品详情</string>
+    <string name="ent_record_detail">交易详情</string>
+    <string name="ent_cash_price">搜悦现金券%s元</string>
+    <string name="ent_souyue_zsb">%s中搜币</string>
+    <string name="zhongsoubi">中搜币:</string>
+    <string name="ent_coupon_rebate">%s折</string>
+    <string name="ent_mobile_exist">手机号已经存在</string>
+    <string name="ent_savefail">保存失败</string>
+    <string name="ent_verifycodefail">获取验证码失败</string>
+    <string name="ent_verifyerror">验证码错误</string>
+    <string name="ent_savesuccess">支付密码保存成功</string>
+    <string name="ent_myconsume_record">我的消费记录</string>
+    <string name="ent_souyue_pay">支付宝客户端支付</string>
+    <string name="ent_cash_pay">搜悦现金券支付</string>
+<!--     <string name="ent_payresult_0">支付中</string>
+    <string name="ent_payresult_1">现金券支付成功</string>
+    <string name="ent_payresult_2">支付宝支付成功</string>
+    <string name="ent_payresult_3">现金券支付成功现金支付成功</string>
+    <string name="ent_payresult_4">现金券支付成功支付宝支付中</string>
+    <string name="ent_payresult_5">现金券支付成功支付宝支付成功</string>
+    <string name="ent_payresult_6">现金券支付成功支付宝支付失败</string> -->
+    <string name="ent_payresult_0">支付成功，您已支付..</string>
+    <string name="ent_payplace">支付商家：</string>
+    <string name="ent_cashier_select"><u>修改</u></string>
+    <string name="coupon_agreement">搜悦提醒您：\n
+        \t\t在使用搜悦前，请您务必仔细阅读并透彻理解本声明。您可以选择不使用搜悦，但如果您使用搜悦，您的使用行为将被视为对本声明全部内容的认可。\n
+        \t\t搜悦的所提供的搜索结果是根据您键入的关键字自动生成到第三方网页的链接，其他一切因使用搜悦而可能遭致的意外、疏忽、侵权及其造成的损失（包括因下载被搜索链接到的第三方网站内容而感染电脑病毒），搜悦对其概不负责，亦不承担任何法律责任。\n
+        \t\t任何通过使用搜悦而搜索链接到的第三方网页均系他人制作或提供，您可能从该第三方网页上获得资讯及享用服务，搜悦对其合法性概不负责，亦不承担任何法律责任。\n
+        \t\t搜悦搜索结果根据您键入的关键字自动搜索获得并生成，不代表搜悦赞成被搜索链接到的第三方网页上的内容或立场。\n
+        \t\t您应该对使用搜索引擎的结果自行承担风险。搜悦不做任何形式的保证：不保证搜索结果满足您的要求，不保证搜索服务不中断，不保证搜索结果的安全性、正确性、及时性、合法性。因网络状况、通讯线路、第三方网站等任何原因而导致您不能正常使用搜悦，搜悦不承担任何法律责任。\n
+        \t\t搜悦尊重并保护所有使用搜悦用户的个人隐私权。但搜悦提醒您：您在使用搜索引擎时输入的关键字将不被认为是您的个人隐私资料。\n
+        \t\t任何单位或个人认为通过搜悦搜索链接到的第三方网页内容可能涉嫌侵犯其信息网络传播权，应该及时向搜悦提出书面权利通知，并提供身份证明、权属证明及详细侵权情况证明。搜悦在收到上述法律文件后，将会依法尽快断开相关链接内容。
+    </string>
+
+    <string name="ent_exchange_cashcoupon_title">兑换搜悦现金券</string>
+    <string name="ent_exchange_cashcoupon_prompt">兑换价值%d元搜悦现金券</string>
+    <string name="ent_exchange_zsb_count">您共有中搜币：  &lt;font color="red"&gt;%d&lt;/font&gt;  个</string>
+    <string name="ent_exchange_cashcoupon">中搜币兑换</string>
+    <string name="ent_exchange_cashcoupon_num">数量</string>
+    <string name="ent_exchange_cashcoupon_totalpay">总共支付</string>
+    <string name="ent_exchange_cashcoupon_unit">%d个</string>
+    <string name="ent_exchange_cashcoupon_success">兑换成功</string>
+    <string name="ent_alipay_success">支付成功！</string>
+    <string name="ent_alipay_success1">支付成功</string>
+    <string name="ent_exchange_cashcoupon_succ_detail">搜悦现金券已放入您的账户中,有 &lt;font color="red"&gt;“券”&lt;/font&gt; 字标识的商家均可使用~！</string>
+    <string name="ent_exchange_cashcoupon_succ_shop">查看附近可用商家</string>
+    <string name="ent_alipay_pay_success">支付宝支付成功！</string>
+    <string name="ent_pay_amount">支付金额：</string>
+    <string name="ent_yen_symbol">￥%s</string>
+    <string name="ent_use_cash_coupon_prompt">用搜悦现金券更优惠，快去看看吧~！</string>
+    <string name="ent_alipay_cash_coupon_cost">搜悦现金券%d元</string>
+    <string name="ent_alipay_zsb_count">中搜币：   &lt;font color="#e83c00"&gt;%d&lt;/font&gt;</string>
+    <string name="ent_zsb_count_common">中搜币：  %s</string>
+    <string name="ent_record_cash">账单金额：</string>
+    <string name="ent_record_sycash">搜悦现金券：</string>
+    <string name="ent_record_syzfbpay">支付宝支付：</string>
+    <string name="ent_record_sycashpay">现金支付：</string>
+    <string name="ent_record_paymode">支付方式：</string>
+    <string name="ent_record_paytime">支付时间：</string>
+    <string name="ent_record_paymode_text">搜悦现金券支付</string>
+    <string name="ent_cashcoupon_detail">搜悦现金券详情</string>
+    <string name="ent_cashcoupon_detail_buy_date">购买日期：%s</string>
+    <string name="ent_cashcoupon_detail_buy_money">购买金额：￥%d</string>
+    <string name="ent_cashcoupon_detail_banlance">余额：&lt;font color="#e83c00"&gt;￥%s&lt;/font&gt;</string>
+    <string name="ent_cashcoupon_detail_banlance_common">余额：%s</string>
+    <string name="ent_pay_mall">支付商家：%s</string>
+     <string name="ent_vericode_sending">验证码发送中，请稍候</string>
+</resources>

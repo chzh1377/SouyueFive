@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 当前应用是否是搜悦-->
+    <string name="config_is_souyue">true</string>
+    <!-- 是否显示启动图 -->
+	<string name="config_show_splash">true</string>
+	<!-- 是否仅第一次启动显示启动图 -->
+	<string name="config_show_splash_once_only">true</string>
+	<!-- 是否显示引导图 -->
+    <string name="config_show_boot_img">true</string>
+    <!-- 是否仅第一次显示引导图 -->
+    <string name="config_show_boot_img_once_only">false</string>
+    <!-- 是否显示人人第三方登陆-->
+    <string name="config_show_login_renren">true</string>
+    <!-- 是否显示行业中国第三方登陆-->
+    <string name="config_show_login_trade_china">false</string>
+    <!-- 系统推送开关默认状态是否打开-->
+    <string name="config_push_open_default">false</string>
+    <!-- 推送环境是否为线上 -->
+    <string name="config_push_environment_online">true</string>
+    <!-- http网络请求环境是否为线上 -->
+    <string name="config_http_request_online">true</string>
+    <!-- 广告接口判断当前是搜悦的那个应用	     搜悦:1	    超A:2	移动船票:3	-->
+    <string name="config_souyue_platform">1</string>
+</resources>

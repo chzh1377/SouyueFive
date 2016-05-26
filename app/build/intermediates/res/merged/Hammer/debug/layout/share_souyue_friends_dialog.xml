@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_group_layout"
+    android:layout_width="264dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/share_dialog_round"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:text="@string/share_to_souyue_friends"
+            android:textColor="#4a4a4a"
+            android:textSize="17sp" />
+
+        <ImageButton
+            android:id="@+id/share_syfriend_help"
+            style="@style/ImageButton.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/help_selector" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/share_syfriend_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="13dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3dp"
+        android:maxLines="2"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:textColor="#696969"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_share_reason"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/commentary_edit_text_bg"
+        android:hint="@string/write_recomment"
+        android:singleLine="true"
+        android:textColorHint="#ffd8d8d8"
+        android:textSize="17sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="15dp"
+        android:background="#c7c7c7" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/btn_share_send"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_save_button_selector"
+            android:padding="1dp"
+            android:text="@string/share_btn_send"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/btn_share_canel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_cancel_button_selector"
+            android:padding="1dp"
+            android:text="@string/share_btn_cancel"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+</LinearLayout>

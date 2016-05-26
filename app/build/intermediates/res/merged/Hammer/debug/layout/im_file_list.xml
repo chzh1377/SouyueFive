@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/msg_tab_colors"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include
+            android:id="@+id/in_titlebar"
+            layout="@layout/im_titlebar_allfile"/>
+
+    <ListView
+            android:id="@+id/lv_file"
+            android:background="@color/msg_tab_colors"
+            android:layout_below="@id/in_titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@color/transparent"
+            android:listSelector="@color/transparent"
+            android:divider="@color/mag_tab_divider"
+            android:dividerHeight="0.5dp"
+            />
+
+    <RelativeLayout
+            android:id="@+id/rl_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:padding="@dimen/space_10">
+
+        <ImageView
+                android:id="@+id/iv_delete"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/btn_file_delete"
+                />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,1446 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_take_photo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_take_photo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_charge_type_yfb_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_charge_type_yfb_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_comment_rating_bar_small.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_comment_rating_bar_small.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\reply_me_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\reply_me_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sy_indicator_icommentary_left.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sy_indicator_icommentary_left.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_alert_send_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_alert_send_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_srvmsg_press_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_srvmsg_press_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\detail_menu_btn_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\detail_menu_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\subrecommend_dlg_background.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\subrecommend_dlg_background.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\detail_menu_dont_interest_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\detail_menu_dont_interest_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\barcolor.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\barcolor.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_subscribe_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_subscribe_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_common_dialog_right.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\btn_common_dialog_right.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\wxshare_enve_dlg_btnok_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\wxshare_enve_dlg_btnok_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_upload_corner.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_upload_corner.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\web_navibar_close.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\web_navibar_close.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_selector_subrecommend_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\bg_selector_subrecommend_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_list_item_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_list_item_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\tabitem_home_my_img_sel.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\tabitem_home_my_img_sel.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\self_create_write_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\self_create_write_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_member_search_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_member_search_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\common_loading_anim.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\common_loading_anim.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_channel_mannger_button.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\bg_channel_mannger_button.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_search_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_search_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_custom_tab_indicator.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_custom_tab_indicator.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\my_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\my_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\special_checkbox_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\special_checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_savelocal.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_savelocal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\commentary_bubble_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\commentary_bubble_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_relogin_leftselector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_relogin_leftselector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\login_register_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\login_register_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\gallery_save_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\gallery_save_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\admin_mor_edit_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\admin_mor_edit_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_more_pressed_selecter.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_more_pressed_selecter.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_style_alert_dialog_special.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_style_alert_dialog_special.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_super_share_share.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_super_share_share.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_common_dialog_left.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\btn_common_dialog_left.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\login_button_validate_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\login_button_validate_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_share_bottom_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_share_bottom_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_click_whisper_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_click_whisper_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\admin_mor_push_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\admin_mor_push_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_custom_tab_indicator_news.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_custom_tab_indicator_news.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_coupon_selector_tabtext.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_coupon_selector_tabtext.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chatting_setmode_keyboard_btn.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_super_share_goback.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_super_share_goback.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\cricle_setting_top_text_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\cricle_setting_top_text_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\selector_tab.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\selector_tab.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_send_msg_normal_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_send_msg_normal_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\progress_bar_sending.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\progress_bar_sending.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\progress_medium_holo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\progress_medium_holo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\detail_menu_jubao_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\detail_menu_jubao_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\text_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\text_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_msg_keyboard_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_msg_keyboard_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\goback_btn_bg_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\goback_btn_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\modify_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\modify_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_indicator_iv.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_indicator_iv.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_super_cm_share_search.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_super_cm_share_search.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_post_detail_ding_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_post_detail_ding_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\tabitem_home_discover_img_sel.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\tabitem_home_discover_img_sel.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homepage_enter_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homepage_enter_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\share_item_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\share_item_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chatto_bg_whisper_right_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chatto_bg_whisper_right_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_coupon_checkbox_style.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_coupon_checkbox_style.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\audio_running_mine.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\audio_running_mine.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_follow_more_delete_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_follow_more_delete_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_index_list_item_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_index_list_item_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\audio_running.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\audio_running.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\pop_btn_selector_background_transition_holo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\pop_btn_selector_background_transition_holo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\subscribe_rotate.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\subscribe_rotate.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\pop_item_selector_background.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\pop_item_selector_background.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sub_search_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sub_search_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\srp_no_subscribe_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\srp_no_subscribe_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sub_checkbox_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sub_checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homepage_delete_bottom_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homepage_delete_bottom_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_first_leader_pagethree_btn_bg_pressed.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_first_leader_pagethree_btn_bg_pressed.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ic_weix_icon_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ic_weix_icon_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_pay_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_pay_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\wxshare_enve_background.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\wxshare_enve_background.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_first_leader_pagetwo_btntext.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_first_leader_pagetwo_btntext.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\mood_publish.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\mood_publish.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\discover_listview_item_bg_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\discover_listview_item_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_send_smile_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_send_smile_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_ask_for_zscoin.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_ask_for_zscoin.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\mine_item_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\mine_item_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\subrecommend_dialog_btn_right_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\subrecommend_dialog_btn_right_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_common_dialog_right_press.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\bg_common_dialog_right_press.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_percenter_menu_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_percenter_menu_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_download_file_btn.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_download_file_btn.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chatmsg_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chatmsg_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\special_background_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\special_background_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_selected_listview_bold.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_selected_listview_bold.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_exit_whisper_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_exit_whisper_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\mine_headerview_headimg_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\mine_headerview_headimg_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_search.9.png",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_search.9.png"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\suber_group_insteres.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\suber_group_insteres.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_posts_publish_friend.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_posts_publish_friend.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_group_chat_btn_toggle.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_group_chat_btn_toggle.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\goback_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\goback_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homenav_back_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homenav_back_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\tabitem_home_souyue_img_sel.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\tabitem_home_souyue_img_sel.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\share_title_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\share_title_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sendimg_alert_dialog_round.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sendimg_alert_dialog_round.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chatfrom_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chatfrom_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\indicator_bg_tabs.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\indicator_bg_tabs.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_post_detail_delete_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_post_detail_delete_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ic_friends_quan_icon_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ic_friends_quan_icon_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\common_pop_menu_itemselector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\common_pop_menu_itemselector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\hwpush_btn_checkbox_list_star.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\hwpush_btn_checkbox_list_star.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\setting_sublist_new_group_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\setting_sublist_new_group_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homepage_popup_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homepage_popup_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\font_home_source_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\font_home_source_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\srp_subscribe_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\srp_subscribe_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\audio_loading.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\audio_loading.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homepage_delete_bottom_press.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homepage_delete_bottom_press.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\login_checkbox_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\login_checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\admin_mor_delete_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\admin_mor_delete_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\checkable_framelayout_fg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\checkable_framelayout_fg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\setting_sub_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\setting_sub_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_no_interest.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_no_interest.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chat_bg_card_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chat_bg_card_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_common_dialog_all.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\btn_common_dialog_all.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\gallerynews_goback_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\gallerynews_goback_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\gallerynews_collectbutton_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\gallerynews_collectbutton_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\forgetpwd_text_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\forgetpwd_text_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\repeat_draw_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\repeat_draw_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_webim_login.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_webim_login.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_percenter_back_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_percenter_back_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\megagame_btn_goback2.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\megagame_btn_goback2.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\cricle_setting_bottom_text_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\cricle_setting_bottom_text_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\setting_sublist_move_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\setting_sublist_move_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_post_detail_edit_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_post_detail_edit_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_splash_jump_bg_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_splash_jump_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\suberlist_textcoloer_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\suberlist_textcoloer_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chatto_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chatto_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_charge_type_yinlian_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_charge_type_yinlian_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homepage_delete_bottom_popup_button.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homepage_delete_bottom_popup_button.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_login.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_login.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\title_bar_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\title_bar_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\title_bar_pcenter_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\title_bar_pcenter_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\megagame_btn_refresh_selector2.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\megagame_btn_refresh_selector2.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\share_dialog_round.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\share_dialog_round.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\search_history_clear_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\search_history_clear_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_super_cm_share_goback.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_super_cm_share_goback.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_common_dialog_bottom_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\bg_common_dialog_bottom_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\layout_bg_corner.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\layout_bg_corner.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_gray_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_gray_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_red_packet_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_red_packet_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_percenter_addbg_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_percenter_addbg_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\subrecommend_head_checkbutton_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\subrecommend_head_checkbutton_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_uninterest_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_uninterest_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sy_indicator_icommentary_right.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sy_indicator_icommentary_right.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\wxshare_enve_dialog_btnok_selecotr.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\wxshare_enve_dialog_btnok_selecotr.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\recorder_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\recorder_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_button_edit_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_button_edit_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_follow_more_hot_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_follow_more_hot_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chatto_bg_whisper_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chatto_bg_whisper_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_post_detail_tuisong_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_post_detail_tuisong_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_hot_rect_blue.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_hot_rect_blue.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\dialog_save_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\dialog_save_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\megagame_btn_goback.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\megagame_btn_goback.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\progress_bar_rotate_light_blue.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\progress_bar_rotate_light_blue.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_share_button_cancel_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_share_button_cancel_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_common_dialog_top_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\bg_common_dialog_top_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_nback_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_nback_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_guide_nextbtn_backgroup.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_guide_nextbtn_backgroup.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\checkbox_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\dialog_round.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\dialog_round.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\middle_homepage_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\middle_homepage_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_redeem_point.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_redeem_point.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_yellow_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_yellow_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\title_bar_leftbtn_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\title_bar_leftbtn_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\offline_progress_horizontal.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\offline_progress_horizontal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ntool_tool_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ntool_tool_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_common_dialog_left_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\bg_common_dialog_left_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\cricle_btn_toggle.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\cricle_btn_toggle.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\background_tab.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_share_button_ok_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_share_button_ok_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\vpi__tab_indicator_blue_line.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\vpi__tab_indicator_blue_line.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_toggle_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_toggle_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\video_seekbar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\video_seekbar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_charge_count_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_charge_count_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_btn_goback.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_btn_goback.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_circle_follow_add.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_circle_follow_add.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_file_delete.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_file_delete.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_percenter_chart_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_percenter_chart_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_common_dialog_bottom_press.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\bg_common_dialog_bottom_press.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\commentary_bubble_me_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\commentary_bubble_me_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\list_view_item_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\list_view_item_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_erweima_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_erweima_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ad_item_rectangle.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ad_item_rectangle.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_first_leader_pagetwo_btn_bg_pressed.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_first_leader_pagetwo_btn_bg_pressed.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\wxshare_enve_dlg_btnok_pressed.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\wxshare_enve_dlg_btnok_pressed.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_follow_add_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_follow_add_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\web_navibar_refresh.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\web_navibar_refresh.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_webim_cancel.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_webim_cancel.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_common_dialog_window.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\bg_common_dialog_window.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\web_navibar_forword.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\web_navibar_forword.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_item_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_item_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\weibo_checkbox_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\weibo_checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ntool_exit_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ntool_exit_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_home_selector_list_button.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\bg_home_selector_list_button.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\login_part_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\login_part_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\subscribe_all_subject_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\subscribe_all_subject_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\cricle_single_edit_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\cricle_single_edit_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_mask.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_mask.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\radiobutton.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\radiobutton.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\search_btn_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\search_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\title_bar_menu_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\title_bar_menu_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\share_bottom_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\share_bottom_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\umeng_update_dialog_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\umeng_update_dialog_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\detail_voice_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\detail_voice_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_common_dialog_right_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\bg_common_dialog_right_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\list_selector_background_transition_holo_light.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\vpi__tab_indicator_arrow.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\vpi__tab_indicator_arrow.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_resend_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_resend_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\tabitem_home_msg_img_sel.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\tabitem_home_msg_img_sel.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_post_detail_jing_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_post_detail_jing_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\comment_pop_follow_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\comment_pop_follow_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\new_weibo_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\new_weibo_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\zscoin_pay_type_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\zscoin_pay_type_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\search_history_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\search_history_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\gallerynews_dingbutton_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\gallerynews_dingbutton_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\admin_mor_canle_prime_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\admin_mor_canle_prime_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\login_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\login_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\suber_group_rss.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\suber_group_rss.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_btn_add_friend_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_btn_add_friend_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_blue_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_blue_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_msg_facedelete_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_msg_facedelete_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_common_dialog_left_press.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\bg_common_dialog_left_press.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\login_login_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\login_login_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_webview_errordialog_refresh.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_webview_errordialog_refresh.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\dialog_btn_background_holo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\dialog_btn_background_holo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\shape_sub_title.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\shape_sub_title.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_style_alert_dialog_button.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_style_alert_dialog_button.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\special_share_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\special_share_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\progress_bar_rotate_public.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\progress_bar_rotate_public.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\cricle_quit_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\cricle_quit_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_menu_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_menu_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_toggle.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_toggle.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homepage_delete_item_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homepage_delete_item_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\loginbtn_text_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\loginbtn_text_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\subrecommend_dialog_btn_left_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\subrecommend_dialog_btn_left_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_select_photo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_select_photo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_tab_topbar_msg_contact_icon_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_tab_topbar_msg_contact_icon_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_interest_tag_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_interest_tag_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_groupchatselector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_groupchatselector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_guide_subcribed_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\bg_guide_subcribed_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\send_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\send_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\po_seekbar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\po_seekbar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_follow_more_copy_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_follow_more_copy_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_share.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_share.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\vpi__tab_indicator_ressub.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\vpi__tab_indicator_ressub.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sy_indicator_icommentary_middle.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sy_indicator_icommentary_middle.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_del_signature.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_del_signature.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_charge_type_alipay_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_charge_type_alipay_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\video_progress.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\video_progress.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\suberlist_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\suberlist_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_circle_setmain_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_circle_setmain_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_add_friend.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_add_friend.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\login_part_full_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\login_part_full_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\titlebar_setting_btn_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\titlebar_setting_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\cricle_single_option_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\cricle_single_option_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\dialog_cancel_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\dialog_cancel_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_cm_megagame_search_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_cm_megagame_search_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_progress_dialog_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_progress_dialog_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_hot_rect_gray.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_hot_rect_gray.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\guide_progress_large.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\guide_progress_large.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sub_all_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sub_all_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\admin_mor_top_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\admin_mor_top_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\fab_background.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\fab_background.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_cancel_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_cancel_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_oval.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_oval.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sub_recommenddlg_checkbox_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sub_recommenddlg_checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_setting_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_setting_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\audio_del_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\audio_del_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_alert_del_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_alert_del_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\edittext_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\edittext_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_chat_add.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_chat_add.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\update_button.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\update_button.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_edit_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_edit_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\login_sep_line_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\login_sep_line_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_list_item_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_list_item_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\cricle_single_full_setting_text_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\cricle_single_full_setting_text_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_addfriend_top_right_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_addfriend_top_right_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\commentary_edit_text_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\commentary_edit_text_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_inboxsetting_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_inboxsetting_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\del_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\del_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\say_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\say_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_style_alert_dialog_cancel.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_style_alert_dialog_cancel.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\mixin_btn_keyboard_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\mixin_btn_keyboard_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_posts_publish_photo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_posts_publish_photo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\suber_group_subject.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\suber_group_subject.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_footer_text_color.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_footer_text_color.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_msg_face_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_msg_face_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\selector_dot.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\selector_dot.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_comment_rating_bar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_comment_rating_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\line_radial.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\line_radial.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_procolor.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_procolor.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_hot_rect_red.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_hot_rect_red.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\procress.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\procress.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\detail_title_arrows_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\detail_title_arrows_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_relogin_rightelector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_relogin_rightelector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_chat_bg_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_chat_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\admin_mor_cancle_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\admin_mor_cancle_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\my_login_btn_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\my_login_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\pictures_select_icon.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\pictures_select_icon.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_id_item_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_id_item_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_more_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_more_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_download_progressbar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_download_progressbar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_join_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_join_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\megagame_btn_super_cm_share_share.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\megagame_btn_super_cm_share_share.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chat_bg_card_right_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chat_bg_card_right_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_comment_pop_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_comment_pop_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\setting_sublist_delete_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\setting_sublist_delete_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sharemenu_circle.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sharemenu_circle.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\admin_mor_prime_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\admin_mor_prime_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\web_navibar_back.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\web_navibar_back.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ntool_subscribe_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ntool_subscribe_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\selector_sub_title.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\selector_sub_title.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_news_selector_tabtext.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_news_selector_tabtext.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_alert_bz_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_alert_bz_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_nimging_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\bg_nimging_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\item_red_packet_left_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\item_red_packet_left_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\im_ok_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\im_ok_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_account_logout_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_account_logout_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homepage_delete_top_popup_top.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homepage_delete_top_popup_top.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\megagame_btn_close_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\megagame_btn_close_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\item_red_packet_right_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\item_red_packet_right_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\sub_save_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\sub_save_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_add_card.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_add_card.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_follow_post_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_follow_post_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\cricle_list_item_border.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\cricle_list_item_border.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_member_im_invite_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_member_im_invite_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\preference_single_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\preference_single_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\admin_mor_canle_top_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\admin_mor_canle_top_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_send_msg_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_send_msg_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\groupqrcode_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\groupqrcode_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homepage_delete_bottom_popup_button_anthor.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homepage_delete_bottom_popup_button_anthor.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_webview_errordialog_close.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_webview_errordialog_close.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_super_share_search.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_super_share_search.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_start_ue_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_start_ue_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_posts_publish_friend_item_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_posts_publish_friend_item_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\ent_selector_listview_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\ent_selector_listview_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\help_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\help_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chat_send_btn.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chat_send_btn.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_circle_dis_subscrib_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_circle_dis_subscrib_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_add_pressed_selecter.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_add_pressed_selecter.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\item_background_holo_light.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\home_selector_bubble.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\home_selector_bubble.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\cricle_setting_center_text_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\cricle_setting_center_text_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\bg_common_dialog_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\drawable\\bg_common_dialog_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\chatting_setmode_voice_btn.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\circle_inboxsetting_check_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\circle_inboxsetting_check_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\homepage_delete_item_checked.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\homepage_delete_item_checked.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\tabitem_txt_sel.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\tabitem_txt_sel.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\share_prize_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\share_prize_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\progress_custom_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\progress_custom_bg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\fragment_add_subscribe_button_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\fragment_add_subscribe_button_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\btn_im_give_zscoin.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\btn_im_give_zscoin.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable\\detail_up_or_down_or_pay.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\drawable\\detail_up_or_down_or_pay.xml"
+    }
+]

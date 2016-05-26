@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/special_title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/special_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/special_red"
+            android:drawablePadding="10dip"
+            android:gravity="center_vertical"
+            android:text="@string/special_text"
+            android:textColor="@color/plaza_item_title_color"
+            android:textSize="16sp"
+             />
+	
+        <TextView
+            android:id="@+id/special_no"
+            android:layout_toLeftOf="@+id/special_checkbox"
+            android:layout_toRightOf="@+id/special_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:text="@string/special_no_text"
+            android:textColor="@color/im_phoneno_text_color"
+            android:textSize="12sp"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+             />
+
+        <CheckBox
+            android:id="@+id/special_checkbox"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="7dip"
+            android:button="@drawable/special_checkbox_selector"
+           	android:gravity="center"
+            android:textColor="@color/gray_7e" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/diviview"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dip"
+        android:layout_below="@+id/special_title"
+        android:background="@color/discover_bg" />
+    <ListView
+        android:id="@+id/special_data_list"
+        android:layout_width="match_parent"
+        android:layout_height="400dip"
+        android:layout_below="@+id/diviview"
+        android:layout_above="@+id/special_close"
+        android:layout_marginTop="15dip"
+        android:divider="@null"
+		android:listSelector="#00000000"
+		android:cacheColorHint="#00000000"
+	    android:fadingEdge="none"
+        android:smoothScrollbar="true" />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="15dip"
+        android:background="@drawable/special_buttom"
+        android:layout_alignBottom="@+id/special_data_list"
+        />
+	<View 
+	    android:id="@+id/special_buttom"
+	    android:layout_below="@+id/special_data_list"
+	    android:layout_width="match_parent"
+        android:layout_height="0.6dip"
+        android:background="@color/discover_bg"
+	    />
+    <TextView
+        android:id="@+id/special_close"
+        android:layout_width="match_parent"
+        android:layout_height="36dip"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/close"
+        android:textColor="@color/plaza_item_title_color"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+<!-- android:background="@drawable/special_buttom" -->

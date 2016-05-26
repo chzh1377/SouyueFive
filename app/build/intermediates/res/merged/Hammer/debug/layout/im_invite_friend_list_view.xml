@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_contacts_swipe_list" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+        <!-- <com.zhongsou.souyue.view.contacts.NetSwipeListView
+            android:id="@+id/example_lv_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="#00000000"
+            swipe:swipeBackView="@+id/back"
+            swipe:swipeCloseAllItemsWhenMoveList="true"
+            swipe:swipeFrontView="@+id/front"
+            swipe:swipeMode="both"
+            android:cacheColorHint="@color/transparent" /> -->
+        <com.zhongsou.souyue.im.view.SwipeListView
+            android:id="@+id/example_lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/im_listdriver_color"
+            android:dividerHeight="0.5dp"
+            android:focusableInTouchMode="true"
+            swipe:right_width="80dp" />
+
+        <com.zhongsou.souyue.im.view.AlphaSideBar
+            android:id="@+id/alphaView"
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_marginTop="40dp"
+            android:background="@color/transparent" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/circle_selected_listview_bold"
+        >
+
+        <com.zhongsou.souyue.view.HorizontalListView
+            android:id="@+id/horizon_listview"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginTop="5dp"></com.zhongsou.souyue.view.HorizontalListView>
+
+        <TextView
+            android:id="@+id/invite_confirm_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@+id/horizon_listview"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/im_confirm_textColor"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="确定"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

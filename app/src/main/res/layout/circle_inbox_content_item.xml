@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="12dp">
+
+    <TextView
+        android:id="@+id/tv_circle_inbox_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:text=""
+        android:textColor="#282828"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_circle_inbox_item_content_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="4dp"
+        android:maxLines="3"
+        android:text=""
+        android:textColor="#aa282828" />
+
+    <LinearLayout
+        android:id="@+id/ll_circle_inbox_item_content_imgs"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone">
+
+        <com.zhongsou.souyue.view.SquareImageView
+            android:id="@+id/iv_circle_inbox_item_content_img2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:visibility="visible" />
+
+        <com.zhongsou.souyue.view.SquareImageView
+            android:id="@+id/iv_circle_inbox_item_content_img3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:visibility="visible" />
+
+        <com.zhongsou.souyue.view.SquareImageView
+            android:id="@+id/iv_circle_inbox_item_content_img4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_circle_inbox_item_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_circle_inbox_item_nick_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="某某－5分钟前"
+            android:textColor="#959595"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_circle_inbox_item_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tv_circle_inbox_item_nick_time"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="某某某主题"
+            android:textColor="#2787b2"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_circle_inbox_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/circle_inbox_item_state_bg_gray"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp"
+            android:text="审核后发布"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+    </RelativeLayout>
+</LinearLayout>

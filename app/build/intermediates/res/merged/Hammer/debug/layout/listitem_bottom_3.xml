@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/home_bottom_layout"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="22dp">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/linearLayout">
+
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/home_wgd_ib_add"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_no_interest"
+                android:layout_marginTop="-5dp"
+                android:layout_marginLeft="-9dp"
+                android:focusableInTouchMode="false"
+                android:scaleType="centerInside" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/home_list_bottom_height"
+                android:text="新浪新闻"
+                android:id="@+id/home_wgd_tv_news"
+                android:textColor="@color/ball_text_color"
+                android:textSize="11sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="top"
+                android:paddingRight="10dp"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:singleLine="true" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/home_list_bottom_height"
+                android:text="12分钟前"
+                android:id="@+id/home_wgd_tv_time"
+                android:textColor="@color/ball_text_color"
+                android:textSize="11sp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="top"
+                android:layout_marginTop="2dp" />
+        <com.zhongsou.souyue.view.BorderTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/home_spacial"
+                android:id="@+id/tv_home_bottom_spacial"
+                android:textSize="8sp"
+                style="@style/home_rect_gray_style"
+                android:gravity="top"
+                android:layout_marginTop="6dp" />
+    </LinearLayout>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="财经"
+            android:id="@+id/home_wgd_tv_come"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_home_selector_list_button"
+            android:textSize="11sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            android:focusableInTouchMode="false"
+            android:textColor="@drawable/font_home_source_selector" />
+
+</RelativeLayout>

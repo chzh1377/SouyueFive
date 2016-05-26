@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="6dp">
+
+    <TextView
+            android:id="@id/msg_adapter_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/date_bg"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:visibility="gone"/>
+
+    <ImageView
+            android:id="@id/msg_adapter_item_unread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/msg_unread_line"
+            android:visibility="gone"
+            />
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <CheckBox
+                android:id="@id/msg_adapter_item_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/im_chat_checkbox"
+                android:button="@null"
+                android:visibility="gone"/>
+
+        <include
+                android:id="@+id/in_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/im_left_head"
+                android:layout_toRightOf="@id/msg_adapter_item_checkbox"
+                layout="@layout/msg_head_view">
+        </include>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/im_friend_name"/>
+
+        <include
+                layout="@layout/im_card_item"
+                android:id="@+id/ll_msg_card"
+                android:layout_width="220dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/msg_adapter_item_user_name"
+                android:layout_marginLeft="@dimen/im_bubble_leftmargin"
+                android:layout_toRightOf="@id/in_head"
+                ></include>
+    </RelativeLayout>
+
+
+</LinearLayout>

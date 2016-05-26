@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d1d0d0"
+    android:orientation="horizontal"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@id/im_alert_ids_send"
+        style="@style/im_alert_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/im_alert_send_selector"
+        android:text="@string/im_alert_send" />
+
+    <TextView
+        android:id="@id/im_alert_ids_bz"
+        style="@style/im_alert_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/im_alert_bz_selector"
+        android:text="@string/im_alert_bz" />
+
+    <TextView
+        android:id="@id/im_alert_ids_del"
+        style="@style/im_alert_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/im_alert_del_selector"
+        android:text="@string/im_alert_del" />
+
+</LinearLayout>

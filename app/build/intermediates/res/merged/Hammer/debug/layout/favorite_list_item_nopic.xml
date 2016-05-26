@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/favourite_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/item_button"
+        style="@style/CommonImageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/home_key_subsrcibe_delete"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/favourite_list_item_title_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_button"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" >
+        
+        <!-- 标题 -->
+        <TextView
+            android:id="@+id/favourite_list_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="标题标题标题标题标题标题标题标题标题"
+            android:textColor="@color/color_srp_title"
+            android:textSize="@dimen/souyue_all_middle"
+            />
+        
+		<TextView
+            android:id="@+id/favourite_list_item_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/favourite_list_item_title"
+            android:layout_below="@id/favourite_list_item_title"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/home_list_come"
+            android:clickable="false"
+            android:paddingBottom="1dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="1dp"
+            android:text="财经"
+            android:textColor="@color/gray_7e"
+            android:textSize="9sp" />
+    </RelativeLayout>
+</RelativeLayout>

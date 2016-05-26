@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/img_btn_title_activity_bar_setting"
+    style="@style/HoloButton.Borderless.Back"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:src="@drawable/titlebar_setting_btn_selector"
+    >
+
+</ImageButton>

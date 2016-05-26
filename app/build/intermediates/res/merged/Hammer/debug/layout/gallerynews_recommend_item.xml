@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/space_370"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+    <!-- recommend 1-->
+    <RelativeLayout
+            android:id="@+id/gallery_recommend_item_1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/space_144">
+        <ImageView
+                android:id="@+id/gallery_recommend_image1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/space_1"
+                android:src="@drawable/default_small"
+                />
+        <TextView
+                android:id="@+id/gallery_recommend_text1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_40"
+                android:padding="@dimen/space_3"
+                android:layout_marginLeft="@dimen/space_1"
+                android:layout_marginRight="@dimen/space_1"
+                android:layout_marginBottom="@dimen/space_1"
+                android:textSize="@dimen/space_12"
+                android:text="Loding..."
+                android:background="@color/transparent_60"
+                android:textColor="@color/white"
+                android:maxLines="2"
+                android:maxEms="18"
+                android:layout_alignParentBottom="true"
+                android:gravity="left|center_vertical"
+                android:ellipsize="end"
+        />
+    </RelativeLayout>
+    <!-- recommend 2-->
+    <RelativeLayout
+            android:id="@+id/gallery_recommend_item_2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="144dp">
+        <ImageView
+                android:id="@+id/gallery_recommend_image2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/space_1"
+                android:src="@drawable/default_small"
+                />
+        <TextView
+                android:id="@+id/gallery_recommend_text2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_40"
+                android:padding="@dimen/space_3"
+                android:layout_marginLeft="@dimen/space_1"
+                android:layout_marginRight="@dimen/space_1"
+                android:layout_marginBottom="@dimen/space_1"
+                android:textSize="@dimen/space_12"
+                android:text="Loding..."
+                android:background="@color/transparent_60"
+                android:textColor="@color/white"
+                android:maxLines="2"
+                android:maxEms="18"
+                android:layout_alignParentBottom="true"
+                android:gravity="left|center_vertical"
+                android:ellipsize="end"
+        />
+    </RelativeLayout>
+
+</LinearLayout>

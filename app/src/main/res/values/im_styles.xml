@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="im_add_attach_text">
+        <!--<item name="android:textColor">@color/gray_7e</item>-->
+        <item name="android:textSize">13sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="popupAnimation" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_out_bottom</item>
+    </style>
+
+    <style name="Im.ImageButton.Borderless" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="coin_dlg" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/im_coin_bg_color</item>
+    </style>
+
+    <style name="im_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/im_dialog_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+     <style name="im_share_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/im_share_dialog_background</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+<!--      <style name="im_chat_text_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item> 
+       <item name="android:windowNoTitle">true</item> 
+    </style> -->
+
+     <style name="chat_pop_dialog" parent="android:Theme.Dialog">
+       <item name="android:windowFullscreen">true</item> 
+       <item name="android:windowNoTitle">true</item> 
+    </style>
+     
+    <style name="im_progress_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/im_progress_dialog_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="self_s_d_p">
+        <item name="android:textColor">@color/gray_7e</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">1dip</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:text">0</item>
+    </style>
+
+    <style name="my_info_text">
+        <item name="android:textColor">@color/info_text_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:minWidth">70dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+
+    <style name="my_info_zs_text">
+        <item name="android:textColor">@color/im_i_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:minWidth">70dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+   <style name="my_info_zs_number">
+        <item name="android:textColor">@color/my_info_zs_number</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:minWidth">70dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+        <!-- <item name="android:src">@drawable/im_right_arrow</item> -->
+    <style name="im_right_image">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:paddingRight">14dp</item>
+    </style>
+
+    <style name="im_i_text_style">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textColor">@color/im_i_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawablePadding">18dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+        <!-- <item name="android:textStyle">bold</item> -->
+    <style name="im_i_text_style_right">
+        <item name="android:textColor">@color/im_i_text_color_right</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="my_info_text_style" parent="im_i_text_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+     <style name="my_info_right_image" parent="im_right_image">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    
+<style name="coupon_text_style">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:textColor">@color/im_i_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="im_alert_style">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/im_alert_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="im_alert_anim" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/im_alert_anim_enter</item>
+        <item name="@android:windowExitAnimation">@anim/im_alert_anim_exit</item>
+    </style>
+
+    <style name="MMListCatalog">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/plaza_item_title_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/letter_bg_text_color</item>
+        <item name="android:paddingLeft">6dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">25dip</item>
+    </style>
+
+    <style name="MMFontTitleInList">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/plaza_item_title_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="MMFontNumInList">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/im_phoneno_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="MMListItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">68dip</item>
+    </style>
+
+    <style name="im_tab_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">3dip</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:textColor">@color/im_multiple_txt_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="im_share_dialog_buttom">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">3dip</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="im_group_chat_my_toggle" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/im_group_chat_btn_toggle</item>
+        <item name="android:textOn">@null</item>
+        <item name="android:textOff">@null</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="im_group_dialog_sytle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!--im弹窗的样式-->
+    <!--外层的linearLayout-->
+    <style name="tab_msg_more_outer_ll" >
+            <!-- <LinearLayout
+                android:id="@+id/im_chat_scanning_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@drawable/im_chat_bg_selector"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip">-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/im_chat_bg_selector</item>
+        <item name="android:clickable">true</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+    <!--内层 ImageView-->
+    <!--  android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:scaleType="centerInside"-->
+    <style name="tab_msg_more_inner_iv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <!--内层 TextView-->
+    <!--   android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:paddingLeft="10dip"
+                    android:text="扫一扫"
+                    android:textColor="@color/middark_black"
+                    android:textSize="14sp" -->
+    <style name="tab_msg_more_inner_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textColor">@color/middark_black</item>
+        <item name="android:textSize" >14sp</item>
+    </style>
+
+</resources>

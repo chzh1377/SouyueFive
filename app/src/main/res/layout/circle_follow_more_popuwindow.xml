@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/space_47"
+    android:background="@drawable/circle_follow_more_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/space_14"
+    android:paddingRight="@dimen/space_14" >
+
+    <LinearLayout
+        android:id="@+id/ll_circle_follow_more_huifu"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_40"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comment_pop_follow_selector"
+            android:clickable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_7"
+            android:text="回复"
+            android:textColor="@color/comment_pop_text_color"
+            android:textSize="@dimen/text_size_14"/>
+
+       
+    </LinearLayout>
+
+    <LinearLayout
+         android:id="@+id/ll_circle_follow_more_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_40"
+        android:layout_marginLeft="@dimen/space_8"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+         <View
+            android:layout_width="@dimen/space_0.5"
+            android:layout_height="@dimen/space_20"
+            android:background="@drawable/circle_follow_more_split_line" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_follow_more_copy_selector"
+            android:layout_marginLeft="@dimen/space_8"
+            android:clickable="false" />
+
+        <TextView
+             android:layout_marginLeft="@dimen/space_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="复制"
+            android:textColor="@color/comment_pop_text_color"
+            android:textSize="@dimen/text_size_14" />
+
+      
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_circle_follow_more_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/space_40"
+            android:layout_marginLeft="@dimen/space_8"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+        <View
+                android:layout_width="@dimen/space_0.5"
+                android:layout_height="@dimen/space_20"
+                android:background="@drawable/circle_follow_more_split_line" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_follow_more_delete_selector"
+                android:layout_marginLeft="@dimen/space_8"
+                android:clickable="false" />
+
+        <TextView
+                android:layout_marginLeft="@dimen/space_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除"
+                android:textColor="@color/comment_pop_text_color"
+                android:textSize="@dimen/text_size_14" />
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_circle_follow_more_remen"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/space_40"
+            android:layout_marginLeft="@dimen/space_8"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+        <View
+                android:layout_width="@dimen/space_0.5"
+                android:layout_height="@dimen/space_20"
+                android:background="@drawable/circle_follow_more_split_line" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_8"
+                android:background="@drawable/circle_follow_more_hot_selector"
+                android:clickable="false" />
+
+        <TextView
+                android:id="@+id/tv_hot"
+                android:layout_marginLeft="@dimen/space_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设为热门"
+                android:textColor="@color/comment_pop_text_color"
+                android:textSize="@dimen/text_size_14" />
+    </LinearLayout>
+</LinearLayout>

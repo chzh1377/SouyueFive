@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/msg_tab_colors"
+        >
+
+    <include
+            android:id="@+id/in_title_bar"
+            layout="@layout/im_title_bar_chat_msg_layout"/>
+
+    <TextView
+            android:id="@+id/tv_line"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/space_0.5"
+            android:layout_below="@id/in_title_bar"
+            android:background="@color/msgtab_header_line_color"
+            />
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_line"
+            >
+        <!-- 已登录 -->
+        <include
+                layout="@layout/im_tab_msg_layout"
+                />
+
+        <!-- 没数据 -->
+        <ImageView
+                android:id="@+id/ll_im_nodata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/im_msg_tab_no_data"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

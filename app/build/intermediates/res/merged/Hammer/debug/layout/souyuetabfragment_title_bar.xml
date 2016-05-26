@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhongsou.souyue.component.HomeTitleView xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:id="@+id/souyuetabcontent"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="48dp"
+                                             android:background="@color/white"
+                                             android:gravity="center"
+                                             android:orientation="horizontal"
+        >
+
+    <RelativeLayout
+            android:id="@+id/ll_userlevel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:paddingLeft="4dp">
+        <ImageView
+                android:src="@drawable/homepage_image_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"/>
+
+    </RelativeLayout>
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="@color/homepage_line_color"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_height="0.5dp"/>-->
+    <View style="@style/Bar_Horizonal_line_style"
+          android:layout_alignParentBottom="true"
+            />
+
+    <RelativeLayout
+            android:id="@+id/common_right_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/ll_userlevel">
+
+        <RelativeLayout
+                android:id="@+id/rl_home_search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:background="@drawable/goback_btn_bg_selector">
+            <TextView
+                    android:id="@+id/ico_home_title_search"
+                    style="@style/home_title_actionbar_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ico_home_title_search1"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="0dp"
+                    android:text="搜索"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:id="@+id/rl_home_website"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/rl_home_search"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:background="@drawable/goback_btn_bg_selector">
+            <TextView
+                    android:id="@+id/ico_home_title_website"
+                    style="@style/home_title_actionbar_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ico_home_title_website1"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="0dp"
+                    android:text="网址"/>
+        </RelativeLayout>
+        <!--指不定产品又要回来-->
+        <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_toLeftOf="@id/ico_home_title_website"-->
+
+        <!-->-->
+        <RelativeLayout
+                android:id="@+id/rl_home_subcribe"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/rl_home_website"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:background="@drawable/goback_btn_bg_selector">
+            <TextView
+                    android:id="@+id/ico_home_title_subcribe"
+                    style="@style/home_title_actionbar_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ico_home_title_subcribe1"
+                    android:drawablePadding="0dp"
+                    android:layout_centerInParent="true"
+                    android:text="订阅"/>
+        </RelativeLayout>
+        <!--<ImageView-->
+        <!--android:src="@drawable/home_page_trangle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="17dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:background="@drawable/goback_btn_bg_selector"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+        <!--</RelativeLayout>-->
+    </RelativeLayout>
+
+
+</com.zhongsou.souyue.component.HomeTitleView>
+

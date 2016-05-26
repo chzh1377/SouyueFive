@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\fresco\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\main.xml",
+        "source": "F:\\workspace\\SouyueFive\\fresco\\build\\intermediates\\bundles\\debug\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\fresco\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_fresco.xml",
+        "source": "F:\\workspace\\SouyueFive\\fresco\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_fresco.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\fresco\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\inc_topview.xml",
+        "source": "F:\\workspace\\SouyueFive\\fresco\\build\\intermediates\\bundles\\debug\\res\\layout\\inc_topview.xml"
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="im_line_height">46dp</dimen>
+    <dimen name="chat_user_iconw">52dp</dimen>
+    <dimen name="chat_user_iconh">52dp</dimen>
+    <dimen name="im_attach_layout_height">110dp</dimen>
+    <dimen name="im_add_pic_height">60dp</dimen>
+    <dimen name="im_alphasidebar_text">10sp</dimen>
+    <dimen name="im_NormalListHeight">64.0dip</dimen>
+    <dimen name="im_NormalPadding">12.0dip</dimen>
+    <dimen name="im_NormalTextSize">16.0dip</dimen>
+    
+   <!--  <dimen name="souyue_all_font">24sp</dimen> -->
+   <dimen name="souyue_all_big">24sp</dimen>
+   <dimen name="souyue_all_middle">18sp</dimen>
+   <dimen name="souyue_all_small">12sp</dimen>
+    <dimen name="souyue_all_middle_16">16sp</dimen>
+</resources>

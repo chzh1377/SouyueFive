@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/black"
+                android:id="@+id/bar">
+
+    <com.zhongsou.souyue.ui.gallery.GalleryViewPager
+            android:id="@+id/gallery_viewer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+
+    <RelativeLayout
+            android:id="@+id/controller_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+                android:id="@+id/images_save"
+                style="@style/CommonImageButtonStyle"
+                android:layout_width="@dimen/space_42"
+                android:layout_height="@dimen/space_30"
+                android:clickable="true"
+                android:onClick="onSaveToSdClick"
+                android:background="@drawable/gallerynews_goback_selector"
+                android:src="@drawable/gallery_save_selector"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/space_18"
+                android:layout_marginRight="@dimen/space_18"
+                android:layout_alignParentRight="true"/>
+
+
+        <LinearLayout
+                android:id="@+id/gallery_recommend_bottom_btn"
+                android:layout_width="match_parent"
+                android:background="@color/transparent_60"
+                android:gravity="right"
+                android:layout_height="@dimen/space_40"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+            <RelativeLayout
+                    android:id="@+id/follow_post_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                <ImageButton
+                        android:id="@+id/follow_post_imagebutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        style="@style/HoloButton.Borderless"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/circle_follow_post_selector"/>
+
+                <TextView
+                        android:id="@+id/follow_post_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/follow_post_imagebutton"
+                        android:layout_marginLeft="@dimen/space_fu_5"
+                        android:background="@drawable/bg_tv_good"
+                        android:clickable="false"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:paddingLeft="@dimen/space_4"
+                        android:paddingRight="@dimen/space_4"
+                        android:text="@string/zero"
+                        android:layout_marginTop="@dimen/space_5"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/ding_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                <ImageButton
+                        style="@style/HoloButton.Borderless"
+                        android:id="@+id/ding_imagebutton"
+                        android:layout_centerInParent="true"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/gallerynews_dingbutton_selector"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/ding_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/ding_imagebutton"
+                        android:background="@drawable/bg_tv_good"
+                        android:clickable="false"
+                        android:ellipsize="end"
+                        android:layout_marginLeft="@dimen/space_fu_5"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:text="@string/zero"
+                        android:paddingLeft="@dimen/space_4"
+                        android:paddingRight="@dimen/space_4"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_10"/>
+            </RelativeLayout>
+
+            <ImageButton
+                    android:id="@+id/collect_imagebutton"
+                    style="@style/HoloButton.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@null"
+                    android:src="@drawable/gallerynews_collectbutton_selector"/>
+
+            <ImageButton
+                    android:id="@+id/share_imagebutton"
+                    style="@style/HoloButton.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@null"
+                    android:src="@drawable/circle_share_bottom_selector"/>
+        </LinearLayout>
+        <!--底部按钮上方的线条-->
+        <View
+                android:layout_above="@id/gallery_recommend_bottom_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/user_reply_313131"/>
+        <!-- 中部的文本描述-->
+        <RelativeLayout
+                android:layout_above="@id/gallery_recommend_bottom_btn"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/space_1"
+                android:paddingLeft="@dimen/space_8"
+                android:paddingTop="@dimen/space_5"
+                android:paddingRight="@dimen/space_8"
+                android:background="@color/transparent_60"
+                android:layout_height="@dimen/space_130">
+            <!--标题-->
+            <TextView
+                    android:id="@+id/gallerynews_activity_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_marginRight="@dimen/space_40"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/space_18"
+                    android:text="Loading.LoadingLoadingLoadingLoadingLoadingLoadingLoadingLoading.."
+            />
+            <!--数字按钮-->
+
+            <TextView
+                    android:id="@+id/images_num"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="loading"
+                    android:layout_alignParentRight="true"/>
+
+            <ScrollView
+                    android:layout_width="match_parent"
+                    android:id="@+id/sv_desc"
+                    android:layout_marginTop="@dimen/space_30"
+                    android:layout_marginBottom="@dimen/space_3"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:id="@+id/gallerynews_activity_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:lineSpacingMultiplier="1.2"
+                        android:textColor="@color/gallerynews_desctext_color"
+                        android:textSize="@dimen/space_14"
+                        android:text="我能吞下玻璃而不伤害身体.我能吞我能吞下玻璃而不伤害身体我能吞下玻璃而不伤害身体我能吞下玻璃而不伤害身体下玻璃而不伤害身体.我能吞下玻璃而不伤害身体.我能吞下玻璃而不伤害身体.我能吞下玻璃而不伤害身体.我能吞下玻璃而不伤害身体.我能吞下玻璃而不伤害身体.我能吞下玻璃而不伤害身体.我能吞下玻璃而不伤害身体.我能吞下玻璃而不伤害身体.我能吞下玻璃而不伤害身体.我能吞下玻璃而不伤害身体..我能吞下玻璃而不伤害身体."
+                        android:layout_below="@+id/gallerynews_activity_title"
+                        android:layout_alignParentLeft="true"/>
+            </ScrollView>
+            <!--正文-->
+
+        </RelativeLayout>
+        <include layout="@layout/ent_refresh_footer"
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+   <!-- 底部的按钮布局-->
+     <include
+             android:id="@+id/list_loading"
+             layout="@layout/loading" />
+
+    <ImageButton
+            android:id="@+id/images_back"
+            style="@style/CommonImageButtonStyle"
+            android:layout_width="@dimen/space_42"
+            android:layout_height="@dimen/space_30"
+            android:clickable="true"
+            android:onClick="onBackClick"
+            android:background="@drawable/btn_goback_enable"
+            android:src="@drawable/gallerynews_goback_selector"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/space_18"
+            android:layout_marginLeft="@dimen/space_18"
+            android:layout_alignParentLeft="true"/>
+</RelativeLayout>

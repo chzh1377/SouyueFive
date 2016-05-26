@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhongsou.souyue.view.MineOverScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mineoverscrollview">
+    <com.zhongsou.souyue.view.BounceListView
+            android:id="@+id/mine_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/discover_bg"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="1dp"
+            android:divider="@color/transparent"
+            android:fadingEdge="none"
+            android:listSelector="@color/transparent"
+            android:layout_marginTop="-140dip"/>
+</com.zhongsou.souyue.view.MineOverScrollView>

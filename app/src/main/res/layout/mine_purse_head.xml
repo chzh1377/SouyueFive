@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="75dp"
+              android:background="@color/mine_heand_background_red"
+              android:weightSum="2">
+
+    <LinearLayout
+            android:id="@+id/mine_purse_head_layoutZsb"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+        <TextView
+                android:id="@+id/mine_purse_head_titleZsb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中搜币余额"
+                android:textColor="@color/mine_color_purse_head_titleZsb"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/text_size_14"/>
+
+        <TextView
+                android:id="@+id/mine_purse_head_txtZsb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/white40"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/text_size_21"/>
+
+    </LinearLayout>
+
+    <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@color/mine_color_purse_head_drivderLine"/>
+
+    <LinearLayout
+            android:id="@+id/mine_purse_head_layoutJf"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+        <TextView
+                android:id="@+id/mine_purse_head_titleJf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="积分余额"
+                android:textColor="@color/mine_color_purse_head_titleZsb"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/text_size_14"/>
+
+        <TextView
+                android:id="@+id/mine_purse_head_txtJf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white40"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/text_size_21"/>
+
+    </LinearLayout>
+
+</LinearLayout>

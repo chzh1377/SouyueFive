@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/tv_red_packet_content"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:background="@drawable/item_red_packet_right_selector"
+            android:textSize="@dimen/space_16"
+    />
+
+    <ImageView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_red_packet_right_down"
+    />
+</LinearLayout>

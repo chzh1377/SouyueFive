@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/all_titlebar_bg_color">
+
+    <include
+        layout="@layout/title_bar_ac_goback"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/goBack">
+
+        <include layout="@layout/title_bar_ac_title" />
+    </LinearLayout>
+
+    <View style="@style/Bar_Horizonal_line_style"
+            android:layout_below="@id/goBack"/>
+</RelativeLayout>

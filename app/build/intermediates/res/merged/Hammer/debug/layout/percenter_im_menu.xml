@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/space_8"
+                android:clickable="false"
+                android:focusable="false"
+                android:background="@drawable/common_pop_bg"
+        >
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:clickable="false"
+                  android:focusable="false"
+                  android:orientation="vertical">
+        <LinearLayout
+                android:id="@+id/percenter_im_menu_send"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:background="@drawable/common_pop_menu_itemselector"
+                android:layout_height="40dp">
+
+            <ImageView
+                    style="@style/Circle_index_popmenu_innerstyle_image"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/btn_percenter_im_send"/>
+
+            <TextView
+                    style="@style/Circle_index_popmenu_innerstyle_textview"
+                    android:duplicateParentState="true"
+                    android:text="发送名片"/>
+        </LinearLayout>
+        <include layout="@layout/common_divider_line"/>
+        <LinearLayout
+                android:id="@+id/percenter_im_menu_rename"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:background="@drawable/common_pop_menu_itemselector"
+                android:layout_height="40dp">
+
+            <ImageView
+                    style="@style/Circle_index_popmenu_innerstyle_image"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/btn_percenter_im_rename"/>
+
+            <TextView
+                    style="@style/Circle_index_popmenu_innerstyle_textview"
+                    android:duplicateParentState="true"
+                    android:text="备注名"/>
+        </LinearLayout>
+        <include layout="@layout/common_divider_line"/>
+        <LinearLayout
+                android:id="@+id/percenter_im_menu_del"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:background="@drawable/common_pop_menu_itemselector"
+                android:layout_height="40dp">
+
+            <ImageView
+                    style="@style/Circle_index_popmenu_innerstyle_image"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/btn_percenter_im_del"/>
+
+            <TextView
+                    style="@style/Circle_index_popmenu_innerstyle_textview"
+                    android:duplicateParentState="true"
+                    android:text="删除好友"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<TextView-->
+    <!--android:id="@+id/percenter_im_menu_send"-->
+    <!--style="@style/im_alert_style"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="发送名片" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/percenter_im_menu_rename"-->
+    <!--style="@style/im_alert_style"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="备注名" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/percenter_im_menu_del"-->
+    <!--style="@style/im_alert_style"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="删除好友" />-->
+
+</RelativeLayout>

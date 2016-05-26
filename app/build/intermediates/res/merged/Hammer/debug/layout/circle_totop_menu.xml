@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="#d8d8d8"
+    android:orientation="vertical"
+    android:padding="15dp">
+    
+    <TextView
+        android:id="@+id/textView_totop_forver1"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/cicle_bg_totop"
+        android:gravity="center"
+        android:text="永久置顶"
+       android:textColor="#282828"
+        android:textSize="16sp" />
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/textView_totop_forver"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/cicle_bg_totop"
+        android:gravity="center"
+        android:text="置顶三天"
+       android:textColor="#282828"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/textView_totop_oneweek"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/cicle_bg_totop"
+        android:gravity="center"
+        android:text="置顶二天"
+        android:textColor="#282828"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/textView_totop_oneday"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/cicle_bg_totop"
+        android:gravity="center"
+        android:text="置顶一天"
+       android:textColor="#282828"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/textView_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/cancle_posts"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>

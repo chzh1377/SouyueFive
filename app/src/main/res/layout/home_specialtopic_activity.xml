@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/titlebar_onlytitle_toac"/>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <com.zhongsou.souyue.ui.webview.CBaseWebView
+                android:id="@+id/cover_webview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:listSelector="@drawable/home_list_item_selector"
+                android:scrollingCache="true"
+                android:smoothScrollbar="true"
+                android:visibility="gone"
+                />
+        <include layout="@layout/loading"
+                />
+        <ImageButton
+                android:id="@+id/special_share_btn"
+                android:layout_width="@dimen/space_40"
+                android:layout_height="@dimen/space_40"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/special_share_selector"
+                android:background="@null"
+                android:layout_marginBottom="@dimen/space_20"
+                android:layout_marginRight="@dimen/space_20"
+                />
+    </RelativeLayout>
+</LinearLayout>

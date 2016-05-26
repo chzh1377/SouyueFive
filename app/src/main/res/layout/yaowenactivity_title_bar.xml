@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomBar"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:background="@color/all_titlebar_bg_color"
+
+    android:paddingTop="5dp"
+    android:gravity="center"
+   >
+
+        <TextView
+            android:id="@+id/ib_left"
+            style="@style/HoloButton.Borderless"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:onClick="onActionsButtonClick"
+            android:scaleType="center"
+            android:textColor="@color/bar_center_title_color"
+           android:drawablePadding="8dp"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dip"
+            android:text="要闻"
+            android:drawableLeft="@drawable/goback_button_selector"
+            />
+
+    <!-- 订阅 搜索等按钮 -->
+
+    <LinearLayout
+        android:id="@+id/common_right_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/img_btn_title_fragment_bar_search"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:onClick="onSearchClick"
+            android:src="@drawable/search_btn_selector"
+            android:visibility="visible" />
+
+<!--         <ImageButton
+            android:id="@+id/bt_add_subscribe"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:onClick="onSubcibeClick"
+            android:src="@drawable/circle_subscribe_selector"
+            android:visibility="visible" /> -->
+    </LinearLayout>
+
+    <View style="@style/Bar_Horizonal_line_style"
+          android:layout_alignParentBottom="true"/>
+</RelativeLayout>

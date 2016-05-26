@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/srp_bar_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <include  layout="@layout/yaowenactivity_title_bar"/>
+    </LinearLayout>
+    <!-- 搜悦新闻源分type类型展示页面xml  下面可以直接include  fragment_rss_list.xml这个文件 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color" >
+
+        <include layout="@layout/loading" />
+
+        <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+            android:id="@+id/rss_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/listview_divider"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/list_view_item_selector"
+            android:fastScrollEnabled="false"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true" />
+    </LinearLayout>
+
+</LinearLayout>

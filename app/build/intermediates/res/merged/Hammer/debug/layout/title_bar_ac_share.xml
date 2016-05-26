@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ib_srp_share"
+    style="@style/HoloButton.Borderless"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:scaleType="center"
+    android:src="@drawable/share_title_selector"
+    android:visibility="visible">
+
+</ImageButton>

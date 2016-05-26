@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/space_262"
+                android:layout_height="@dimen/space_365"
+                android:id="@+id/rl_content"
+                android:background="@drawable/red_packet_background"
+                android:orientation="vertical"
+>
+    <ImageView android:scaleType="fitXY"
+               android:layout_width="@dimen/space_80"
+               android:layout_height="@dimen/space_80"
+               android:layout_marginTop="@dimen/space_25"
+               android:layout_centerHorizontal="true"
+               android:src="@drawable/mine_headerview_headimg_bg"/>
+
+    <ImageView android:id="@+id/iv_head"
+               android:scaleType="fitXY"
+               android:layout_width="@dimen/space_70"
+               android:layout_height="@dimen/space_70"
+               android:layout_marginTop="@dimen/space_30"
+               android:src="@drawable/mine_head_defaultimg"
+               android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:id="@+id/tv_red_owner"
+            android:layout_below="@id/iv_head"
+            android:layout_marginTop="@dimen/space_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginLeft="@dimen/space_32"
+            android:layout_marginRight="@dimen/space_32"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/space_18"
+    />
+    <TextView
+            android:id="@+id/tv_content"
+            android:layout_below="@id/tv_red_owner"
+            android:layout_marginTop="@dimen/space_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginLeft="@dimen/space_32"
+            android:layout_marginRight="@dimen/space_32"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/im_red_packet_content_color"
+            android:textSize="@dimen/space_18"
+    />
+    <ImageView
+            android:id="@+id/iv_dismantle_red"
+            android:layout_width="@dimen/space_90"
+            android:layout_height="@dimen/space_90"
+            android:src="@drawable/red_packet_dismantle"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/space_75"
+    />
+
+</RelativeLayout>

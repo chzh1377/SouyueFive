@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_signature_toac" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edittext_bg">
+
+        <EditText
+            android:id="@+id/et_signatrue"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/btn_signature_clear"
+            android:background="@null"
+            android:hint="@string/signatrue_default"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#383838"
+            android:maxLength="20"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_signature_clear"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_search_clear_it" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp" >
+
+        <!-- <TextView
+            android:id="@+id/tv_my_signature_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_nick_des"
+            android:textColor="#8a8a8a"
+            android:textSize="12sp" /> -->
+		<TextView
+	        android:id="@+id/tv_text_limit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:gravity="right"
+	        android:text="@string/signatrue_limit"
+	        android:textColor="#8a8a8a"
+	        android:textSize="12sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_edit_signature_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="45dip"
+        android:background="@drawable/my_button_selector"
+        android:paddingLeft="5dp"
+        android:text="@string/edit_nick_submit"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</LinearLayout>

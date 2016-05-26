@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tab_topbar_msg_layout"
+                android:background="@color/white">
+
+    <include
+            layout="@layout/title_bar_ac_home_goback"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:visibility="gone"
+            android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dip">
+        <TextView
+                android:id="@+id/activity_bar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="AAAAA"
+                android:minHeight="48dip"
+                android:singleLine="true"
+                android:textColor="@color/bar_center_title_color"
+                android:textSize="18sp"
+                />
+        <include layout="@layout/title_bar_ac_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+            android:id="@+id/common_right_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_centerInParent="true"
+            >
+
+        <ImageButton
+                android:id="@+id/msg_tab_contact_imgbtn"
+                style="@style/HoloButton.Borderless"
+                android:layout_width="45dp"
+                android:layout_height="48dp"
+                android:src="@drawable/im_tab_topbar_msg_contact_icon_selector"
+                android:layout_gravity="center"
+                android:textColor="@color/comment_btn_font"/>
+        <TextView
+                android:id="@+id/news_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignTop="@+id/msg_tab_contact_imgbtn"
+                android:layout_alignRight="@+id/msg_tab_contact_imgbtn"
+                android:background="@drawable/tool_atme_number"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+        <ImageButton
+                android:id="@+id/msg_tab_more_imgbtn"
+                style="@style/HoloButton.Borderless"
+                android:layout_toRightOf="@id/msg_tab_contact_imgbtn"
+                android:layout_width="45dip"
+                android:layout_height="48dip"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:src="@drawable/im_btn_add_friend_selector"
+                android:visibility="visible"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dip">
+
+        <ImageView
+            android:id="@+id/im_circle_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_15"
+            android:layout_marginRight="@dimen/space_10"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/im_circle_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/im_circle_img"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="我是标题，我是标题"
+            android:textColor="@color/middark_black"
+            android:textSize="@dimen/space_15" />
+    </RelativeLayout>
+</RelativeLayout>

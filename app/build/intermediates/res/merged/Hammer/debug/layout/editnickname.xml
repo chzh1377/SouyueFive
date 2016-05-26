@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_onlytitle_toac" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/space_50"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_14"
+        android:background="@drawable/edittext_bg">
+
+        <EditText
+            android:id="@+id/et_nickname"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/space_50"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/btn_nick_clear"
+            android:background="@null"
+            android:hint="@string/default_nick"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:maxLength="20"
+            android:textColor="@color/nicknamedialog_nicknamecolor"
+            android:textSize="@dimen/space_18" />
+
+        <Button
+            android:id="@+id/btn_nick_clear"
+            android:layout_width="@dimen/space_23"
+            android:layout_height="@dimen/space_23"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/space_10"
+            android:background="@drawable/clear_icon" />
+    </RelativeLayout>
+	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_12"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_15"
+         >
+	    <TextView
+	        android:id="@+id/tv_my_nikename_desc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/nick_tips_text_color"
+	        android:textSize="@dimen/text_size_12" />
+	    <TextView
+	        android:id="@+id/tv_text_limit_count"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/tv_my_nikename_desc"
+	        android:layout_alignParentRight="true"
+	        android:gravity="right"
+	        android:layout_marginLeft="@dimen/space_8"
+	        android:textColor="@color/nick_tips_text_color"
+	        android:textSize="@dimen/text_size_12" />
+	</RelativeLayout>
+    <Button
+        android:id="@+id/btn_edit_nick_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/space_45"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_45"
+        android:background="@drawable/my_button_selector"
+        android:paddingLeft="@dimen/space_5"
+        android:text="@string/edit_nick_submit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_25" />
+
+</LinearLayout>

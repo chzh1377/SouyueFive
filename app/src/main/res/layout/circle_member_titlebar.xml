@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/all_titlebar_bg_color">
+
+    <include
+        layout="@layout/title_bar_ac_goback"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/goBack">
+
+        <TextView
+            android:id="@+id/activity_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minHeight="48dip"
+            android:singleLine="true"
+            android:text="圈成员"
+            android:textColor="@color/bar_center_title_color"
+            android:textSize="18sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/invite_btn"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_height="48dp"
+            android:src="@drawable/circle_add_pressed_selecter">
+
+        </ImageView>
+    </LinearLayout>
+
+
+</RelativeLayout>

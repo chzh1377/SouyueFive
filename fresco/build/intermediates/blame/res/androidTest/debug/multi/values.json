@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\workspace\\SouyueFive\\fresco\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 1317,
+                    "endColumn": 60,
+                    "endOffset": 1373
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\fresco\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 1317,
+                        "endColumn": 60,
+                        "endOffset": 1373
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/all_titlebar_bg_color">
+
+    <ImageButton
+        android:id="@+id/goBack"
+        style="@style/HoloButton.Borderless.Back"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:onClick="onBackPressClick"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/goback_button_selector"/>
+
+    <TextView
+        android:id="@+id/activity_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_toLeftOf="@+id/layout_option"
+        android:layout_toRightOf="@+id/goBack"
+        android:ellipsize="end"
+        android:gravity="center_vertical|start"
+        android:maxLines="1"
+        android:minHeight="48dip"
+        android:singleLine="true"
+        android:text="ssdasdasd"
+        android:textColor="@color/bar_center_title_color"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/layout_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <ImageButton
+            android:id="@+id/btn_cricle_edit"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/cricle_single_edit_selector"
+            android:visibility="visible"/>
+
+        <ImageButton
+            android:id="@+id/btn_cricle_option"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/circle_more_pressed_selecter"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+    <View style="@style/Bar_Horizonal_line_style"
+          android:layout_below="@+id/goBack"/>
+</RelativeLayout>

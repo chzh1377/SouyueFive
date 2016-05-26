@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\androidTest\\Hammer\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 71,
+                    "endOffset": 122
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\app\\build\\generated\\res\\resValues\\androidTest\\Hammer\\debug\\values\\generated.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 71,
+                        "endOffset": 229
+                    }
+                }
+            }
+        ]
+    }
+]

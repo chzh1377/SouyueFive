@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/all_titlebar_bg_color">
+
+    <ImageButton
+        android:id="@+id/goBack"
+        style="@style/HoloButton.Borderless.Back"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:onClick="onBackPressClick"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/goback_button_selector"/>
+
+    <TextView
+        android:id="@+id/activity_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/include1"
+        android:layout_gravity="center_vertical"
+        android:layout_toLeftOf="@+id/layout_option"
+        android:layout_toRightOf="@+id/goBack"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:minHeight="48dip"
+        android:singleLine="true"
+        android:textColor="@color/bar_center_title_color"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <View style="@style/Bar_Horizonal_line_style"
+          android:layout_below="@id/goBack"/>
+
+</RelativeLayout>

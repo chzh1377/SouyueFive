@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 用户协议 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_onlytitle_toac" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                style="@style/about_coutext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="fill_vertical"
+                android:text="@string/disclaimer_context"
+                android:textColor="@color/font_about_context"
+                android:id="@+id/about_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

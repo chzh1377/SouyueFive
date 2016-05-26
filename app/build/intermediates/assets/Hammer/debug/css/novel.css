@@ -1,0 +1,144 @@
+@charset "utf-8";
+/*
+Title:	 styles for  SouYue Srp:Novel小说 
+Create:	 2014-08-27
+Author:  yangwenwen@zhongsou.com
+tel:     7280
+*/
+
+/* The renwu template color*/
+body{ min-width:320px; font-family:Microsoft YaHei,Arial;}
+em,i{ font-style:normal;}
+/*小说首页*/
+.novel_header{ height:216px; padding:18px 10px 0 15px; overflow:hidden; background:url(../image/novel_bg.jpg) no-repeat; background-size:100% 234px;}
+.novel_header a.novelimg,.novel_desc{ float:left; display:inline;}
+.novel_header a.novelimg{ width:133px; height:200px; margin-right:10px;}
+.novel_header a.novelimg img{ width:133px; height:200px;}
+.novel_right{ overflow:hidden;}
+.novel_desc{ width:100%; line-height:36px; overflow:hidden; color:#DEB093; font-size:14px;}
+.novel_desc p{ width:100%; height:36px; overflow:hidden;}
+.novel_desc p em{ font-size:15px;}
+.novel_desc p.btnydlx{ margin-top:8px;}
+.novel_desc p a:nth-child(odd),.novel_newzj span a:nth-child(odd){ float:left; display:inline;}
+.novel_desc p a:nth-child(even),.novel_newzj span a:nth-child(even){ float:right; display:inline;}
+.novel_desc p a,.novel_newzj span a{ background:url(../image/btnicon.png) no-repeat; background-size:143px 80px;}
+.novel_desc p a{ width:72px; height:36px; line-height:34px; color:#FFF; text-align:center; background-position:0 0;}
+.novel_newzj{ width:100%; overflow:hidden;}
+.novel_newzj a.newzj,.novel_newzj a.scdd{ display:block; padding:0 15px; overflow:hidden; color:#674839; font-size:15px;}
+.novel_newzj a.newzj{ height:43px; line-height:43px; overflow:hidden; border-top:1px solid #2B2E2E;}
+.novel_newzj a.scdd{ height:41px; line-height:41px; overflow:hidden; border-top:1px solid #C6C6C7;}
+.novel_newzj span{ display:block; padding:13px 15px; border-top:1px solid #C6C6C7; overflow:hidden;}
+.novel_newzj span a{ width:143px; height:36px; line-height:34px; overflow:hidden; color:#FFF; font-size:14px; text-align:center; background-position:0 -41px;}
+.novel_jj{ padding:0 11px 0 15px; overflow:hidden; background:url(../image/novel_bg2.jpg) no-repeat top; background-size:100% 11px;}
+.novel_jj p{ width:100%; padding:11px 0 20px; line-height:23px; overflow:hidden; color:#5D5956; font-size:14px;}
+/*章节目录*/
+.novel_mulu{ padding:0 15px; height:34px; line-height:34px; color:#5E5A57; font-size:14px;}
+.novel_mulu span{ float:left; display:inline;}
+.novel_mulu a{ float:right; display:inline; color:#656565;}
+.novel_mulu a em{ float:right; display:inline-block; width:8px; height:8px; margin-left:7px; margin-top:11px; border:2px solid #E75F5F; border-left:none; border-bottom:none; -webkit-transform:rotate(135deg);}
+.novel_mulu span.px{ float:right; }
+.novel_mulu a.px em{ -webkit-transform:rotate(-45deg); margin-top:15px;}
+.novel_zjlist{ padding:0 15px; overflow:hidden; box-shadow: 0px 2px 2px #D5D5D5 inset;}
+.novel_zjlist li{ float:left; display:inline; width:100%; height:44px; line-height:44px; border-bottom:1px solid #DEDEDE; overflow:hidden;}
+.novel_zjlist li a{ display:block; color:#5E5A57; font-size:14px;}
+.novel_zjlist li a.on{ color:#69AD28;}
+/*离线服务说明*/
+.novel_title{ padding:0 15px; height:33px; line-height:33px; overflow:hidden; border-bottom:1px solid #CCCCCC; background:#FFF;}
+.novel_title a{ display:block; width:100%; height:33px;}
+.novel_title a em{ float:left; display:inline; color:#7E7E7E; font-size:14px;}
+.novel_title a i{ float:right; display:inline; width:8px; height:8px; margin-top:14px; border:2px solid #CCCCCC; border-left:none; border-bottom:none; -webkit-transform:rotate(-45deg);}
+.novel_title a.cur i{-webkit-transform:rotate(135deg); margin-top:10px;}
+.novel_titlecon{ padding:10px 15px; overflow:hidden; border-bottom:1px solid #EEEEEE; box-shadow: 0px 2px 2px #D5D5D5 inset;}
+.novel_titlecon p{ line-height:21px; overflow:hidden; color:#282828; font-size:12px; text-indent:14px;}
+/*优化阅读*/
+.novel_xsname{ padding:0 15px; height:36px; border-bottom:1px solid #E2E2E2; line-height:36px; overflow:hidden; color:#5E5A57; font-size:12px;}
+.novel_xsnamea{ border-bottom:1px solid #999;}
+.novel_xsname em{ float:left; display:inline;}
+.novel_xsname span{ float:right; display:inline;}
+.novel_xsname span a{ color:#3774A3;}
+.novel_zwcon{ padding:10px 15px 25px; overflow:hidden;}
+.novel_zj{ height:26px; line-height:26px; overflow:hidden; color:#282828; font-size:16px;}
+.novel_zwcon p{ line-height:22px; overflow:hidden; color:#5E5A57; font-size:14px; text-indent:28px;}
+.novel_btn{ padding:0 15px; margin-top:25px; overflow:hidden;}
+.novel_btncon{ width:100%; height:33px; margin-bottom:30px; line-height:33px; overflow:hidden; border:1px solid #D1CFCF; box-shadow:2px 2px 2px #E2E1E1; border-radius:6px;}
+.novel_zwcona .novel_btncon{ border:none; box-shadow:none;}
+.novel_btncon a{ float:left; display:inline; color:#5E5A57; font-size:14px;}
+.novel_zwcona .novel_btncon a{ color:#dd5114;}
+.novel_btncon a.btnpre{ width:49%; border-right:1px solid #D1CFCF; text-align:center;}
+.novel_zwcona .novel_btncon a.btnpre,.novel_zwcona .novel_btncon a.btnfhml{ border-right:1px solid #272829;}
+.novel_btncon a.btnfhml{ width:45.17%; border-right:1px solid #D1CFCF; text-align:center;}
+.novel_btncon a.btnnext{ width:50%; text-align:center;}
+.novel_btnpre,.novel_btnnext{ width:71px; height:46px; line-height:46px; overflow:hidden; background:rgba(0,0,0,0.5); border-radius:6px; text-align:center;}
+.novel_btnpre{ position:fixed; left:0px; top:183px;}
+.novel_btnpre a,.novel_btnnext a{ display:block; width:71px; height:46px; color:#FFF; font-size:16px;}
+.novel_btnprea,.novel_btnnexta{ background:rgba(58,58,58,0.8); border:1px solid #272829;}
+.novel_btnprea a,.novel_btnnexta a{ color:#d8d9da;}
+.novel_btnnext{ position:fixed; right:0px; top:183px;}
+.novel_loadbfb{ position:fixed; left:0; bottom:0; width:100%; height:33px; background:rgba(0,0,0,0.5);}
+.novel_botbk{ width:100%; height:28px; line-height:28px; overflow:hidden; border-bottom:1px dashed #FFF; color:#FFF; font-size:16px; text-align:center;}
+.novel_botbk em{ display:inline-block; width:0; height:0; margin-right:8px; border-left:6px solid transparent; border-right:6px solid transparent; border-top:6px solid #FFF;}
+.novel_sznav{ position:fixed; left:0; top:0; width:100%; overflow:hidden; z-index:100;}
+.novel_navcon{ height:27px; padding:0 17px 10px 20px; background:rgba(0,0,0,0.5); overflow:hidden;}
+.novel_navcon a i{ background:url(../image/novelicon.png) no-repeat; background-size:22px 123px;}
+.novel_navcon a{ float:right; display:inline;}
+.novel_navcon a.fh{ width:21.73%; height:36px;}
+.novel_navcon a.fh i{ display:inline-block; width:10px; height:17px; margin-top:10px; background-position:0 0;}
+.novel_navcon a.ml{ width:14.84%; height:36px; text-align:center;}
+.novel_navcon a.ml i{ display:inline-block; width:16px; height:19px; margin-top:10px; background-position:0 -20px;}
+.novel_navcon a.xz{ width:16.25%; height:36px; text-align:center;}
+.novel_navcon a.xz i{ display:inline-block; width:20px; height:19px; margin-top:10px; background-position:0 -41px;}
+.novel_navcon a.bs{ width:15.72%; height:36px; text-align:center;}
+.novel_navcon a.bs i{ display:inline-block; width:19px; height:19px; margin-top:10px; background-position:0 -62px;}
+.novel_navcon a.zh{ width:15.72%; height:36px; text-align:center;}
+.novel_navcon a.zh i{ display:inline-block; width:19px; height:19px; margin-top:10px; background-position:0 -83px;}
+.novel_navcon a.ly{ width:15.54%; height:36px; text-align:center;}
+.novel_navcon a.ly i{ display:inline-block; width:18px; height:18px; margin-top:10px; background-position:0 -104px;}
+/*小说内容背景变黑色，文字变白色*/
+.novel_zwcona{ background:#32373b;}
+.novel_zwcona .novel_zj,.novel_zwcona p{ color:#999;}
+.novel_zh{ display:block; width:100%; height:36px; background:rgba(0,0,0,0.8); line-height:36px; overflow:hidden;}
+.novel_zhsz{ padding:0 48px; height:36px; overflow:hidden;}
+.novel_zh a{ float:left; display:inline; width:33.33%; height:36px; color:#D6D7D8; font-size:16px; text-align:center;}
+.novel_mb{ position:fixed; left:0; top:36px; width:100%; height:100%; background:rgba(0,0,0,0.4);}
+.novel_lycon{ width:100%; height:280px; background:rgba(0,0,0,0.7); overflow-y:auto;}
+.novel_lycon li{ height:39px; padding:0 15px; border-bottom:1px solid #BFBFBF; line-height:39px; overflow:hidden; color:#D6D7D8; font-size:16px;}
+.novel_lycon li a{ display:block; height:39px; color:#D6D7D8; font-size:16px; overflow:hidden;}
+.novel_lycon li:first-child{ text-align:center;}
+.novel_lycon li:last-child{ border-bottom:none;}
+/*抽取失败*/
+.novel_qsyy{ padding:0 15px; margin:55px 0 70px 0; overflow:hidden;}
+.novel_yydesc{ margin-left:30.52%; overflow:hidden;}
+.novel_yydesc h2{ height:46px; line-height:46px; overflow:hidden; color:#282828; font-size:16px;}
+.novel_yydesc li{ float:left; display:inline; width:100%; line-height:22px; overflow:hidden; color:#5E5A57; font-size:12px;}
+.novel_ghzd{ width:70%; height:35px; margin:19px auto 0; border:1px solid #D1CFCF; border-radius:6px; overflow:hidden;}
+.novel_ghzd a.lyzd{ display:block; width:100%; height:35px; line-height:35px; overflow:hidden; color:#535353; font-size:12px;}
+.novel_ghzd a.lyzd em{ float:left; display:block; width:15px; height:15px; background:url(../image/novel_lyzd.jpg) no-repeat; background-size:15px 15px; margin:10px 8px 0 16.25%;}
+.novel_zwcona .novel_ghzd a.lyzd em{ background:url(../image/novel_lyzd.png) no-repeat; background-size:15px 15px;}
+.novel_zwcona .novel_yydesc h2,.novel_zwcona .novel_yydesc li,.novel_zwcona .novel_ghzd a.lyzd{ color:#999;}
+/*加载失败*/
+.novel_loadsb{ position:absolute; left:50%; top:164px; width:204x; height:102px; margin:0 0 0 -102px;}
+.novel_loadsb p{ width:204px; height:65px; line-height:65px; overflow:hidden; color:#5E5A57; font-size:14px; text-align:center;}
+.novel_loadsb a.cfclick{ display:block; width:198px; height:35px; line-height:35px; overflow:hidden; border:1px solid #D1CFCF; border-radius:3px; box-shadow:0 2px 2px #E2E1E1; color:#282828; font-size:16px; text-align:center;}
+
+/*20141010 add*/
+.novel_fanye{ padding:23px 15px 20px; overflow:hidden; text-align:center;}
+.novel_pre{ float:left; display:inline;}
+.novel_next{ float:right; display:inline;}
+.novel_pre,.novel_next,.novel_pagenum{ min-width:90px; height:33px; line-height:33px; overflow:hidden; border:1px solid #D1CFCF; border-radius:2px; box-shadow:0 2px 2px #D1CFCF; color:#5E5A57; font-size:14px; text-align:center;}
+.novel_pagenum{ display:inline-block;}
+.novel_pagenum span.lcur{ color:#E75F5F;}
+.novel_pagenum span.rcur{ display:inline-block; width:7px; height:6px; vertical-align:middle; background:url(../image/darrow.png) no-repeat; background-size:7px 6px;}
+.novel_fytc{ position:absolute; left:50%; top:250px; width:230px; height:395px; margin:-197px 0 0 -115px; background:#FFF; overflow-y:scroll; overflow-x:hidden;}
+.novel_fytc ul{ height:auto; position:absolute; display:block;}
+.novel_fytc li{ float:left; display:inline; padding-left:15px; width:215px; height:43px; line-height:43px; overflow:hidden; color:#5E5A57; font-size:12px; border-bottom:1px solid #EAEAEA;}
+.novel_fytc li a{ display:block; width:215px; height:43px; color:#5E5A57;}
+.novel_fytc li a.on{ color:#E75F5F;}
+.novel_fytc li:last-child{ border-bottom:none;}
+.novel_noclick{ background:#C7C6C6; box-shadow:none; border:1px solid #C7C6C6;}
+.novel_mba{ position:fixed; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.4);}
+/*20141027 add load*/
+.novel_load{ height:400px; overflow:hidden; text-align:center;}
+.novel_load img{ display:inline-block; width:62px; height:62px; margin-top:188px;}
+/*20141112 add 网络提示*/
+.novel_wlts{ position:fixed; left:50%; top:136px; width:240px; height:32px; margin-left:-120px; background:rgba(0,0,0,0.8); line-height:30px; overflow:hidden; color:#d6d7d8; font-size:16px; text-align:center; border-radius:2px;}
+.novel_wltsa{ background:rgba(58,58,58,0.8); color:#d8d9da; border:1px solid #272829;}

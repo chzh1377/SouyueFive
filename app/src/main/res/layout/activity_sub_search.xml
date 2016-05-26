@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/sub_search_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background_color"
+              android:clickable="true"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/all_titlebar_bg_color"
+        >
+
+        <ImageButton
+            android:id="@+id/sub_search_goback"
+            style="@style/HoloButton.Borderless.Back"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:onClick="onBackPressClick"
+            android:scaleType="center"
+            android:src="@drawable/goback_button_selector"
+            />
+
+        <Button
+            android:id="@+id/sub_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:text="@string/search"
+            android:textColor="@color/sub_title_tab_text"
+            android:textSize="15sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/sub_search"
+            android:layout_width="0dp"
+            android:layout_height="33dip"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/sub_search_button"
+            android:layout_toRightOf="@id/sub_search_goback"
+            android:background="@drawable/sub_search_edit_bg"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/sub_search_icon"
+                />
+
+            <EditText
+                android:id="@+id/sub_search_edit"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="搜索订阅任意主题"
+                android:singleLine="true"
+                android:textColor="#282828"
+                android:textColorHint="#c1c1c1"
+                android:textSize="14sp"
+                />
+
+            <ImageView
+                android:id="@+id/sub_search_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dip"
+                android:src="@drawable/suberlist_delete"
+                android:visibility="gone"
+                >
+            </ImageView>
+        </LinearLayout>
+
+        <View
+            style="@style/Bar_Horizonal_line_style"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+
+    <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+        android:id="@+id/sub_search_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dip"
+        android:columnWidth="148dp"
+        android:divider="@color/background_color"
+        android:dividerHeight="1dp"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="1"
+        android:scrollbars="none"
+        >
+    </com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView>
+
+</LinearLayout>

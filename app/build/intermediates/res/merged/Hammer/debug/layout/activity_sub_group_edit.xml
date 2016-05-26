@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/discover_bg"
+    tools:context="com.zhongsou.souyue.activity.SubGroupEditActivity"
+    android:id="@+id/input_view"
+    >
+
+    <include layout="@layout/titlebar_sub_group"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+        <EditText
+            android:id="@+id/groupname_tv"
+            android:layout_width="0dp"
+            android:layout_height="30dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:background="@drawable/suber_search"
+            android:hint="@string/sub_group_hint"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            />
+        <ImageView
+            android:id="@+id/sub_group_img"
+            android:src="@drawable/sub_group_finish"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="@dimen/manager_grid_item_layout_width"
+            android:layout_height="@dimen/manager_grid_item_layout_height"
+            android:layout_gravity="center"
+            android:padding="5dip"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/srp_pop_menu_disable_bg"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_on_sub"
+        android:textColor="@color/color_srp_title"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/fragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        />
+</LinearLayout>

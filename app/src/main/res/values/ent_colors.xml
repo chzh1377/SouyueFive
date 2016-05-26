@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- 头部文字颜色 -->
+    <color name="ent_background_color">#fff8f8f8</color>
+    <color name="head_text">#0e5986</color>
+    <color name="main_head_title">#ffffff</color>
+    <color name="main_head_title_shadow_color">#ffffffff</color>
+    <color name="entinfo_company_name_color">#959595</color>
+    <color name="graylight">#DFDFDF</color>
+    <color name="title_base_button_text_color">#ffffff</color>
+    <color name="listview_bg">#efefef</color>
+    <color name="cate_item_name_text_color">#ff282828</color>
+    <color name="product_title_color">#4a4a4a</color>
+    <color name="product_img_bg_color">#f2f2f2</color>
+    <color name="drawable_transparent_background">#99000000</color>
+
+    <!-- 虚线颜色 -->
+    <color name="dotted_color">#ffcbcbcb</color>
+    
+    <!-- 评论标签颜色 -->
+    <color name="comment_label_text_color">#3f3f3f</color>
+    <color name="comment_product_bg_color">#e7e7e7</color>
+    <color name="txt_color_mendian">#8a8a8a</color>
+
+    <color name="card_color_red">#fa8282</color>
+    <color name="card_color_orange">#ff8048</color>
+    <color name="card_color_yellow">#ffd237</color>
+    <color name="card_color_green">#abbf4f</color>
+    <color name="card_color_blue">#55b3da</color>
+    <color name="card_color_purple">#ae7fc7</color>
+    
+    
+    <color name="background_color_eeeeee">#ffeeeeee</color>
+    <color name="search_relativelayout_bg_color">#ff222222</color>
+    <color name="news_gv_bg_color">#ffeeeeee</color>
+    <color name="news_pull_refresh_view_bg_color">#ffeeeeee</color>
+    <color name="pull_to_refresh_header_bg_color">#ffeeeeee</color>
+    <color name="pull_to_refresh_footer_bg_color">#ffeeeeee</color>
+    <color name="product_listitem_bg_color">#ffeeeeee</color>
+    <color name="news_grid_tv_text_color">#ff282828</color>
+    <color name="service_info_ll_bg_color">#ffeeeeee</color>
+    <color name="service_info_tv_text_color">#ff202020</color>
+    <color name="service_info_tv_text_color_2">#ff7e8e07</color>
+    <color name="text_color_mendian_list">#8a8a8a</color>
+    <!--    往期活动 -->
+    <color name="text_color_event_item_bg">#F5F5F5</color>
+    <color name="text_color_event_item_list">#D3D3D3</color>
+    <color name="text_color_event_title">#1d1d1d</color>
+    <color name="text_color_event_desc">#5e5e5e</color>
+    <color name="text_color_event_time">#9c9b9b</color>
+    <color name="color_separate">#D5D5D5</color>
+
+    <!-- 底栏字体颜色 -->
+    <color name="footer_text_color_normal">#dcdcdc</color>
+    <color name="footer_text_color_selected">#61c3d8</color>
+
+    <!-- 更多功能颜色值 -->
+    <color name="more_item_color_1">#efa22d</color>
+    <color name="more_item_color_2">#f4c52a</color>
+    <color name="more_item_color_3">#3a9aeb</color>
+    <color name="more_item_color_4">#a672d2</color>
+
+    <color name="more_item_color_5">#92ca64</color>
+    <color name="more_item_color_6">#04a6e2</color>
+    <color name="more_item_color_7">#f16868</color>
+    <color name="more_item_color_8">#fb802b</color>
+
+    <color name="more_item_color_9">#bc5ba6</color>
+    <color name="more_item_color_10">#56c5cc</color>
+    <color name="more_item_color_11">#fed520</color>
+    <color name="more_item_color_12">#e75398</color>
+
+    <color name="ent_square_radiobtn_normal">#212121</color>
+    <color name="ent_square_radiobtn_selected">#e23f2e</color>
+
+    <color name="ent_shop_cate_bg_normal" >#f5f5f5</color>
+    <color name="ent_shop_cate_border" >#e1e1e1</color>
+    <color name="ent_shop_cate_txt" >#3c3c3c</color>
+    <color name="ent_shop_cate_txt_disable">#adabac</color>
+    <color name="ent_shop_cate_checked">#f35051</color>
+    <color name="ent_square_open_card_press">#f46b41</color>
+    <color name="ent_settingsecurity_text">#3e3e3e</color>
+    <color name="ent_settingsecurity_edittext">#d3d3d3</color>
+    <color name="ent_settingsecurity_driver">#e3e3e3</color>
+    <color name="ent_goodsdetail_driver">#61B4EF</color>
+    <color name="ent_goodsdetail_price">#e83c00</color>
+    <color name="ent_goodsdetail_line">#dddddd</color>
+    <color name="ent_goodsdetail_bg">#f7f7f7</color>
+
+    <color name="ent_my_consume_paymode">#3598de</color>
+	<color name="ent_my_consume_paytime">#969696</color>
+	<color name="ent_exchange_result">#53a359</color>
+    <color name="ent_exchange_totalpay_bg">#f0f0f0</color>
+	<color name="ent_my_consume_red">#ff0000</color>
+    <!-- 现金券 -->
+    <color name="ent_coupon_dialog_ok_btn" >#E83E00</color>
+    <color name="ent_btn_gray_press" >#E0E1E0</color>
+    <color name="ent_btn_red_press" >#D33700</color>
+    <color name="ent_btn_red_normal" >#E83C00</color>
+    <color name="ent_coupon_psw_dialog" >#CCCCCC</color>
+    <color name="txt_Scaning_selectImg" >#ededed</color>
+
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="F:\workspace\SouyueFive\cbug_lib\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="F:\workspace\SouyueFive\cbug_lib\src\androidTest\assets"/><source path="F:\workspace\SouyueFive\cbug_lib\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.zhongsou.souyue.activity.SearchAllActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/search_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/all_titlebar_bg_color"
+        >
+
+        <Button
+            android:id="@+id/search_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@null"
+            android:text="@string/search_cancel"
+            android:textColor="@color/sub_title_tab_text"
+            android:textSize="15sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/search_edit_layout"
+            android:layout_width="match_parent"
+            android:layout_height="33dip"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/search_cancel"
+            android:background="@drawable/search_all_edit"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/sub_search_icon"
+                />
+
+            <EditText
+                android:id="@+id/search_edit"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="搜索订阅任意主题"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="#282828"
+                android:textColorHint="#c1c1c1"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+
+        <View
+            style="@style/Bar_Horizonal_line_style"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/search_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_title"
+        android:background="@color/discover_bg"
+        >
+    </FrameLayout>
+
+    <View
+        android:id="@+id/search_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_title"
+        android:background="@color/transparent"
+        android:visibility="gone"
+        />
+
+    <ListView
+        android:id="@+id/search_auto_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_title"
+        android:background="@color/gray_d9d9d9"
+        android:divider="@color/gray_d9d9d9"
+        android:dividerHeight="1dp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

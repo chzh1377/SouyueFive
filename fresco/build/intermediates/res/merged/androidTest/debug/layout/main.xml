@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MainActivity"
+            />
+    <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image"
+            android:layout_width="100dip"
+            android:layout_height="70dip"
+            fresco:placeholderImage="@drawable/ic_launcher"
+            fresco:roundAsCircle="true"
+            fresco:placeholderImageScaleType="fitXY"
+            fresco:actualImageScaleType="fitXY"
+            fresco:progressBarImage="@drawable/ic_launcher"
+            fresco:progressBarImageScaleType="fitXY"
+            fresco:progressBarAutoRotateInterval="5000"
+            fresco:failureImage="@drawable/ic_launcher"
+            fresco:failureImageScaleType="fitXY"
+            fresco:retryImage="@drawable/ic_launcher"
+            fresco:retryImageScaleType="@drawable/ic_launcher"
+            fresco:fadeDuration="300"
+            fresco:backgroundImage="@drawable/ic_launcher"
+            fresco:overlayImage="@drawable/ic_launcher"
+            fresco:viewAspectRatio="1.33"
+
+    />
+
+    <com.facebook.drawee.view.ZSImageView
+            android:layout_width="100dip"
+            android:layout_height="200dip"
+            fresco:placeholderImage="@drawable/ic_launcher"
+            />
+</LinearLayout>
+

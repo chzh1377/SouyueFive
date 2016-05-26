@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.zhongsou.souyue.view.CSouyueTabInnerSpecial
+        xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+   <TextView
+           android:id="@+id/homepage_recommend"
+           android:layout_width="match_parent"
+           android:layout_height="25dp"
+           android:gravity="center"
+           android:textColor="@color/white"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:textSize="12dp"
+           android:background="@color/homepage_recommend_bg_color"
+           android:visibility="gone"/>
+
+
+    <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+        android:id="@+id/pull_to_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/sys_layout_wonderful"
+        android:divider="@drawable/listview_divider"
+        android:layout_below="@id/homepage_recommend"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:listSelector="@drawable/home_list_item_selector"
+        android:scrollingCache="true"
+        android:smoothScrollbar="true"
+
+         />
+    <include layout="@layout/loading" />
+
+    <include layout="@layout/group_empty_data"/>
+
+  
+</com.zhongsou.souyue.view.CSouyueTabInnerSpecial>

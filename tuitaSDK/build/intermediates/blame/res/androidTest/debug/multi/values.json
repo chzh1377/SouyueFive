@@ -1,0 +1,216 @@
+[
+    {
+        "outputFile": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 71,
+                    "endOffset": 173
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\exploded-aar\\SouyueFive\\cbug_lib\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 71,
+                        "endOffset": 122
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 178,
+                    "endColumn": 64,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\exploded-aar\\SouyueFive\\cbug_lib\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 127,
+                        "endColumn": 64,
+                        "endOffset": 187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 77,
+                    "endOffset": 316
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\exploded-aar\\SouyueFive\\cbug_lib\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endColumn": 77,
+                        "endOffset": 265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 321,
+                    "endColumn": 44,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\exploded-aar\\SouyueFive\\cbug_lib\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 270,
+                        "endColumn": 44,
+                        "endOffset": 310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endColumn": 68,
+                    "endOffset": 430
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 68,
+                        "endOffset": 170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 435,
+                    "endColumn": 64,
+                    "endOffset": 495
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 175,
+                        "endColumn": 64,
+                        "endOffset": 235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 500,
+                    "endColumn": 50,
+                    "endOffset": 546
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 50,
+                        "endOffset": 286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 551,
+                    "endColumn": 49,
+                    "endOffset": 596
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 49,
+                        "endOffset": 336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 601,
+                    "endColumn": 46,
+                    "endOffset": 643
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 341,
+                        "endColumn": 46,
+                        "endOffset": 383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 648,
+                    "endColumn": 45,
+                    "endOffset": 689
+                },
+                "from": {
+                    "file": "F:\\workspace\\SouyueFive\\tuitaSDK\\build\\intermediates\\exploded-aar\\SouyueFive\\cbug_lib\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 315,
+                        "endColumn": 45,
+                        "endOffset": 356
+                    }
+                }
+            }
+        ]
+    }
+]

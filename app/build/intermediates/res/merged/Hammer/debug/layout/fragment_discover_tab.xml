@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.zhongsou.souyue.fragment.SouyueTabFragment"
+              android:orientation="vertical"
+              android:background="@color/discover_bg"
+        >
+
+    <include
+            layout="@layout/titlebar_onlytitle_toac_discover"
+            />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/space_0.5"
+            android:background="@color/msgtab_header_line_color"
+            />
+
+    <ListView
+            android:id="@+id/discover_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="1dp"
+            android:divider="@color/transparent"
+            android:fadingEdge="none"
+            android:listSelector="@color/transparent"
+            >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+         <com.zhongsou.souyue.circle.view.PullToRefreshListView
+        android:id="@+id/lv_circle_inbox_content"
+        style="@style/CommonListviewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbars="vertical"
+        android:visibility="visible" />
+    -->
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="40dp" android:id="@+id/layout_option">
+    <LinearLayout
+        android:id="@+id/ll_all_pause"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <ImageView
+             android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle_download_pause"
+            android:scaleType="fitXY"
+             />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3775a3"
+            android:text="全部暂停" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll_all_start"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+             android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle_download_doing"
+            android:scaleType="fitXY"
+             />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3775a3"
+            android:text="全部开始" />
+    </LinearLayout>
+ </RelativeLayout>
+    <ListView
+        android:descendantFocusability="blocksDescendants"  
+        android:layout_below="@+id/layout_option"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lv_circle_download_content"
+        style="@style/CommonListviewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+    <!--
+         <include
+        layout="@layout/loading"
+        android:visibility="visible" />
+    -->
+
+    </RelativeLayout>

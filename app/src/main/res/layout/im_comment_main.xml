@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activityRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:splitMotionEvents="false">
+
+    <!-- header -->
+
+    <RelativeLayout
+            android:id="@+id/rl_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@color/all_titlebar_bg_color"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:id="@+id/btn_back"
+                style="@style/HoloButton.Borderless.Back"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentLeft="true"
+                android:scaleType="center"
+                android:src="@drawable/goback_button_selector"/>
+
+        <LinearLayout
+                android:id="@+id/im_title_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_redeem_point"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/im_go_circle"
+                    android:layout_width="40dip"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/space_17"
+                    android:text="进圈"
+                    android:textColor="#da4644"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    />
+
+            <ImageView
+                    android:id="@+id/im_chat_pcenter"
+                    style="@style/HoloButton.Borderless.Back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:visibility="visible"
+                    android:minWidth="40dp"
+                    android:src="@drawable/title_bar_pcenter_selector"/>
+
+            <ImageView
+                    android:id="@+id/im_chat_more"
+                    style="@style/HoloButton.Borderless.Back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:layout_gravity="center_vertical"
+                    android:minWidth="40dp"
+                    android:src="@drawable/title_bar_menu_selector"/>
+        </LinearLayout>
+        <RelativeLayout
+                android:id="@+id/rl_chat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/btn_back"
+                >
+
+            <TextView
+                    android:id="@+id/title_name"
+                    style="@style/title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:maxWidth="200dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"/>
+            <TextView
+                    android:id="@+id/group_count_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/title_text"
+                    android:layout_toRightOf="@id/title_name"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    />
+
+
+        </RelativeLayout>
+
+        <ImageView
+                android:id="@+id/audio_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/audio_icon"
+                android:layout_toRightOf="@id/rl_chat_name"
+                android:layout_marginLeft="5dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                />
+
+        <ImageView
+                android:id="@+id/silding_contactcount_im"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/btn_back"
+                android:layout_alignTop="@id/rl_chat_name"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:src="@drawable/im_chat_red_point_icon"
+                />
+
+        <View style="@style/Bar_Horizonal_line_style"
+              android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/rl_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+        <!-- 输入框 -->
+
+        <LinearLayout
+                android:id="@+id/im_chat_bottom_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/im_chat_bottom_bg">
+
+            <ImageButton
+                    android:id="@+id/im_switching_btn"
+                    style="@style/Im.ImageButton.Borderless"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dip"
+                    android:onClick="onSwitchingClick"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/chatting_setmode_voice_btn"/>
+
+            <include layout="@layout/im_bottom_layout"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/im_bottom_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+            <include layout="@layout/im_bottom_edit_bg"/>
+        </LinearLayout>
+
+        <!-- 添加表情 -->
+        <com.zhongsou.souyue.view.ExpressionView
+                android:id="@+id/facelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                />
+
+        <com.zhongsou.souyue.im.view.IMFeaturesGridView
+                android:id="@+id/gv_features"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/im_features"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:fadingEdge="none"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:paddingLeft="@dimen/space_10"
+                android:paddingRight="@dimen/space_10"
+                android:paddingTop="@dimen/space_10"
+                android:visibility="gone"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"/>
+    </LinearLayout>
+
+    <com.zhongsou.souyue.im.view.RightSwipeView
+            android:id = "@+id/right_swipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/rl_bottom"
+            android:layout_below="@id/rl_layout">
+        <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+                android:id="@+id/im_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#0000"
+                android:divider="@null"
+                android:background="#ededed"
+                android:dividerHeight="5dp"
+                android:scrollbarStyle="outsideOverlay">
+
+        </com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView>
+    </com.zhongsou.souyue.im.view.RightSwipeView>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lllocation"
+            android:layout_above="@id/rl_bottom"
+            android:background="@drawable/im_location_background"
+            android:layout_marginBottom="50dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            >
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/im_location_image"
+                />
+        <TextView
+                android:id="@+id/tvlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue_operate"
+                android:layout_marginLeft="7dp"
+                android:textSize="12dp"
+                />
+
+    </LinearLayout>
+    <RelativeLayout
+            android:id="@+id/network_state"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/rl_layout"
+            android:visibility="gone"
+            android:background="#FFF3C9">
+
+        <ImageView
+                android:id="@+id/iv_netError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/im_send_faild"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/iv_netError"
+                android:text="当前网络不可用，请检查网络。"
+                android:textColor="#5F5A47"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ent_setting_arrow"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/audio_state"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/rl_layout"
+            android:visibility="gone"
+            android:background="#cc2f2f2f">
+
+
+        <TextView
+                android:id="@+id/dialog_tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textColor="#FFFFFF"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/im_disable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/half_transparent"
+            android:visibility="gone"/>
+
+</RelativeLayout>

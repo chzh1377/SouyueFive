@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/titlebar_bg" />
+
+        <TextView
+            android:id="@+id/tv_save"
+            style="@android:style/Widget.TextView"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/title_bar_selector"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="#4C4C4C" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            style="@android:style/Widget.TextView"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/title_bar_leftbtn_selector"
+            android:gravity="center"
+            android:text="@string/go_cancel"
+            android:textColor="#4C4C4C" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/my_self_create"
+            android:textColor="#434343"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_send"
+            style="@android:style/Widget.TextView"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/title_bar_selector"
+            android:gravity="center"
+            android:textColor="#4C4C4C" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@color/background_color"
+            android:gravity="top"
+            android:hint="@string/self_content_input"
+            android:maxHeight="150dp"
+            android:padding="3dp"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textColor="#4a4a4a"
+            android:textColorHint="#bfbfbf"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_remaincount"
+            android:layout_width="51dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/remain_count_bg"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="140"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <include
+            android:id="@+id/ib_photo"
+            layout="@layout/add_pic" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/tv_tmp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical|right"
+                android:text="@string/self_same_time_send_weibo"
+                android:textColor="#4F4F4F"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cbx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_tmp"
+                android:button="@drawable/weibo_checkbox_selector" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

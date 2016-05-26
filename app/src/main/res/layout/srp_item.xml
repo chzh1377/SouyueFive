@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <!-- id:    ll_data_loading" -->
+
+    <include
+        layout="@layout/loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <!--
+         <com.zhongsou.souyue.ui.CustomListView
+        android:id="@+id/customlv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/listview_divider"
+        android:fadingEdge="none" />
+    -->
+
+    <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+        android:id="@+id/customlv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/listview_divider"
+       	android:listSelector="@drawable/list_view_item_selector"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:scrollingCache="true"
+        android:smoothScrollbar="true" />
+
+</LinearLayout>

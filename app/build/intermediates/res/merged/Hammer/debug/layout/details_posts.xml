@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/circle_posts"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/circle_bar_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <include layout="@layout/detail_titlebar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_no_data"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/loading_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_logo"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="此帖子已删除"
+            android:textColor="#a2a2a2"
+            android:textSize="@dimen/text_size_16"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+
+        <com.zhongsou.souyue.ui.indicator.TabPageIndicator
+            android:id="@+id/title_Indicator"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:background="#f2f2f2"
+            android:fadingEdge="none"
+            android:scrollbars="none"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_Indicator"
+            >
+
+            <include layout="@layout/loading"/>
+        </LinearLayout>
+
+        <com.zhongsou.souyue.ui.PairScrollView
+            android:id="@+id/pair_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_circle_post_bottom_bar"
+            android:layout_below="@id/title_Indicator"
+            >
+
+            <com.zhongsou.souyue.circle.ui.CPairFirstListView
+                android:id="@+id/pair_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            </com.zhongsou.souyue.circle.ui.CPairFirstListView>
+
+            <com.zhongsou.souyue.circle.ui.CPairSecondListView
+                android:id="@+id/pair_second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ListView
+                    android:id="@+id/listView"
+                    style="@style/CommonListviewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:divider="@color/white"
+                    android:scrollbars="vertical"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/detail_have_no_comment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="80dp"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/detail_no_comment"
+                        />
+                </LinearLayout>
+
+
+                <include
+                    android:id="@+id/list_loading"
+                    layout="@layout/loading"
+                    />
+            </com.zhongsou.souyue.circle.ui.CPairSecondListView>
+        </com.zhongsou.souyue.ui.PairScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_above="@id/pair_scroll"
+            android:layout_marginBottom="0.5dp"
+            android:background="#bcbcbc"
+            />
+
+        <include
+            android:id="@+id/ll_circle_post_bottom_bar"
+            layout="@layout/circle_post_bottom_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="bottom"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
+

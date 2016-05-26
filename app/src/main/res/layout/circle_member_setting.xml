@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/cricle_layout_bg_color"
+              android:orientation="vertical">
+
+    <include layout="@layout/titlebar_onlytitle_toac"/>
+    <View android:layout_width="match_parent"
+          android:layout_height="@dimen/space_0.5"
+          android:background="@color/im_line_color"
+          android:layout_marginTop="-0.8dp"
+            />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/discover_bg"
+            android:orientation="vertical">
+
+
+        <!-- 我的圈头像 -->
+
+        <RelativeLayout
+                android:id="@+id/rl_circle_my_photo"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/circle_id_item_selector"
+                android:layout_marginBottom="10dp"
+                android:clickable="false"
+                android:focusable="false">
+            <View android:layout_width="match_parent"
+                  android:layout_height="@dimen/space_0.5"
+                  android:background="@color/im_line_color"
+                    />
+            <View android:layout_width="match_parent"
+                  android:layout_height="@dimen/space_0.5"
+                  android:background="@color/im_line_color"
+                  android:layout_alignParentBottom="true"
+                    />
+            <TextView
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/cricle_my_photo_setting_text"/>
+
+            <ImageView
+                    android:id="@+id/iv_circle_my_photo"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_toLeftOf="@+id/arrow"
+                    android:layout_marginRight="15dp"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/default_head"/>
+
+            <ImageView
+                    android:id="@+id/arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/cricle_manage_right_arrow"/>
+
+        </RelativeLayout>
+
+        <!-- 我的圈昵称 -->
+
+        <RelativeLayout
+                android:id="@+id/rl_circle_my_nickname"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:background="@drawable/circle_id_item_selector">
+            <View android:layout_width="match_parent"
+                  android:layout_height="@dimen/space_0.5"
+                  android:background="@color/im_line_color"
+                    />
+            <View android:layout_width="match_parent"
+                  android:layout_height="@dimen/space_0.5"
+                  android:background="@color/im_line_color"
+                  android:layout_alignParentBottom="true"
+                    />
+            <TextView
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/cricle_my_nickname_setting_text"/>
+
+            <TextView
+                    android:id="@+id/tv_circle_my_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toLeftOf="@+id/enternext"
+                    android:text=""
+                    android:textColor="#787878"
+                    android:textSize="14sp"/>
+
+            <ImageView
+                    android:id="@+id/enternext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/cricle_manage_right_arrow"/>
+        </RelativeLayout>
+
+        <!-- 我的圈简介 -->
+
+        <RelativeLayout
+                android:id="@+id/rl_circle_my_signature"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="@dimen/space_0_8"
+                android:background="@drawable/circle_id_item_selector">
+            <View android:layout_width="match_parent"
+                  android:layout_height="@dimen/space_0.5"
+                  android:background="@color/im_line_color"
+                  android:layout_alignParentBottom="true"
+                    />
+            <TextView
+                    android:id="@+id/tv_circle_my_lable"
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cricle_my_signature_setting_text"/>
+
+            <TextView
+                    android:id="@+id/tv_circle_my_signature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@+id/tv_circle_my_lable"
+                    android:text=""
+                    android:textColor="#787878"
+                    android:textSize="14sp"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/cricle_manage_right_arrow"/>
+        </RelativeLayout>
+
+        <!-- 隐私保护 -->
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_id_item_selector">
+            <View android:layout_width="match_parent"
+                  android:layout_height="@dimen/space_0.5"
+                  android:background="@color/im_line_color"
+                    />
+            <View android:layout_width="match_parent"
+                  android:layout_height="@dimen/space_0.5"
+                  android:background="@color/im_line_color"
+                  android:layout_alignParentBottom="true"
+                    />
+            <TextView
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cricle_protect_setting_text"/>
+
+            <ToggleButton
+                    android:id="@+id/tb_circle_protect_setting"
+                    style="@style/MyToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:textSize="12sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <Button
+                    android:id="@+id/btn_circle_quit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="22dp"
+                    android:background="@drawable/btn_account_logout_selector"
+                    android:onClick="onClick"
+                    android:padding="5dp"
+                    android:text="@string/cricle_quit_setting_text"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

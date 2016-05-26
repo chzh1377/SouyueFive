@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#D8D8D8"
+    android:orientation="vertical">
+
+    <com.zhongsou.souyue.view.ImageViewPager
+        android:id="@+id/plaza_home_header_pager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/plaza_home_header"
+        android:fadingEdge="none" />
+
+    <LinearLayout
+        android:id="@+id/plaza_home_header_pager_dote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/discover_listview_item_bg_selector">
+
+    <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="27dip"
+            android:layout_height="27dip"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ent_btn_menu_click"
+            />
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/iv_icon"
+            android:layout_marginLeft="15dp"
+            android:textColor="#282828"
+            android:textSize="16sp"
+            />
+
+    <ImageView
+            android:id="@+id/tv_new_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_chat_red_point_icon"
+            android:layout_marginLeft="-5dp"
+            android:layout_toRightOf="@id/iv_icon"
+            android:layout_alignTop="@id/iv_icon"
+            android:layout_marginTop="-5dp"
+            />
+
+    <ImageView
+            android:id="@+id/iv_right_icon"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mine_arrow_gray"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:layout_marginRight="15dp"
+            />
+
+</RelativeLayout>

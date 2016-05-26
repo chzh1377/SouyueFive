@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\anim\\progress_spin.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\anim\\progress_spin.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\anim\\left_out.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\anim\\left_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\anim\\list_layout_controller.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\anim\\list_layout_controller.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\anim\\left_in.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\souyue_common\\build\\intermediates\\res\\merged\\debug\\anim\\list_layut_alpha.xml",
+        "source": "F:\\workspace\\SouyueFive\\souyue_common\\src\\main\\res\\anim\\list_layut_alpha.xml"
+    }
+]

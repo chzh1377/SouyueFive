@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <attr name="titleStyle">  
+        <flag name="normal" value="0" />  
+        <flag name="bold" value="1" />  
+        <flag name="italic" value="2" />  
+    </attr>
+    
+    <declare-styleable name="ExpandLinearLayout">
+        <attr name="divide" format="reference" />
+        <attr name="divideHeight" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="TitleContentTextView" >
+        <attr name="textTitle" format="string" />
+        
+        <attr name="titleSize" format="dimension" />
+        
+        <attr name="titleColor" format="color" />
+        
+        <attr name="titleStyle" />
+        
+        <attr name="space" format="dimension" />
+        
+        <attr name="titleEllipLines" format="integer" />
+        <attr name="totalEllipLines" format="integer" />
+    </declare-styleable>
+	<!-- fan end -->
+	<declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+</resources>

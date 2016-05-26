@@ -1,0 +1,1488 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>优化阅读</title>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<meta content="telephone=no" name="format-detection" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="http://api2.souyue.mobi/d3api2/css/global.css" rel="stylesheet">
+<link href="css/novel.css" rel="stylesheet">
+<script src="js/zepto.min.js"></script>
+<!--<script src="js/reader.js"></script>-->
+</head>
+<body onload="initDirectory();" >
+<div id="con" onclick="scroll(window.event);">
+<article>
+    <section>
+        <div class="novel_xsname">
+            <em id="novel_name"></em>
+            <span>网页已经技术转换：<a href="javascript:void(0)" id="original_href" style="position: relative;z-index: 2;top: 0px;right: 0px;">原网页</a></span>
+        </div>
+    </section>
+    <section id="novel_content_section">
+        <div class="novel_zwcon" id="novel_content">
+            <div class="novel_zj"></div>
+            <div class="novel_btn">
+                <div class="novel_btncon">
+                    <a class="btnpre" onclick="preBtnClick(window.event);javascript:scroll(0,0);return false;">上一章</a>
+                    <a class="btnnext" onclick="nextBtnClick(window.event);javascript:scroll(0,0);return false;">下一章</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+    </section>
+</article>
+<div class="novel_btnpre" id="novel_btnpre" style="display: none; z-index: 2;">
+    <a data-lock="0" onclick="preBtnClick(window.event);javascript:scroll(0,0);">上一章</a>
+</div>
+<div class="novel_btnnext" id="novel_btnnext" style="display: none; z-index: 2;">
+    <a data-lock="0" onclick="nextBtnClick(window.event);javascript:scroll(0,0);return false;">下一章</a>
+</div>
+<div class="novel_sznav" style="display: none; z-index: 2;">
+    <div class="novel_navcon">
+        <a href="javascript:void(0)" onclick="changeSources(window.event);" style="position:relative;top:0;left:0;z-index:3;" class="ly"><i></i></a>
+        <a href="javascript:void(0)" onclick="switchFontSize(window.event)" class="zh"><i></i></a>
+        <a href="javascript:void(0)" onclick="switchReadMode(window.event)" class="bs"><i></i></a>
+        <a href="javascript:void(0)" onclick="downloadNovel(window.event);" class="xz" id="xz"><i></i></a>
+        <a href="javascript:void(0)" onclick="gotoDirectory(window.event);" class="ml"><i></i></a>
+    </div>
+    <div class="novel_zh" style="display: none; z-index: 2;">
+        <div class="novel_zhsz">
+            <a href="javascript:void(0)" onclick="fontSizeSet(window.event,'large');return false;">大号</a>
+            <a href="javascript:void(0)" onclick="fontSizeSet(window.event,'middle');return false;">中号</a>
+            <a href="javascript:void(0)" onclick="fontSizeSet(window.event,'small');return false;">小号</a>
+        </div>
+    </div>
+    <div class="novel_lycon" style="display: none; z-index: 2;" onclick="closeSourcesPanel();window.event.stopPropagation();">
+        <ul onclick="window.event.stopPropagation();">
+            <li>更换来源</li>
+        </ul>
+    </div>
+</div>
+<div class="novel_mb" style="display: none;" onclick="closeSourcesPanel();window.event.stopPropagation();"></div>
+<div id="debug"></div>
+</div>
+</body>
+<script>
+var ifdebug = false;			// 调试
+var args = getQueryStringArgs();
+var online = args.online || 'true';
+var uid = args.uid;				// req.userinfo  
+var nid = args.nid;             // data.id
+var ccid = args.ccid;           // 章节ID
+var local_cookie = null;        // cookie
+var fiction_index = null;       // 小说目录
+var fiction_content = null;     // 无用
+var novelInfoObj = null;        // 等于local_cookie
+var novelInfoData = null;       // 真正需要用到的上一章、下一章
+var directoryObj = null;        // 等于local_cookie
+var userConfig = null;          // 等于local_cookie
+var status = null;              // 无用
+var windowKey='';               //getCookie的key:getConfig getDirectory getInfo   
+var online_getFail = false ;    // getFail 标记 加载失败
+var browser={
+    versions:function(){
+        var u = navigator.userAgent, app = navigator.appVersion;
+        return {
+            trident: u.indexOf('Trident') > -1, /*IE内核*/
+            presto: u.indexOf('Presto') > -1, /*opera内核*/
+            webKit: u.indexOf('AppleWebKit') > -1, /*苹果、谷歌内核*/
+            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,/*火狐内核*/
+            mobile: !!u.match(/AppleWebKit.*Mobile.*/), /*是否为移动终端*/
+            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), /*ios终端*/
+            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, /*android终端或者uc浏览器*/
+            iPhone: u.indexOf('iPhone') > -1 , /*是否为iPhone或者QQHD浏览器*/
+            iPad: u.indexOf('iPad') > -1, /*是否iPad*/
+            webApp: u.indexOf('Safari') == -1 /*是否web应该程序，没有头部与底部*/
+        };
+    }(),
+    language:(navigator.browserLanguage || navigator.language).toLowerCase()
+};
+var zs_version = args.zs_version||'4.0.2';          // 版本号
+var testUrl=false,                // 测试地址       
+    preUrl=false,                // 预上线地址
+    onlineUrl=true,             // 线上地址
+    novelAjaxUrl="http://103.29.135.93/";   // 实际地址
+testUrl?novelAjaxUrl="http://103.29.135.93/":preUrl?novelAjaxUrl="":onlineUrl&&(novelAjaxUrl="http://open.zhongsou.com/");
+debug("url-->",novelAjaxUrl);
+// setCookie
+function setLocalCookie(key,value){
+    if(zs_version >= "4.0.2"){
+        if(browser.versions.android){
+            try{
+                var urlsStr = JSON.stringify(value);
+                debug('setCookie',urlsStr);
+                window.JavascriptInterface.setLocalCookie(key, urlsStr);
+            }
+            catch(e){}
+        }else if(browser.versions.ios){
+            var _value = encodeURI(JSON.stringify(value));
+            debug('_value',_value);
+            var obj = {key:key,value:_value};
+            var objStr = JSON.stringify(obj);
+            debug('setCookie',objStr);
+            window.location.href="JavascriptInterface.setLocalCookie:"+encodeURIComponent(objStr);
+        }
+    }
+}
+// getCookie
+function getLocalCookie(key) {
+    if (browser.versions.android) {
+        debug('getLocalCookie','');
+        window.JavascriptInterface.getLocalCookie(key)
+    } else if (browser.versions.ios) {
+        debug('getLocalCookie','');
+        window.location.href= "JavascriptInterface.getLocalCookie:" + encodeURIComponent(key);
+    }
+}
+// getCookie 的回调
+function getLocalCookieCallback(value){
+    debug('getLocalCookieCallback','');
+    if(zs_version >= "4.0.2"){
+        if(browser.versions.android){
+            local_cookie = decodeURIComponent(value);    
+        } else if(browser.versions.ios) {
+            local_cookie = decodeURI(value);
+        }
+        if(typeof local_cookie == 'string') {
+            try {local_cookie = JSON.parse(local_cookie);}catch(e){}
+        }
+        if(windowKey=='getConfig'){
+            debug('读取本地config',JSON.stringify(local_cookie));
+            windowKey='';
+            window.userConfig= local_cookie;
+            if(window.online=='true'){      // 在线阅读
+                if(!!window.directoryObj){   //增加判断最新章节是否一致的判断                   
+                    initCcInfo();
+                } else {                    //本地没有目录，则请求cgi,获得目录
+                    getDirectoryOnline();   // 在线阅读 请求目录
+                }
+            }else{							// 离线阅读
+                debug("getLocalCookieCallback-->",nid);
+                getFictionIndex(nid);
+            }            
+        }
+        if(windowKey=='getInfo'){
+            debug('读取本地info',JSON.stringify(local_cookie));
+            window.novelInfoObj = local_cookie;
+            windowKey='getConfig';
+            getLocalCookie('novel_config');
+        }
+        if(windowKey=='getDirectory'){
+            debug('读取本地目录',JSON.stringify(local_cookie));
+            window.directoryObj = local_cookie;
+            windowKey='getInfo';
+            getLocalCookie('novel_' + window.nid);
+        }
+    }else{
+        getDirectoryOnline();   // 在线阅读 请求目录
+    }
+}
+// 在线阅读 请求目录
+function getDirectoryOnline(){
+    debug("getDirectoryOnline","");
+    $.ajax({
+        type:'post',
+        url: novelAjaxUrl+'msrp',
+        data:{nid:window.nid,cmd:452,s:0},
+        dataType:'json',
+        success:function(data){
+            if( !(data.root == 0) ){
+                online_getFail = false ;
+                debug('在线请求目录成功','');
+                window.directoryObj = data; //目录数据存储在全局变量
+                setTimeout(function () {
+                    initCcInfo();
+                },50);
+            } else { // 目录没有拿到
+                getFail();
+            }
+        },
+         error:function(xmlReq){
+            checkOnline(xmlReq);
+        }
+    });
+}
+
+// 离线阅读
+function getFictionIndex(id){
+    if(browser.versions.android){
+        debug('getFictionIndex',id);
+        var result=window.JavascriptInterface.getFictionIndex(id);
+        setFictionIndex(result);
+    } else if(browser.versions.ios) {
+        debug('getFictionIndex','');
+        window.location.href="JavascriptInterface.getFictionIndex:"+encodeURIComponent(id);
+    }
+}
+// 离线小说内容
+function getFictionContent(id, start, offset){
+    if(offset>1){
+        if(browser.versions.android){
+            debug('getFictionContent','');
+            var result=window.JavascriptInterface.getFictionContent(id, start, offset);
+            setFictionContent(result);
+        } else if(browser.versions.ios) {
+            debug('getFictionContent','');
+            window.location.href="JavascriptInterface.getFictionContent:"+encodeURIComponent(id)+":"+encodeURIComponent(start)+":"+encodeURIComponent(offset);
+        }
+    }
+    else{
+        setFictionContent(null);
+    }
+
+}
+// 离线请求目录
+function setFictionIndex(str){
+    debug('客户端请求目录回调','');
+    var index_data=null;
+    if(browser.versions.android){
+        index_data=str;
+    } else if(browser.versions.ios) {
+        index_data = window.localStorage.getItem(str);
+    }
+    debug('客户端返回目录','');
+    if(typeof index_data == 'string'){
+        try{
+            index_data = JSON.parse(index_data);
+        }catch(e){}
+    }
+    window.fiction_index = index_data;
+    initCcInfo();
+}
+// 请求内容回调
+function setFictionContent(str){
+    debug('客户端请求内容回调',"");
+    if(!!str){
+        var index_data=null;
+        if(browser.versions.android){
+        index_data=str;
+        } else if(browser.versions.ios) {
+        index_data = decodeURIComponent(window.localStorage.getItem(str));
+        }
+                           
+        var tempData = index_data.split('\\n');
+        debug('客户端返回章节内容','');
+        var html='';
+        html +='<div class="novel_zj" style="font-size:'+parseInt(window.userConfig.fontsize)+'px;">'+window.novelInfoObj.chapter.name+'</div>';
+        for(var i= 0,len=tempData.length; i < len; i++){
+            html+='<p style="font-size:'+ parseInt(window.userConfig.fontsize) +'px;' + 'line-height:'+ parseInt(window.userConfig.lineheight) +'px;">'+tempData[i]+'</p>';
+        }
+        html+='<div class="novel_btn"><div class="novel_btncon"><a href="javascript:void(0);" class="btnpre" onclick="preBtnClick(window.event);javascript:scroll(0,0);return false;">上一章</a><!--<a class="btnfhml" onclick="gotoDirectory(window.event);">返回目录</a>--><a class="btnnext" href="javascript:void(0);" onclick="nextBtnClick(window.event);javascript:scroll(0,0);return false;">下一章</a></div></div>';
+        document.getElementById('novel_content').innerHTML = html;
+
+    }
+    else{
+        getNull();
+    }
+    setLocalCookie('novel_' + window.nid, window.novelInfoObj);
+    if(!!window.userConfig)
+    {
+        var novel_btnpre = document.getElementById('novel_btnpre'),
+            novel_btnnext = document.getElementById('novel_btnnext'),
+            novel_xsname = document.getElementsByClassName('novel_xsname')[0];
+        if(window.userConfig.readmode=='novel_zwcon'){
+            document.body.style.backgroundColor = '#f2f2f2';
+            novel_btnpre.className = 'novel_btnpre';
+            novel_btnnext.className = 'novel_btnnext';
+            novel_xsname.className = 'novel_xsname';
+        } else {
+            document.body.style.backgroundColor = '#32373b';
+            novel_btnpre.className = 'novel_btnpre novel_btnprea';
+            novel_btnnext.className = 'novel_btnnext novel_btnnexta';
+            novel_xsname.className = 'novel_xsname novel_xsnamea';
+        }
+        document.getElementById('novel_content').className = window.userConfig.readmode;
+    }
+}
+//调用搜悦的下载小说接口
+function downloadFiction(id, name, image, length, url, version){
+    if (zs_version > "4.0.2") {
+        if(browser.versions.android){
+            debug('4.0.2安卓调用客户端下载小说',version);
+            window.JavascriptInterface.downloadFiction(id, name, image, length, url, version);
+        } else if(browser.versions.ios) {
+            debug('4.0.2IOS调用客户端下载小说','');
+            var obj={id:id,name:name,image:image,length:length,url:url,version:version};
+            var objStr=JSON.stringify(obj);
+            window.location.href="JavascriptInterface.downloadFiction:"+encodeURIComponent(objStr);
+        }
+    }else{
+        if(browser.versions.android){
+            debug('安卓调用客户端下载小说','');
+            window.JavascriptInterface.downloadFiction(id, name, image, length, url);
+        } else if(browser.versions.ios) {
+            debug('IOS调用客户端下载小说','');
+            var obj={id:id,name:name,image:image,length:length,url:url};
+            var objStr=JSON.stringify(obj);
+            window.location.href="JavascriptInterface.downloadFiction:"+encodeURIComponent(objStr);
+        }
+    }
+    
+}
+// 点击跳转
+function goto_url(u){
+    if(window.online=='true'){
+        window.location.href=u;
+    }
+    else{
+        window.location.href=u;
+        return;
+    }  
+}
+// 进入详情页
+function goto_detail(keyword,srp_id,widget_md5,lng,lat,city,userinfo,other){
+    if(window.online=='true'){
+       var u=novelAjaxUrl+'msrp?category=interactWeb&w='+keyword+'&srp_id='+srp_id+'&widget_md5='+widget_md5+'&lng='+lng+'&lat='+lat+'&city='+city+'&userinfo='+userinfo+other;
+        window.location.href=u;
+    }
+    else{
+        var u=window.location.href.split('nreaderOff.html')[0]+'chapterList.html?category=interactWeb&w='+keyword+'&srp_id='+srp_id+'&widget_md5='+widget_md5+'&lng='+lng+'&lat='+lat+'&city='+city+'&userinfo='+userinfo+other;
+        window.location.href=u;
+        return;
+    }  
+}
+//准备下载协议的字符串，并调用搜悦下载小说接口
+function download_novel(nid,keyword,iurl,length,version){
+    var ui=novelAjaxUrl+'msrp?cmd=456&nid='+nid;
+    var uc=novelAjaxUrl+'novelpack/'+nid+'.txt';
+    var obj = {"index":{"length":"0","url":ui},"content":{"length":length,"url":uc}};
+    var str = JSON.stringify(obj);
+    downloadFiction(nid,keyword,iurl,length,str,version);
+}
+// 解析地址
+function getQueryStringArgs() {
+    var qs = (location.search.length > 0 ? location.search.substring(1) : ""),
+            args = {},
+            items = qs.length ? qs.split("&") : [],
+            item = null,
+            name = null,
+            value = null,
+            i = 0,
+            len = items.length;
+    for (i = 0; i < len; i++) {
+        item = items[i].split("=");
+        name = decodeURIComponent(item[0]);
+        value = decodeURIComponent(item[1]);
+        if (name.length) {
+            args[name] = value;
+        }
+    }
+    debug("getQueryStringArgs",args.zs_version);
+    return args;
+}
+
+// 将数组转为对象类型的上一章、下一章
+function compareVarInArr(id,array,item,arrayId,len) {
+    var len = len || array[item].length;
+    var tempObj = {};
+    for(var i = 0; i < len; i++) {
+        if (id == array[item][i][arrayId]) {
+            tempObj.index = i;
+            tempObj.title = array.title;
+            if (i >= 1) {
+                tempObj.preChapter = array[item][i - 1];
+            } else {
+                tempObj.preChapter = null;
+            }
+            tempObj.curChapter = array[item][i];
+            if (i < len - 1) {
+                tempObj.nextChapter = array[item][i + 1];
+            } else {
+                tempObj.nextChapter = null;
+            }
+        }
+    }
+    return tempObj;
+}
+//工具区的显示及隐藏
+function bubbleTest(e) {
+    e&&e.stopPropagation();
+    e&&e.stopPropagation();
+    var status = document.querySelector('.novel_sznav').style.display;
+    var eles = document.querySelectorAll('.novel_btnpre, .novel_btnnext, .novel_sznav');
+    for(var i = 0, len = eles.length; i < len; i++){
+        if (status == 'none') {             // 如果功能区是隐藏，全部显示；否则全部隐藏
+            eles[i].style.display = 'block';    
+        } else {
+            eles[i].style.display = 'none';
+        }
+    }
+    document.getElementsByClassName('novel_zh')[0].style.display = 'none';          // 隐藏更换字号
+    document.getElementsByClassName('novel_lycon')[0].style.display = 'none';       // 隐藏更换来源
+    if(window.online=='false' || zs_version < "4.0.2"){
+        document.getElementsByClassName('xz')[0].style.display = 'none';             // 隐藏下载按钮
+    }
+}
+// 向上翻页
+function scrollToTop (e) {
+    var screenh = window.innerHeight;
+    window.scrollTo(0,document.body.scrollTop-screenh*0.9);
+}
+// 向下翻页
+function scrollToBottom (e) {
+    var screenh = window.innerHeight;
+    window.scrollTo(0,document.body.scrollTop+screenh*0.9);
+}
+//从本地读目录数据
+function initDirectory(){
+    debug('地址栏地址',window.location.href);
+    windowKey='getDirectory';
+    getLocalCookie('nreader?nid=' + window.nid); 
+}
+// 临时跳转方法
+function initCcInfo(){
+    debug('进入initCcInfo','');
+    novelInfoObjCallback();
+
+}
+// 判断在线还是离线，然后进行初始化
+function novelInfoObjCallback () {
+    debug('novelInfoObjCallback','');
+    var len;
+
+    if (window.online == 'true') {
+    	debug('ovelInfoObjCallback_在线','');
+    	if(window.novelInfoObj&&typeof window.novelInfoObj == 'string'&&window.novelInfoObj!=''){
+            try{window.novelInfoObj = JSON.parse(window.novelInfoObj);}catch(e){}   
+        }   
+        if (window.ccid) {
+            //有ccid
+            debug('novelInfoObjCallback_在线_有ccid','');
+           
+            if (!window.novelInfoObj) {
+                debug('novelInfoObjCallback_在线_有ccid_本地没有章节信息','');
+                window.novelInfoObj={};
+                // 本地没有章节信息
+                for (var i = 0; i < window.directoryObj.chapters.length; i++) {
+                    if (window.directoryObj.chapters[i].cid == window.ccid) {
+                        window.novelInfoObj.chapter = window.directoryObj.chapters[i];
+                        if(i == window.directoryObj.chapters.length- 1){
+                            window.novelInfoObj.next_chapter = null;
+                        } else {
+                            window.novelInfoObj.next_chapter = window.directoryObj.chapters[i+1];
+                        }
+                        setLocalCookie('novel_' + window.nid, window.novelInfoObj);
+                        initContent(window.ccid);
+                        return;
+                    }
+                }
+            } else {
+                if(window.novelInfoObj.chapter) {
+                    debug('novelInfoObjCallback_在线_有ccid_有章节信息并阅读过','');
+                    // 有章节信息并阅读过
+                    len = window.directoryObj && window.directoryObj.chapter_num;
+                    var tempData = compareVarInArr(window.ccid,window.directoryObj,'chapters','cid',len);
+                    if(!!tempData){
+                        window.novelInfoObj.chapter = tempData.curChapter;
+                        if(!!tempData.nextChapter){
+                            window.novelInfoObj.next_chapter = tempData.nextChapter;
+                        } else {
+                            window.novelInfoObj.next_chapter = null;
+                        }
+                        window.novelInfoData = tempData;
+                        setLocalCookie('novel_' + window.nid, window.novelInfoObj);
+                        initContent(window.ccid);
+                    } else {
+                        initContent(window.ccid);
+                    }
+                } else {
+                    debug('novelInfoObjCallback_在线_有ccid_有章节信息没有阅读过','');
+                    window.novelInfoObj.chapter = {};
+                    len = window.directoryObj && window.directoryObj.chapter_num;
+                    for (var i = 0; i < len; i++) {
+                        if (window.directoryObj.chapters[i].cid == window.ccid) {
+                            window.novelInfoObj.chapter = window.directoryObj.chapters[i];
+                            if(i == len- 1){
+                                window.novelInfoObj.next_chapter = null;
+                            } else {
+                                window.novelInfoObj.next_chapter = window.directoryObj.chapters[i+1];
+                            }
+                            setLocalCookie('novel_' + window.nid, window.novelInfoObj);
+                            initContent(window.ccid);
+                            return;
+                        }
+                    }
+                }
+            }
+        } else {
+            debug('novelInfoObjCallback_在线_无ccid','');
+            //无ccid
+
+            if(!window.novelInfoObj){
+                //无ccid,没有章节信息，取第一章信息
+                debug('novelInfoObjCallback_在线_无ccid_没有章节信息','');
+                window.novelInfoObj = {};
+                if(window.directoryObj){
+                    window.novelInfoObj.chapter = window.directoryObj.chapters[0];
+                    window.novelInfoObj.next_chapter = window.directoryObj.chapters[1];
+                    setLocalCookie('novel_' + window.nid, window.novelInfoObj);
+                    initContent(window.novelInfoObj.chapter.cid);
+                    return;
+                }
+            } 
+            else {
+                //无ccid,有章节信息
+                debug('novelInfoObjCallback_在线_无ccid_有章节信息','');
+                if(window.novelInfoObj.chapter) {
+                    //读过
+                    debug('novelInfoObjCallback_在线_无ccid_有章节信息_读过',window.novelInfoObj.chapter.cid);
+                    initContent(window.novelInfoObj.chapter.cid);
+                } else {
+                    //未读过
+                    debug('novelInfoObjCallback_在线_无ccid_没有有章节信息_没有读过','');
+                    window.novelInfoObj.chapter = window.directoryObj.chapters[0];
+                    window.novelInfoObj.next_chapter = window.directoryObj.chapters[1];
+                    setLocalCookie('novel_' + window.nid, window.novelInfoObj);
+                    initContent(window.novelInfoObj.chapter.cid);
+
+                }
+            }
+        }
+    } else {
+        //离线阅读
+        debug('novelInfoObjCallback_离线','');
+        var fiction_index = window.fiction_index;
+                           
+        var ccid = window.ccid;
+        if(typeof window.fiction_index == 'string'){
+            try{window.fiction_index = JSON.parse(window.fiction_index);}catch(e){}
+        }
+        if(window.novelInfoObj&&typeof window.novelInfoObj == 'string'&&window.novelInfoObj!=''){
+            window.novelInfoObj = JSON.parse(window.novelInfoObj);
+        }
+        
+        if (ccid && !window.novelInfoObj) {
+            debug('offline1','');
+            var tempData = compareVarInArr(ccid,window.fiction_index,'item','id');
+            window.novelInfoObj = {};
+            window.novelInfoObj.chapter.cid = tempData.curChapter.id;
+            window.novelInfoObj.chapter.link = tempData.curChapter.u;
+            window.novelInfoObj.chapter.link_id = tempData.curChapter.id;
+            window.novelInfoObj.chapter.name = tempData.curChapter.t;
+            window.novelInfoObj.chapter.cs = tempData.curChapter.cs;
+            window.novelInfoObj.chapter.ce = tempData.curChapter.ce;
+            window.novelInfoObj.title = tempData.title;
+            if(!!tempData.nextChapter){
+                window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+                window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+                window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+                window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+                window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+                window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+            } else {
+                window.novelInfoObj.next_chapter = null;
+            }
+            window.novelInfoData = tempData;
+            initContent(ccid);
+        } else if(ccid && !!window.novelInfoObj && !!window.novelInfoObj.chapter){
+            debug('offline2','');
+            var tempData = compareVarInArr(ccid,window.fiction_index,'item','id');
+            debug('tempData-->',JSON.stringify(tempData));
+            debug('window.novelInfoObj.chapter.cid-->',window.novelInfoObj.chapter.cid);
+            debug('ccid-->',ccid);
+            if(window.novelInfoObj.chapter.cid != ccid){
+                window.novelInfoObj.chapter.cid = tempData.curChapter.id;
+                window.novelInfoObj.chapter.link = tempData.curChapter.u;
+                window.novelInfoObj.chapter.link_id = tempData.curChapter.id;
+                window.novelInfoObj.chapter.name = tempData.curChapter.t;
+                window.novelInfoObj.chapter.cs = tempData.curChapter.cs;
+                window.novelInfoObj.chapter.ce = tempData.curChapter.ce;
+                window.novelInfoObj.title = tempData.title;
+                if(!!tempData.nextChapter){
+                    window.novelInfoObj.next_chapter = {};
+                    window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+                    window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+                    window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+                    window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+                    window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+                    window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+                } else {
+                    window.novelInfoObj.next_chapter = null;
+                }
+                window.novelInfoData = tempData;
+                window.novelInfoObj = window.novelInfoObj;
+                // return;
+            }
+            initContent(ccid);
+        } else if (ccid && !!window.novelInfoObj && !window.novelInfoObj.chapter) {
+            debug('offline3','');
+            var tempData = compareVarInArr(ccid,window.fiction_index,'item','id');
+            window.novelInfoObj.chapter = {};
+            $('#debug')[0].innerHTML = JSON.stringify(window.novelInfoObj);
+            window.novelInfoObj.chapter.cid = tempData.curChapter.id;
+            window.novelInfoObj.chapter.link = tempData.curChapter.u;
+            window.novelInfoObj.chapter.link_id = tempData.curChapter.id;
+            window.novelInfoObj.chapter.name = tempData.curChapter.t;
+            window.novelInfoObj.chapter.cs = tempData.curChapter.cs;
+            window.novelInfoObj.chapter.ce = tempData.curChapter.ce;
+            window.novelInfoObj.title = tempData.title;
+            if(!!tempData.nextChapter){
+                window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+                window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+                window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+                window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+                window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+                window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+            } else {
+                window.novelInfoObj.next_chapter = null;
+            }
+            window.novelInfoData = tempData;
+            initContent(ccid);
+        } else if(!ccid && !window.novelInfoObj) {
+            debug('offline4','');
+            window.novelInfoObj = {};
+            window.novelInfoObj.chapter = {};
+            var tempData = {};
+            tempData.curChapter = window.fiction_index.item[0];
+            tempData.nextChapter = window.fiction_index.item[1];
+            tempData.index = 0;
+            tempData.title = window.fiction_index.title;
+            window.novelInfoObj.chapter.cid = tempData.curChapter.id;
+            window.novelInfoObj.chapter.link = tempData.curChapter.u;
+            window.novelInfoObj.chapter.link_id = tempData.curChapter.id;
+            window.novelInfoObj.chapter.name = tempData.curChapter.t;
+            window.novelInfoObj.chapter.cs = tempData.curChapter.cs;
+            window.novelInfoObj.chapter.ce = tempData.curChapter.ce;
+            window.novelInfoObj.title = tempData.title;
+            window.novelInfoObj.next_chapter = {};
+            window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+            window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+            window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+            window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+            window.novelInfoData = tempData;
+            initContent(tempData.curChapter.id);
+        } else if(!ccid && !!window.novelInfoObj.chapter) {
+            //读过
+            debug('offline5','');
+            tempData = compareVarInArr(window.novelInfoObj.chapter.cid,window.fiction_index,'item','id');
+            window.novelInfoObj.chapter.cid = tempData.curChapter.id;
+            window.novelInfoObj.chapter.link = tempData.curChapter.u;
+            window.novelInfoObj.chapter.link_id = tempData.curChapter.id;
+            window.novelInfoObj.chapter.name = tempData.curChapter.t;
+            window.novelInfoObj.chapter.cs = tempData.curChapter.cs;
+            window.novelInfoObj.chapter.ce = tempData.curChapter.ce;
+            window.novelInfoObj.title = tempData.title;
+            if(!!tempData.nextChapter){
+                window.novelInfoObj.next_chapter = {};
+                window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+                window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+                window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+                window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+                window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+                window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+            }else{
+                window.novelInfoObj.next_chapter = null;
+            }
+            window.novelInfoData = tempData;
+            initContent(window.novelInfoObj.chapter.cid);
+        } else if(!ccid && !window.novelInfoObj.chapter){
+            //未读过
+            debug('offline6','');
+            window.novelInfoObj.chapter = {};
+            var tempData = {};
+            if(typeof window.fiction_index == 'string'){
+                try{
+                    window.fiction_index = JSON.parse(window.fiction_index);
+                }catch(e){
+
+                }
+            }
+            tempData.curChapter = window.fiction_index.item[0];
+            tempData.nextChapter = window.fiction_index.item[1];
+            tempData.index = 0;
+            tempData.title = window.fiction_index.title;
+            window.novelInfoObj.chapter.cid = tempData.curChapter.id;
+            window.novelInfoObj.chapter.link = tempData.curChapter.u;
+            window.novelInfoObj.chapter.link_id = tempData.curChapter.id;
+            window.novelInfoObj.chapter.name = tempData.curChapter.t;
+            window.novelInfoObj.chapter.cs = tempData.curChapter.cs;
+            window.novelInfoObj.chapter.ce = tempData.curChapter.ce;
+            window.novelInfoObj.title = tempData.title;
+            window.novelInfoObj.next_chapter = {};
+            window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+            window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+            window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+            window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+            window.novelInfoData = tempData;
+            initContent(tempData.curChapter.id);
+        }
+        else if(!(!!ccid)&&!(!!window.novelInfoObj)){
+            debug('offline7','')
+            window.novelInfoObj={};
+            var tempData = {};
+            if(typeof window.fiction_index == 'string'){
+                try{
+                   window.fiction_index = JSON.parse(window.fiction_index);
+                }catch(e){}
+            }
+
+           tempData.curChapter = window.fiction_index.item[0];
+           tempData.nextChapter = window.fiction_index.item[1];
+           tempData.index = 0;
+           tempData.title = window.fiction_index.title;
+           window.novelInfoObj.chapter.cid = tempData.curChapter.id;
+           window.novelInfoObj.chapter.link = tempData.curChapter.u;
+           window.novelInfoObj.chapter.link_id = tempData.curChapter.id;
+           window.novelInfoObj.chapter.name = tempData.curChapter.t;
+           window.novelInfoObj.chapter.cs = tempData.curChapter.cs;
+           window.novelInfoObj.chapter.ce = tempData.curChapter.ce;
+           window.novelInfoObj.title = tempData.title;
+           window.novelInfoObj.next_chapter = {};
+           window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+           window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+           window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+           window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+           window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+           window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+           window.novelInfoData = tempData;
+           initContent(tempData.curChapter.id);
+        }
+    }
+}
+// 初始化内容
+function initContent(ccid){
+    debug('进入initContent','');
+    if(window.online=='true'){
+        //在线时请求cgi，取章节内容数据
+        debug('initContent_online','');
+        $.ajax({
+            type:'post',
+            url:novelAjaxUrl+'msrp',
+            data:{nid:ccid,cmd:450},
+            dataType:'json',
+            beforeSend:function(){
+                $('#novel_btnnext a')[0].dataset.lock = '1';
+            },
+            complete:function(){
+                $('#novel_btnnext a')[0].dataset.lock = '0';
+            },
+            success:function(data){
+                if(!data){
+                    getNull();
+                    return;
+                }
+                if(data.root == 0){
+                    getFail();
+                    return;
+                }     
+                if(data.chapters[0].content==''){
+                    getNull();
+                    return;
+                }
+                if(!!window.userConfig)
+                {
+                    if(typeof window.userConfig == 'string') {
+                        window.userConfig = JSON.parse(window.userConfig);
+                    }
+                    if(!window.userConfig.fontsize){
+                        window.userConfig.fontsize = '14px';
+                    }
+                    if(!window.userConfig.lineheight){
+                        window.userConfig.lineheight = '22px';
+                    }
+                    if(!window.userConfig.readmode){
+                        window.userConfig.readmode='novel_zwcon';
+                    }
+                }
+                else{
+                    window.userConfig={};
+                    if(!window.userConfig.fontsize){
+                        window.userConfig.fontsize = '14px';
+                    }
+                    if(!window.userConfig.lineheight){
+                        window.userConfig.lineheight = '22px';
+                    }
+                    if(!window.userConfig.readmode){
+                        window.userConfig.readmode='novel_zwcon';
+                    }
+
+                }
+                online_getFail = false ;
+                initContentCallback (data);
+            },
+            error:function(xmlReq){
+                checkOnline(xmlReq);
+            }
+        });
+    } else {
+        //离线时，请求客户端的章节内容
+        debug('initContent_offline','');
+        if(!!window.userConfig)
+        {
+            if(typeof window.userConfig == 'string') {
+                window.userConfig = JSON.parse(window.userConfig);
+            }
+            if(!window.userConfig.fontsize){
+                window.userConfig.fontsize = '14px';
+            }
+            if(!window.userConfig.lineheight){
+                window.userConfig.lineheight = '22px';
+            }
+            if(!window.userConfig.readmode){
+                window.userConfig.readmode='novel_zwcon';
+            }
+        }
+        else{
+            window.userConfig={};
+            if(!window.userConfig.fontsize){
+                window.userConfig.fontsize = '14px';
+            }
+            if(!window.userConfig.lineheight){
+                window.userConfig.lineheight = '22px';
+            }
+            if(!window.userConfig.readmode){
+                window.userConfig.readmode='novel_zwcon';
+            }
+
+        }
+        if(window.novelInfoObj){
+            if(window.novelInfoObj.chapter)
+            {
+                debug("initContent -- window.nid-->",window.nid);
+                debug("initContent -- window.novelInfoObj.chapter.cs-->",window.novelInfoObj.chapter.cs);
+                debug("initContent -- window.novelInfoObj.chapter.ce-->",window.novelInfoObj.chapter.ce);
+                getFictionContent(window.nid,parseInt(window.novelInfoObj.chapter.cs),parseInt(window.novelInfoObj.chapter.ce)-parseInt(window.novelInfoObj.chapter.cs)+1);
+            }
+            document.getElementById('novel_name').innerHTML = window.novelInfoObj.title;
+            $("#original_href").attr("onclick","goto_url('"+window.novelInfoObj.chapter.link+"');");
+        }
+    }
+}
+// 初始化回调函数
+function initContentCallback (data) {
+    //在线时，请求完章节内容，回调显示
+    debug('进入initContentCallback','');
+    tempData = data.chapters[0].content.split('\n');
+    var html='';
+    html +='<div style="font-size:'+parseInt(window.userConfig.fontsize)+'px;" class="novel_zj">'+data.chapters[0].name+'</div>';
+    for(var i= 0,len=tempData.length; i < len; i++){
+        html+='<p style="font-size:'+ parseInt(window.userConfig.fontsize) +'px;' + 'line-height:'+ parseInt(window.userConfig.lineheight) +'px;">'+tempData[i]+'</p>'
+    }
+    //debug('接完的数据',html);
+    html+='<div class="novel_btn"><div class="novel_btncon"><a class="btnpre" onclick="preBtnClick(window.event);javascript:scroll(0,0);return false;">上一章</a><!--<a class="btnfhml" onclick="gotoDirectory(window.event);">返回目录</a>--><a class="btnnext" onclick="nextBtnClick(window.event);javascript:scroll(0,0);return false;">下一章</a></div></div>';
+    document.getElementById('novel_name').innerHTML = data.title;
+    $("#original_href").attr("onclick","goto_url('"+data.chapters[0].link+"');");
+    document.getElementById('novel_content').innerHTML = '';
+    if(!!window.userConfig)
+    {
+        var novel_btnpre = document.getElementById('novel_btnpre'),
+            novel_btnnext = document.getElementById('novel_btnnext'),
+            novel_xsname = document.getElementsByClassName('novel_xsname')[0];
+        if(window.userConfig.readmode=='novel_zwcon'){
+            document.body.style.backgroundColor = '#f2f2f2';
+            novel_btnpre.className = 'novel_btnpre';
+            novel_btnnext.className = 'novel_btnnext';
+            novel_xsname.className = 'novel_xsname';
+        } else {
+            document.body.style.backgroundColor = '#32373b';
+            novel_btnpre.className = 'novel_btnpre novel_btnprea';
+            novel_btnnext.className = 'novel_btnnext novel_btnnexta';
+            novel_xsname.className = 'novel_xsname novel_xsnamea';
+        }
+        document.getElementById('novel_content').className = window.userConfig.readmode;
+    }
+    document.getElementById('novel_content').innerHTML = html;
+    window.scrollTo(0,0);
+
+}
+// 章节为空
+function getNull(){
+    var html = '';
+    html += '<section><div class="novel_qsyy"><div class="novel_yydesc"><h2>此章节缺失</h2><ul><li>原因可能是：</li><li>1、来源站删除了这一章</li><li>2、来源站不可访</li></ul></div><div class="novel_ghzd"><a href="javascript:void(0)" onclick="changeSources(window.event);" style="position:relative;top:0;left:0;z-index:1;" class="lyzd"><em></em>换个来源站点查找此章</a></div></div></section>';
+    document.getElementById('novel_content').innerHTML = html;
+    window.scrollTo(0,0);
+}
+// 加载失败
+function getFail(){
+    online_getFail = true ;
+    var html = '';
+    html+='<article style="min-height:300px;"><section><div class="novel_loadsb"><p>加载失败！</p><a href="javascript:void(0)" onclick="reloadPage('+window.uid+','+window.nid+',window.event);window.event.stopPropagation();" class="cfclick">点击重试</a></div></section></article>';
+    document.getElementById('novel_content').innerHTML = html;
+    window.scrollTo(0,0);
+}
+// 点击重试
+function reloadPage(uid,nid){
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    debug("reloadPage","");
+    //失败时刷新功能
+    var html = '';
+    html += '<article><section><div class="novel_xsname"><em id="novel_name"></em><span>网页已经技术转换：<a href="javascript:void(0)" id="original_href">原网页</a></span></div></section><section id="novel_content_section"><div class="novel_zwcon" id="novel_content"><div class="novel_zj"></div><p></p></div></section><section><div class="novel_btn"><div class="novel_btncon"><a href="javascript:void(0)" target="_blank" class="btnpre" onclick="preBtnClick(window.event);javascript:scroll(0,0);return false;">上一章</a><!--<a href="javascript:void(0)" target="_blank" class="btnfhml">返回目录</a>--><a href="javascript:void(0)" target="_blank" class="btnnext" onclick="nextBtnClick(window.event);javascript:scroll(0,0);return false;">下一章</a></div></div></section></article><div class="novel_btnpre" style="display: none;"><a href="javascript:void(0)" onclick="preBtnClick(window.event);window.event.stopPropagation();javascript:scroll(0,0);return false;">上一章</a></div><div class="novel_btnnext" style="display: none;"><a href="javascript:void(0);" onclick="nextBtnClick(window.event);javascript:scroll(0,0);return false;">下一章</a></div><div class="novel_loadbfb" style="display: block;" onclick="window.event.stopPropagation();"><div class="novel_botbk"><div id="con"><span id="dragStart" style="left: -6px;"><em></em><i>0%</i></span></div></div></div><div class="novel_sznav" style="display: none;"><div class="novel_navcon"><a href="javascript:void(0)" onclick="changeSources(window.event);" style="position:relative;top:0;left:0;z-index:3;" class="ly"><i></i></a><a href="javascript:void(0)" onclick="switchFontSize(window.event)" class="zh"><i></i></a><a href="javascript:void(0)" onclick="switchReadMode(window.event)" class="bs"><i></i></a><a href="javascript:void(0)" onclick="downloadNovel(window.event);" class="xz"><i></i></a><a href="javascript:void(0)" onclick="gotoDirectory(window.event);" class="ml"><i></i></a></div><div class="novel_zh" style="display: none;"><div class="novel_zhsz"><a href="javascript:void(0)" onclick="fontSizeSet(window.event,\'large\');return false;">大号</a><a href="javascript:void(0)" onclick="fontSizeSet(window.event,\'middle\');return false;">中号</a><a href="javascript:void(0)" onclick="fontSizeSet(window.event,\'small\');return false;">小号</a></div></div></div><div class="novel_mb" style="display: none;" onclick="closeSourcesPanel();window.event.stopPropagation();"></div><div class="novel_lycon" style="display: none;" onclick="closeSourcesPanel();window.event.stopPropagation();"><ul onclick="window.event.stopPropagation();"><li>更换来源</li></ul></div>>';
+    document.getElementById('id_container').innerHTML = html;
+    var tempCcInfo = window.novelInfoObj ? window.novelInfoObj.chapter : null;
+    if(typeof tempCcInfo=='string'){
+        ccInfo = JSON.parse(tempCcInfo);
+        initContent(ccInfo.cid);
+    }
+}
+// 上一章
+function preBtnClick(e) {
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    var ccid,lockStatus,firstChaperId;
+    lockStatus = e.target.dataset.lock;
+    if(lockStatus=='1'){
+        return;
+    }
+    window.scrollTo(0,0);
+
+    if(window.online=='true'){
+        firstChaperId=window.directoryObj.chapters[0].cid;
+        if(window.novelInfoObj.chapter){
+            ccid = window.novelInfoObj.chapter.cid;
+        }
+        if(ccid==firstChaperId) {
+            alert('已经是第一章了');
+            return;
+        }
+        novel_directory = window.directoryObj;
+        len = novel_directory && novel_directory.chapter_num;
+        for (var i = 0; i < len; i++) {
+            if (novel_directory.chapters[i].cid == ccid) {
+                if (i == 0) {
+                    break;
+                } else {
+                    var id_pre_Info = novel_directory.chapters[i - 1];
+                    var id_cur_Info = novel_directory.chapters[i];
+                    
+                    window.novelInfoObj.chapter = id_pre_Info;
+                    window.novelInfoObj.next_chapter = id_cur_Info;
+                    setLocalCookie('novel_' + window.nid, window.novelInfoObj);
+
+                    initContent(id_pre_Info.cid);
+                    break;
+                }
+            }
+        }
+    } else {
+        firstChaperId=window.fiction_index.item[0].id;
+        if(window.novelInfoData.index<1){
+            alert('已经是第一章了');
+            return;
+        }
+        var tempData = compareVarInArr(window.novelInfoData.preChapter.id,window.fiction_index,'item','id');
+        window.novelInfoObj.chapter.cid = tempData.curChapter.id;
+        window.novelInfoObj.chapter.link = tempData.curChapter.u;
+        window.novelInfoObj.chapter.link_id = tempData.curChapter.id;
+        window.novelInfoObj.chapter.name = tempData.curChapter.t;
+        window.novelInfoObj.chapter.cs = tempData.curChapter.cs;
+        window.novelInfoObj.chapter.ce = tempData.curChapter.ce;
+        window.novelInfoObj.title = tempData.title;
+        window.novelInfoObj.index = tempData.index;
+        if (!!tempData.nextChapter) {
+            window.novelInfoObj.next_chapter = {};
+            window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+            window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+            window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+            window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+        } else if (!!tempData.nextChapter && !!tempData.nextChapter.cid){
+            window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+            window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+            window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+            window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+        } else {
+            window.novelInfoObj.next_chapter = null;
+        }
+        window.novelInfoData = tempData;
+        //setLocalCookie('novel_' + window.uid + '_' + window.nid, window.novelInfoObj);
+        initContent(tempData.curChapter.id);
+    }
+    e && e.stopPropagation();
+}
+// 下一章
+function nextBtnClick(e) {
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    var ccid,lockStatus,lastChapterId;
+
+    lockStatus = e.target.dataset.lock;
+    if(lockStatus=='1'){
+        return;
+    }
+    
+    window.scrollTo(0,0);
+    if(window.online=='true'){
+
+        lastChapterId=window.directoryObj.chapters[window.directoryObj.chapters.length-1].cid;
+        if(window.novelInfoObj.chapter){
+            ccid = window.novelInfoObj.chapter.cid;
+        }
+        if(ccid==lastChapterId) {
+            alert('已经是最后一章了');
+            return;
+        }
+        novel_directory = window.directoryObj;
+        len = novel_directory && novel_directory.chapter_num;
+        for (var i = 0; i < len; i++) {
+            if (novel_directory.chapters[i].cid == ccid) {
+                if (i == len-1) {
+                    break;
+                } else if (i >= len-2) {
+                    var id_next_Info = novel_directory.chapters[i + 1]; 
+                    window.novelInfoObj.chapter = id_next_Info;
+                    window.novelInfoObj.next_chapter = null;
+                    setLocalCookie('novel_' + window.nid, window.novelInfoObj);
+                    initContent(id_next_Info.cid);
+                    break;
+                } else {
+                    var id_next_Info = novel_directory.chapters[i + 1];
+                    var id_next_next_Info = novel_directory.chapters[i + 2];
+                    window.novelInfoObj.chapter = id_next_Info;
+                    window.novelInfoObj.next_chapter = id_next_next_Info;
+                    setLocalCookie('novel_' + window.nid, window.novelInfoObj);
+                    initContent(id_next_Info.cid);
+                    
+                    break;
+                }
+            }
+        }
+        novel_directory = null;
+    } else {
+        if(window.novelInfoData.index>window.fiction_index.item.length){
+            alert('已经是第一章了');
+            return;
+        }
+        if(window.novelInfoData.index>=window.fiction_index.num-1 || !window.novelInfoData.nextChapter){
+            alert('已经是最后一章了');
+            return;
+        }
+        var tempData = compareVarInArr(window.novelInfoData.nextChapter.id,window.fiction_index,'item','id');
+        window.novelInfoObj.chapter.cid = tempData.curChapter.id;
+        window.novelInfoObj.chapter.link = tempData.curChapter.u;
+        window.novelInfoObj.chapter.link_id = tempData.curChapter.id;
+        window.novelInfoObj.chapter.name = tempData.curChapter.t;
+        window.novelInfoObj.chapter.cs = tempData.curChapter.cs;
+        window.novelInfoObj.chapter.ce = tempData.curChapter.ce;
+        window.novelInfoObj.title = tempData.title;
+        window.novelInfoObj.index = tempData.index;
+        if (!!tempData.nextChapter) {
+            window.novelInfoObj.next_chapter = {};
+            window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+            window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+            window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+            window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+        } else if (!!tempData.nextChapter && !!tempData.nextChapter.cid){
+            window.novelInfoObj.next_chapter.cid = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.link = tempData.nextChapter.u;
+            window.novelInfoObj.next_chapter.link_id = tempData.nextChapter.id;
+            window.novelInfoObj.next_chapter.name = tempData.nextChapter.t;
+            window.novelInfoObj.next_chapter.cs = tempData.nextChapter.cs;
+            window.novelInfoObj.next_chapter.ce = tempData.nextChapter.ce;
+        } else {
+            window.novelInfoObj.next_chapter = null;
+        }
+        window.novelInfoData = tempData;
+        //setLocalCookie('novel_' + window.uid + '_' + window.nid, window.novelInfoObj);
+        initContent(tempData.curChapter.id);
+    }
+   
+}
+//阅读器下载触发事件
+function downloadNovel(e){
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    if(window.novelInfoObj){
+        nid = window.novelInfoObj.nid;
+        keyword = window.novelInfoObj.title;
+        iurl = window.novelInfoObj.iurl;
+        length = window.novelInfoObj.length;
+        getNreaderOffline(nid, keyword, iurl, length);
+    }
+    e.stopPropagation();
+}
+// 读取离线zip包版本号
+function getNreaderOffline(nid, keyword, iurl, length){
+    $.ajax({
+        type:'get',
+        url:novelAjaxUrl+'novelpack',
+        data:{tst:"1"},
+        dataType:'jsonp',
+        success:function(data){
+            if(data && data.body){
+                if(data.body.version){
+                    download_novel(nid, keyword, iurl, length,""+ data.body.version);
+                }
+            }
+        },
+         error:function(){
+            download_novel(nid, keyword, iurl, length, "1416809994");
+        }
+    });
+}
+//返回目录
+function gotoDirectory(e){
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    var keyword, srp_id, widget_md5, lng, lat, city,ccid;
+    if(window.novelInfoObj){
+        keyword = window.novelInfoObj.title;
+        srp_id = window.novelInfoObj.srp_id;
+        widget_md5 = window.novelInfoObj.widget_md5;
+        lng = window.novelInfoObj.lng;
+        lat = window.novelInfoObj.lat;
+        city = window.novelInfoObj.city;
+        ccid = window.novelInfoObj.chapter.cid;
+        goto_detail(keyword,srp_id,widget_md5,lng,lat,city,window.uid,'&cmd=451&nid='+window.nid+'&ccid='+ccid+'&zs_version='+zs_version);
+    }
+    e.stopPropagation();
+}
+//切换夜间/白天阅读模式
+function switchReadMode(e) {
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    var novel_content = document.getElementById('novel_content'),
+        novel_btnpre = document.getElementById('novel_btnpre'),
+        novel_btnnext = document.getElementById('novel_btnnext'),
+        novel_xsname = document.getElementsByClassName('novel_xsname')[0],
+        status = novel_content.className;
+    if (status == 'novel_zwcon') {  // 白天
+        document.body.style.backgroundColor = '#32373b';
+        novel_content.className = 'novel_zwcon novel_zwcona';
+        novel_btnpre.className = 'novel_btnpre novel_btnprea';
+        novel_btnnext.className = 'novel_btnnext novel_btnnexta';
+        novel_xsname.className = 'novel_xsname novel_xsnamea';
+    } else {                        // 晚上
+        document.body.style.backgroundColor = '#f2f2f2';
+        novel_content.className = 'novel_zwcon';
+        novel_btnpre.className = 'novel_btnpre';
+        novel_btnnext.className = 'novel_btnnext';
+        novel_xsname.className = 'novel_xsname';
+    }
+    if(window.uid&&window.nid){
+        if(window.userConfig){
+            window.userConfig.readmode = document.getElementById('novel_content').className;
+            setLocalCookie('novel_config', window.userConfig);
+        } else {
+            window.userConfig = {};
+            window.userConfig.readmode = document.getElementById('novel_content').className;
+            setLocalCookie('novel_config', window.userConfig);
+        }
+    }
+    e.stopPropagation();
+}
+
+function switchFontSize(e) {
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    var fontSizeSet = document.getElementsByClassName('novel_zh')[0],
+        novel_lycon = document.getElementsByClassName('novel_lycon')[0],
+        novel_mb = document.getElementsByClassName('novel_mb')[0],
+        novel_btnpre = document.getElementsByClassName('novel_btnpre')[0],
+        novel_btnnext = document.getElementsByClassName('novel_btnnext')[0],
+        status = fontSizeSet.style.display;
+    if (status == 'none') {
+        fontSizeSet.style.display = 'block';
+        novel_mb.style.display = 'none';
+        novel_lycon.style.display = 'none';
+        novel_btnpre.style.display = 'block';
+        novel_btnnext.style.display = 'block';
+    } else {
+        fontSizeSet.style.display = 'none';
+    }
+    e.stopPropagation();
+}
+// 选择字体大、中、小号
+function fontSizeSet(e, fontsize) {
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    var setFontsize,
+        setlineheight,
+        novel_content = document.getElementById('novel_content'),
+        novel_content_p = novel_content.getElementsByTagName('p'),
+        novel_zj = novel_content.getElementsByClassName('novel_zj')[0],
+        i = 0, 
+        plen = novel_content_p.length,
+        currentTitleFontsize = window.getComputedStyle(novel_zj, null).fontSize,
+        currentTitleHeight = window.getComputedStyle(novel_zj, null).height,
+        currentTitlelineheight = window.getComputedStyle(novel_zj, null).lineHeight,
+        currentFontsize = window.getComputedStyle(novel_content_p[0], null).fontSize,
+        currentlineheight = window.getComputedStyle(novel_content_p[0], null).lineHeight;
+    if (fontsize == 'middle') {
+        for (; i < plen; i++) {
+            novel_content_p[i].style.fontSize = '14px';
+            novel_content_p[i].style.lineHeight = '22px';
+        }
+        setFontsize = '14px';
+        setlineheight = '22px';
+        novel_zj.style.fontSize = '16px';
+        novel_zj.style.height = '26px';
+        novel_zj.style.lineHeight = '26px';
+    } else if (fontsize == 'small') {
+        for (; i < plen; i++) {
+            if(parseInt(currentFontsize)<=12){
+                break;
+            }
+            novel_content_p[i].style.fontSize = parseInt(currentFontsize) - 1 + 'px';
+            novel_content_p[i].style.lineHeight = parseInt(currentlineheight) - 1 + 'px';
+            novel_zj.style.fontSize = parseInt(currentTitleFontsize) - 1 + 'px';
+            novel_zj.style.height = parseInt(currentTitleHeight) - 1 + 'px';
+            novel_zj.style.lineHeight = parseInt(currentTitlelineheight) - 1 + 'px';
+        }
+        setFontsize =parseInt(currentFontsize) - 1 + 'px';
+        setlineheight = parseInt(currentlineheight) - 1 + 'px';
+    } else {
+        for (; i < plen; i++) {
+            if(parseInt(currentFontsize)>=24){
+                break;
+            }
+            
+            novel_content_p[i].style.fontSize = parseInt(currentFontsize) + 1 + 'px';
+            novel_content_p[i].style.lineHeight = parseInt(currentlineheight) + 1 + 'px';
+            novel_zj.style.fontSize = parseInt(currentTitleFontsize) + 1 + 'px';
+            novel_zj.style.height = parseInt(currentTitleHeight) + 1 + 'px';
+            novel_zj.style.lineHeight = parseInt(currentTitlelineheight) + 1 + 'px';
+        }
+        setFontsize=parseInt(currentFontsize) + 1 + 'px';
+        setlineheight = parseInt(currentlineheight) + 1 + 'px';
+    }
+
+    if(window.uid&&window.nid){
+        if(window.userConfig){            
+            window.userConfig.fontsize = parseInt(setFontsize);
+            window.userConfig.lineheight = parseInt(setlineheight);
+            setLocalCookie('novel_config', window.userConfig);     
+        } else {
+            window.userConfig = {};
+            window.userConfig.fontsize = parseInt(setFontsize);
+            window.userConfig.lineheight = parseInt(setlineheight);
+            setLocalCookie('novel_config', window.userConfig);
+        }
+    }
+    e.stopPropagation();
+}
+// 更换来源
+function changeSources(e) {
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    var novel_lycon = document.getElementsByClassName('novel_lycon')[0],
+        novel_lycon_ul = novel_lycon.childNodes[1],
+        novel_zh = document.getElementsByClassName('novel_zh')[0],
+        novel_mb = document.getElementsByClassName('novel_mb')[0],
+        novel_sznav = document.getElementsByClassName('novel_sznav')[0],
+        novel_btnpre = document.getElementsByClassName('novel_btnpre')[0],
+        novel_btnnext = document.getElementsByClassName('novel_btnnext')[0],
+        status = novel_lycon.style.display;
+    var ccid = window.novelInfoObj.chapter.cid;
+    $.ajax({
+        type:'get',
+        url:novelAjaxUrl+'msrp',
+        data:{nid:ccid,cmd:454},
+        dataType:'jsonp',
+        success:function(data){
+            tempData = data.chapters;
+            novel_lycon_ul.style.height = (data.chapter_num * 40) + "px";
+            debug("ul-height",novel_lycon_ul.style.height);
+            var html = '<li>更换来源</li>';
+            for (var i=0;i<data.chapter_num;i++){
+                html+='<li><a id="'+tempData[i].link_id+'" onclick="changeSourcesGetContent(window.event);return false;window.event.preventDefault();">'+tempData[i].link+'</a></li>';
+            }
+            novel_lycon_ul.innerHTML = html;
+            if (status == 'none') {
+                novel_sznav.style.display = 'block';
+                novel_lycon.style.display = 'block';
+                novel_zh.style.display = 'none';
+                novel_mb.style.display = 'block';
+                novel_btnpre.style.display = 'none';
+                novel_btnnext.style.display = 'none';
+            } else {
+                novel_sznav.style.display = 'block';
+                novel_lycon.style.display = 'none';
+                novel_zh.style.display = 'none';
+                novel_mb.style.display = 'none';
+                novel_btnpre.style.display = 'block';
+                novel_btnnext.style.display = 'block';
+            }
+            e.stopPropagation();
+        },
+        error:function(xmlReq){
+            debug("changeSources",JSON.stringify(xmlReq));
+            checkOnline(xmlReq);
+        }
+    });
+}
+// 更换来源内容
+function changeSourcesGetContent(e) {
+    e && e.stopPropagation();
+    e && e.preventDefault();
+    var novel_lycon = document.getElementsByClassName('novel_lycon')[0],
+        novel_mb = document.getElementsByClassName('novel_mb')[0],
+        novel_sznav = document.getElementsByClassName('novel_sznav')[0],
+        novel_btnpre = document.getElementsByClassName('novel_btnpre')[0],
+        novel_btnnext = document.getElementsByClassName('novel_btnnext')[0],
+        status = novel_lycon.style.display;
+    novel_lycon.style.display = 'none';
+    novel_mb.style.display = 'none';
+    novel_sznav.style.display = 'none';
+    novel_btnpre.style.display = 'none';
+    novel_btnnext.style.display = 'none';
+     $.ajax({
+            type:'get',
+            url:'http://103.29.135.93/msrp',
+            data:{nid:e.target.id,cmd:450},
+            dataType:'jsonp',
+            beforeSend:function(){
+                $('#novel_btnnext a')[0].dataset.lock = '1';
+            },
+            complete:function(){
+                $('#novel_btnnext a')[0].dataset.lock = '0';
+            },
+            success:function(data){
+                if(!data){
+                    getNull();
+                    return;
+                }
+                if(data.root == 0){
+                    getFail();
+                    return;
+                }     
+                if(data.chapters[0].content==''){
+                    getNull();
+                    return;
+                }
+                if(!!window.userConfig)
+                {
+                    if(typeof window.userConfig == 'string') {
+                        window.userConfig = JSON.parse(window.userConfig);
+                    }
+                    if(!window.userConfig.fontsize){
+                        window.userConfig.fontsize = '14px';
+                    }
+                    if(!window.userConfig.lineheight){
+                        window.userConfig.lineheight = '22px';
+                    }
+                    if(!window.userConfig.readmode){
+                        window.userConfig.readmode='novel_zwcon';
+                    }
+                }
+                else{
+                    window.userConfig={};
+                    if(!window.userConfig.fontsize){
+                        window.userConfig.fontsize = '14px';
+                    }
+                    if(!window.userConfig.lineheight){
+                        window.userConfig.lineheight = '22px';
+                    }
+                    if(!window.userConfig.readmode){
+                        window.userConfig.readmode='novel_zwcon';
+                    }
+
+                }
+                online_getFail = false ;
+                initContentCallback (data);
+            },
+            error:function(xmlReq){
+                checkOnline(xmlReq);
+            }
+        });
+}
+// 关闭来源面板
+function closeSourcesPanel(){
+    var novel_sznav = document.getElementsByClassName('novel_sznav')[0],
+        novel_lycon = document.getElementsByClassName('novel_lycon')[0],
+        novel_mb = document.getElementsByClassName('novel_mb')[0];
+    novel_sznav.style.display = 'none';
+    novel_lycon.style.display = 'none';
+    novel_mb.style.display = 'none';
+}
+//　调试代码
+function debug(key,value){
+    if(ifdebug)
+    {
+        document.getElementById('debug').innerHTML+=key+':'+value+'<br>';
+    } 
+}
+// 显示工具栏
+function scroll(e){
+    if(online_getFail){return false;}
+	if(hasClass('btnpre',e.target)||hasClass('btnnext',e.target)) return false;
+    var parseH=e.clientY/parseInt(window.innerHeight,10);       // 鼠标点击Y坐标 / 窗口高度
+    var parseW=e.clientX/parseInt(window.innerWidth,10);        // 鼠标点击X坐标 / 窗口宽度
+    var status = document.querySelector('.novel_sznav').style.display;      // 功能区
+    if(parseH<0.25){                        // 上翻页
+        scrollToTop(e);
+        if(status=='block')bubbleTest(e);
+    }else if(parseH>0.25 && parseH < 0.75){      
+        if(parseW<0.3 || parseW>0.6){       // 下翻页   
+            scrollToBottom(e);
+            if(status=='block')bubbleTest(e);
+        }else{                              // 显示功能区
+            bubbleTest(e);
+        }
+    }else if(parseH>0.75){                  // 下翻页  
+        scrollToBottom(e);
+        if(status=='block')bubbleTest(e);
+    }
+}
+function hasClass(className,node){
+    var classNames = node.className.split(/\s+/);    //步骤1
+    for(var i = 0; i < classNames.length; i++){         //步骤2
+        if(classNames[i] == className){
+            return true;
+        }
+    }    
+    return false;
+}  
+
+// 检测离线状态
+function checkOnline (xmlReq) {
+    debug("进入checkOnline","");
+    if(xmlReq.readyState === 4){
+        debug("checkOnline 4","");
+        if(xmlReq.status >= 500 || xmlReq.status === 0){
+            debug("checkOnline 500","");
+            showHideTip();
+        }
+    }
+    if(JSON.stringify(xmlReq)=="{}"){
+        showHideTip();
+    }
+}   
+// 显示/隐藏网络提示
+function showHideTip(){
+    debug("showHideTip ","");
+    var wlts = document.getElementsByClassName("novel_wlts")[0],
+        wltsa = document.getElementsByClassName("novel_wltsa")[0],
+        status = document.getElementById('novel_content').className;
+    if (status == 'novel_zwcon') {  // 白天
+        debug("白天","");
+        if(wlts){
+            debug("白天block","");
+            wlts.style.display = "block";
+        }else{
+            document.getElementsByTagName('body')[0].innerHTML +="<div class='novel_wlts'>网络不给力，请检查网络设置</div>";
+        }
+    }else{
+        if(wltsa){
+            debug("晚上block","");
+            wltsa.style.display = "block";
+        }else{
+            document.getElementsByTagName('body')[0].innerHTML +="<div class='novel_wlts novel_wltsa'>网络不给力，请检查网络设置</div>";
+        }
+    }
+    setTimeout(function(){
+        debug("关闭提示","");
+        wlts = document.getElementsByClassName("novel_wlts")[0];
+        wltsa = document.getElementsByClassName("novel_wltsa")[0];
+        if (status == 'novel_zwcon') {  // 白天
+            wlts.style.display = "none";
+        }else{
+            wltsa.style.display = "none";
+        }
+    },2000);
+}
+
+</script>
+</html>

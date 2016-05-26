@@ -1,0 +1,31 @@
+<LinearLayout android:id="@+id/group_empty_data"
+              android:visibility="visible"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent"
+              android:layout_marginBottom="120dp"
+              android:gravity="bottom"
+              android:orientation="vertical">
+
+    <Button
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_group_nodata"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/home_guide_nextbtn_backgroup"
+        android:text="点击编辑分组内容"
+        android:textColor="#5C5C5C"/>
+
+    <TextView
+        android:textColor="#545454"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="分组内容已全部移动至分组外或已被取消订阅"/>
+</LinearLayout>

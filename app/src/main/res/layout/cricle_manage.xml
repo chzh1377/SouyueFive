@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/cricle_layout_bg_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_onlytitle_toac" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- 圈logo -->
+            <RelativeLayout
+                android:id="@+id/re_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-1dp"
+                android:background="@drawable/cricle_setting_top_text_bg"
+                android:paddingBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/iv_circlelogo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/default_logo" />
+
+                <TextView
+                    android:id="@+id/circlename"
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/iv_circlelogo"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="17dp"
+                    android:background="@drawable/cricle_manage_right_arrow" />
+            </RelativeLayout>
+            <!-- 圈成员 -->
+            <RelativeLayout
+                android:id="@+id/rl_cricle_setting_users"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/cricle_setting_center_text_bg">
+
+                <TextView
+                    android:id="@+id/tv_cricle_name_setting"
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/enternext"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/cricle_name_setting_text" />
+
+                <TextView
+                    android:id="@+id/tv_cricle_member_num"
+                    style="@style/cricle_setting_right_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toLeftOf="@id/enternext" />
+
+                <ImageView
+                    android:id="@+id/enternext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/cricle_manage_right_arrow" />
+            </RelativeLayout>
+
+            <!-- 圈二维码 -->
+            <RelativeLayout
+                android:id="@+id/circle_qrcode"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/cricle_setting_bottom_text_bg">
+
+                <TextView
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="本圈二维码" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/erweima" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/cricle_manage_right_arrow" />
+
+            </RelativeLayout>
+
+
+            <!-- 我发布的帖子 -->
+            <RelativeLayout
+                android:id="@+id/rl_cricle_my_posts_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/cricle_setting_top_text_bg"
+                android:clickable="false"
+                android:focusable="false">
+
+                <TextView
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/cricle_my_posts_setting_text" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/cricle_manage_right_arrow" />
+            </RelativeLayout>
+
+            <!-- 提到我的帖子 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_cricle_at_me_posts_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/cricle_setting_bottom_text_bg">
+
+                <TextView
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/cricle_at_me_posts_setting_text" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/cricle_manage_right_arrow" />
+            </RelativeLayout>
+
+
+            <!-- 隐私保护 -->
+            <LinearLayout
+                android:id="@+id/rl_cricle_my_info_protect_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-1dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/cricle_setting_top_text_bg"
+                android:minHeight="60dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_cricle_my_info_protect"
+                        style="@style/cricle_setting_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/cricle_my_info_protect_setting_text" />
+
+                    <TextView
+                        style="@style/cricle_setting_left_below"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/cricle_my_info_protect_show_setting_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ToggleButton
+                        android:id="@+id/tb_cricle_protect_setting"
+                        style="@style/cricle_setting_my_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="15dp"
+                        android:ellipsize="end"
+                        android:singleLine="false"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 我的圈头像 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_cricle_my_photo_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/cricle_setting_center_text_bg">
+
+                <TextView
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/cricle_my_photo_setting_text" />
+
+                <ImageView
+                    android:id="@+id/iv_cricle_my_photo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/weibo_default_head" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="18dp"
+                    android:background="@drawable/cricle_manage_right_arrow" />
+            </RelativeLayout>
+
+            <!-- 我的圈昵称-->
+
+            <RelativeLayout
+                android:id="@+id/rl_cricle_my_nickname_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/cricle_setting_center_text_bg">
+
+                <TextView
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/cricle_my_nickname_setting_text" />
+
+                <TextView
+                    android:id="@+id/tv_cricle_my_nickname"
+                    style="@style/cricle_setting_right_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="16dp"
+                    android:ellipsize="end"
+                    android:maxWidth="150dp"
+                    android:singleLine="false" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="18dp"
+                    android:background="@drawable/cricle_manage_right_arrow" />
+
+            </RelativeLayout>
+
+            <!-- 向圈友介绍自己-->
+
+            <LinearLayout
+                android:id="@+id/ll_cricle_instrudunce_me_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/cricle_setting_bottom_text_bg"
+                android:minHeight="60dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_cricle_instrudunce_me_name"
+                        style="@style/cricle_setting_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/cricle_instrudunce_me_setting_text" />
+
+                    <TextView
+                        style="@style/cricle_setting_left_below"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/cricle_instrudunce_me_desc_setting_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_cricle_instrudunce_me"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="16dp"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical|right"
+                        android:singleLine="false"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 圈主工具 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_cricle_admin_tools"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/cricle_single_full_setting_text_bg">
+
+                <TextView
+                    style="@style/cricle_setting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/cricle_admin_tools_text" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/cricle_manage_right_arrow" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_cricle_quit"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/cricle_quit_selector"
+                android:text="@string/cricle_quit_setting_text"
+                android:textColor="@color/cricle_list_manage_quit_text_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="280dip"
+              android:layout_height="140dip"
+              android:layout_gravity="center_horizontal"
+              android:background="@drawable/im_upload_corner"
+              android:gravity="center_vertical|center_horizontal"
+              android:minWidth="280dip"
+              android:orientation="vertical" >
+
+        <TextView
+                android:id="@+id/dialog_message"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="确认删除分组么？"
+                android:textColor="#282828"
+                android:textSize="20sp" />
+    <TextView
+        android:id="@+id/dialog_message_info"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_gravity="center"
+        android:text="删除后分组中的内容将会出现在列表最后"
+        android:textColor="#282828"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        />
+
+    <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#e0e0e0" />
+
+    <LinearLayout
+            android:layout_below="@id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:orientation="horizontal" >
+
+        <Button
+                android:id="@+id/dialog_cancel"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:text="取消"
+                android:layout_gravity="center"
+                android:textColor="#0099ff"
+                android:textSize="18dip" />
+
+        <View
+                android:layout_width="1dip"
+                android:layout_height="50dip"
+                android:background="#e0e0e0" />
+
+        <Button
+                android:id="@+id/dialog_confirm"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:text="确定"
+                android:layout_gravity="center"
+                android:textColor="#0099ff"
+                android:textSize="18dip" />
+    </LinearLayout>
+
+</LinearLayout>

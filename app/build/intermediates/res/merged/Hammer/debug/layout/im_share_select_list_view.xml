@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:swipe="http://schemas.android.com/apk/res-auto"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <!--<include layout="@layout/titlebar_contacts_swipe_list"/>-->
+    <RelativeLayout
+        android:id="@+id/rl_tittle_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@color/all_titlebar_bg_color"
+        >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/im_tittle_select"
+                android:textSize="@dimen/text_size_18"
+                android:textColor="@color/bar_center_title_color"
+                android:layout_marginLeft="@dimen/space_10"
+                android:layout_centerVertical="true"
+                />
+        <LinearLayout
+            android:id="@+id/ll_tittle_bar"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/space_10"
+            android:padding="@dimen/space_5"
+            android:gravity="center"
+            android:background="@color/bar_center_title_color"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/title_bar_cancel"
+                />
+    </LinearLayout>
+        <View style="@style/Bar_Horizonal_line_style"
+              android:layout_alignParentBottom="true"
+                />
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/rl_search_head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/im_msg_search"
+            >
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+            <EditText
+                    android:id="@+id/search_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/search_edit_text_bg"
+                    android:drawableLeft="@drawable/im_search_icon"
+                    android:drawableRight="@drawable/search_edit_text_bg"
+                    android:drawablePadding="3dp"
+                    android:hint="@string/search_has_group"
+                    android:imeActionLabel="搜索"
+                    android:layout_centerVertical="true"
+                    android:imeOptions="actionSearch|actionUnspecified"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="6dp"
+                    android:singleLine="true"
+                    android:textColorHint="#cccccc"
+                    android:textSize="@dimen/search_edit_size"/>
+            <Button
+                    android:id="@+id/btn_search_clear"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/clear_icon"
+                    />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/im_listdriver_color"
+            android:dividerHeight="0.5dp"
+            android:focusableInTouchMode="true"
+            />
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+    <com.zhongsou.souyue.im.view.SwipeListView
+            android:id="@+id/example_lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/im_listdriver_color"
+            android:dividerHeight="0.5dp"
+            android:focusableInTouchMode="true"
+            swipe:right_width="80dp" />
+
+        <com.zhongsou.souyue.im.view.AlphaSideBar
+                android:id="@+id/alphaView"
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:layout_marginTop="40dp"
+                android:background="@color/transparent" />
+
+    </FrameLayout>
+
+</LinearLayout>

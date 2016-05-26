@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 搜悦配置文件  -->
+<resources>
+    <!-- 应用名称  -->
+    <!-- 应用名称简称  -->
+    <string name="app_name_short">搜悦</string>
+    <!-- 推荐给朋友url -->
+    <string name="share_to_friends_url">http://souyue.mobi</string>
+    <!-- 腾讯微博from -->
+    <string name="tecent_weibo_from">zhongsousouyue</string>
+    <!-- 新浪微博from -->
+    <string name="sina_weibo_from">中搜搜悦</string>
+    <!-- 搜悦接口服务器环境： 0-测试环境，1-预上线环境， 2-线上环境，3-开发环境 4-搜索预上线环境-->
+    <!--<string name="souyue_interface_env">0</string>-->
+</resources>

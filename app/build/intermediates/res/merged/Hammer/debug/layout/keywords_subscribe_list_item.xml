@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/list_view_item_selector" >
+
+    <RelativeLayout
+         android:background="@drawable/subscribe_all_subject_selector"
+         android:layout_width="match_parent"
+         android:layout_height="37dip"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tv_keywords_subscribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="我是订阅订阅"
+            android:textColor="@color/middark_black"
+            android:textSize="13sp" />
+    </RelativeLayout>
+    <ImageView
+            android:id="@+id/iv_keywords_subscribe_add"
+            style="@style/SubscribeAddImageButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="23dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/subscribe_add01" />
+
+</RelativeLayout>

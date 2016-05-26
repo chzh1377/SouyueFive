@@ -1,0 +1,170 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.zhongsou.souyue.ui.lib.DiscrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <com.zhongsou.souyue.ui.lib.DiscrollViewContent
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f6f6f6" >
+
+            <!-- 第一屏 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_guide_skipe"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_guide_subcribed_selector"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/guide_skipe"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_guide_pic1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="@dimen/guide_image_margin_top"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/guide_pic1" />
+
+                <com.zhongsou.souyue.ui.GuideGridView
+                    android:id="@+id/gv_guide_recommend_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_guide_pic1"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="@android:color/transparent"
+                    android:fadingEdge="none"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth" />
+                <ImageView
+	                android:id="@+id/iv_guide_splash_arrow"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="50dp"
+	                android:layout_below="@id/gv_guide_recommend_list"
+	                android:layout_centerHorizontal="true"
+	                android:layout_alignParentBottom="true"
+	                android:scaleType="centerInside"
+	                android:src="@drawable/guide_splash_arrow" />
+            </RelativeLayout>
+            
+            <!-- 轨迹部分 -->
+
+            <com.zhongsou.souyue.ui.lib.DiscrollvablePathLayout
+                android:id="@+id/layout_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:background="#f6f6f6"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_day_of_chosen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|left"
+                    android:layout_marginLeft="30dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/guide_pic2" />
+
+                <com.zhongsou.souyue.ui.lib.DiscrollvableLayout
+                    android:id="@+id/discroll_layout_content_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <include layout="@layout/guide_list_item_first" />
+                </com.zhongsou.souyue.ui.lib.DiscrollvableLayout>
+
+                <include
+                    android:id="@+id/discroll_layout_content_2"
+                    layout="@layout/guide_list_layout" />
+
+                <include
+                    android:id="@+id/discroll_layout_content_3"
+                    layout="@layout/guide_list_layout" />
+
+                <include
+                    android:id="@+id/discroll_layout_content_4"
+                    layout="@layout/guide_list_layout" />
+
+                <include
+                    android:id="@+id/discroll_layout_content_5"
+                    layout="@layout/guide_list_layout" />
+
+                <include
+                    android:id="@+id/discroll_layout_content_6"
+                    layout="@layout/guide_list_layout" />
+
+                <include
+                    android:id="@+id/discroll_layout_content_7"
+                    layout="@layout/guide_list_layout" />
+
+                <include
+                    android:id="@+id/discroll_layout_content_8"
+                    layout="@layout/guide_list_layout" />
+
+                <include
+                    android:id="@+id/discroll_layout_content_9"
+                    layout="@layout/guide_list_layout" />
+
+                <com.zhongsou.souyue.ui.lib.DiscrollvableLayout
+                    android:id="@+id/discroll_layout_content_10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <include layout="@layout/guide_list_item_last" />
+                </com.zhongsou.souyue.ui.lib.DiscrollvableLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_guide_complete"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" >
+
+                    <Button
+                        android:id="@+id/btn_guide_enter"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/guide_enter_bg"
+                        android:gravity="center"
+                        android:text="马上开启"
+                        android:textColor="#d94d4e"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+            </com.zhongsou.souyue.ui.lib.DiscrollvablePathLayout>
+        </com.zhongsou.souyue.ui.lib.DiscrollViewContent>
+    </com.zhongsou.souyue.ui.lib.DiscrollView>
+
+    <include layout="@layout/guide_loading_layout" />
+
+</FrameLayout>

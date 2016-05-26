@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:descendantFocusability="blocksDescendants"
+    android:id="@+id/framelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <com.zhongsou.souyue.circle.view.CircleImageView
+        android:id="@+id/child_image"
+        android:layout_width="@dimen/publish_img_width"
+        android:layout_height="@dimen/publish_img_width"
+        android:background="@drawable/friends_sends_pictures_no"
+        android:scaleType="centerCrop" />
+
+    <CheckBox
+        android:clickable="false"
+        android:id="@+id/child_checkbox"
+        android:layout_gravity="right"
+        android:layout_width="@dimen/space_35"
+        android:layout_height="@dimen/space_35"
+        android:background="@drawable/pictures_select_icon"
+        android:button="@null" />
+
+</FrameLayout>

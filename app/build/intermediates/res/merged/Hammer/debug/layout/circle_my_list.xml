@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/all_titlebar_bg_color"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="44dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/goBack"
+            android:onClick="onPopClick">
+
+            <TextView
+                android:id="@+id/manager_group_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxWidth="150dp"
+                android:singleLine="true"
+                android:text="我的兴趣圈"
+                android:textColor="@color/bar_center_title_color"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <ImageButton
+                android:id="@+id/goBack"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:onClick="onBackPressClick"
+            android:src="@drawable/goback_button_selector" />
+
+        <View style="@style/Bar_Horizonal_line_style"
+                android:layout_below="@id/goBack"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white">
+
+        <com.zhongsou.souyue.ui.dynamicgrid.DynamicGridView
+            android:id="@+id/dynamic_grid"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:fadingEdgeLength="0.0sp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:scrollbars="none" />
+
+        <include layout="@layout/loading" />
+    </FrameLayout>
+
+</LinearLayout>

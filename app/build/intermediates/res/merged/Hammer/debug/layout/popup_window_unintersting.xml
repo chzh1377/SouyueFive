@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+    <RelativeLayout
+            android:id="@+id/rl_homepage_delete_top"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/homepage_delete_top_popup_top">
+
+        <TextView
+                android:id="@+id/tv_homepage_delete_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                  android:textColor="@color/white"
+                  android:textSize="14sp"
+                android:text="@string/homepage_uninterest_select_title"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/rl_homepage_delete_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:background="@color/white">
+
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <View
+                android:id="@+id/iv_pop_line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentTop="true"
+                android:background="@color/homepage_uninterest_line"/>
+        <LinearLayout
+            android:id="@+id/homepage_delete_bottom_popup_container"
+            android:orientation="horizontal"
+            android:layout_below="@id/iv_pop_line"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <Button
+                android:text="@string/alert_dislike"
+                android:id="@+id/bt_homepage_delete_confirm"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:background="@drawable/homepage_delete_bottom_popup_button"/>
+            <Button
+                android:text="@string/alert_ubsubed"
+                android:id="@+id/bt_homepage_ubsubed_confirm"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:background="@drawable/homepage_delete_bottom_popup_button"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/homepage_no_interest"-->
+    <!--android:textSize="12dp"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:paddingTop="6dp"-->
+    <!--android:paddingBottom="6dp"-->
+    <!--android:paddingLeft="12dp"-->
+    <!--android:paddingRight="12dp"/>-->
+</LinearLayout>

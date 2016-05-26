@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="56dip"
+    android:orientation="vertical" 
+    android:background="@color/transparent_75"
+    >
+    <TextView 
+        android:id="@+id/notifition_text"
+        android:layout_width="wrap_content"
+    	android:layout_height="56dip"
+    	android:gravity="center"
+    	android:layout_gravity="center_horizontal"
+    	android:drawableLeft="@drawable/notifition_icon"
+    	android:drawablePadding="4dip"
+    	android:textColor="@color/white"
+    	android:textSize="14sp"
+        />
+</LinearLayout>

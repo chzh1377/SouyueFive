@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/item_left"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/im_item_selector"
+        android:paddingRight="10dp"
+        android:tag="front">
+
+        <FrameLayout
+            android:id="@+id/row_iv_image_layout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/row_iv_image"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/default_head"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                    />
+        </FrameLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:layout_toLeftOf="@+id/right_arrow"
+                android:layout_toRightOf="@+id/row_iv_image_layout"
+                android:orientation="vertical"
+                >
+        <TextView
+            android:id="@+id/row_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:text="新的朋友"
+            android:textColor="#282828"
+            android:textSize="16sp" />
+
+        <TextView
+                android:id="@+id/row_tv_beizhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:text="昵称：你猜"
+                android:textSize="12sp"
+                android:textColor="#7e7e7e"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/ll_tv"
+            android:background="@drawable/remain_count_bg_negative"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/right_arrow"
+            style="@style/im_right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:tag="back">
+
+        <Button
+            android:id="@+id/row_btn_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="#ee0000"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sublistitemview"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/list_view_item_selector"
+    android:gravity="center_vertical">
+
+    <CheckBox
+        android:id="@+id/iv_sublist_delete"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@android:id/text1"
+        style="@style/HomeListItemTextZhStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_sublist_delete"
+        android:paddingLeft="10dp"
+        android:textColor="@color/subscribe_text_color" />
+
+    <ImageView
+        android:id="@+id/iv_setting_arrow"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/setting_arrow" />
+
+    <ImageButton
+        android:id="@+id/iv_sublist_drag"
+        style="@style/ActionButton.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/home_edit"
+        android:visibility="invisible" />
+
+    <com.zhongsou.souyue.view.DeleteButtonView
+        android:id="@+id/setting_sub_item_del"
+        android:layout_width="55dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="13dp"
+        android:background="@color/list_item_bg_color_normal"
+        android:visibility="gone" />
+
+</RelativeLayout>

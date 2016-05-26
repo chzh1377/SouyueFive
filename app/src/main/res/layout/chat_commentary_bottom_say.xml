@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/commentary_say_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/commentary_bottom_layout_bg"
+    android:gravity="center"
+    android:paddingRight="6dp">
+
+    <com.zhongsou.souyue.ui.LongPressedButon
+        android:id="@+id/longClickToSay"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/recorder_button_selector"
+        android:gravity="center"
+        android:text="@string/audio_click_say"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/audio_play_del_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/send_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/send_button_selector"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/audio_del"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/send_audio"
+            android:background="@drawable/audio_del_button_selector"
+            android:gravity="center"
+            android:text="@string/audio_del"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/audio_play"
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/audio_del"
+            android:background="@drawable/recorder_button_selector"
+            android:src="@drawable/audio_play" />
+    </RelativeLayout>
+
+</RelativeLayout>

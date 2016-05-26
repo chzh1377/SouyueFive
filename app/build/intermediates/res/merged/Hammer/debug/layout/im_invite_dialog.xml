@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/im_share_dialog_bg"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/im_share_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical|left"
+        android:text="邀请"
+        android:textColor="@color/im_share_pop_button_ok"
+        android:textSize="19dp" />
+
+    <View
+        android:id="@+id/im_dialog_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/im_share_title"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@color/im_share_dialog_innerline" />
+
+    <ImageView
+        android:id="@+id/im_dialog_header"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/im_dialog_line"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/im_dialog_header" />
+
+    <TextView
+        android:id="@+id/im_dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:layout_below="@+id/im_dialog_line"
+        android:layout_marginLeft="14dip"
+        android:layout_marginRight="14dip"
+        android:layout_marginTop="15dip"
+        android:layout_toRightOf="@+id/im_dialog_header"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:textColor="@color/im_share_pop_title"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/im_dialog_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/im_dialog_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="17dp"
+        android:maxLines="2"
+        android:background="@null"
+        android:drawableBottom="@drawable/bottom_line"
+        android:gravity="left|center"
+        android:hint="再说点什么？"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textColor="@color/im_share_pop_title"
+        android:textColorHint="@color/im_share_pop_hint"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/im_dialog_desc"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/im_dialog_cancel"
+            android:layout_width="140dp"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/im_share_button_cancel_selector"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/im_share_pop_title"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@id/im_dialog_ok"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/im_share_button_ok_selector"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/im_share_pop_button_ok"
+            android:textSize="17dp" />
+    </LinearLayout>
+</RelativeLayout>

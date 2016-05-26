@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\fresco\\unspecified\\res\\drawable-ldpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\drawable-ldpi-v4\\phone_info.png",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\cbug_lib\\unspecified\\res\\drawable-ldpi-v4\\phone_info.png"
+    }
+]

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/cricle_layout_bg_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_onlytitle_toac" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edittext_bg">
+
+        <EditText
+            android:id="@+id/et_cricle_manage_edit_nikename"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/btn_cricle_manage_nikename_clear"
+            android:background="@null"
+            android:hint="@string/cricle_manage_default_nick"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#383838"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_cricle_manage_nikename_clear"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/clear_icon" />
+    </RelativeLayout>
+
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+         >
+	    <TextView
+	        android:id="@+id/tv_circle_nikename_desc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#8a8a8a"
+	        android:textSize="12sp" />
+	    <TextView
+	        android:id="@+id/tv_circle_nick_limit_count"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/tv_circle_nikename_desc"
+	        android:layout_alignParentRight="true"
+	        android:gravity="right"
+	        android:layout_marginLeft="8dp"
+	        android:textColor="#8a8a8a"
+	        android:textSize="12sp" />
+	</RelativeLayout>
+    <Button
+        android:id="@+id/btn_cricle_manage_nikename_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/my_button_selector"
+        android:paddingLeft="5dp"
+        android:text="@string/cricle_manage_edit_nick_submit"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</LinearLayout>

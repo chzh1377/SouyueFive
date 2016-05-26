@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:background="@color/discover_bg"
+    >
+
+    <TextView
+        android:id="@+id/search_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:padding="1dp"
+        android:singleLine="true"
+        android:textColor="@color/gray_7e"
+        android:layout_marginLeft="5dp"
+        android:maxEms="15"
+        android:text="测试"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/search_item_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/search_item_text"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:padding="1dp"
+        android:singleLine="true"
+        android:textColor="@color/gray_bfbfbf"
+        android:layout_marginLeft="15dp"
+        android:text="描述"
+        android:layout_alignBaseline="@id/search_item_text"
+        android:textSize="12sp"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/search_open"
+        android:layout_marginRight="10dp"
+        />
+
+</RelativeLayout>

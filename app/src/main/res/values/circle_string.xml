@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="circle_bar">圈吧</string>
+    <string name="circle_bar_post_Count">你发的帖子有%s条跟帖</string>
+    
+    <!-- 引导页面  新功能展示页中的字符串 -->
+    <string name="circle_newinfo_new_function" >新增：“兴趣圈、私密圈、密信”功能 </string>
+    <string name="circle_newinfo_info" >让您“放心”交往每一天！</string>
+    <string name="circle_newinfo_select" >选择我的兴趣圈>></string>
+
+    <!-- 引导页面 选择兴趣圈 -->
+    <string name="circle_select_circle_default_title" >选择您的兴趣圈</string>
+    <string name="circle_select_circle_default_button" >进入兴趣圈</string>
+    <string name="circle_select_circle_no_button" >请至少选择一个兴趣圈</string>
+    <string name="circle_select_circle_saving" >正在保存...</string>
+
+    <item type="id" name="circle_tag_first"></item>
+    <item type="id" name="circle_tag_second"></item>
+    
+      <!-- 圈子新增加字段 -->
+    <string name="cricle_prime_text">精</string>
+    <string name="cricle_top_status_text">置顶</string>
+    <string name="cricle_follow_num_text">跟帖</string>
+    <string name="cricle_reply_num_text">回复</string>
+    <string name="cricle_no_more_data">已经到底了</string>
+    <string name="cricle_no_more_data_and_click">已加载全部内容 点击刷新</string>
+    <string name="cricle_no_data">暂无数据</string>
+    <string name="cricle_net_error">网络异常，上拉重试</string>
+    <string name="cricle_split">&#8211;</string>
+    
+    <!-- 圈子管理界面 -->
+    <string name="cricle_manage_title_setting_text">圈吧管理</string>
+    <string name="cricle_name_setting_text">圈成员</string>
+    <string name="cricle_my_posts_setting_text">我发布的帖子</string>
+    <string name="cricle_at_me_posts_setting_text">提到我的帖子（@我）</string>
+    <string name="cricle_my_info_protect_setting_text">隐私保护（圈子面具）</string>
+    <string name="cricle_my_info_protect_show_setting_text">圈友只能看到我在圈内的身份</string>
+    <string name="cricle_protect_setting_text">隐私保护设置</string>
+    <string name="cricle_my_photo_setting_text">我的圈头像</string>
+    <string name="cricle_my_nickname_setting_text">我的圈昵称</string>
+    <string name="cricle_my_signature_setting_text">我的圈简介</string>
+    <string name="cricle_instrudunce_me_setting_text">我的圈签名</string>
+    <string name="cricle_instrudunce_me_desc_setting_text">向圈友介绍自己</string>
+    <string name="cricle_inbox_setting_text">兴趣圈收稿箱</string>
+    <string name="cricle_quit_setting_text">退出兴趣圈</string>
+    <string name="cricle_admin_no_quit_setting_text">圈主不能退出圈子</string>
+    <string name="cricle_isprivate_noopen_setting_text">隐私保护未开启，不能进行编辑</string>
+    <string name="cricle_isprivate_edit_setting_failed">修改隐私保护失败</string>
+    <string name="cricle_isprivate_edit_setting_dialog_title">确定关闭？</string>
+    <string name="cricle_isprivate_edit_setting_dialog_msg">关闭后，您在圈里将使用个人设置中的头像和昵称</string>
+    <string name="cricle_admin_tools_text">圈主工具</string>
+    <string name="circle_admin_check_text">入圈申请审核</string>
+    <string name="circle_member_setting_text">我的圈身份</string>
+    
+	<string name="cricle_manage_networkerror">网络异常，请重试</string>
+	<string name="cricle_manage_pullup_networkerror">网络异常，上拉重试</string>
+
+	 <!-- 编辑昵称 -->
+    <string name="cricle_manage_edit_nick">编辑昵称</string>
+    <string name="cricle_manage_default_nick">请输入昵称</string>
+    <string name="cricle_manage_edit_nick_des">4&#8211;20个字符，支持中英文、数字</string>
+    <string name="cricle_manage_edit_nick_submit">提交</string>
+    <string name="cricle_manage_update_nicknameing">正在修改昵称，请稍候&#8230;</string>
+    <string name="cricle_manage_again_logining">正在重新登录，请稍候&#8230;</string>
+    <string name="cricle_manage_update_nick_success">修改昵称成功</string>
+    <string name="cricle_manage_update_nick_failed">修改昵称失败</string>
+    <!-- 头像上传 -->
+    <string name="cricle_manage_pick_dialog_title">选择上传方式</string>
+    <string name="cricle_manage_upload_photo_fail">上传头像失败</string>
+    <string name="cricle_manage_upload_photo_success">上传头像成功</string>
+    <!-- 签名编辑 -->
+    <string name="cricle_manage_edit_signature_des">向圈友介绍自己</string>
+    <string name="cricle_manage_edit_signature_des_limit">(20个中文字符，40个英文字符)</string>
+	<string name="cricle_manage_edit_signature_submit">提交</string>
+	<string name="cricle_manage_edit_signature">编辑圈签名</string>
+	<string name="cricle_manage_update_signaturing">正在修改我的圈签名，请稍候&#8230;</string>
+	<string name="cricle_manage_update_signature_success">修改我的圈签名成功</string>
+    <string name="cricle_manage_update_signature_failed">修改我的圈签名失败</string>
+    <string name="cricle_manage_default_signatrue">请输入我的圈签名</string>
+    <string name="cricle_manage_update_logouting">正在退出圈子，请稍候&#8230;</string>
+    <string name="cricle_manage_upload_quit_success">退出圈子成功</string>
+    <string name="cricle_manage_upload_quit_failed">退出圈子失败</string>
+    <string name="cricle_manage_save_circle_failed">订阅圈子失败</string>
+    <string name="cricle_manage_upload_quit_dialog_title">退出圈子提醒</string>
+    <string name="cricle_manage_upload_quit_dialog_content">确定退出圈子</string>
+    <string name="cricle_manage_edit_quit_dialog_confirm">确定</string>
+    <string name="cricle_manage_edit_quit_dialog_cancel">取消</string>
+    <string name="follow_posts">跟帖</string>
+    <string name="my_send_post">我发布的帖子</string>
+    <string name="at_my_post">\@我的</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="share_to_interest">分享到兴趣圈</string>
+	
+    <!-- 圈子列表-下拉刷新 -->
+    <string name="cricle_pull_to_refresh">下拉可以刷新</string>
+	<string name="cricle_release_to_refresh">释放立即刷新</string>
+	<string name="cricle_refreshing">正在刷新&#8230;</string>
+	<string name="cricle_not_updated_yet">暂未更新过</string>
+	<string name="cricle_updated_at">上次更新于%1$s前</string>
+	<string name="cricle_updated_just_now">刚刚更新</string>
+	<string name="circle_say_again">再说点什么?</string>
+	<string name="please_subscribe_interest">请订阅兴趣圈</string>
+	<string name="you_hadtalk">您已被禁言!</string>
+	<string name="please_login_first">请先登录</string>
+	<string name="please_input_interest_name">请输入兴趣圈名称</string>
+	<string name="no_includingMePosts">还没有提到您的帖子</string>
+	<string name="no_sendpost">您还没有发帖</string>
+	<string name="tem_no_posts">暂无帖子</string>
+
+    <string name="prime_group_count">兴趣圈讨论群(%s)</string>
+    <string name="reply_main_text">查看正文</string>
+    <string name="get_interest_faild">获取兴趣圈列表失败！</string>
+</resources>

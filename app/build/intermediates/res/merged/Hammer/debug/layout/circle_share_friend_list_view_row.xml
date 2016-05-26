@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:orientation="horizontal"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+
+        <RelativeLayout
+                android:id="@+id/item_left"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/im_item_selector"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:tag="front"
+                >
+
+            <FrameLayout
+                    android:id="@+id/row_iv_image_layout"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    >
+
+                <ImageView
+                        android:id="@+id/row_iv_image"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/im_friendsicon"
+                        android:scaleType="fitXY"
+                        />
+
+                <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/im_friends_head_roundbg"
+                        />
+            </FrameLayout>
+
+            <TextView
+                    android:id="@+id/row_tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@+id/row_iv_image_layout"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="新的朋友"
+                    android:textColor="#282828"
+                    android:textSize="16sp"
+                    />
+
+            <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/radiobutton"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:focusable="false"
+                    />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

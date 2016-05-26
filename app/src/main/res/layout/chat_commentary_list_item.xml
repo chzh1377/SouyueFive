@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_view_item_selector"
+    android:orientation="vertical"
+    android:paddingBottom="14dp"
+    android:paddingLeft="14dp">
+
+    <include layout="@layout/chat_commentary_list_title_include" />
+
+    <TextView
+        android:id="@+id/commentary_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="14dp"
+        android:paddingTop="14dp"
+        android:textColor="#303030"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/audio_play_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/list_audio_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/commentary_bubble_selector"
+            android:paddingTop="4dp"
+            android:src="@drawable/audio_play" />
+
+        <TextView
+            android:id="@+id/audio_length"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom"
+            android:textColor="#656565"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/commentary_times"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="right"
+        android:paddingRight="14dp" />
+
+</LinearLayout>

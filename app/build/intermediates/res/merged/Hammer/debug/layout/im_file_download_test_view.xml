@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_im_search_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+        <Button
+                android:id="@+id/btn_start"
+                android:layout_width="90dip"
+                android:layout_height="60dip"
+                android:layout_margin="@dimen/space_20"
+                android:text="start"
+                android:background="@color/gray"
+
+                />
+
+        <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="90dip"
+                android:layout_height="60dip"
+                android:layout_margin="@dimen/space_20"
+                android:text="stop"
+                android:background="@color/gray"
+
+                />
+
+        <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dip"
+                android:layout_height="30dip"
+                android:layout_margin="@dimen/space_20"
+                android:id="@+id/my_progressBar"
+
+                />
+
+    <TextView
+            android:id="@+id/im_download_file_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="percent"
+            android:textSize="@dimen/space_20"
+            />
+
+
+</LinearLayout>

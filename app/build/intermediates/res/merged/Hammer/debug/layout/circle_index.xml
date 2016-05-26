@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.zhongsou.souyue"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/circle_title_bar_index"/>
+
+    <include layout="@layout/loading"
+            />
+
+    <RelativeLayout
+            android:id="@+id/circle_index_indicator_father"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+        <com.zhongsou.souyue.circle.view.PagerSlidingTabStrip
+                android:id="@+id/circle_index_indicator"
+                android:background="#f2f2f2"
+                app:pstsScrollOffset="150dp"
+                app:pstsTabPaddingLeftRight="10dp"
+                app:pstsIndicatorHeight="2.5dp"
+                app:pstsDividerColor="#F2F2F2"
+                app:pstsIndicatorColor="@color/tabpage_title_color_select"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        </com.zhongsou.souyue.circle.view.PagerSlidingTabStrip>
+
+
+      <!--  <ImageView
+                android:id="@+id/circle_index_shadowImg"
+                android:layout_alignParentRight="true"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:src="@drawable/circle_index_zhezhao"/>-->
+
+
+    </RelativeLayout>
+
+    <com.zhongsou.souyue.ui.CustomViewPager
+            android:id="@+id/circle_index_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </com.zhongsou.souyue.ui.CustomViewPager>
+
+</LinearLayout>

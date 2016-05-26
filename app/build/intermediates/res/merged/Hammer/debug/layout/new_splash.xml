@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/splash_ad_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/btn_splash_skipe"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_splash_jump_bg_selector"
+        android:gravity="center"
+        android:text="@string/splash_jump"
+        android:textColor="@color/splash_jump_button_text_color"
+        android:textSize="14sp"
+        android:visibility="gone"
+         />
+
+</FrameLayout>

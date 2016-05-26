@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ask_add_friend">请求加你为好友</string>
+    <string name="error_collecting_logs">Error collecting logs</string>
+    <string name="error_no_email">Can\'t send the email</string>
+    <string name="error_temp_collect">Can\'t write in temporary file</string>
+    <string name="log_empty">No Log</string>
+    <string name="notify_contant_multi">你有%1$d个联系人发来%2$d条消息</string>
+    <string name="notify_contant_single">%1$s:发来%2$d条消息</string>
+    <string name="notify_msg_num">[%1$d条]</string>
+    <string name="notify_service_sy">搜小悦</string>
+    <string name="notify_title">搜悦:聊天</string>
+    <string name="phone_info">values</string>
+</resources>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 有keyword -->
+    <array name="share_icons">
+        <item>@drawable/ic_souyuefriends_icon</item>
+        <item>@drawable/circle_primeicon</item>
+        <!--<item>@drawable/ic_sy_friend_icon</item>-->
+        <!--<item>@drawable/ic_sy_digest_icon</item>-->
+        
+        <item>@drawable/ic_tencent_qq_friend_icon</item>
+        <item>@drawable/ic_tencent_qq_zone_icon</item>
+        
+        <item>@drawable/ic_weix_icon</item>
+        <item>@drawable/ic_friends_quan_icon</item>
+        <item>@drawable/ic_sina_icon</item>
+        <item>@drawable/ic_tencent_icon</item>
+       <!--  <item>@drawable/ic_renren_icon</item> -->
+        <item>@drawable/ic_email_icon</item>
+        <item>@drawable/ic_sms_icon</item>
+    </array>
+
+    <string-array name="share_names">
+        <item>搜悦好友</item>
+        <item>兴趣圈</item>
+        <!--<item>搜悦网友</item>-->
+        <!--<item>网友推荐区</item>-->
+        
+        <item>QQ</item>
+        <item>QQ空间</item>
+        
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+       <!--  <item>人人</item> -->
+        <item>邮件</item>
+        <item>信息</item>
+    </string-array>
+
+    <integer-array name="share_links">
+        <item>9</item>
+        <item>10</item>
+        <!--<item>8</item>-->
+        <!--<item>0</item>-->
+        <item>11</item>
+        <item>12</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>7</item>
+       <!--  <item>6</item> -->
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <!-- 超级分享大赛详情页 -->
+        <string-array name="share_names_rankdetail">
+         <item>搜悦好友</item>  
+         <item>兴趣圈</item> 
+        <!--<item>搜悦网友</item>-->
+<!--         <item>网友推荐区</item> -->
+        <item>QQ</item>
+        <item>QQ空间</item>
+        
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+      <!--   <item>人人</item> -->
+        <item>邮件</item>
+        <item>信息</item>
+    	</string-array>
+    	
+        <integer-array name="share_links_rankdetail">
+        <item>9</item>
+        <item>10</item>
+        <!--<item>8</item>-->
+        <!-- <item>0</item> -->
+        <item>11</item>
+        <item>12</item>
+        
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>7</item>
+       <!--  <item>6</item> -->
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    
+       <array name="share_icons_rankdetail">
+        <item>@drawable/ic_souyuefriends_icon</item>
+        <item>@drawable/circle_primeicon</item>
+        <!--<item>@drawable/ic_sy_friend_icon</item>-->
+       <!--  <item>@drawable/ic_sy_digest_icon</item> -->
+       	<item>@drawable/ic_tencent_qq_friend_icon</item>
+        <item>@drawable/ic_tencent_qq_zone_icon</item>
+       
+        <item>@drawable/ic_group_weix_icon</item>
+        <item>@drawable/ic_group_friends_icon</item>
+        <item>@drawable/ic_sina_icon</item>
+        <item>@drawable/ic_tencent_icon</item>
+        <!-- <item>@drawable/ic_renren_icon</item> -->
+        <item>@drawable/ic_email_icon</item>
+        <item>@drawable/ic_sms_icon</item>
+    </array>
+    <!-- 新闻源分享 -->
+        <string-array name="share_names_rss">
+        <item>QQ</item>
+        <item>QQ空间</item>
+        
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+        
+        <item>邮件</item>
+        <item>信息</item>
+    	</string-array>
+    	
+ <integer-array name="share_links_rss">
+        <item>11</item>
+        <item>12</item>
+        
+        <item>2</item>
+        <item>3</item>
+        
+        <item>1</item>
+        <item>7</item>
+        
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    
+    <array name="share_icons_rss">
+        <item>@drawable/ic_tencent_qq_friend_icon</item>
+        <item>@drawable/ic_tencent_qq_zone_icon</item>
+        
+        <item>@drawable/ic_group_weix_icon</item>
+        <item>@drawable/ic_group_friends_icon</item>
+        
+        <item>@drawable/ic_sina_icon</item>
+        <item>@drawable/ic_tencent_icon</item>
+        
+        <item>@drawable/ic_email_icon</item>
+        <item>@drawable/ic_sms_icon</item>
+    </array>
+    
+    <!-- 推荐好友 -->
+    <array name="re_share_icons">
+        <item>@drawable/ic_tencent_qq_friend_icon</item>
+        <item>@drawable/ic_tencent_qq_zone_icon</item>
+        <item>@drawable/ic_group_weix_icon</item>
+        <item>@drawable/ic_group_friends_icon</item>
+        <item>@drawable/ic_sina_icon</item>
+        <item>@drawable/ic_tencent_icon</item>
+        <item>@drawable/ic_email_icon</item>
+        <item>@drawable/ic_sms_icon</item>
+    </array>
+
+    <string-array name="re_share_names">
+        <item>QQ</item>
+        <item>QQ空间</item>
+        
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+        
+        <item>邮件</item>
+        <item>信息</item>
+    </string-array>
+
+    <integer-array name="re_share_links">
+        <item>11</item>
+        <item>12</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>7</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    
+    
+    <!-- 二维码的分享，共有7项 qq好友，qq空间，  新浪微博，微信好友，微信朋友圈，腾讯微博，邮件 -->
+    <array name="re_share_icons_code">
+       <!--  <item>@drawable/ic_tencent_qq_friend_icon</item>
+        <item>@drawable/ic_tencent_qq_zone_icon</item> -->
+        
+        <item>@drawable/ic_group_weix_icon</item>
+        <item>@drawable/ic_group_friends_icon</item>
+        
+        <item>@drawable/ic_sina_icon</item>
+        <item>@drawable/ic_tencent_icon</item>
+        
+        <item>@drawable/ic_email_icon</item>
+    </array>
+    
+      <string-array name="re_share_names_code">
+        <!-- <item>QQ</item>
+        <item>QQ空间</item> -->
+        
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+        
+        <item>邮件</item>
+    </string-array>
+    
+    <integer-array name="re_share_links_code">
+       	<!-- <item>11</item>
+        <item>12</item> -->
+        
+        <item>2</item>
+        <item>3</item>
+        
+        <item>1</item>
+        <item>7</item>
+        
+        <item>4</item>
+    </integer-array>
+    
+    <!-- 用户原创 分组 window 配置 -->
+    <string-array name="group_name">
+        <item>原创</item>
+        <!-- <item>微博</item>
+        <item>博客</item> -->
+        <item>帖子</item>
+    </string-array>
+    
+     <integer-array name="group_links">
+        <item>0</item>
+        <!-- <item>1121</item>
+        <item>4</item> -->
+        <item>12</item>
+    </integer-array>
+    
+    <string-array name="friend_group_name">
+        <item>原创</item>
+        <!-- <item>微博</item>
+        <item>博客</item> -->
+    </string-array>
+    
+    <integer-array name="friend_group_links">
+        <item>0</item>
+        <!-- <item>1121</item>
+        <item>4</item> -->
+    </integer-array>
+    
+    <string-array name="search_type">
+        <item>综合</item>
+        <item>新闻</item>
+        <item>视频</item>
+        <item>微博</item>
+        <item>论坛</item>
+        <item>图片</item>
+        <item>应用</item>
+    </string-array>
+    <string-array name="search_type_en">
+        <item>srp</item>
+        <item>news</item>
+        <item>video</item>
+        <item>weibo</item>
+        <item>forum</item>
+        <item>image</item>
+        <item>app</item>
+    </string-array>
+    
+    <!-- 垂直搜索分享 -->
+    <array name="vertical_share_icons">
+        <item>@drawable/ic_sina_icon</item>
+        <item>@drawable/ic_group_weix_icon</item>
+        <item>@drawable/ic_group_friends_icon</item>
+        <item>@drawable/ic_tencent_icon</item>
+        <!-- <item>@drawable/ic_renren_icon</item> -->
+    </array>
+
+    <string-array name="vertical_share_names">
+        <item>新浪微博</item>
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>腾讯微博</item>
+        <!-- <item>人人</item> -->
+    </string-array>
+
+    <integer-array name="vertical_share_links">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <!-- <item>5</item> -->
+    </integer-array>
+	<!-- 关于举报 -->
+	<!-- 举报类型 -->
+	<integer-array name="report_types">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+    </integer-array>
+    <!-- 举报类型名称 -->
+	 <string-array name="report_names">
+        <item>色情</item>
+        <item>辱骂</item>
+        <item>广告</item>
+        <item>其他</item>
+    </string-array>
+    
+	 
+	<!-- 圈吧分享 -->
+	<array name="circle_share_icons">
+        <item>@drawable/ic_souyuefriends_icon</item>
+        <item>@drawable/circle_primeicon</item>
+        
+        <item>@drawable/ic_tencent_qq_friend_icon</item>
+        <item>@drawable/ic_tencent_qq_zone_icon</item>
+        
+        <!-- <item>@drawable/ic_renren_icon</item> -->
+        <item>@drawable/ic_group_weix_icon</item>
+        <item>@drawable/ic_group_friends_icon</item>
+        <item>@drawable/ic_sina_icon</item>
+        <item>@drawable/ic_tencent_icon</item>
+        <item>@drawable/ic_email_icon</item>
+        <item>@drawable/ic_sms_icon</item>
+    </array>
+
+    <string-array name="circle_share_names">
+        <item>搜悦好友</item>
+        <item>兴趣圈</item>
+        <item>QQ</item>
+        <item>QQ空间</item>
+        <!-- <item>人人网</item> -->
+        <item>微信好友</item>
+        <item>朋友圈</item>
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+        <item>邮件</item>
+        <item>信息</item>
+    </string-array>
+
+    <integer-array name="circle_share_links">
+        <item>1</item>
+        <item>2</item>
+        <item>11</item>
+        <item>12</item>
+        <!-- <item>4</item> -->
+        <item>5</item>
+        <item>6</item>
+        <item>3</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+    
+    <array name="circle_share_icons_no_digest">
+        <item>@drawable/ic_souyuefriends_icon</item>
+        <item>@drawable/ic_sina_icon</item>
+        <!-- <item>@drawable/ic_renren_icon</item> -->
+        <item>@drawable/ic_group_weix_icon</item>
+        <item>@drawable/ic_group_friends_icon</item>
+        <item>@drawable/ic_tencent_icon</item>
+        <item>@drawable/ic_email_icon</item>
+        <item>@drawable/ic_sms_icon</item>
+        
+    </array>
+
+    <string-array name="circle_share_names_no_digest">
+        <item>搜悦好友</item>
+        <item>新浪微博</item>
+        <!-- <item>人人网</item> -->
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>腾讯微博</item>
+        <item>邮件</item>
+        <item>信息</item>
+        
+    </string-array>
+
+    <integer-array name="circle_share_links_no_digest">
+        <item>1</item>
+        <item>2</item>
+        <!-- <item>3</item> -->
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </integer-array>
+    
+     <!-- SRP页分享 -->
+     <string-array name="share_names_srp">
+        <item>搜悦好友</item>
+        
+       	<item>QQ</item>
+        <item>QQ空间</item>
+        
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+        <item>邮件</item>
+        <item>信息</item>
+    </string-array>
+
+    <integer-array name="share_links_srp">
+        <item>9</item>
+        <item>11</item>
+        <item>12</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>7</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <array name="share_icons_srp">
+        <item>@drawable/ic_souyuefriends_icon</item>
+        
+        <item>@drawable/ic_tencent_qq_friend_icon</item>
+        <item>@drawable/ic_tencent_qq_zone_icon</item>
+        
+        <item>@drawable/ic_group_weix_icon</item>
+        <item>@drawable/ic_group_friends_icon</item>
+        <item>@drawable/ic_sina_icon</item>
+        <item>@drawable/ic_tencent_icon</item>
+        <item>@drawable/ic_email_icon</item>
+        <item>@drawable/ic_sms_icon</item>
+    </array>
+
+   <array name="post_detail_option_title">
+        <item>加精</item>
+        <item>取消加精</item>
+        <item>置顶</item>
+        <item>取消置顶</item>
+        <item>编辑</item>
+        <item>删除</item>
+        <item>推送</item>
+   </array>
+
+    <array name="post_detail_option_icon">
+        <item>@drawable/circle_post_detail_ding_selector</item>
+        <item>@drawable/circle_post_detail_jing_selector</item>
+        <item>@drawable/circle_post_detail_edit_selector</item>
+        <item>@drawable/circle_post_detail_delete_selector</item>
+        <item>@drawable/circle_post_detail_tuisong_selector</item>
+        <item>@drawable/ntool_subscribe_selector</item>
+        <item>@drawable/ntool_exit_selector</item>
+        <item>@drawable/ntool_tool_selector</item>
+    </array>
+    <string-array name="about_names">
+        <!-- <item>欢迎页</item> -->
+        <item>功能介绍</item>
+        <!-- <item>意见反馈</item> -->
+        <item>联系我们</item>
+    </string-array>
+
+    <integer-array name="about_types">
+        <!-- <item>0</item> -->
+        <item>1</item>
+        <!-- <item>2</item> -->
+        <item>3</item>
+    </integer-array>
+</resources>

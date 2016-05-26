@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/videolayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dip">
+        <com.facebook.drawee.view.ZSImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/default_big"
+            fresco:actualImageScaleType="fitXY"/>
+        <!--<com.zhongsou.souyue.view.vitamio.ZSVitamioVideoView-->
+            <!--android:id="@+id/videoView"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="match_parent" />-->
+        <com.zhongsou.souyue.view.videos.ZSVideoPlayer
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/backIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/biz_video_back" />
+        <ImageView
+            android:id="@+id/controller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/videoplaycontrooler"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <com.zhongsou.souyue.ui.PairScrollView
+        android:id="@+id/pair_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_circle_post_bottom_bar"
+        android:layout_below="@id/videolayout" >
+
+        <com.zhongsou.souyue.circle.ui.VideoDetailGridView
+            android:id="@+id/videoGridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.zhongsou.souyue.circle.ui.HeaderGridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:horizontalSpacing="10dip"
+                android:numColumns="2"
+                android:verticalSpacing="10dip"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                />
+            <LinearLayout
+                android:id="@+id/detail_have_no_data"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="180dp"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/detail_no_comment" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="190dp"
+                android:gravity="center"
+                android:visibility="gone">
+            <include
+                android:id="@+id/list_loading_about"
+                layout="@layout/loading"
+                android:visibility="gone"/>
+            </LinearLayout>
+        </com.zhongsou.souyue.circle.ui.VideoDetailGridView>
+
+        <com.zhongsou.souyue.circle.ui.CPairSecondListView
+            android:id="@+id/pair_second"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/listView"
+                style="@style/CommonListviewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:divider="@color/white"
+                android:scrollbars="vertical" />
+
+            <LinearLayout
+                android:id="@+id/detail_have_no_comment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="80dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/detail_no_comment" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="56dip">
+                <include
+                    android:id="@+id/list_loading"
+                    layout="@layout/loading" />
+            </LinearLayout>
+
+        </com.zhongsou.souyue.circle.ui.CPairSecondListView>
+    </com.zhongsou.souyue.ui.PairScrollView>
+    <include
+        android:id="@+id/ll_circle_post_bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="bottom"
+        layout="@layout/circle_post_bottom_bar" />
+</RelativeLayout>

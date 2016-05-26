@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/space_8"
+                android:background="@drawable/common_pop_bg"
+        >
+    <LinearLayout
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+                android:id="@+id/im_chat_scanning_layout"
+                style="@style/tab_msg_more_outer_ll">
+
+            <ImageView
+                    style="@style/tab_msg_more_inner_iv"
+                    android:src="@drawable/im_tab_topbar_msg_scanning_icon"/>
+
+            <TextView
+                    style="@style/tab_msg_more_inner_tv"
+                    android:text="扫一扫"
+                    />
+        </LinearLayout>
+        <include layout="@layout/im_tab_msg_more_popwindow_dividerline"/>
+        <LinearLayout
+                android:id="@+id/im_chat_add_friend_layout"
+                style="@style/tab_msg_more_outer_ll">
+
+            <ImageView
+                    style="@style/tab_msg_more_inner_iv"
+                    android:src="@drawable/im_tab_topbar_msg_add_friend_icon"/>
+
+            <TextView
+                    style="@style/tab_msg_more_inner_tv"
+                    android:text="添加好友"
+                    />
+        </LinearLayout>
+        <include layout="@layout/im_tab_msg_more_popwindow_dividerline"/>
+        <LinearLayout
+                android:id="@+id/im_chat_create_im_layout"
+                style="@style/tab_msg_more_outer_ll">
+
+            <ImageView
+                    style="@style/tab_msg_more_inner_iv"
+                    android:src="@drawable/im_tab_topbar_msg_create_room_icon"/>
+
+            <TextView
+                    android:text="创建群聊"
+                    style="@style/tab_msg_more_inner_tv"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/search_history_bg">
+
+        <TextView
+            android:id="@+id/sou"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:gravity="left|center_vertical"
+            android:textColor="#145FBD"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/search_sou_keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_toRightOf="@id/sou"
+            android:gravity="left|center_vertical"
+            android:text="无结果"
+            android:textColor="@color/font_search_black"
+            android:textSize="@dimen/search_text_size" />
+    </RelativeLayout>
+
+</LinearLayout>

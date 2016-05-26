@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="special_image_height">150dp</dimen>
+    <dimen name="first_leader_pagetwo_character_height">280dp</dimen>
+    <dimen name="first_leader_pageone_ball_size">280dp</dimen>
+</resources>

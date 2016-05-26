@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhongsou.souyue.view.CSouyueTabWeb xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+    <com.zhongsou.souyue.ui.webview.CBaseWebView
+            android:id="@+id/cover_webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/sys_layout_wonderful"
+            android:layout_below="@id/homepage_recommend"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:listSelector="@drawable/home_list_item_selector"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true"
+            android:visibility="gone"
+        />
+    <include layout="@layout/loading" />
+
+  
+</com.zhongsou.souyue.view.CSouyueTabWeb>

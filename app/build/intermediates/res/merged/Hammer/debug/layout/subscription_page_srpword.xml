@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.v4.view.OuterTabPageIndicator
+        android:id="@+id/subscription_nav_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/xiamian"
+        android:fadingEdge="none"
+        android:padding="5dp"
+        android:paddingBottom="3dp"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/webview_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/subscription_nav_layout"
+        android:layout_marginTop="-3dp">
+
+        <include layout="@layout/loading" />
+
+        <LinearLayout
+            android:id="@+id/subscription_body_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"></LinearLayout>
+
+        <include
+            android:id="@+id/recommend_no_searchresult"
+            layout="@layout/recommend_no_searchresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <include
+            layout="@layout/nosearchresult"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+
+        <com.zhongsou.souyue.ui.pulltorefresh.PullToRefreshListView
+            android:id="@+id/subscription_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/ll_qa"
+            android:divider="@drawable/listview_divider"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true" />
+
+        <com.zhongsou.souyue.ui.webview.CustomWebView
+            android:id="@+id/sub_photo_webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xiaodangan"
+            layout="@layout/list_item_xiaodangan"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/btn_new"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginRight="11dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/new_weibo_selector"
+            android:visibility="gone" />
+
+        <!-- 有问必答 -->
+
+        <LinearLayout
+            android:id="@+id/ll_qa"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/all_title_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="6dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/et_myask"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:background="@drawable/commentary_edit_text_bg"
+                android:hint="@string/ask_a_question"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColorHint="#ffd8d8d8"
+                android:textSize="@dimen/commentary_edit_size" />
+
+            <Button
+                android:id="@+id/btn_send_ask"
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/send_button_selector"
+                android:gravity="center"
+                android:text="@string/send"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_no_question"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/noquestion"
+            android:textColor="#a0a0a0"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

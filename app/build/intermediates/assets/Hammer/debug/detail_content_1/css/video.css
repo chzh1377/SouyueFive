@@ -1,0 +1,43 @@
+﻿/*
+Title:	 mobile reset
+Create:	 2013-05-03
+Author:  songli@zhongsou.com
+Tel:     8641
+Update:  2013-11-21
+Author:  songli@zhongsou.com
+Version: v0.2
+*/
+
+@charset "utf-8";
+/*视频*/
+.souyue_video_play{ position:relative;display: block;text-align: center;overflow: hidden;}
+.playbtn { background:url(../images/play.png) no-repeat center center; background-size:72px 72px; width:100%;min-height:200px;position:absolute;top:0;left:0}
+.pauseBtn { background:url(../images/play.png) no-repeat center center; background-size:72px 72px; width:100%;min-height:200px;position:absolute;top:0;left:0;display: none; }
+.playimg{ position:relative;min-height:200px;display: block;text-align: center;text-indent: 0;overflow: hidden;}
+.playtxt{ color:#7e7e7e; font-size:14px; display:none;margin-top: 130px;}
+.souyue_video_lod{position:absolute;left:44%;top:40%;display:none;}
+.souyue_video_lod i{ background:url(../images/loading.gif); background-size:30px 30px; width:30px; height:30px; display:block}
+#myVideo{display: none;vertical-align: -webkit-baseline-middle;position: absolute;left: 0px;}
+/*播放视频浮动盒子*/
+.souyue_video{ background:#000; position:fixed;top:0;left:0;width:100%;height:222px;}
+.souyue_video_cen{ width:280px; height:130px; position:fixed;left:50%;top:50%;margin-left:-140px;margin-top:-65px; background:#fff; z-index:10; border-radius:5px;font-size:16px; overflow:hidden}
+.souyue_video_cen .txt{padding:20px 20px 16px; color:#282828; }
+.souyue_video_cen .btn{border-top: 1px solid #ccc; text-align:center}
+.souyue_video_cen .btn a{ width:49.5%;float:left;height:45px; line-height:45px; color:#3676a4}
+.souyue_video_cen .btn a:nth-child(1){border-right: 1px solid #ccc;}
+.souyue_mask{ position:fixed; top:0; left:0; width:100%; height:100%;background:rgba(0,0,0,0.6) none repeat scroll!important; background:#000; filter:Alpha(opacity=60); z-index:9;}
+
+.control{background:#333;color:#ccc;position:absolute;bottom:0;left:0;width:100%;z-index:5;display:none}
+.topControl{height:15px;border-bottom:1px solid #404040;padding:1px 5px;background:#1F1F1F;background:-moz-linear-gradient(top,#242424 50%,#1F1F1F 50%,#171717 100%);background:-webkit-linear-gradient(top,#242424 50%,#1F1F1F 50%,#171717 100%);background:-o-linear-gradient(top,#242424 50%,#1F1F1F 50%,#171717 100%)}
+.progress{width:73%;height:5px;position:relative;float:left;cursor:pointer;top:5px;border-radius: 3px;}
+.progress span{height:100%;position:absolute;top:0;left:0;display:block}
+.timeBar{z-index:2;width:0;background:#3FB7FC;background:-moz-linear-gradient(top,#A0DCFF 50%,#3FB7FC 50%,#096FAA 100%);background:-webkit-linear-gradient(top,#A0DCFF 50%,#3FB7FC 50%,#096FAA 100%);background:-o-linear-gradient(top,#A0DCFF 50%,#3FB7FC 50%,#096FAA 100%);border-radius: 3px 0 0 3px;}
+.progress .timeBarDiv{width:10px;height:10px;border-radius:50%;background-color: #fff;float: left;position: absolute;top: -2px;z-index: 2;box-shadow:2px 0 5px #666;-webkit-box-shadow:2px 0 5px #666}
+.bufferBar{z-index:1;width:0;background:#ddd;border-radius:3px;}
+.time{width:auto;float:right;text-align:right;font-size:11px;line-height:15px}
+#init{display:none}
+.spanduration{height:5px;cursor:pointer;background:#777;}
+.countBar{display:none;width:0;background:#3FB7FC;background:-moz-linear-gradient(top,#A0DCFF 50%,#3FB7FC 50%,#094e33 100%);background:-webkit-linear-gradient(top,#A0DCFF 50%,#3FB7FC 50%,#094e33 100%);background:-o-linear-gradient(top,#A0DCFF 50%,#3FB7FC 50%,#094e33 100%);box-shadow:0 0 1px #fff;-moz-box-shadow:0 0 1px #fff;-webkit-box-shadow:0 0 1px #fff}
+.iosDuration{display:none;background:rgba(0,0,0,0.56);border-radius:8px;position:absolute;bottom:7px;margin-bottom:0 0 !important;right:10px;width:42px;height:17px;line-height:1.5;font-size:12px;color:#fff;z-index:1}
+
+

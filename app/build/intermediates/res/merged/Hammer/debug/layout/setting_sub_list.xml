@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include
+        android:id="@id/title_activity_bar_included"
+        layout="@layout/titlebar_settingsub_list_toac" />
+
+    <include
+        layout="@layout/loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color">
+
+        <LinearLayout
+            android:id="@+id/ll_has_sub_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_setting_create_group"
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/setting_sublist_new_group_selector"
+                android:padding="10dp"
+                android:text="@string/setting_subscribe_new_group"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:visibility="gone" />
+
+            <com.zhongsou.souyue.ui.TouchInterceptorListView
+                android:id="@+id/lv_setting_sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_color"
+                android:cacheColorHint="@color/background_color"
+                android:descendantFocusability="afterDescendants"
+                android:divider="@drawable/listview_divider"
+                android:fadingEdge="none"
+                android:scrollbars="none" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_large_size"
+                android:background="@drawable/listview_divider" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_nosub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/you_do_not_subscribe"
+            android:textColor="#a1a1a1"
+            android:textSize="20sp"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</LinearLayout>

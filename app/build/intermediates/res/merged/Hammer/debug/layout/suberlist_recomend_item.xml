@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="60dip"
+        >
+        <TextView
+            android:id="@+id/tv_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:ellipsize="end"
+            android:text="我是各种圈子啊哈哈哈哈"
+            android:singleLine="true"
+            android:textColor="@color/color_srp_title"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tv_other"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/tv_theme"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="2dp"
+            android:layout_alignParentLeft="true"
+            android:ellipsize="end"
+            android:text="这里是描述"
+            android:singleLine="true"
+            android:textColor="@color/gray_7e"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_add"
+        style="@style/SubscribeAddImageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:src="@drawable/subscribe_add01" />
+
+    <ImageView
+        android:id="@+id/iv_protrait"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:src="@drawable/bottom_nav_cloud"
+        android:scaleType="fitXY" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white_soft"/>
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_face"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.zhongsou.souyue.im.view.CustomerViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="156dp" >
+    </com.zhongsou.souyue.im.view.CustomerViewPager>
+
+    <LinearLayout
+        android:id="@+id/layout_pagenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <View
+        android:id="@+id/biaoqing_line"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#B3B3B3" />
+
+    <LinearLayout
+        android:id="@+id/ll_biaoqing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.zhongsou.souyue.ui.HorizontalListView
+            android:id="@+id/hlv"
+            android:layout_width="0dip"
+            android:layout_height="42dip"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#ffffffff" >
+        </com.zhongsou.souyue.ui.HorizontalListView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="42dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="56dp"
+            android:layout_height="42dp"
+            android:layout_centerInParent="true" >
+
+            <ImageView
+                android:id="@+id/iv_add"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/im_expression_add" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_emoji"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#A1A1A1"
+            android:src="@drawable/bottom_nav_emoji"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_souxiaoyue"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/bottom_nav_newsouxiaoyue"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_cloud"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom_nav_cloud"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

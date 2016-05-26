@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/fragment_rss_marked_height"
+    android:orientation="vertical">
+
+    <com.zhongsou.souyue.view.NewsListTitleImage
+        android:id="@+id/iamge_marked"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/fragment_rss_marked_height"
+        android:background="@drawable/default_big"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/item_text_marked"
+        android:layout_width="fill_parent"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:background="#a0000000"
+        android:clickable="false"
+        android:ellipsize="end"
+        android:text="aaa"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

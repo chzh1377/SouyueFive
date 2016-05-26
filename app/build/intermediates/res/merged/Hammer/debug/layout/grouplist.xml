@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:background="#EDEDED"
+              android:layout_height="match_parent">
+    <include layout="@layout/imtitlebar"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:divider="@color/im_listdriver_color"
+            android:dividerHeight="0.5dp"
+            ></ListView>
+
+</LinearLayout>

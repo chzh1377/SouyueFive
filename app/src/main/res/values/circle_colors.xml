@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 引导页面  新功能展示页中的字符串 -->
+    <color name="circle_newinfo_black">#666565</color>
+    <color name="circle_newinfo_blue">#099a9d</color>
+
+    <!-- 引导页面 选择兴趣圈 -->
+    <color name="circle_select_circle_bgcolor">#eeeeee</color>
+    <color name="circle_select_circle_titlecolor">#47a5db</color>
+    <color name="circle_select_circle_buttoncolor">#ffffff</color>
+    <color name="circle_select_circle_button_bgcolor">#2692ce</color>
+
+ 	<!-- 圈子新增加颜色值 -->
+    <color name="cricle_jing_top_text_color">#fd503f</color>
+    <color name="cricle_title_text_color">#282828</color>
+    <color name="cricle_brief_color">#7e7e7e</color>
+    <color name="cricle_source_date_color">#959595</color>
+    <color name="cricle_list_topic_text_color">#7bd0f9</color>
+     <color name="cricle_layout_bg_color">#ffffff</color>
+    
+    <color name="cricle_manage_left_text_color">#4a4a4a</color>
+    <color name="cricle_manage_left_below_text_color">#747474</color>
+    
+     <!-- 修改圈子列表新增加 -->
+     <color name="cricle_list_bg_color">#ffe4e4e4</color>
+    <color name="cricle_index_list_bg_color">#dfdfdf</color>
+
+    <color name="cricle_list_normal_bg_color">#f2f2f2</color>
+     <color name="cricle_list_item_topic_text_color">#ffffff</color>
+     <color name="cricle_list_manage_quit_text_color">#ffffff</color>
+     <color name="cricle_manage_signature_count_text_color">#ED1C24</color>
+     <color name="cricle_manage_signature_counts_text_color">#8a8a8a</color>
+    <color name="pstrip_text_selected_color">#3774A3</color>
+    <color name="pstrip__yaowen_text_selected_color">#57b6f2</color>
+    <color name="pstrip_text__normal_color">#282828</color>
+
+    <color name="pstrip_text_selected_color_red">#da4644</color> <!--5.05更新，红色UI-->
+
+    <color name="strip_color">#FF7B7C</color>
+
+    <color name="tabpage_title_color_select">#da4644</color>
+    <color name="tabpage_title_color_nor">#282828</color>
+<!-- 对话框-->
+    <color name="common_white">#FFFFFF</color>
+    <color name="dialog_btn_normal">#fff5f5f5</color>
+    <color name="dialog_btn_press">#ffe9e9e9</color>
+    <color name="general_bg_translate_white">#00dfdfdf</color>
+</resources>

@@ -1,0 +1,2594 @@
+[
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_askcoin_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_askcoin_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_fullscreen.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_fullscreen.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\item_dynamic_grid.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\item_dynamic_grid.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_new_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_new_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\first_in_activity_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\first_in_activity_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_activity_download.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_activity_download.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_common.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_common.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_follow_grid_img_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_follow_grid_img_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\guide_list_item_first.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\guide_list_item_first.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_bottom_5.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_bottom_5.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\homepage_content_item_nopic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\homepage_content_item_nopic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_file_item_right.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_file_item_right.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\news_source_subscribe_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\news_source_subscribe_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\taskcenter_from.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\taskcenter_from.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\chatdetailactivity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\chatdetailactivity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\suberlist_recommend_merge.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\suberlist_recommend_merge.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\recommend_no_searchresult.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\recommend_no_searchresult.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_shares.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_shares.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_file_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_file_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_im_group_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_im_group_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_send_coin_dlg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_send_coin_dlg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_souyue_tab_web.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_souyue_tab_web.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subrecommend_dlg_listview.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subrecommend_dlg_listview.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_left_red_packet_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_left_red_packet_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_item_span.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_item_span.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\chat_commentary_bottom_text.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\chat_commentary_bottom_text.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\gallerynews_recommend_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\gallerynews_recommend_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\gallerynews_recommend_item_singleline.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\gallerynews_recommend_item_singleline.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\details_posts.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\details_posts.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_share_friend_list_view_row.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_share_friend_list_view_row.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\percenter_headerview.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\percenter_headerview.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\load_more.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\load_more.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_select_gird_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_select_gird_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\self_create_yuan.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\self_create_yuan.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_sel_img_grid_group_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_sel_img_grid_group_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_recommend_pic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_recommend_pic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\touchgallery.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\touchgallery.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_bar_ac_search.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_bar_ac_search.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_single_list_header.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_single_list_header.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_pic_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_pic_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\personalcenter.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\personalcenter.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\login.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_tab_indicator.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_tab_indicator.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_audio_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_audio_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_add_contacts_list_view_row.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_add_contacts_list_view_row.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\navigation_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\navigation_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_invite_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_invite_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\self_create_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\self_create_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_member_list_pull_to_refresh_header.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_member_list_pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\item_for_autocomplete.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\item_for_autocomplete.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_progress_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_progress_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_file_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_file_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_activity_comment.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_activity_comment.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_replyme_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_replyme_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_search.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_search.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_souyue_tab.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_souyue_tab.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_activity_secret_card.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_activity_secret_card.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_list_pager.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_list_pager.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_check_record.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_check_record.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\tab_indicator.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\tab_indicator.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\view_scaning.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\view_scaning.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_activity_inbox_setting.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_activity_inbox_setting.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\xiaoqi_page.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\xiaoqi_page.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\guide_list_item_last.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\guide_list_item_last.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\commentary_bottom_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\commentary_bottom_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_title_setting_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_title_setting_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\groupdetail_plugs.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\groupdetail_plugs.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_bottom_1.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_bottom_1.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\inc_topview.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\fresco\\unspecified\\res\\layout\\inc_topview.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\item_map.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\item_map.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_friend_list_view_row.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_friend_list_view_row.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\charge.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\charge.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\chat_commentary_list_title_include.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\chat_commentary_list_title_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_member_setting.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_member_setting.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_focus_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_focus_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_titlebar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_titlebar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\common_divider_line.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\common_divider_line.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\item_search_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\item_search_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\common_loading.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\common_loading.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subgroup_view_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subgroup_view_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_comment_header_new.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_comment_header_new.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\xiaodangan_web_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\xiaodangan_web_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_icons_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_icons_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\phone_info.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\cbug_lib\\unspecified\\res\\layout\\phone_info.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_ad_nopic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_ad_nopic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\notification_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\notification_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\manager_fragment_grid.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\manager_fragment_grid.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\account_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\account_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\mine_purse_head.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\mine_purse_head.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_videos.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_videos.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_contacts_swipe_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_contacts_swipe_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_bottom_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_bottom_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_fresco.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\fresco\\unspecified\\res\\layout\\activity_fresco.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\nosearchresult.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\nosearchresult.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_frament_select_circle.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_frament_select_circle.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_tab_msg_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_tab_msg_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_buttons_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_buttons_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\user_guide.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\user_guide.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\setting_sub_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\setting_sub_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\plaza_home_header_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\plaza_home_header_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_invite_notice.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_invite_notice.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_history.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_note_name_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_note_name_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_recommend_pics.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_recommend_pics.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_layout7.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_layout7.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_chatrecord_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_chatrecord_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_signature_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_signature_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\discover_group_content.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\discover_group_content.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_text_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_text_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\pop_action_bar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\pop_action_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_index.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_index.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msgpush_history_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msgpush_history_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\homepage_dialog_confirm_message.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\homepage_dialog_confirm_message.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_member_manger_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_member_manger_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\new_splash.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\new_splash.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_manage_editnickname.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_manage_editnickname.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\detail_comment_head.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\detail_comment_head.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_recommend.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_recommend.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_onlytitle_toac_discover.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_onlytitle_toac_discover.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subrecommend_dlg_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subrecommend_dlg_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\longteng_led_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\longteng_led_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sharemenu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sharemenu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\grid_select_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\grid_select_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_sysmsg_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_sysmsg_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\alert_dialog_menu_list_layout_special.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\alert_dialog_menu_list_layout_special.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\editgroupnickname.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\editgroupnickname.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_activity_webview_rewards.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_activity_webview_rewards.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msgtab_swipe_list_header.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msgtab_swipe_list_header.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_msg_search_more_tittle.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_msg_search_more_tittle.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_tab_msg_more_popwindow_dividerline.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_tab_msg_more_popwindow_dividerline.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\dialog_sub_tips.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\dialog_sub_tips.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_first_leader_pagetow_griditem.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_first_leader_pagetow_griditem.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_share_no_searchresult.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_share_no_searchresult.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\grouplist.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\grouplist.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\layout_loading_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\layout_loading_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_srp_index.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_srp_index.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_left_ask_for_icon_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_left_ask_for_icon_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_totop_menu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_totop_menu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\homenav_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\homenav_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_noresult.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_noresult.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\homepage_content_item_pic1.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\homepage_content_item_pic1.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subscribe_merge_ac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subscribe_merge_ac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_progress_msg_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_progress_msg_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\videodetail_headview.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\videodetail_headview.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\gallerynews_comment.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\gallerynews_comment.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\webpage_search.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\webpage_search.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subscription_page_srpword.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subscription_page_srpword.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_list_item_pic1.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_list_item_pic1.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\chat_commentary_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\chat_commentary_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_signature_edit.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_signature_edit.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\send_weibo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\send_weibo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\loading.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\gallerynews_activity_recommend.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\gallerynews_activity_recommend.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\setting_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\setting_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subscribe_category_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subscribe_category_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\group_dialog_choose.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\group_dialog_choose.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\setting.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\setting.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_multiple_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_multiple_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_default.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_default.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_list_item_nopic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_list_item_nopic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_download.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_download.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_notfriend_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_notfriend_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_srpselfcreate_nopic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_srpselfcreate_nopic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hot_topic_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hot_topic_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\webview_bottom_bar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\webview_bottom_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_first_leader_pagethree_griditem.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_first_leader_pagethree_griditem.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\focus_nopic_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\focus_nopic_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_sublist_merge.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_sublist_merge.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_manage_edit_signature.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_manage_edit_signature.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\commentary_list_title_include.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\commentary_list_title_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\special_recomend_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\special_recomend_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_people.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_people.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_bottom_4.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_bottom_4.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_first_leader_page_one.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_first_leader_page_one.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_bar_ac_title.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_bar_ac_title.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_onlytitle_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_onlytitle_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_list_item_bottom_fragment_include.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_list_item_bottom_fragment_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_swipe_contacts_list_view_row.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_swipe_contacts_list_view_row.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\channel_mannger_header.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\channel_mannger_header.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\editnickname.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\editnickname.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_red_packet_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_red_packet_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\setting_subscribe.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\setting_subscribe.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_sendnext_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_sendnext_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\bili_video_control_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\bili_video_control_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sharemenu_twolines.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sharemenu_twolines.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_pushlist_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_pushlist_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\about_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\about_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\recommend_friend.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\recommend_friend.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\wxshare_envelop_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\wxshare_envelop_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\suberlist_popwindow.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\suberlist_popwindow.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_chat_record.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_chat_record.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\item_search_grid.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\item_search_grid.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_file_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_file_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sy_fragment_icomments_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sy_fragment_icomments_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\pay.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\pay.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\group_dialog_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\group_dialog_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_special_item_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_special_item_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\action_list_item_two.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\action_list_item_two.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\login_register_phone.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\login_register_phone.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\mine.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\mine.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_vitamio.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_vitamio.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_webview_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_webview_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_bottom_2.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_bottom_2.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\keywords_subscribe.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\keywords_subscribe.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_collection_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_collection_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\comm_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\souyue_common\\unspecified\\res\\layout\\comm_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_recommend_include.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_recommend_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\group_empty_data.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\group_empty_data.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_title_bar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_title_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\relogin.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\relogin.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_inbox_content.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_inbox_content.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_update_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_update_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_main.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_msg_search_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_msg_search_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_main.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\self_create_group_menu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\self_create_group_menu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\self_create_detail_publish_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\self_create_detail_publish_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\ent_refresh_footer.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\ent_refresh_footer.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\longteng.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\longteng.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_emoji_tab.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_emoji_tab.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\baseviewpagerwithtab.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\baseviewpagerwithtab.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_card_item_right.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_card_item_right.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_bar_ac_setting.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_bar_ac_setting.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_share_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_share_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_bar_ac_goback.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_bar_ac_goback.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_alert_menu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_alert_menu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\user_reply_list_item_include.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\user_reply_list_item_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_list_item_nopic_v2.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_list_item_nopic_v2.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_baike.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_baike.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_sub_group.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_sub_group.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\pay_success_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\pay_success_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\dialog_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\dialog_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\item_group_edit_grid.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\item_group_edit_grid.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_settingsub_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_settingsub_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_marked_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_marked_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\chat_progressview.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\chat_progressview.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_vcard_post_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_vcard_post_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\tip_home_sub.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\tip_home_sub.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_whisper_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_whisper_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\popup_window_unintersting_old.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\popup_window_unintersting_old.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\search_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\search_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_index_popup_menu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_index_popup_menu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_srpselfcreate_include.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_srpselfcreate_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\homepage_content_item_pic3.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\homepage_content_item_pic3.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\souyuerssactivity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\souyuerssactivity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_my_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_my_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_yao_wen.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_yao_wen.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\update_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\update_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_sermsgsecond_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_sermsgsecond_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\dialog_netchange.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\dialog_netchange.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_titlebar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_titlebar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_srp_cm_supershare.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_srp_cm_supershare.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_new_dialog_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_new_dialog_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_title_include.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_title_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_check_record_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_check_record_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\qa_question.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\qa_question.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\adapter_im_features.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\adapter_im_features.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\gif_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\gif_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_expressionlist_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_expressionlist_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\manager_activity_grid.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\manager_activity_grid.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\web_src_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\web_src_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_essencepost_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_essencepost_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\commentary_bottom_say.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\commentary_bottom_say.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\xiaoqi_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\xiaoqi_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_mypost_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_mypost_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_posts_publish.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_posts_publish.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\answers_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\answers_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_filelist_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_filelist_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\share.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\share.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\banner_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\banner_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_mingyan.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_mingyan.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_gif_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_gif_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_share_post_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_share_post_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_layout4.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_layout4.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_srpselfcreate_pic_two.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_srpselfcreate_pic_two.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\setting_sub_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\setting_sub_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\video_grid_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\video_grid_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_titlebar_allfile.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_titlebar_allfile.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\pop_action_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\pop_action_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_weibo_summary.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_weibo_summary.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\tip_news.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\tip_news.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\checkbox_withtips_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\checkbox_withtips_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\get_more.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\get_more.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_right_gif_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_right_gif_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_focus.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_focus.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\add_pic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\add_pic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\guide_loading_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\guide_loading_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sendblognext_new.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sendblognext_new.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\souyuerssfragment.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\souyuerssfragment.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_giftcoin_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_giftcoin_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_text_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_text_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_read_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_read_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_right_red_packet_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_right_red_packet_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_special.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_special.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_giftcoin_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_giftcoin_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_imgnav.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_imgnav.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\about_souyue.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\about_souyue.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_notfriend_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_notfriend_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\head.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\head.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_srp_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_srp_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\alert_dialog_menu_list_layout_title.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\alert_dialog_menu_list_layout_title.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\self_create_group_menu_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\self_create_group_menu_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_invite_friend_list_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_invite_friend_list_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_souyue_message_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_souyue_message_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_emoji_hlv_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_emoji_hlv_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_q_a.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_q_a.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\alert_dialog_menu_list_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\alert_dialog_menu_list_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sending_alert.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sending_alert.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_gifplay.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_gifplay.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\guide_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\guide_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_chat_text_pop_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_chat_text_pop_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_bigimage.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_bigimage.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_chat_frament_tab_msg_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_chat_frament_tab_msg_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\super_vitamio_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\super_vitamio_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_pulldown_loading_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_pulldown_loading_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\comment_listview.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\comment_listview.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subscribe_child_category_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subscribe_child_category_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_srp_supershare.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_srp_supershare.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\guide_list_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\guide_list_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\qa_main.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\qa_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_essencepost_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_essencepost_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\new_download_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\new_download_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_group_detail.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_group_detail.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\reg_success.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\reg_success.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_first_leader_page_three.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_first_leader_page_three.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\mine_listview_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\mine_listview_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\base_container.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\base_container.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\emoji_gridview_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\emoji_gridview_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\webim_login_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\webim_login_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\mypost_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\mypost_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\web_view_container.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\web_view_container.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_im_group.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_im_group.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_loading.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_loading.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\web_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\web_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\popup_window_unintersting_text.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\popup_window_unintersting_text.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_activity_download_statement.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_activity_download_statement.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_list_item_pic3.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_list_item_pic3.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_servicemsg_detail_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_servicemsg_detail_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_srpselfcreate_pic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_srpselfcreate_pic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_video.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_video.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circletitle_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circletitle_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\homepage_content_item_headtop.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\homepage_content_item_headtop.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\phone_nick.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\phone_nick.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_ad_pic_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_ad_pic_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_gif_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_gif_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_novalue_local.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_novalue_local.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_red_packet_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_red_packet_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_activity_inbox.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_activity_inbox.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_testlist.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_testlist.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\send_blog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\send_blog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\vertical_popmenu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\vertical_popmenu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_nologin.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_nologin.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_editgroup.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_editgroup.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_card_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_card_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\contact_us_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\contact_us_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_image_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_image_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_single_list_refresh_footer.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_single_list_refresh_footer.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_fragment_recommend_info.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_fragment_recommend_info.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\taskcenter_all.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\taskcenter_all.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_emoji_preview.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_emoji_preview.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_image_with_tag.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_image_with_tag.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_comment_main.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_comment_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_list_item_v3.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_list_item_v3.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_layout2.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_layout2.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_weibo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_weibo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\detail_posts_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\detail_posts_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_headimg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_headimg.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sharesnsdialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sharesnsdialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\tip_im_group_circle.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\tip_im_group_circle.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_card_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_card_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sharemenu_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sharemenu_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_wonderful_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_wonderful_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_weibo_hot_topic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_weibo_hot_topic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_im_friend_list_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_im_friend_list_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\login_msg_validate_set_password_phone.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\login_msg_validate_set_password_phone.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\swipe_chat_list_view_row.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\swipe_chat_list_view_row.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_loading.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_loading.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\mine_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\mine_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\photo_search.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\photo_search.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_webnav.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_webnav.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_sub_group_edit.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_sub_group_edit.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sub_footer_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sub_footer_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\refresh_footer.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\refresh_footer.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_msgpush_history_sys.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_msgpush_history_sys.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_select_pager_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_select_pager_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_first_leader_page_two.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_first_leader_page_two.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subscribe_base_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subscribe_base_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\guide_lead_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\guide_lead_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_expressiondetail_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_expressiondetail_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\news_source_subscribe.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\news_source_subscribe.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_threeimage.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_threeimage.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_file_download_test_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_file_download_test_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_specialtopic_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_specialtopic_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_ad_pic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_ad_pic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\forget_password.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\forget_password.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_prime_header.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_prime_header.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\alert_dialog_menu_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\alert_dialog_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\chat_commentary_bottom_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\chat_commentary_bottom_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_list_cirlce_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_list_cirlce_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_srp_memagame_super_search.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_srp_memagame_super_search.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_joke.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_joke.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_collect_tip_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_collect_tip_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_sysmsg_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_sysmsg_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_member_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_member_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_whisper_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_whisper_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_titlebar_publish.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_titlebar_publish.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\super_video_media_controller.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\super_video_media_controller.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\login_send_msg_validate_phone.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\login_send_msg_validate_phone.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_post_bottom_bar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_post_bottom_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_videodetail.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_videodetail.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_selfcreate.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_selfcreate.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subscribe_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subscribe_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_file_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_file_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circleqrcode_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circleqrcode_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_expression_sestting.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_expression_sestting.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_new_signature.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_new_signature.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sublist_title.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sublist_title.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_two_dimen_code.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_two_dimen_code.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_list_position.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_list_position.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_ask_for_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_ask_for_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_update_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_update_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_phonecontact.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_phonecontact.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_srpselfcreate_pics.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_srpselfcreate_pics.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\alert_dialog_menu_list_layout_cancel.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\alert_dialog_menu_list_layout_cancel.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\commentary.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\commentary.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_gif_preview.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_gif_preview.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\detail_admin_more_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\detail_admin_more_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\content.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\content.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\tip_home_tag.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\tip_home_tag.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_bar_ac_add.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_bar_ac_add.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_audio_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_audio_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_head_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_head_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_inbox_content_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_inbox_content_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\detail_comments_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\detail_comments_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\signatrue.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\signatrue.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\souyue_im_toast.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\souyue_im_toast.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\souyuenewsfragment.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\souyuenewsfragment.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_bbs.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_bbs.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_souyue_message_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_souyue_message_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_common_images.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_common_images.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\chat_commentary.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\chat_commentary.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_web_view_container.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_web_view_container.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\plaza_home_header_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\plaza_home_header_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\mine_history_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\mine_history_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_invite_notice_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_invite_notice_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\channel_mannger_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\channel_mannger_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_title_bar_index.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_title_bar_index.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\discover_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\discover_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_sel_img_group.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_sel_img_group.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subscribe_loading.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subscribe_loading.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\percenter_im_menu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\percenter_im_menu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_dowload_content.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_dowload_content.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_weibo_reply.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_weibo_reply.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_discover_tab.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_discover_tab.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\action_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\action_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_swipe_contacts_list_view_index.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_swipe_contacts_list_view_index.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_phonecontact_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_phonecontact_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_msg_search_more_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_msg_search_more_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\setting_subscribe_move_group_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\setting_subscribe_move_group_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_modify_note_name.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_modify_note_name.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_shares_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_shares_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_vcard_header.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_vcard_header.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_msgpush_history_new.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_msgpush_history_new.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_follow_add_img_menu.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_follow_add_img_menu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_list_v2.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_list_v2.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_invite_friend_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_invite_friend_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\self_create_detail.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\self_create_detail.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_circle_select_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_circle_select_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_activity_vcard.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_activity_vcard.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_search_show.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_search_show.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_history.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_history.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_sermsgsecond_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_sermsgsecond_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_refresh_footer.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_refresh_footer.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\webview_errordialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\webview_errordialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\invitegroupfrinendactivity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\invitegroupfrinendactivity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_info_line.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_info_line.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\favorite_list_item_nopic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\favorite_list_item_nopic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_image_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_image_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\login_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\login_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\suberlist_recomend_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\suberlist_recomend_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_title_bar_chat_msg_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_title_bar_chat_msg_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_card_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_card_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_right_news_share_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_right_news_share_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_horiztal_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_horiztal_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_posts_for_me.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_posts_for_me.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\add_titlebar_contacts_swipe_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\add_titlebar_contacts_swipe_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\user_reply_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\user_reply_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\special_item_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\special_item_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_sel_img_show_image.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_sel_img_show_image.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\tab_msg_im_more_pop.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\tab_msg_im_more_pop.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_select_tag_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_select_tag_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_status_include.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_status_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\groupdetail_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\groupdetail_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\tip_right_button.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\tip_right_button.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_selected_friend_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_selected_friend_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_share.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_share.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\homenav_item2.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\homenav_item2.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\popup_window_unintersting.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\popup_window_unintersting.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\rank_common.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\rank_common.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\tip_sub_create.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\tip_sub_create.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\yaowenactivity_title_bar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\yaowenactivity_title_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_msg_search_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_msg_search_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_chat_longclick_pop_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_chat_longclick_pop_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_search_data.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_search_data.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_follow_more_popuwindow.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_follow_more_popuwindow.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_left_gif_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_left_gif_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_fullvideo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_fullvideo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\login_msg_login_phone.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\login_msg_login_phone.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\zscoins_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\zscoins_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\ac_srp_pop.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\ac_srp_pop.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\alpha_window.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\alpha_window.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_blog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_blog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\souyuetabfragment_title_bar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\souyuetabfragment_title_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\share_souyue_friends_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\share_souyue_friends_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_signature_history_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_signature_history_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_fresh.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_fresh.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_souyue_tab_recommond.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_souyue_tab_recommond.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_follow_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_follow_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_newfriendsitem.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_newfriendsitem.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\tip_home_headline.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\tip_home_headline.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\dialog_im_red_packet.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\dialog_im_red_packet.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_list_item_pic2.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_list_item_pic2.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\search_type_head_include_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\search_type_head_include_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\category_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\category_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\dimen_code.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\dimen_code.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_sermsgfirst_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_sermsgfirst_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\mine_head.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\mine_head.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_file_detail_more_pop.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_file_detail_more_pop.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\search_activity_toolbar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\search_activity_toolbar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_include_me_posts.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_include_me_posts.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_bar_ac_share.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_bar_ac_share.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\chat_commentary_bottom_say.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\chat_commentary_bottom_say.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_left_whisper_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_left_whisper_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\groupinfo.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\groupinfo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\map_popupwindow.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\map_popupwindow.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\mobile_download_notification.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\mobile_download_notification.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_newfriendslayout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_newfriendslayout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_poptitile.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_poptitile.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\favorite_list.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\favorite_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_sub_search.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_sub_search.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_search_no_res.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_search_no_res.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\discover_group_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\discover_group_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\ask_for_coin.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\ask_for_coin.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_share_no_login.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_share_no_login.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\commentary_bottom_text.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\commentary_bottom_text.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\gallerynews_comment_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\gallerynews_comment_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_ask.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_ask.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_sel_img_grid_child_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_sel_img_grid_child_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subrecommenddialog_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subrecommenddialog_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_member_list_pull_to_refresh_grid.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_member_list_pull_to_refresh_grid.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\gallerynews_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\gallerynews_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_videobili.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_videobili.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_item_include.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_item_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\subgroup_delete_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\subgroup_delete_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_weibo_normal.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_weibo_normal.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\detail_titlebar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\detail_titlebar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_contact_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_contact_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_reply_me.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_reply_me.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_msg_show.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_msg_show.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\custom_progress_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\custom_progress_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_layout8.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_layout8.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_share_list_header_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_share_list_header_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\groupdetail_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\groupdetail_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_share_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_share_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_share_select_list_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_share_select_list_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\scan_result.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\scan_result.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_swipe_contacts_list_view_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_swipe_contacts_list_view_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_oneimage.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_oneimage.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\item_grid.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\item_grid.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_right_giftcoin_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_right_giftcoin_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_bar_ac_home_goback.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_bar_ac_home_goback.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_expressionlist_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_expressionlist_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\commentary_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\commentary_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_file_download_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_file_download_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\download_progressbar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\download_progressbar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\groupqrcode.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\groupqrcode.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_follow_image_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_follow_image_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\progress_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_recommend_nopic.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_recommend_nopic.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_chat_whisper_pop_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_chat_whisper_pop_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_searchresult.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_searchresult.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\update_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\update_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_info_edit_sex.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_info_edit_sex.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\web_src_navibar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\web_src_navibar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\super_video_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\super_video_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_upload_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_upload_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\souyue_toast.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\souyue_toast.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\my_favorite.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\my_favorite.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\agreement.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\agreement.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\bolg_image_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\bolg_image_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_left_giftcoin_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_left_giftcoin_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_guide_main.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_guide_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\personalcenter_title_bar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\personalcenter_title_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\login_find_psw_phone.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\login_find_psw_phone.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_member_titlebar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_member_titlebar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\keywords_subscribe_list_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\keywords_subscribe_list_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_listitem_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_listitem_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_subscript_add.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_subscript_add.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_activity_recommend_info.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_activity_recommend_info.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\hwpush_collection_listview.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\hwpush_collection_listview.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_msg_search_item_bottom.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_msg_search_item_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sy_icomments_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sy_icomments_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_forum.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_forum.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_bar_ac_chat_txtbtn.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_bar_ac_chat_txtbtn.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_manage.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_manage.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\homepage_content_item_clickrefresh.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\homepage_content_item_clickrefresh.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\main.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\exploded-aar\\SouyueFive\\fresco\\unspecified\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_share_right_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_share_right_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_share_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_share_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\favorite_list_item_pic1.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\favorite_list_item_pic1.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\titlebar_settingsub_list_toac.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\titlebar_settingsub_list_toac.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_sermsgfirst_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_sermsgfirst_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_fragment_bar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_fragment_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_swipe_contacts_list_view_fragment.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_swipe_contacts_list_view_fragment.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\cricle_list_item_top.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\cricle_list_item_top.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_chat_fragment_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_chat_fragment_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\newhomenav.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\newhomenav.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_rss_list_item_v2.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_rss_list_item_v2.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\self_create_layout.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\self_create_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\detail_menu_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\detail_menu_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\title_bar_ac_txtbtn.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\title_bar_ac_txtbtn.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_add_contacts_list_view_activity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_add_contacts_list_view_activity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\channel_mannger_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\channel_mannger_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\home_group_detail_page.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\home_group_detail_page.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\crop_item_selector.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\crop_item_selector.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_myread_tab.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_myread_tab.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_msg_search_item_header.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_msg_search_item_header.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\msg_askcoin_left_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\msg_askcoin_left_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_circle_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_circle_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\srp_selfcreate_item_span.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\srp_selfcreate_item_span.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\listitem_bottom_3.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\listitem_bottom_3.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\fragment_msgpush_history_user.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\fragment_msgpush_history_user.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\sharegroupactivity.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\sharegroupactivity.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_friend_list_view.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_friend_list_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\activity_search_all.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\activity_search_all.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_select_tag_dialog.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_select_tag_dialog.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_right_whisper_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_right_whisper_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\imtitlebar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\imtitlebar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\circle_im_friend_list_view_row.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\circle_im_friend_list_view_row.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_symsg_titlebar.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_symsg_titlebar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\list_item_xiaodangan.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\list_item_xiaodangan.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_left_news_share_item.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_left_news_share_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\SouyueFive\\app\\build\\intermediates\\res\\merged\\Hammer\\debug\\layout\\im_bottom_edit_bg.xml",
+        "source": "F:\\workspace\\SouyueFive\\app\\src\\main\\res\\layout\\im_bottom_edit_bg.xml"
+    }
+]

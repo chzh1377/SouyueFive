@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:padding="6dp" >
+
+    <TextView
+            android:id="@id/msg_adapter_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/date_bg"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+        <CheckBox
+                android:id="@id/msg_adapter_item_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/im_chat_checkbox"
+                android:button="@null"
+                android:visibility="gone" />
+
+        <include
+                android:id="@+id/in_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/msg_adapter_item_checkbox"
+                layout="@layout/msg_head_view" >
+        </include>
+
+        <TextView
+                android:id="@id/msg_adapter_item_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@id/in_head"
+                android:gravity="top"
+                android:paddingBottom="5dp"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:textColor="#BEBEBE" />
+
+
+    </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/date_bg"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:paddingBottom="@dimen/space_3"
+                android:paddingTop="@dimen/space_3"
+                android:paddingLeft="@dimen/space_6"
+                android:paddingRight="@dimen/space_6"
+                android:gravity="center">
+                <TextView
+                        android:id="@+id/tv_sysmsg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="left"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/space_13"
+                        />
+
+        </RelativeLayout>
+
+</LinearLayout>

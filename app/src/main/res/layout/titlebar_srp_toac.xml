@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/spr_title_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:background="@color/all_titlebar_bg_color">
+
+    <LinearLayout
+            android:id="@+id/srp_goback_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal"
+            >
+        <include layout="@layout/title_bar_ac_goback"/>
+    </LinearLayout>
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="140dip"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:layout_toRightOf="@id/srp_goback_layout"-->
+    <!--android:onClick="btnPopTitle">-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/btn_popTitle"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_toRightOf="@+id/activity_bar_title"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:background="@drawable/srp_poptitle_sanjiao_normal"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/activity_bar_title"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ellipsize="end"-->
+    <!--android:maxWidth="100dip"-->
+    <!--android:maxHeight="48dp"-->
+    <!--android:gravity="left|center_vertical"-->
+    <!--android:maxEms="@integer/title_bar_max_ems"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:maxLines="1"-->
+    <!--android:minHeight="48dip"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="搜悦搜悦搜悦搜悦搜悦"-->
+    <!--android:textColor="@color/title_text_color"-->
+    <!--android:textSize="18sp"/>-->
+
+
+    <!--</RelativeLayout>-->
+    <RelativeLayout
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/srp_goback_layout"
+            android:onClick="btnPopTitle">
+
+        <ImageButton
+                android:id="@+id/btn_popTitle"
+                android:layout_width="10dip"
+                android:layout_height="10dip"
+                android:layout_toRightOf="@+id/activity_bar_title"
+                android:layout_centerVertical="true"
+                android:background="@drawable/srp_poptitle_sanjiao_normal"/>
+
+        <TextView
+                android:id="@+id/activity_bar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxWidth="100dip"
+                android:maxHeight="48dp"
+                android:gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:maxLines="1"
+                android:minHeight="48dip"
+                android:singleLine="true"
+                android:text="搜悦搜悦搜悦搜悦搜悦"
+                android:textColor="@color/title_text_color"
+                android:textSize="18sp"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/srp_title_right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <include
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                layout="@layout/title_bar_ac_share"/>
+
+        <ImageButton
+                android:id="@+id/btn_detail_subscribe1"
+                style="@style/HoloButton.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:layout_marginRight="16dip"
+                android:visibility="gone"
+                android:src="@drawable/srp_subscribe_selector"
+                >
+        </ImageButton>
+
+        <ImageButton
+                android:id="@+id/from_srp_search"
+                style="@style/HoloButton.Borderless.Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:scaleType="center"
+                android:src="@drawable/search_btn_selector"/>
+
+        <!--         <ImageButton
+                    android:id="@+id/bt_add_subscribe"
+                    style="@style/HoloButton.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:onClick="onSubcibeClick"
+                    android:src="@drawable/circle_subscribe_selector"
+                    android:visibility="visible" /> -->
+        <!--
+            <ImageButton
+                     android:id="@+id/popmenu"
+                     style="@style/HoloButton.Borderless"
+                     android:layout_width="wrap_content"
+                     android:layout_height="48dip"
+                     android:onClick="onBackPressClick"
+                     android:scaleType="center"
+                     android:src="@drawable/title_bar_menu_selector" />
+        -->
+
+
+        <TextView
+                android:id="@+id/text_btn"
+                style="@style/wTextView.Borderless.Back"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:drawableRight="@drawable/title_bar_menu_selector"
+                android:paddingRight="12dp"
+                android:textColor="@color/title_bar_font_selector">
+        </TextView>
+    </LinearLayout>
+    <!-- <include layout="@layout/title_bar_ac_title"/> -->
+
+    <View
+            style="@style/Bar_Horizonal_line_style"
+            android:layout_below="@id/srp_goback_layout"/>
+</RelativeLayout>

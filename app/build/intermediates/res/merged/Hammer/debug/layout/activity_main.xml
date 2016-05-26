@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/common_bg">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/container"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <!--<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="tabsend"-->
+                <!--android:onClick="tabsend"/>-->
+
+        <!--<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="allsend"-->
+                <!--android:onClick="allsend"/>-->
+
+        <FrameLayout
+                android:id="@+id/main_content"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"/>
+
+        <com.zhongsou.souyue.fragment.MyFragmentTabHost
+
+                android:id="@android:id/tabhost"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+
+                <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:visibility="gone"
+                        android:layout_weight="0"/>
+
+                <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_color"
+                        android:visibility="visible"/>
+
+
+            </LinearLayout>
+
+
+        </com.zhongsou.souyue.fragment.MyFragmentTabHost>
+        <!--放置 一个 空的布局放在此处，是为了初始化VideoView,
+            这样可以使得加载到视频的位置时，不卡顿
+            -->
+        <com.zhongsou.souyue.view.videos.ZSVideoPlayer
+            android:layout_width="1dip"
+            android:layout_height="1dip"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</merge>

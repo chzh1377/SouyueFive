@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="format-detection" content="email=no" />
+        <link href="css/global.css" rel="stylesheet" type="text/css">
+        <link href="css/common.css" rel="stylesheet" type="text/css" />
+        <link href="css/gif.css?v=2016" rel="stylesheet" type="text/css"/>
+        <!--<link href="css/font-${fontSize}.css" rel="stylesheet" type="text/css" />-->
+        <link href="css/video.css" rel="stylesheet" type="text/css" />
+        <title>${title}</title>
+        <script type="text/javascript">
+            var inSouyue     = true;
+            var hasPic       = true;
+            var inUrlContent = true;
+        </script>
+    </head>
+    <body>
+        <div class="souyue-body">
+            <div class="h_b">
+                <h1 class="souyue-title">${title}</h1>
+                <div class="souyue-header">
+                    <span class="souyue-source">${source}</span><span class="souyue-date">${datetime}</span>
+                </div>
+            </div>
+
+            <div id="souyue-content" class="souyue-content souyue-content-bottom">
+                ${content}
+            </div>
+            <div class="souyue_foot">
+
+            </div>
+        </div>
+
+        <!--去掉广告-->
+        <!--<div id="souyuead" class="div-imgad" >-->
+            <!--<img class="souyue-image-default" src="images/gifplay.png"/>-->
+            <!--<br/>-->
+            <!--<img class="souyue-image-default" src="images/loading.gif"/>-->
+            <!--<br/>-->
+            <!--<img class="souyue-image-default" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png"/>-->
+        <!--</div>-->
+        <!--<div id="souyuead" class="div-imgad"></div>-->
+        <!--
+        -->
+
+        <script src="js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/read.js?v=11" type="text/javascript" charset="utf-8"></script>
+        <script src="js/interest.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/newsVideo.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/image.js" type="text/javascript" charset="utf-8"></script>
+        <!--<script src="js/ad.js"></script>-->
+        <script type="text/javascript">
+           var browser = {
+                versions: function() {
+                    var u = navigator.userAgent;
+                    return {
+                        trident: u.indexOf('Trident') > -1,
+                        presto: u.indexOf('Presto') > -1,
+                        webKit: u.indexOf('AppleWebKit') > -1,
+                        gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,
+                        mobile: !!u.match(/AppleWebKit.*Mobile.*/),
+                        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+                        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
+                        iPhone: u.indexOf('iPhone') > -1,
+                        iPad: u.indexOf('iPad') > -1,
+                        webApp: u.indexOf('Safari') == -1
+                    };
+                }(),
+                language: (navigator.browserLanguage || navigator.language).toLowerCase(),
+                weixin: function() {
+                    return navigator.userAgent.match(/MicroMessenger/i) == "MicroMessenger";
+                }
+            };
+            function getShareRed() {
+                var str = '{"category":"getSharePrize", "callback":"getSharePrizeCallback"}';
+                if (browser.versions.android) {
+                    if (JavascriptInterface && JavascriptInterface.onJSClick) {
+                        JavascriptInterface.onJSClick(str);
+                    }
+                } else if (browser.versions.ios) {
+                    window.location.href = 'souyue.onclick://' + charTranslation(encodeURIComponent(str));
+                } else {
+                    alert('error');
+                }
+            }
+            /* 兼容ios8接口
+             * @param 跳转url
+             */
+            function charTranslation(str) {
+                return str.replace(/~/gi, escape('~')).replace(/!/gi, escape('!')).replace(/\*/gi, escape('*')).
+                replace(/\(/gi, escape('(')).replace(/\)/gi, escape(')')).replace(/\'/gi, escape("'"));
+            }
+
+            function getSharePrizeCallback(data) {
+                var newNode = document.getElementById("redbackInsert");
+                if (1 == data){
+                    newNode.innerHTML = '<a href="javascript:void(0);" class="an3"><i></i><span>已领取</span></a>';
+                }else{
+                    newNode.innerHTML = '<a href="javascript:getShareRed();" class="an3"><i></i><span>领取红包</span></a>';
+                }
+            }
+
+            function shareToWeixin() {
+                var str = '{"category":"shareToWX", "callback":"shareToWXCallback"}';
+                if (browser.versions.android) {
+                    if (JavascriptInterface && JavascriptInterface.onJSClick) {
+                        JavascriptInterface.onJSClick(str);
+                    }
+                } else if (browser.versions.ios) {
+                    window.location.href = 'souyue.onclick://' + charTranslation(encodeURIComponent(str));
+                } else {
+                    alert('error');
+                }
+            }
+            function shareToWXFriend() {
+                var str = '{"category":"shareToWXFriend", "callback":"shareToWXFriendCallback"}';
+                if (browser.versions.android) {
+                    if (JavascriptInterface && JavascriptInterface.onJSClick) {
+                        JavascriptInterface.onJSClick(str);
+                    }
+                } else if (browser.versions.ios) {
+                    window.location.href = 'souyue.onclick://' + charTranslation(encodeURIComponent(str));
+                } else {
+                    alert('error');
+                }
+            }
+        </script>
+    </body>
+</html>

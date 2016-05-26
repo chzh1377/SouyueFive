@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:background="#f2f2f2">
+
+    <!--<ImageButton
+        android:id="@+id/quick_bar"
+        style="@style/CommentaryButton.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:src="@drawable/btn_comment_pop_selector" />-->
+
+    <TextView
+            android:id="@+id/commentary_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/quick_bar"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textSize="14sp"
+            android:textColor="#7e7e7e"/>
+
+    <ImageView
+            android:id="@+id/commentary_user_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/default_head"
+            android:scaleType="fitXY" />
+
+	<RelativeLayout
+	    android:id="@+id/commentary_user_head_layout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/commentary_user_head"
+	    >
+    <TextView
+        android:id="@+id/nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="#2f9dd6"/>
+
+        <TextView
+                android:id="@+id/commentary_content"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="14dp"
+                android:layout_below="@+id/nickname"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#282828"
+                android:textSize="16sp"
+                android:visibility="gone"/>
+
+	</RelativeLayout>
+
+    <!--<ImageView
+            android:id="@+id/commentary_times_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/commentary_time_new"
+            android:layout_toLeftOf="@+id/commentary_times"
+            android:layout_marginTop="10dp"/>-->
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:id="@+id/parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar_sublist_merge" android:id="@+id/layout_title" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <FrameLayout
+            android:id="@+id/sub_fragment_container"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+        
+        <View android:id="@+id/shadow"
+            android:visibility="invisible"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dip"
+            android:background="#20000000"/>
+
+        <include
+            android:id="@+id/popupwindow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/suberlist_popwindow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <include
+        android:id="@+id/my_sub_foot"
+        layout="@layout/suberlist_recommend_merge" />
+
+</LinearLayout>

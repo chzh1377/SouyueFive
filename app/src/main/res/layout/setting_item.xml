@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="46dp"
+    android:id="@+id/setting_item_maincontent"
+    android:background="@drawable/discover_listview_item_bg_selector" >
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical|left"
+        android:textColor="#282828"
+        android:textSize="16sp" />
+    <!-- 向右的箭头 -->
+    <ImageView
+        android:id="@+id/setting_right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/mine_arrow_gray" />
+    <!-- 开关按钮 -->
+    <ToggleButton
+        android:id="@+id/setting_loadImageSwitch"
+        style="@style/MyToggleButton"
+        android:layout_width="56dp"
+        android:layout_height="42dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:checked="false"
+        android:visibility="gone"/>
+	<!-- 文字信息 -->
+    <TextView
+        android:id="@+id/tv_setting_text"
+        style="@style/preferences_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="@string/pref_clear_show"
+        android:visibility="gone"/>
+	<!-- 设置字体，大中小三个按钮 -->
+    <LinearLayout
+        android:id="@+id/tv_setting_textsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/tv_setting_font_big"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/setting_activity_mutilechoice_off"
+            android:text="@string/setting_font_big"
+            android:textColor="@color/color_srp_title"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tv_setting_font_middle"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/setting_font_middle"
+            android:background="@drawable/setting_activity_mutilechoice_on"
+            android:textColor="@color/white"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tv_setting_font_small"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/setting_font_small"
+            android:background="@drawable/setting_activity_mutilechoice_off"
+            android:textColor="@color/color_srp_title"
+            android:gravity="center" />
+       <!-- 退出登录 -->
+
+    </LinearLayout>
+  <!--  <TextView
+        android:id="@+id/setting_logout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/setting_logout"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="退出登录"
+        android:background="#d74143"
+        android:textSize="16sp" />
+-->
+    <TextView
+            android:id="@+id/setting_logout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textColor="@color/setting_logout"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="退出登录"
+            android:layout_marginLeft="57dp"
+            android:layout_marginRight="57dp"
+            android:background="#d74143"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+
+</RelativeLayout>

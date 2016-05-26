@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 关于我们 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_onlytitle_toac" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_a"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="7dip"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="160dip"
+                android:layout_height="160dip"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/souyue_about_new" />
+            <TextView
+                android:id="@+id/about_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:text="@string/app_name"
+                android:textColor="@color/info_text_color"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <ListView 
+            android:id="@+id/about_body"
+            android:layout_width="fill_parent"
+            android:layout_height="185dip"
+            android:dividerHeight="0.6dp"
+        	android:divider="@color/im_listdriver_color"
+        	android:fadingEdge="none"
+        	android:layout_above="@+id/about_bottom"
+        	android:layout_below="@+id/ll_a"
+            />
+      <LinearLayout 
+           android:id="@+id/about_bottom"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginTop="60dip"
+           android:layout_alignParentBottom="true"
+          >
+           <TextView
+               	android:id="@+id/about_permission"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/about_permission"
+                android:textColor="@color/about_permission_color"
+                android:textSize="12sp" />
+		 <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="6dp"
+                android:gravity="center"
+                android:text="@string/about_copyright"
+                android:textColor="@color/about_text_color"
+                android:textSize="12sp" />
+           <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/desc"
+                android:textColor="@color/about_text_color"
+                android:textSize="9sp" />
+      </LinearLayout>      
+    </RelativeLayout>
+
+</LinearLayout>

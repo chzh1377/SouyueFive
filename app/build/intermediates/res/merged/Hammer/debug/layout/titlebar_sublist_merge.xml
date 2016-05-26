@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="48dip"
+                android:background="@color/all_titlebar_bg_color"
+    >
+
+    <ImageButton
+        android:id="@+id/goBack"
+        style="@style/HoloButton.Borderless.Back"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_alignParentLeft="true"
+        android:onClick="onBackPressClick"
+        android:scaleType="center"
+        android:src="@drawable/goback_button_selector"
+        >
+    </ImageButton>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:visibility="gone">-->
+
+    <!--<com.zhongsou.souyue.ui.indicator.IcommonTabPageIndicator-->
+    <!--android:id="@+id/indicator"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_title"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_toRightOf="@id/goBack"-->
+    <!--android:text="我的订阅"-->
+    <!--android:textColor="@color/bar_left_title_color"-->
+    <!--android:textSize="18sp"/>-->
+
+
+    <RadioGroup
+        android:id="@+id/sub_title_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/sub_title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/sub_list_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:background="@drawable/selector_sub_title"
+            android:button="@null"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textColor="@color/sub_title_tab_text"
+            android:text="@string/my_sub_tab"
+            />
+
+        <RadioButton
+            android:id="@+id/sub_add_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_sub_title"
+            android:button="@null"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textColor="@color/sub_title_tab_text"
+            android:text="@string/add_sub_tab"
+            />
+    </RadioGroup>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_option"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        >
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_save"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_toLeftOf="@+id/btn_option"-->
+            <!--android:background="@drawable/sub_save_selector"-->
+            <!--android:paddingBottom="@dimen/space_3"-->
+            <!--android:paddingLeft="@dimen/space_8"-->
+            <!--android:paddingRight="@dimen/space_8"-->
+            <!--android:paddingTop="@dimen/space_3"-->
+            <!--android:text="@string/title_bar_hold"-->
+            <!--android:textColor="@android:color/holo_red_light"-->
+            <!--/>-->
+
+        <ImageButton
+            android:id="@+id/btn_option"
+            style="@style/HoloButton.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:scaleType="center"
+            android:src="@drawable/circle_menu_selector"
+            >
+        </ImageButton>
+
+        <ImageView
+            android:id="@+id/sub_clicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="8dip"
+            android:src="@drawable/red_dot"
+            />
+
+        <include layout="@layout/title_bar_ac_add"/>
+    </RelativeLayout>
+
+    <View
+        style="@style/Bar_Horizonal_line_style"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

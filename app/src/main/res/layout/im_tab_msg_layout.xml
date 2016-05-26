@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:swipe="http://schemas.android.com/apk/res-auto"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/im_top_msg_layout"
+              android:background="@color/msg_tab_backcolor"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+            android:id="@+id/network_state"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:background="#FFF3C9">
+
+        <ImageView
+                android:id="@+id/iv_netError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/im_send_faild" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/iv_netError"
+                android:text="当前网络不可用，请检查网络。"
+                android:textColor="#5F5A47" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ent_setting_arrow" />
+    </RelativeLayout>
+
+    <com.zhongsou.souyue.im.view.SwipeListView
+            android:id="@+id/delete_lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:listSelector="@color/transparent"
+            android:divider="@color/mag_tab_divider"
+            android:dividerHeight="0.5dp"
+            swipe:right_width="80dp" />
+
+
+</LinearLayout>

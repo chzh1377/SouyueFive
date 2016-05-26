@@ -1,0 +1,217 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.zhongsou.souyue"
+        minSdkVersion 14
+        targetSdkVersion 19
+        maxSdkVersion 23
+        versionCode 75
+        versionName '5.2.0'
+        signingConfig signingConfigs.debug
+        multiDexEnabled true  // 开启分包
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'com.zhongsou.souyue'
+            keyPassword 'therycom'
+            storeFile file('../keystore/souyue-release.keystore')
+            storePassword 'therycom'
+        }
+        debug {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('../keystore/debug.keystore')
+            storePassword 'android'
+        }
+    }
+
+    dexOptions {
+        jumboMode = true
+        javaMaxHeapSize "2g"
+
+    }
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+        checkAllWarnings false
+    }
+    productFlavors {
+        zhongsou {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "中搜"]
+        }
+        market_oppo {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "OPPO应用商店", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_uc {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "UC", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_huawei {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "华为", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_youyi {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "优亿市场", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_anzhuo {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "安卓市场", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_anzhi {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "安智市场", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_xiaomi {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "小米商店", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_yingyongbao {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "应用宝", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_yingyonghui {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "应用汇", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_zhihuiyun {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "智汇云", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_mumayi {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "木蚂蚁", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_jifeng {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "机锋市场", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_baidu {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "百度移动应用", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_lenovo {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "联想乐商店", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_meizu {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "魅族市场", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_360 {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "360应用开放平台", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_3Ganzhuo {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "3G安卓市场", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_Nduo {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "N多市场", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_wo {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "沃商店", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        Hammer {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "锤子应用商店", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        wandoujia {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "豌豆荚", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        aliyun {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "阿里云", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        sougou {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "搜狗", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+        market_ls {
+            manifestPlaceholders = ([UMENG_CHANNEL_VALUE: "乐视应用商店", SHOWED_NAME: "中搜搜悦", LAUNCHER_NAME: "中搜搜悦"])
+        }
+
+    }
+
+    buildTypes {
+        release {
+            manifestPlaceholders = [UMENG_APPKEY_VALUE: "53df1464fd98c5bdfc000b6d",
+                                    ZSSDK_APPKEY_VALUE: "125c9343c67a3da5fb935d91dada3062",
+                                    JPUSH_APPKEY_VALUE: "3cdfcef33dd2355b096ca940",
+                                    MAP_API_KEY_VALUE : "d76ce2ea787d4a0f1bdae3c3d8faa3b6"]
+            buildConfigField "String", "MIPUSH_APP_ID", '"2882303761517127449"'
+            buildConfigField "String", "MIPUSH_APP_KEY", '"5321712760449"'
+            //搜悦接口服务器环境： 0-测试环境，1-预上线环境， 2-线上环境，3-开发环境 4-搜索预上线环境
+            resValue("string", "souyue_interface_env", "2")
+            signingConfig signingConfigs.release
+            proguardFile '../proguard.properties'
+        }
+        debug {
+            manifestPlaceholders = [UMENG_APPKEY_VALUE: "53df1464fd98c5bdfc000b6d",
+                                    ZSSDK_APPKEY_VALUE: "33d537cb2a31824346fc6e47a37a8255",
+                                    JPUSH_APPKEY_VALUE: "3cdfcef33dd2355b096ca940",
+                                    MAP_API_KEY_VALUE : "d76ce2ea787d4a0f1bdae3c3d8faa3b6"]
+            buildConfigField "String", "MIPUSH_APP_ID", '"2882303761517127449"'
+            buildConfigField "String", "MIPUSH_APP_KEY", '"5321712760449"'
+            //搜悦接口服务器环境： 0-测试环境，1-预上线环境， 2-线上环境，3-开发环境 4-搜索预上线环境
+            resValue("string", "souyue_interface_env", "2")
+            proguardFile '../proguard.properties'
+            signingConfig signingConfigs.debug
+        }
+//
+//        dev {
+//            initWith(buildTypes.debug)
+//            resValue("string","souyue_interface_env","3")
+//        }
+//
+//        preline {
+//            initWith(buildTypes.debug)
+//            resValue("string","souyue_interface_env","1")
+//        }
+//
+//        oneline {
+//            initWith(buildTypes.debug)
+//            resValue("string","souyue_interface_env","2")
+//        }
+//
+//        debugWithProguard{
+//            manifestPlaceholders = [UMENG_APPKEY_VALUE: "53df1464fd98c5bdfc000b6d",
+//                                    ZSSDK_APPKEY_VALUE: "125c9343c67a3da5fb935d91dada3062",
+//                                    JPUSH_APPKEY_VALUE: "3cdfcef33dd2355b096ca940",
+//                                    MAP_API_KEY_VALUE: "d76ce2ea787d4a0f1bdae3c3d8faa3b6"]
+//            buildConfigField "String", "MIPUSH_APP_ID", '"2882303761517127449"'
+//            buildConfigField "String", "MIPUSH_APP_KEY", '"5321712760449"'
+//            //搜悦接口服务器环境： 0-测试环境，1-预上线环境， 2-线上环境，3-开发环境 4-搜索预上线环境
+//            signingConfig signingConfigs.release
+//            resValue("string","souyue_interface_env","0")
+//            proguardFile '../proguard.properties'
+//        }
+//        preonlineWithProguardAndSign{
+//            manifestPlaceholders = [UMENG_APPKEY_VALUE: "53df1464fd98c5bdfc000b6d",
+//                                    ZSSDK_APPKEY_VALUE: "125c9343c67a3da5fb935d91dada3062",
+//                                    JPUSH_APPKEY_VALUE: "3cdfcef33dd2355b096ca940",
+//                                    MAP_API_KEY_VALUE: "d76ce2ea787d4a0f1bdae3c3d8faa3b6"]
+//            buildConfigField "String", "MIPUSH_APP_ID", '"2882303761517127449"'
+//            buildConfigField "String", "MIPUSH_APP_KEY", '"5321712760449"'
+//            //搜悦接口服务器环境： 0-测试环境，1-预上线环境， 2-线上环境，3-开发环境 4-搜索预上线环境
+//            signingConfig signingConfigs.release
+//            resValue("string","souyue_interface_env","1")
+//            proguardFile '../proguard.properties'
+//        }
+
+        applicationVariants.all { variant ->
+            variant.outputs.each { output ->
+                def outputFile = output.outputFile
+                if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                    def fileName = "souyue_" + variant.productFlavors[0].name + ".apk";
+                    output.outputFile = new File(outputFile.parent, fileName)
+                }
+            }
+        }
+
+    }
+}
+
+dependencies {
+    //    compile files('libs/okhttp-3.0.1.jar')
+//    compile files('libs/android-support-multidex.jar')
+    compile files('libs/souyue-3rd-all.jar')
+    compile files('libs/zs_sdk.jar')
+    compile project(':fresco')
+    compile project(':souyue_common')
+    compile project(':tuitaSDK')
+    // 开启分包
+    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.5.1'
+    compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.5.1'
+    compile 'tv.danmaku.ijk.media:ijkplayer-armv5:0.5.1'
+    //compile 'tv.danmaku.ijk.media:ijkplayer-arm64:0.5.1'
+    compile 'tv.danmaku.ijk.media:ijkplayer-x86:0.5.1'
+    //compile 'tv.danmaku.ijk.media:ijkplayer-x86_64:0.5.1'
+    compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.5.1'
+    compile project(':daemon')
+}

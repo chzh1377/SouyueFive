@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res/com.zhongsou.souyue"
+                android:layout_width="match_parent"
+                android:background="#ffffff"
+                android:layout_height="match_parent">
+	
+    <com.zhongsou.souyue.circle.view.OverScrollView
+            android:id="@+id/overscrollview"
+            android:layout_width="match_parent"
+            android:background="#F2F2F2"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="-140dp">
+
+            <include layout="@layout/percenter_headerview"/>
+
+            <com.zhongsou.souyue.circle.view.LinearLayoutForListView
+                    android:id="@+id/percenter_listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:divider="@drawable/listview_divider"
+                    app:itemSelector="@drawable/circle_list_item_selector"
+                    android:orientation="vertical">
+
+            </com.zhongsou.souyue.circle.view.LinearLayoutForListView>
+            <include layout="@layout/ent_refresh_footer"/>
+        </LinearLayout>
+    </com.zhongsou.souyue.circle.view.OverScrollView>
+    <RelativeLayout
+            android:id="@+id/chart_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pcenter_chat_bg"
+            android:padding="@dimen/space_10"
+            android:layout_alignParentBottom="true">
+
+        <ImageView
+                android:id="@+id/chart_img"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/btn_percenter_chart_selector"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_refresh_layout"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <ImageButton
+            android:id="@+id/percenter_refreshbg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_percenter_refresh_bg"
+            android:scaleType="center"
+            />
+
+        <ImageView
+            android:id="@+id/percenter_refreshImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="matrix"
+            android:src="@drawable/btn_percenter_refresh"
+             />
+    </RelativeLayout>
+
+    <ImageButton
+            android:id="@+id/percenter_backBtn"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="onBackPressClick"
+            android:background="@drawable/btn_percenter_back_selector"/>
+
+    <ImageButton
+            android:id="@+id/percenter_menuBtn"
+            android:layout_alignParentRight="true"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_percenter_menu_selector"/>
+    
+    <include layout="@layout/loading"/>
+    
+    <include
+            android:id="@+id/layout_titlebar"
+            layout="@layout/personalcenter_title_bar"
+            android:visibility="gone"
+            />
+</RelativeLayout>

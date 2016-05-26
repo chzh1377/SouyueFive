@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_circle_recommend_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/all_titlebar_bg_color">
+
+        <include layout="@layout/title_bar_ac_goback" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="挑选投稿"
+            android:textColor="@color/white40"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_circle_recommend_menu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#eee0e0e0">
+
+        <TextView
+            android:id="@+id/tv_circle_recommend_refuse"
+            style="@style/circle.recommend.TextView.normal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="拒绝" />
+
+        <TextView
+            android:id="@+id/tv_circle_recommend_interest"
+            style="@style/circle.recommend.TextView.normal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选入圈吧" />
+
+        <TextView
+            android:id="@+id/tv_circle_recommend_essence"
+            style="@style/circle.recommend.TextView.normal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选入精华区" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_circle_recommend_menu"
+        android:layout_below="@+id/rl_circle_recommend_title">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_circle_recommend_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+        <include
+            layout="@layout/loading"
+            android:visibility="visible" />
+    </RelativeLayout>
+</RelativeLayout>

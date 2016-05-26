@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/ll_my_logined"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+    <!--     <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#d8d8d8"
+            android:fadingEdge="none"
+            android:scrollbars="none" > -->
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <RelativeLayout
+                android:id="@+id/rl_tittle_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/all_titlebar_bg_color">
+
+            <include layout="@layout/title_bar_ac_goback"/>
+
+            <TextView
+                    android:id="@+id/bar_center_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/goBack"
+                    android:layout_centerVertical="true"
+                    android:text="下载/离线"
+                    android:textColor="@color/bar_center_title_color"
+                    android:textSize="16sp"/>
+
+        </RelativeLayout>
+        <View style="@style/Bar_Horizonal_line_style"
+              android:layout_above="@+id/my_download_video"/>
+
+        <RelativeLayout
+                android:id="@+id/my_download_video"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/im_item_selector">
+
+            <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="25dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/my_video"/>
+
+            <TextView
+                    android:layout_toRightOf="@id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:text="我的视频"
+                    android:textColor="#282828"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="25dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/download_arrow"/>
+        </RelativeLayout>
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:scaleType="fitXY"
+                android:src="@drawable/listview_divider"/>
+
+        <RelativeLayout
+                android:visibility="visible"
+                android:id="@+id/my_download_novel"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/im_item_selector">
+
+            <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="25dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/my_movel"/>
+
+            <TextView
+                    android:layout_toRightOf="@id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:text="我的小说"
+                    android:textColor="#282828"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="25dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/download_arrow"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/tv_circle_download_sdcard_space"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/all_titlebar_bg_color"
+            android:text="  占用空间：5.8G   可用空间：9.2G"/>
+
+    <!--     </ScrollView> -->
+
+
+</RelativeLayout>
